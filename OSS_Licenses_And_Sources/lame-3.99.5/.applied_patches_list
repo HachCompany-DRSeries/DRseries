@@ -1,0 +1,4 @@
+0001-configure.patch
+0002-gtk1-ac-directives.patch
+0003-msse.patch
+buildroot-libtool-v2.4.4.patch

@@ -1,0 +1,3 @@
+0001-enable_raw_module.patch
+0002-add_finddef_and_inputattach_utils.patch
+buildroot-libtool-v2.4.4.patch

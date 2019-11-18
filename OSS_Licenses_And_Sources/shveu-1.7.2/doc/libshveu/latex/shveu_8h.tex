@@ -1,0 +1,74 @@
+\section{shveu.h File Reference}
+\label{shveu_8h}\index{shveu.h@{shveu.h}}
+
+
+The libshveu C API.  
+
+
+{\ttfamily \#include $<$shveu/veu\_\-colorspace.h$>$}\par
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct SHVEU {\bfseries SHVEU}\label{shveu_8h_a4654ca3b48cfd1af073f174dc3ae5b94}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+SHVEU $\ast$ {\bf shveu\_\-open} (void)
+\begin{DoxyCompactList}\small\item\em Open a VEU device. \item\end{DoxyCompactList}\item 
+SHVEU $\ast$ {\bf shveu\_\-open\_\-named} (const char $\ast$name)
+\begin{DoxyCompactList}\small\item\em Open a VEU device with the specified name. \item\end{DoxyCompactList}\item 
+void {\bf shveu\_\-close} (SHVEU $\ast$veu)
+\begin{DoxyCompactList}\small\item\em Close a VEU device. \item\end{DoxyCompactList}\item 
+int {\bf shveu\_\-list\_\-veu} (char $\ast$$\ast$$\ast$names, int $\ast$count)
+\begin{DoxyCompactList}\small\item\em Query a list of VEU available on this platform. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The libshveu C API. 
+
+\subsection{Function Documentation}
+\index{shveu.h@{shveu.h}!shveu\_\-close@{shveu\_\-close}}
+\index{shveu\_\-close@{shveu\_\-close}!shveu.h@{shveu.h}}
+\subsubsection[{shveu\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}void shveu\_\-close (SHVEU $\ast$ {\em veu})}\label{shveu_8h_a84a58e9dc21e3597759d61284d2461f9}
+
+
+Close a VEU device. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \end{DoxyParams}
+\index{shveu.h@{shveu.h}!shveu\_\-list\_\-veu@{shveu\_\-list\_\-veu}}
+\index{shveu\_\-list\_\-veu@{shveu\_\-list\_\-veu}!shveu.h@{shveu.h}}
+\subsubsection[{shveu\_\-list\_\-veu}]{\setlength{\rightskip}{0pt plus 5cm}int shveu\_\-list\_\-veu (char $\ast$$\ast$$\ast$ {\em names}, \/  int $\ast$ {\em count})}\label{shveu_8h_a5496790d4d6f0b2d0b5524a9e0cd2e64}
+
+
+Query a list of VEU available on this platform. 
+
+Returns the references to the names of available VEU. If you need to modify the returned array of strings, please copy the array and strings before you do so. The result is shared by all callers of this API in the same process context. 
+\begin{DoxyParams}{Parameters}
+\item[{\em names}]List of VEU available. The array is terminated with NULL. \item[{\em count}]Number of VEU. \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]on success; -\/1 on failure. \end{DoxyRetVals}
+\index{shveu.h@{shveu.h}!shveu\_\-open@{shveu\_\-open}}
+\index{shveu\_\-open@{shveu\_\-open}!shveu.h@{shveu.h}}
+\subsubsection[{shveu\_\-open}]{\setlength{\rightskip}{0pt plus 5cm}SHVEU$\ast$ shveu\_\-open (void)}\label{shveu_8h_a36e1f248a22ae4d8b9f7e9c40acd546b}
+
+
+Open a VEU device. 
+
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Failure, otherwise VEU handle \end{DoxyRetVals}
+\index{shveu.h@{shveu.h}!shveu\_\-open\_\-named@{shveu\_\-open\_\-named}}
+\index{shveu\_\-open\_\-named@{shveu\_\-open\_\-named}!shveu.h@{shveu.h}}
+\subsubsection[{shveu\_\-open\_\-named}]{\setlength{\rightskip}{0pt plus 5cm}SHVEU$\ast$ shveu\_\-open\_\-named (const char $\ast$ {\em name})}\label{shveu_8h_a51a60b82b1133934636d58da0b9d2692}
+
+
+Open a VEU device with the specified name. 
+
+If more than one VEU is available on the platform, each VEU has a name such as 'VEU0', 'VEU1', and so on. This API will allow to open a specific VEU by shveu\_\-open\_\-named(\char`\"{}VEU0\char`\"{}) for instance. 
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Failure, otherwise VEU handle. \end{DoxyRetVals}

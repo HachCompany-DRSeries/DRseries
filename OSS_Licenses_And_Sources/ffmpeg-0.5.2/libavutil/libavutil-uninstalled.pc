@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/home/mschreiber/Project/buildroot-2016.05/output/build/ffmpeg-0.5.2
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 49.15.0
+Requires: 
+Conflicts:
+Libs: ${libdir}/libavutil.a 
+Cflags: -I${includedir}

@@ -1,0 +1,1 @@
+cmd_loginutils/lib.a := rm -f loginutils/lib.a; /home/mschreiber/Project/buildroot-2016.05/output/host/usr/bin/sh4a-buildroot-linux-gnu-ar  rcs loginutils/lib.a loginutils/addgroup.o loginutils/adduser.o loginutils/deluser.o loginutils/getty.o loginutils/login.o loginutils/passwd.o loginutils/su.o loginutils/sulogin.o loginutils/vlock.o

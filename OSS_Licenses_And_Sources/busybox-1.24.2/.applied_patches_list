@@ -1,0 +1,7 @@
+0001-networking-libiproute-use-linux-if_packet.h-instead-.patch
+0002-Makefile.flags-strip-non-l-arguments-returned-by-pkg.patch
+0003-ash-recursive-heredocs.patch
+0004-fix-CVE-2016-2147.patch
+0005-fix-CVE-2016-2148.patch
+1001-allow-selinux-login.patch
+1002-change-split-to-round-robin-index.patch

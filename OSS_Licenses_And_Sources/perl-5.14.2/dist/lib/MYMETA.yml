@@ -1,0 +1,26 @@
+---
+abstract: 'manipulate @INC at compile time'
+author:
+  - 'Steffen Mueller <smueller@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+distribution_type: module
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.57_05'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: lib
+no_index:
+  directory:
+    - t
+    - inc
+provides:
+  lib:
+    file: lib_pm.PL
+    version: 0.62
+requires: {}
+version: 0.62

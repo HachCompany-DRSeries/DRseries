@@ -1,0 +1,1 @@
+cmd_networking/libiproute/built-in.o :=  rm -f networking/libiproute/built-in.o; /home/mschreiber/Project/buildroot-2016.05/output/host/usr/bin/sh4a-buildroot-linux-gnu-ar rcs networking/libiproute/built-in.o

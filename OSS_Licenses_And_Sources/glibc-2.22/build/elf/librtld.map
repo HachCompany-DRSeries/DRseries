@@ -1,0 +1,1111 @@
+Archive member included because of file (symbol)
+
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(check_fds.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__libc_check_standard_fds)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(errno.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(check_fds.os) (__libc_errno)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(divdi3.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__udivdi3)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setjmp.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__sigsetjmp)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(__longjmp.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__longjmp)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mp_clz_tab.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(divdi3.os) (__clz_tab)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strchr.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (strchr)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strdup.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__strdup)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strlen.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (strlen)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strnlen.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (strnlen)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memchr.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (memchr)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcmp.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (memcmp)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memmove.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (memmove)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memset.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (memset)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mempcpy.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__mempcpy)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(stpcpy.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__stpcpy)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcpy.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (memcpy)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(wordcopy.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memmove.os) (_wordcopy_fwd_aligned)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rawmemchr.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (rawmemchr)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(closedir.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__closedir)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(readdir.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__readdir)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rewinddir.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__rewinddir)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getdents.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(readdir.os) (__getdents)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fdopendir.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__fdopendir)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(uname.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__uname)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(_exit.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__GI__exit)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getpid.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__getpid)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(environ.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__environ)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(xstat64.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__GI___xstat64)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fxstat64.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__GI___fxstat64)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lxstat64.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__GI___lxstat64)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(open.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__open)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(read.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__libc_read)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(write.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__libc_write)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lseek.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__lseek)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(access.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__access)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fcntl.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(check_fds.os) (__GI___libc_fcntl)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(close.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__close)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mmap.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__mmap)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(munmap.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__munmap)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mprotect.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__mprotect)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(profil.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__profil)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(prof-freq.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(profil.os) (__GI___profile_frequency)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-lowlevellock.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(readdir.os) (__lll_lock_wait_private)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-cancellation.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(open.os) (__libc_enable_asynccancel)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(sigaction.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(profil.os) (__GI___sigaction)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setitimer.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(profil.os) (__setitimer)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(forward.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-cancellation.os) (__pthread_unwind)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(exit.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(forward.os) (__GI_exit)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_atexit.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(exit.os) (__exit_funcs)
+/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_thread_atexit_impl.os)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(exit.os) (__GI___call_tls_dtors)
+/home/mschreiber/Project/buildroot-2016.05/output/host/usr/lib/gcc/sh4a-buildroot-linux-gnu/4.9.3/libgcc.a(_div_table.o)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os (__udivsi3_i4i)
+/home/mschreiber/Project/buildroot-2016.05/output/host/usr/lib/gcc/sh4a-buildroot-linux-gnu/4.9.3/libgcc.a(_udiv_qrnnd_16.o)
+                              /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(divdi3.os) (__udiv_qrnnd_16)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+LOAD /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a
+LOAD /home/mschreiber/Project/buildroot-2016.05/output/host/usr/lib/gcc/sh4a-buildroot-linux-gnu/4.9.3/libgcc.a
+END GROUP
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.sdata
+ *(.rela.sdata)
+
+.rela.sbss
+ *(.rela.sbss)
+
+.rela.sdata2
+ *(.rela.sdata2)
+
+.rela.sbss2
+ *(.rela.sbss2)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000    0x165d8
+ *(.text .stub)
+ .text          0x00000000    0x1317c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+                0x00000000                _start
+                0x0000000c                _dl_start_user
+                0x00000064                __fpscr_values
+                0x0000006c                _dl_initial_error_catch_tsd
+                0x00005aac                _dl_dst_count
+                0x00005b68                _dl_dst_substitute
+                0x0000636c                _dl_init_paths
+                0x000067d4                _dl_map_object
+                0x0000708c                _dl_rtld_di_serinfo
+                0x00007c70                _dl_lookup_symbol_x
+                0x00008a68                _dl_setup_hash
+                0x00008afc                _dl_add_to_namespace_list
+                0x00008ba0                _dl_new_object
+                0x00008e88                _dl_try_allocate_static_tls
+                0x00008f4c                _dl_allocate_static_tls
+                0x00008f94                _dl_nothread_init_static_tls
+                0x00008fe0                _dl_protect_relro
+                0x00009050                _dl_reloc_bad_type
+                0x000090b8                _dl_relocate_object
+                0x00009eb8                _dl_map_object_deps
+                0x0000adec                _dl_important_hwcaps
+                0x0000b440                _dl_fixup
+                0x0000b5d8                _dl_profile_fixup
+                0x0000ba58                _dl_call_pltexit
+                0x0000bb48                _dl_signal_error
+                0x0000bcfc                _dl_signal_cerror
+                0x0000bd94                _dl_catch_error
+                0x0000be28                _dl_receive_error
+                0x0000bf7c                _dl_init
+                0x0000c0a8                _dl_sort_fini
+                0x0000c2a8                _dl_fini
+                0x0000c660                _dl_debug_state
+                0x0000c660                __GI__dl_debug_state
+                0x0000c664                _dl_debug_initialize
+                0x0000cb18                _dl_sysdep_read_whole_file
+                0x0000cbb0                _dl_debug_printf
+                0x0000cc38                _dl_debug_printf_c
+                0x0000ccc0                _dl_dprintf
+                0x0000cd40                _dl_name_match_p
+                0x0000cdf0                _dl_higher_prime_number
+                0x0000d1e0                _dl_check_map_versions
+                0x0000d5d4                _dl_check_all_versions
+                0x0000d650                _dl_start_profile
+                0x0000dcbc                __GI__dl_mcount
+                0x0000dcbc                _dl_mcount
+                0x0000df90                _dl_resolve_conflicts
+                0x0000e3d8                _dl_next_tls_modid
+                0x0000e4b8                _dl_count_modids
+                0x0000e510                _dl_determine_tlsoffset
+                0x0000e6a8                __GI__dl_tls_setup
+                0x0000e6a8                _dl_tls_setup
+                0x0000e744                _dl_get_tls_static_info
+                0x0000e764                _dl_allocate_tls_storage
+                0x0000e7f8                __GI__dl_allocate_tls_init
+                0x0000e7f8                _dl_allocate_tls_init
+                0x0000e9e4                __GI__dl_allocate_tls
+                0x0000e9e4                _dl_allocate_tls
+                0x0000ea1c                _dl_deallocate_tls
+                0x0000ea1c                __GI__dl_deallocate_tls
+                0x0000eac8                _dl_update_slotinfo
+                0x0000ed0c                __GI___tls_get_addr
+                0x0000ed0c                __tls_get_addr
+                0x0000ed58                _dl_tls_get_addr_soft
+                0x0000edc8                _dl_add_to_slotinfo
+                0x0000eec0                _dl_get_origin
+                0x0000f058                _dl_scope_free
+                0x0000f110                _dl_make_stack_executable
+                0x0000f110                __GI__dl_make_stack_executable
+                0x0000f1a4                _dl_check_caller
+                0x0000f72c                _dl_open
+                0x0000fa68                _dl_show_scope
+                0x0000fbb8                _dl_addr_inside_object
+                0x0000fc04                __GI__dl_find_dso_for_object
+                0x0000fc04                _dl_find_dso_for_object
+                0x0001069c                _dl_close_worker
+                0x00011414                _dl_close
+                0x000114e0                _dl_runtime_resolve
+                0x00011560                _dl_runtime_profile
+                0x000116c0                _dl_cache_libcmp
+                0x000117b4                _dl_load_cache_lookup
+                0x00011d10                _dl_unload_cache
+                0x00011d50                _dl_sysdep_start
+                0x00011f98                _dl_sysdep_start_cleanup
+                0x00011f9c                _dl_show_auxv
+                0x000120c4                _dl_discover_osversion
+                0x0001227c                _dl_next_ld_env_entry
+                0x000122bc                unsetenv
+                0x00012324                __libc_memalign
+                0x00012408                malloc
+                0x00012428                calloc
+                0x00012474                free
+                0x000124c0                __sigjmp_save
+                0x000124c8                __GI___libc_fatal
+                0x000124c8                __libc_fatal
+                0x000124f4                __GI___chk_fail
+                0x000124f4                __chk_fail
+                0x0001250c                __GI___assert_fail
+                0x0001250c                __assert_fail
+                0x00012560                realloc
+                0x000125ec                __strtoul_internal
+                0x00012770                _itoa
+                0x00012808                __strerror_r
+                0x000128f4                __GI___assert_perror_fail
+                0x000128f4                __assert_perror_fail
+                0x0001296c                __strsep
+                0x0001296c                strsep
+                0x0001296c                __strsep_g
+                0x000129e4                __brk
+                0x000129e4                brk
+                0x00012a24                sbrk
+                0x00012a24                __sbrk
+                0x00012ab8                __getcwd
+                0x00012ab8                getcwd
+                0x00012ebc                openat64
+                0x00012f38                __alloc_dir
+                0x0001301c                __opendir
+                0x0001301c                opendir
+                0x00013128                __fxstatat64
+ .text          0x0001317c      0x128 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(check_fds.os)
+                0x00013260                __libc_check_standard_fds
+ .text          0x000132a4        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(errno.os)
+ .text          0x000132a4      0x3e0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(divdi3.os)
+                0x00013558                __divdi3@GLIBC_2.2
+                0x00013558                __divdi3_internal
+                0x000135c0                __moddi3@GLIBC_2.2
+                0x000135c0                __moddi3_internal
+                0x00013630                __udivdi3@GLIBC_2.2
+                0x00013630                __udivdi3_internal
+                0x00013654                __umoddi3@GLIBC_2.2
+                0x00013654                __umoddi3_internal
+ *fill*         0x00013684       0x1c 
+ .text          0x000136a0       0x60 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setjmp.os)
+                0x000136a0                __sigsetjmp
+ .text          0x00013700       0x40 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(__longjmp.os)
+                0x00013700                __longjmp
+ .text          0x00013740        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mp_clz_tab.os)
+ .text          0x00013740       0xc4 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strchr.os)
+                0x00013740                __GI_strchr
+                0x00013740                index
+                0x00013740                strchr
+ .text          0x00013804       0x5c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strdup.os)
+                0x00013804                __GI___strdup
+                0x00013804                __strdup
+                0x00013804                strdup
+ .text          0x00013860       0x60 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strlen.os)
+                0x00013860                strlen
+                0x00013860                __GI_strlen
+ .text          0x000138c0       0xb4 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strnlen.os)
+                0x000138c0                __strnlen
+                0x000138c0                strnlen
+                0x000138c0                __GI___strnlen
+                0x000138c0                __GI_strnlen
+ .text          0x00013974       0xb8 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memchr.os)
+                0x00013974                __GI_memchr
+                0x00013974                memchr
+                0x00013974                __memchr
+ .text          0x00013a2c      0x36c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcmp.os)
+                0x00013a2c                bcmp
+                0x00013a2c                __GI_memcmp
+                0x00013a2c                memcmp
+ .text          0x00013d98      0x128 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memmove.os)
+                0x00013d98                memmove
+                0x00013d98                __GI_memmove
+ .text          0x00013ec0       0x60 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memset.os)
+                0x00013ec0                __GI_memset
+                0x00013ec0                memset
+ .text          0x00013f20       0x24 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mempcpy.os)
+                0x00013f20                mempcpy
+                0x00013f20                __GI_mempcpy
+                0x00013f20                __mempcpy
+                0x00013f20                __GI___mempcpy
+ .text          0x00013f44       0x44 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(stpcpy.os)
+                0x00013f44                stpcpy
+                0x00013f44                __GI_stpcpy
+                0x00013f44                __stpcpy
+                0x00013f44                __GI___stpcpy
+ *fill*         0x00013f88       0x18 
+ .text          0x00013fa0       0xc0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcpy.os)
+                0x00013fa0                memcpy
+                0x00013fa0                __GI_memcpy
+ .text          0x00014060      0x30c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(wordcopy.os)
+                0x00014060                _wordcopy_fwd_aligned
+                0x00014114                _wordcopy_fwd_dest_aligned
+                0x000141bc                _wordcopy_bwd_aligned
+                0x0001429c                _wordcopy_bwd_dest_aligned
+ .text          0x0001436c       0x8c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rawmemchr.os)
+                0x0001436c                __GI___rawmemchr
+                0x0001436c                __rawmemchr
+                0x0001436c                rawmemchr
+ .text          0x000143f8       0x70 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(closedir.os)
+                0x000143f8                __closedir
+                0x000143f8                closedir
+ .text          0x00014468      0x130 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(readdir.os)
+                0x00014468                readdir
+                0x00014468                __readdir
+ .text          0x00014598       0xa4 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rewinddir.os)
+                0x00014598                rewinddir
+                0x00014598                __rewinddir
+                0x00014598                __GI___rewinddir
+ .text          0x0001463c       0xbc /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getdents.os)
+                0x0001463c                __getdents
+ .text          0x000146f8       0xac /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fdopendir.os)
+                0x000146f8                fdopendir
+                0x000146f8                __fdopendir
+ *fill*         0x000147a4       0x1c 
+ .text          0x000147c0       0x60 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(uname.os)
+                0x000147c0                uname
+                0x000147c0                __GI_uname
+                0x000147c0                __uname
+                0x000147c0                __GI___uname
+ .text          0x00014820       0x8c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(_exit.os)
+                0x00014820                _Exit
+                0x00014820                __GI__exit
+                0x00014820                _exit
+ .text          0x000148ac       0x40 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getpid.os)
+                0x000148ac                __getpid
+                0x000148ac                getpid
+                0x000148ac                __GI_getpid
+                0x000148ac                __GI___getpid
+ .text          0x000148ec        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(environ.os)
+ .text          0x000148ec       0x5c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(xstat64.os)
+                0x000148ec                ___xstat64
+                0x000148ec                __xstat64
+                0x000148ec                __GI___xstat64
+ .text          0x00014948       0x5c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fxstat64.os)
+                0x00014948                ___fxstat64
+                0x00014948                __GI___fxstat64
+                0x00014948                __fxstat64
+ .text          0x000149a4       0x5c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lxstat64.os)
+                0x000149a4                ___lxstat64
+                0x000149a4                __lxstat64
+                0x000149a4                __GI___lxstat64
+ .text          0x00014a00       0xe0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(open.os)
+                0x00014a00                __open
+                0x00014a00                __GI_open
+                0x00014a00                __GI___open
+                0x00014a00                __libc_open
+                0x00014a00                __GI___libc_open
+                0x00014a00                open
+                0x00014a10                __open_nocancel
+ .text          0x00014ae0       0xe0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(read.os)
+                0x00014ae0                __read
+                0x00014ae0                __GI_read
+                0x00014ae0                __libc_read
+                0x00014ae0                __GI___read
+                0x00014ae0                read
+                0x00014ae0                __GI___libc_read
+                0x00014af0                __read_nocancel
+ .text          0x00014bc0       0xe0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(write.os)
+                0x00014bc0                __write
+                0x00014bc0                __GI_write
+                0x00014bc0                write
+                0x00014bc0                __GI___libc_write
+                0x00014bc0                __GI___write
+                0x00014bc0                __libc_write
+                0x00014bd0                __write_nocancel
+ .text          0x00014ca0       0x60 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lseek.os)
+                0x00014ca0                __GI___lseek
+                0x00014ca0                lseek
+                0x00014ca0                __GI___libc_lseek
+                0x00014ca0                __lseek
+                0x00014ca0                __libc_lseek
+                0x00014ca0                __GI_lseek
+ .text          0x00014d00       0x60 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(access.os)
+                0x00014d00                __GI_access
+                0x00014d00                __GI___access
+                0x00014d00                access
+                0x00014d00                __access
+ .text          0x00014d60      0x1e8 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fcntl.os)
+                0x00014d60                __fcntl_nocancel
+                0x00014e04                __libc_fcntl
+                0x00014e04                __GI___libc_fcntl
+                0x00014e04                __GI___fcntl
+                0x00014e04                __fcntl
+                0x00014e04                fcntl
+ *fill*         0x00014f48       0x18 
+ .text          0x00014f60       0xc0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(close.os)
+                0x00014f60                __GI_close
+                0x00014f60                __GI___libc_close
+                0x00014f60                __libc_close
+                0x00014f60                __close
+                0x00014f60                __GI___close
+                0x00014f60                close
+                0x00014f70                __close_nocancel
+ .text          0x00015020       0x60 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mmap.os)
+                0x00015020                __GI___mmap
+                0x00015020                __mmap
+                0x00015020                mmap
+                0x00015020                __GI_mmap
+ .text          0x00015080       0x60 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(munmap.os)
+                0x00015080                munmap
+                0x00015080                __GI___munmap
+                0x00015080                __GI_munmap
+                0x00015080                __munmap
+ .text          0x000150e0       0x60 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mprotect.os)
+                0x000150e0                __mprotect
+                0x000150e0                __GI___mprotect
+                0x000150e0                __GI_mprotect
+                0x000150e0                mprotect
+ .text          0x00015140      0x1d0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(profil.os)
+                0x00015198                __profil
+                0x00015198                profil
+ .text          0x00015310       0x1c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(prof-freq.os)
+                0x00015310                __GI___profile_frequency
+                0x00015310                __profile_frequency
+ .text          0x0001532c       0x6c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-lowlevellock.os)
+                0x0001532c                __lll_lock_wait_private
+ .text          0x00015398      0x14c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-cancellation.os)
+                0x00015398                __libc_enable_asynccancel
+                0x00015420                __libc_disable_asynccancel
+ .text          0x000154e4      0x13c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(sigaction.os)
+                0x000154e4                __libc_sigaction
+                0x000154e4                __GI___libc_sigaction
+                0x000155e8                sigaction
+                0x000155e8                __GI___sigaction
+                0x000155e8                __sigaction
+ .text          0x00015620       0x60 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setitimer.os)
+                0x00015620                setitimer
+                0x00015620                __setitimer
+                0x00015620                __GI_setitimer
+                0x00015620                __GI___setitimer
+ .text          0x00015680      0x658 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(forward.os)
+                0x00015680                pthread_equal
+                0x000156b8                pthread_attr_destroy
+                0x000156ec                pthread_attr_init@@GLIBC_2.2
+                0x000156ec                __pthread_attr_init_2_1
+                0x00015720                pthread_attr_getdetachstate
+                0x00015754                pthread_attr_setdetachstate
+                0x00015788                pthread_attr_getinheritsched
+                0x000157bc                pthread_attr_setinheritsched
+                0x000157f0                pthread_attr_getschedparam
+                0x00015824                pthread_attr_setschedparam
+                0x00015858                pthread_attr_getschedpolicy
+                0x0001588c                pthread_attr_setschedpolicy
+                0x000158c0                pthread_attr_getscope
+                0x000158f4                pthread_attr_setscope
+                0x00015928                pthread_condattr_destroy
+                0x0001595c                pthread_condattr_init
+                0x00015990                pthread_cond_broadcast@@GLIBC_2.3.2
+                0x00015990                __pthread_cond_broadcast
+                0x000159c4                pthread_cond_destroy@@GLIBC_2.3.2
+                0x000159c4                __pthread_cond_destroy
+                0x000159f8                pthread_cond_init@@GLIBC_2.3.2
+                0x000159f8                __pthread_cond_init
+                0x00015a2c                pthread_cond_signal@@GLIBC_2.3.2
+                0x00015a2c                __pthread_cond_signal
+                0x00015a60                pthread_cond_wait@@GLIBC_2.3.2
+                0x00015a60                __pthread_cond_wait
+                0x00015a94                pthread_cond_timedwait@@GLIBC_2.3.2
+                0x00015a94                __pthread_cond_timedwait
+                0x00015ac8                pthread_exit
+                0x00015ac8                __pthread_exit
+                0x00015b00                pthread_getschedparam
+                0x00015b34                pthread_setschedparam
+                0x00015b68                pthread_mutex_destroy
+                0x00015b9c                pthread_mutex_init
+                0x00015bd0                pthread_mutex_lock
+                0x00015c04                pthread_mutex_unlock
+                0x00015c38                pthread_self
+                0x00015c70                pthread_setcancelstate
+                0x00015ca4                pthread_setcanceltype
+ .text          0x00015cd8      0x110 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(exit.os)
+                0x00015cd8                __run_exit_handlers
+                0x00015dc8                __GI_exit
+                0x00015dc8                exit
+ .text          0x00015de8      0x1f4 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_atexit.os)
+                0x00015de8                __new_exitfn
+                0x00015f70                __internal_atexit
+                0x00015fbc                __cxa_atexit
+                0x00015fbc                __GI___cxa_atexit
+ .text          0x00015fdc      0x174 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_thread_atexit_impl.os)
+                0x00015fdc                __cxa_thread_atexit_impl
+                0x000160d0                __GI___call_tls_dtors
+                0x000160d0                __call_tls_dtors
+ .text          0x00016150      0x424 /home/mschreiber/Project/buildroot-2016.05/output/host/usr/lib/gcc/sh4a-buildroot-linux-gnu/4.9.3/libgcc.a(_div_table.o)
+                0x00016150                __udivsi3_i4i
+                0x00016220                __sdivsi3_i4i
+ *fill*         0x00016574        0x4 
+ .text          0x00016578       0x60 /home/mschreiber/Project/buildroot-2016.05/output/host/usr/lib/gcc/sh4a-buildroot-linux-gnu/4.9.3/libgcc.a(_udiv_qrnnd_16.o)
+                0x00016578                __udiv_qrnnd_16
+ *(.gnu.warning)
+
+.text.unlikely  0x00000000      0x268
+ .text.unlikely
+                0x00000000      0x268 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+
+.text.compat    0x00000000      0x18c
+ .text.compat   0x00000000      0x18c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(forward.os)
+                0x00000000                __pthread_cond_broadcast_2_0
+                0x00000000                pthread_cond_broadcast@GLIBC_2.2
+                0x00000034                __pthread_cond_destroy_2_0
+                0x00000034                pthread_cond_destroy@GLIBC_2.2
+                0x00000068                pthread_cond_init@GLIBC_2.2
+                0x00000068                __pthread_cond_init_2_0
+                0x0000009c                __pthread_cond_signal_2_0
+                0x0000009c                pthread_cond_signal@GLIBC_2.2
+                0x000000d0                __pthread_cond_wait_2_0
+                0x000000d0                pthread_cond_wait@GLIBC_2.2
+                0x00000104                pthread_cond_timedwait@GLIBC_2.2
+                0x00000104                __pthread_cond_timedwait_2_0
+                0x00000138                __pthread_unwind
+
+.fini
+ *(SORT(.fini))
+
+.rodata         0x00000000      0x878
+ *(.rodata)
+ .rodata        0x00000000      0x778 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+                0x00000768                __GI__itoa_lower_digits
+                0x00000768                _itoa_lower_digits
+ .rodata        0x00000778      0x100 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mp_clz_tab.os)
+                0x00000778                __clz_tab
+
+.rodata.str1.4  0x00000000     0x3484
+ .rodata.str1.4
+                0x00000000     0x3400 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+ .rodata.str1.4
+                0x00003400       0x18 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(check_fds.os)
+ .rodata.str1.4
+                0x00003418       0x38 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-cancellation.os)
+ .rodata.str1.4
+                0x00003450       0x34 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_atexit.os)
+
+.rodata.cst4    0x00000000        0x4
+ .rodata.cst4   0x00000000        0x4 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+
+.rodata1
+ *(.rodata1)
+
+.sdata2
+ *(.sdata2)
+
+.sbss2
+ *(.sbss2)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x00000000      0xe1c
+ *(.eh_frame)
+ .eh_frame      0x00000000      0x454 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+ .eh_frame      0x00000454       0x28 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setjmp.os)
+ .eh_frame      0x0000047c       0x28 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(__longjmp.os)
+ .eh_frame      0x000004a4       0x28 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strlen.os)
+ .eh_frame      0x000004cc       0x28 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memset.os)
+ .eh_frame      0x000004f4       0x28 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcpy.os)
+ .eh_frame      0x0000051c       0x2c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(uname.os)
+ .eh_frame      0x00000548       0x5c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(open.os)
+ .eh_frame      0x000005a4       0x5c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(read.os)
+ .eh_frame      0x00000600       0x5c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(write.os)
+ .eh_frame      0x0000065c       0x2c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lseek.os)
+ .eh_frame      0x00000688       0x2c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(access.os)
+ .eh_frame      0x000006b4       0x80 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fcntl.os)
+ .eh_frame      0x00000734       0x54 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(close.os)
+ .eh_frame      0x00000788       0x2c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mmap.os)
+ .eh_frame      0x000007b4       0x2c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(munmap.os)
+ .eh_frame      0x000007e0       0x2c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mprotect.os)
+ .eh_frame      0x0000080c       0x88 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-cancellation.os)
+ .eh_frame      0x00000894       0x2c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setitimer.os)
+ .eh_frame      0x000008c0      0x55c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(forward.os)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss           0x00000000       0x10
+ *(.tbss)
+ .tbss          0x00000000        0x4 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(errno.os)
+                0x00000000                errno
+                0x00000000                __libc_errno
+ .tbss          0x00000004        0xc /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(check_fds.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(errno.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(divdi3.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setjmp.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(__longjmp.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mp_clz_tab.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strchr.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strdup.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strlen.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strnlen.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memchr.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcmp.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memmove.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memset.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mempcpy.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(stpcpy.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcpy.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(wordcopy.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rawmemchr.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(closedir.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(readdir.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rewinddir.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getdents.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fdopendir.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(uname.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(_exit.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getpid.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(environ.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(xstat64.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fxstat64.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lxstat64.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(open.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(read.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(write.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lseek.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(access.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fcntl.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(close.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mmap.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(munmap.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mprotect.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(profil.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(prof-freq.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-lowlevellock.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-cancellation.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(sigaction.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setitimer.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(forward.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(exit.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_atexit.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_thread_atexit_impl.os)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/host/usr/lib/gcc/sh4a-buildroot-linux-gnu/4.9.3/libgcc.a(_div_table.o)
+ .data          0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/host/usr/lib/gcc/sh4a-buildroot-linux-gnu/4.9.3/libgcc.a(_udiv_qrnnd_16.o)
+
+.data.rel.ro    0x00000000      0x148
+ .data.rel.ro   0x00000000      0x148 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+                0x00000050                _rtld_global_ro
+                0x00000050                _rtld_local_ro
+                0x00000108                __pointer_chk_guard_local
+                0x0000010c                __stack_chk_guard
+                0x00000110                _dl_skip_args
+                0x00000114                __GI__dl_argv
+                0x00000114                _dl_argv
+                0x00000118                _dl_argc
+                0x00000138                __stack_prot
+                0x0000013c                _dl_random
+                0x00000140                __libc_stack_end
+                0x00000140                __GI___libc_stack_end
+                0x00000144                __GI___libc_enable_secure
+                0x00000144                __libc_enable_secure
+
+.data.rel.local
+                0x00000000        0x4
+ .data.rel.local
+                0x00000000        0x4 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_atexit.os)
+                0x00000000                __exit_funcs
+
+.data1
+ *(.data1)
+
+.note.ABI-tag
+ *(.note.ABI-tag)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.sdata          0x00000000      0x82c
+ *(.sdata)
+ .sdata         0x00000000      0x82c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+                0x00000000                _rtld_global
+                0x00000000                _rtld_local
+
+.sbss
+ *(.dynsbss)
+ *(.sbss)
+ *(.scommon)
+
+.bss            0x00000000      0x344
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000       0x88 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+                0x00000074                __libc_multiple_libcs
+                0x00000084                __curbrk
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(check_fds.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(errno.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(divdi3.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setjmp.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(__longjmp.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mp_clz_tab.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strchr.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strdup.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strlen.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strnlen.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memchr.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcmp.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memmove.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memset.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mempcpy.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(stpcpy.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcpy.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(wordcopy.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rawmemchr.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(closedir.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(readdir.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rewinddir.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getdents.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fdopendir.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(uname.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(_exit.os)
+ .bss           0x00000088        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getpid.os)
+ .bss           0x00000088        0x4 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(environ.os)
+                0x00000088                _environ
+                0x00000088                __environ
+                0x00000088                environ
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(xstat64.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fxstat64.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lxstat64.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(open.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(read.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(write.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lseek.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(access.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fcntl.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(close.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mmap.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(munmap.os)
+ .bss           0x0000008c        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mprotect.os)
+ .bss           0x0000008c       0xac /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(profil.os)
+ .bss           0x00000138        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(prof-freq.os)
+ .bss           0x00000138        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-lowlevellock.os)
+ .bss           0x00000138        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-cancellation.os)
+ .bss           0x00000138        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(sigaction.os)
+ .bss           0x00000138        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setitimer.os)
+ .bss           0x00000138        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(forward.os)
+ .bss           0x00000138        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(exit.os)
+ .bss           0x00000138      0x20c /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_atexit.os)
+ .bss           0x00000344        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_thread_atexit_impl.os)
+ .bss           0x00000344        0x0 /home/mschreiber/Project/buildroot-2016.05/output/host/usr/lib/gcc/sh4a-buildroot-linux-gnu/4.9.3/libgcc.a(_div_table.o)
+ .bss           0x00000344        0x0 /home/mschreiber/Project/buildroot-2016.05/output/host/usr/lib/gcc/sh4a-buildroot-linux-gnu/4.9.3/libgcc.a(_udiv_qrnnd_16.o)
+ *(COMMON)
+ COMMON         0x00000344        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+ COMMON         0x00000344        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(forward.os)
+ COMMON         0x00000344        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_atexit.os)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0xae4
+ *(.comment)
+ .comment       0x00000000      0x549 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+ .comment       0x00000549       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(check_fds.os)
+ .comment       0x00000572       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(errno.os)
+ .comment       0x0000059b       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(divdi3.os)
+ .comment       0x000005c4       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mp_clz_tab.os)
+ .comment       0x000005ed       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strchr.os)
+ .comment       0x00000616       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strdup.os)
+ .comment       0x0000063f       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strnlen.os)
+ .comment       0x00000668       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memchr.os)
+ .comment       0x00000691       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcmp.os)
+ .comment       0x000006ba       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memmove.os)
+ .comment       0x000006e3       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mempcpy.os)
+ .comment       0x0000070c       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(stpcpy.os)
+ .comment       0x00000735       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(wordcopy.os)
+ .comment       0x0000075e       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rawmemchr.os)
+ .comment       0x00000787       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(closedir.os)
+ .comment       0x000007b0       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(readdir.os)
+ .comment       0x000007d9       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rewinddir.os)
+ .comment       0x00000802       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getdents.os)
+ .comment       0x0000082b       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fdopendir.os)
+ .comment       0x00000854       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(_exit.os)
+ .comment       0x0000087d       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getpid.os)
+ .comment       0x000008a6       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(environ.os)
+ .comment       0x000008cf       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(xstat64.os)
+ .comment       0x000008f8       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fxstat64.os)
+ .comment       0x00000921       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lxstat64.os)
+ .comment       0x0000094a       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fcntl.os)
+ .comment       0x00000973       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(profil.os)
+ .comment       0x0000099c       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(prof-freq.os)
+ .comment       0x000009c5       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-lowlevellock.os)
+ .comment       0x000009ee       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-cancellation.os)
+ .comment       0x00000a17       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(sigaction.os)
+ .comment       0x00000a40       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(forward.os)
+ .comment       0x00000a69       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(exit.os)
+ .comment       0x00000a92       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_atexit.os)
+ .comment       0x00000abb       0x29 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/dl-allobjs.os
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(check_fds.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(errno.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(divdi3.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setjmp.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(__longjmp.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mp_clz_tab.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strchr.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strdup.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strlen.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(strnlen.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memchr.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcmp.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memmove.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memset.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mempcpy.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(stpcpy.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(memcpy.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(wordcopy.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rawmemchr.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(closedir.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(readdir.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(rewinddir.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getdents.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fdopendir.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(uname.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(_exit.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(getpid.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(environ.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(xstat64.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fxstat64.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lxstat64.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(open.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(read.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(write.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(lseek.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(access.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(fcntl.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(close.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mmap.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(munmap.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(mprotect.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(profil.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(prof-freq.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-lowlevellock.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(libc-cancellation.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(sigaction.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(setitimer.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(forward.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(exit.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_atexit.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/libc_pic.a(cxa_thread_atexit_impl.os)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/host/usr/lib/gcc/sh4a-buildroot-linux-gnu/4.9.3/libgcc.a(_div_table.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/mschreiber/Project/buildroot-2016.05/output/host/usr/lib/gcc/sh4a-buildroot-linux-gnu/4.9.3/libgcc.a(_udiv_qrnnd_16.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/mschreiber/Project/buildroot-2016.05/output/build/glibc-2.22/build/elf/librtld.map.o elf32-sh-linux)

@@ -1,0 +1,423 @@
+\section{uiomux.h File Reference}
+\label{uiomux_8h}\index{uiomux.h@{uiomux.h}}
+
+
+The libuiomux C API.  
+
+
+{\ttfamily \#include $<$stdlib.h$>$}\par
+{\ttfamily \#include $<$uiomux/resource.h$>$}\par
+{\ttfamily \#include $<$sys/time.h$>$}\par
+{\ttfamily \#include $<$uiomux/system.h$>$}\par
+{\ttfamily \#include $<$uiomux/dump.h$>$}\par
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct uiomux {\bfseries UIOMux}\label{uiomux_8h_a6a3a321750049ca832671937ced153be}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf uiomux\_\-resource\_\-t} {\bf uiomux\_\-query} (void)
+\begin{DoxyCompactList}\small\item\em Query which blocks are available on this platform. \item\end{DoxyCompactList}\item 
+const char $\ast$ {\bf uiomux\_\-name} ({\bf uiomux\_\-resource\_\-t} resource)\label{uiomux_8h_ada3030177fa803d45bcf11d88e5ac472}
+
+\begin{DoxyCompactList}\small\item\em Retrieve a printable name for an IP block: \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-list\_\-device} (char $\ast$$\ast$$\ast$names, int $\ast$count)
+\begin{DoxyCompactList}\small\item\em Query which blocks are available on this platform. \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-info} (UIOMux $\ast$uiomux)
+\begin{DoxyCompactList}\small\item\em Print info about UIO maps to stdout. \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-meminfo} (UIOMux $\ast$uiomux)
+\begin{DoxyCompactList}\small\item\em Print info about UIO memory allocations to stdout. \item\end{DoxyCompactList}\item 
+UIOMux $\ast$ {\bf uiomux\_\-open} (void)
+\begin{DoxyCompactList}\small\item\em Create a new UIOMux object,. \item\end{DoxyCompactList}\item 
+UIOMux $\ast$ {\bf uiomux\_\-open\_\-blocks} ({\bf uiomux\_\-resource\_\-t} resources)
+\begin{DoxyCompactList}\small\item\em Create a new UIOMux object for specified IP blocks,. \item\end{DoxyCompactList}\item 
+UIOMux $\ast$ {\bf uiomux\_\-open\_\-named} (const char $\ast$name[$\,$])
+\begin{DoxyCompactList}\small\item\em Create a new UIOMux object for named IP blocks, When UIOMux object is created with this function, each bit in {\ttfamily uiomux\_\-resource\_\-t} refer to the corresponding element in the list. \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-close} (UIOMux $\ast$uiomux)
+\begin{DoxyCompactList}\small\item\em Close a UIOMux handle, removing exclusive access, removing memory maps, etc. \item\end{DoxyCompactList}\item 
+{\bf uiomux\_\-resource\_\-t} {\bf uiomux\_\-check\_\-resource} (struct uiomux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource)
+\begin{DoxyCompactList}\small\item\em Check if passed resource is available on the UIOMux object. \item\end{DoxyCompactList}\item 
+char $\ast$ {\bf uiomux\_\-check\_\-name} (struct uiomux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource)
+\begin{DoxyCompactList}\small\item\em Check the name of the IP block corrensponding to the passed resource identifier. \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-lock} (UIOMux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resources)
+\begin{DoxyCompactList}\small\item\em Lock a UIOMux handle for access to specified blocks. \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-unlock} (UIOMux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resources)
+\begin{DoxyCompactList}\small\item\em Unlock a UIOMux handle for access to specified blocks. \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-sleep} (UIOMux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource)
+\begin{DoxyCompactList}\small\item\em Wait for a UIO managed resource to complete its activity. \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-sleep\_\-timeout} (UIOMux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource, struct timeval $\ast$timeout)
+\begin{DoxyCompactList}\small\item\em Wait for a UIO managed resource to complete its activity. \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-wakeup} (struct uiomux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource)
+\begin{DoxyCompactList}\small\item\em Wake up any processes waiting for UIO events via a uiomux\_\-sleep$\ast$ command. \item\end{DoxyCompactList}\item 
+unsigned long {\bf uiomux\_\-get\_\-mmio} (UIOMux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource, unsigned long $\ast$address, unsigned long $\ast$size, void $\ast$$\ast$iomem)
+\begin{DoxyCompactList}\small\item\em Get the address and size of the MMIO region for a UIO managed resource. \item\end{DoxyCompactList}\item 
+unsigned long {\bf uiomux\_\-get\_\-mem} (UIOMux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource, unsigned long $\ast$address, unsigned long $\ast$size, void $\ast$$\ast$iomem)
+\begin{DoxyCompactList}\small\item\em Get the address and size of the user memory region for a UIO managed resource. \item\end{DoxyCompactList}\item 
+unsigned long {\bf uiomux\_\-virt\_\-to\_\-phys} (UIOMux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource, void $\ast$virt\_\-address)
+\begin{DoxyCompactList}\small\item\em Convert a virtual address to a physical address. \item\end{DoxyCompactList}\item 
+unsigned long {\bf uiomux\_\-all\_\-virt\_\-to\_\-phys} (void $\ast$virt\_\-address)
+\begin{DoxyCompactList}\small\item\em Convert a virtual address to a physical address. \item\end{DoxyCompactList}\item 
+void $\ast$ {\bf uiomux\_\-phys\_\-to\_\-virt} (UIOMux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource, unsigned long phys\_\-address)
+\begin{DoxyCompactList}\small\item\em Convert a physical address to a virtual address. \item\end{DoxyCompactList}\item 
+void $\ast$ {\bf uiomux\_\-malloc} (UIOMux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource, size\_\-t size, int align)
+\begin{DoxyCompactList}\small\item\em Allocate iomem from a UIO managed resource. \item\end{DoxyCompactList}\item 
+void $\ast$ {\bf uiomux\_\-malloc\_\-shared} (UIOMux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource, size\_\-t size, int align)
+\begin{DoxyCompactList}\small\item\em Allocate shared iomem from a UIO managed resource. \item\end{DoxyCompactList}\item 
+void {\bf uiomux\_\-free} (UIOMux $\ast$uiomux, {\bf uiomux\_\-resource\_\-t} resource, void $\ast$address, size\_\-t size)
+\begin{DoxyCompactList}\small\item\em Free iomem from a UIO managed resource. \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-register} (void $\ast$virt, unsigned long phys\_\-address, size\_\-t size)
+\begin{DoxyCompactList}\small\item\em Register a region of memory as accessible by the resources. \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-unregister} (void $\ast$virt)
+\begin{DoxyCompactList}\small\item\em Unregister a region of memory as accessible by the resources. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The libuiomux C API. \subsection{Query}\label{uiomux_8h_query}
+At any time, an application may retrieve a printable name for a resource by calling \doxyref{uiomux\_\-name()}{p.}{uiomux_8h_ada3030177fa803d45bcf11d88e5ac472}. To query which resources are available on the running system, call \doxyref{uiomux\_\-query()}{p.}{uiomux_8h_ab724610d0830ea5a3b748df432b00b43}.\subsection{Locking and unlocking}\label{uiomux_8h_locking}
+A process or thread wishing to use the locking facilities of libuiomux should start by calling \doxyref{uiomux\_\-open()}{p.}{uiomux_8h_a71e45d7bbd218556dd55d79e153fee1c} to obtain a UIOMux$\ast$ handle.
+
+To request exclusive access to a resource or a set of resources, call \doxyref{uiomux\_\-lock()}{p.}{uiomux_8h_ab0d235b2ee947a7933448e762fd85dd7}, passing as argument the name of a resource, or multiple resource names OR'd together. Each call to \doxyref{uiomux\_\-lock()}{p.}{uiomux_8h_ab0d235b2ee947a7933448e762fd85dd7} must be paired with a corresponding call to \doxyref{uiomux\_\-unlock()}{p.}{uiomux_8h_aeb3da8e88f7131c23463175d64e56d3d}. Failure to unlock can lead to system-\/wide starvation of the locked resource. Note however that all locks obtained via libuiomux will be automatically unlocked on program termination to minimize the potential damage caused by rogue processes.
+
+Finally, each process or thread that opened a UIOMux$\ast$ handle should close it by calling \doxyref{uiomux\_\-close()}{p.}{uiomux_8h_a256cd507b54f1dc6cb2afc3915457123}. This will remove associated memory maps, unlock locked resources and mark used memory for deallocation. 
+
+\subsection{Function Documentation}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-all\_\-virt\_\-to\_\-phys@{uiomux\_\-all\_\-virt\_\-to\_\-phys}}
+\index{uiomux\_\-all\_\-virt\_\-to\_\-phys@{uiomux\_\-all\_\-virt\_\-to\_\-phys}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-all\_\-virt\_\-to\_\-phys}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long uiomux\_\-all\_\-virt\_\-to\_\-phys (void $\ast$ {\em virt\_\-address})}\label{uiomux_8h_a3e17ef156ccf94da691e04efd6ad0906}
+
+
+Convert a virtual address to a physical address. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em virt\_\-address}]Virtual address to convert \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Physical address corresponding to mapped virtual address 
+\end{DoxyReturn}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Failure: virtual address is not managed by UIOMux. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-check\_\-name@{uiomux\_\-check\_\-name}}
+\index{uiomux\_\-check\_\-name@{uiomux\_\-check\_\-name}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-check\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ uiomux\_\-check\_\-name (struct uiomux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource})}\label{uiomux_8h_ac4a09bd2017b657b46b56e58c63a84d7}
+
+
+Check the name of the IP block corrensponding to the passed resource identifier. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]Resource identifer. \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em Name}]of the IP block; when multiple bits are set {\ttfamily resource}, the information on those corresponding to the only lesser significant bit is returned. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-check\_\-resource@{uiomux\_\-check\_\-resource}}
+\index{uiomux\_\-check\_\-resource@{uiomux\_\-check\_\-resource}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-check\_\-resource}]{\setlength{\rightskip}{0pt plus 5cm}{\bf uiomux\_\-resource\_\-t} uiomux\_\-check\_\-resource (struct uiomux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource})}\label{uiomux_8h_a6f530d9ffbd6a891dc155132cf647f6e}
+
+
+Check if passed resource is available on the UIOMux object. 
+
+The function can be used to test if intended IP blocks are made available. 
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]Multiple OR'd resource list. When UIOMux handle is create with {\ttfamily \doxyref{uiomux\_\-open\_\-named()}{p.}{uiomux_8h_a7c19588511ef401be49e97a8b6d268b6}}, this depends on the list of {\ttfamily name} passed to the function. See \doxyref{uiomux\_\-open\_\-named()}{p.}{uiomux_8h_a7c19588511ef401be49e97a8b6d268b6} for details. \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em Or'd}]named resources; bits are set for resources available. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-close@{uiomux\_\-close}}
+\index{uiomux\_\-close@{uiomux\_\-close}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-close (UIOMux $\ast$ {\em uiomux})}\label{uiomux_8h_a256cd507b54f1dc6cb2afc3915457123}
+
+
+Close a UIOMux handle, removing exclusive access, removing memory maps, etc. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-free@{uiomux\_\-free}}
+\index{uiomux\_\-free@{uiomux\_\-free}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-free}]{\setlength{\rightskip}{0pt plus 5cm}void uiomux\_\-free (UIOMux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource}, \/  void $\ast$ {\em address}, \/  size\_\-t {\em size})}\label{uiomux_8h_aeb90853442a987338ef93c20a1e6d4b0}
+
+
+Free iomem from a UIO managed resource. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]A single named resource \item[{\em address}]The address to free \item[{\em size}]The size to free \end{DoxyParams}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-get\_\-mem@{uiomux\_\-get\_\-mem}}
+\index{uiomux\_\-get\_\-mem@{uiomux\_\-get\_\-mem}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-get\_\-mem}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long uiomux\_\-get\_\-mem (UIOMux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource}, \/  unsigned long $\ast$ {\em address}, \/  unsigned long $\ast$ {\em size}, \/  void $\ast$$\ast$ {\em iomem})}\label{uiomux_8h_ac8a40ac7e26a779339824fba40126258}
+
+
+Get the address and size of the user memory region for a UIO managed resource. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]A single named resource \item[{\em address}]Return for address (ignored if NULL) \item[{\em size}]Return for size (ignored if NULL) \item[{\em iomem}]Return for iomem (ignored if NULL) \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Address of user memory region 
+\end{DoxyReturn}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Failure: resource not managed, or more than one resource given. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-get\_\-mmio@{uiomux\_\-get\_\-mmio}}
+\index{uiomux\_\-get\_\-mmio@{uiomux\_\-get\_\-mmio}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-get\_\-mmio}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long uiomux\_\-get\_\-mmio (UIOMux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource}, \/  unsigned long $\ast$ {\em address}, \/  unsigned long $\ast$ {\em size}, \/  void $\ast$$\ast$ {\em iomem})}\label{uiomux_8h_a8efc32d493805aa636a936bbcd43f828}
+
+
+Get the address and size of the MMIO region for a UIO managed resource. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]A single named resource \item[{\em address}]Return for address (ignored if NULL) \item[{\em size}]Return for size (ignored if NULL) \item[{\em iomem}]Return for iomem (ignored if NULL) \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Address of MMIO region 
+\end{DoxyReturn}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Failure: resource not managed, or more than one resource given. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-info@{uiomux\_\-info}}
+\index{uiomux\_\-info@{uiomux\_\-info}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-info (UIOMux $\ast$ {\em uiomux})}\label{uiomux_8h_a70fca08d1b9976c7855cdf1fbf56873a}
+
+
+Print info about UIO maps to stdout. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-list\_\-device@{uiomux\_\-list\_\-device}}
+\index{uiomux\_\-list\_\-device@{uiomux\_\-list\_\-device}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-list\_\-device}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-list\_\-device (char $\ast$$\ast$$\ast$ {\em names}, \/  int $\ast$ {\em count})}\label{uiomux_8h_a48eb7765ae64c9cf8b4da5a3740ea3cb}
+
+
+Query which blocks are available on this platform. 
+
+Returns the references to the names of IP avialable IP blocks. If you need to modify the returned array of strings, please copy the array and strings before you do so. The result is shared by all callers of this API in the same process context. 
+\begin{DoxyParams}{Parameters}
+\item[{\em names}]List of IP blocks available. The array is terminated with NULL. \item[{\em count}]Number of IP blocks. \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]on success; -\/1 on failure. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-lock@{uiomux\_\-lock}}
+\index{uiomux\_\-lock@{uiomux\_\-lock}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-lock}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-lock (UIOMux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resources})}\label{uiomux_8h_ab0d235b2ee947a7933448e762fd85dd7}
+
+
+Lock a UIOMux handle for access to specified blocks. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resources}]A named resource, or multiple OR'd together \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-malloc@{uiomux\_\-malloc}}
+\index{uiomux\_\-malloc@{uiomux\_\-malloc}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-malloc}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ uiomux\_\-malloc (UIOMux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource}, \/  size\_\-t {\em size}, \/  int {\em align})}\label{uiomux_8h_a0ab2a91a91070d5f50ed02358c946ff9}
+
+
+Allocate iomem from a UIO managed resource. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]A single named resource \item[{\em size}]Size of memory region \item[{\em align}]Alignment of memory region \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Address of allocated memory 
+\end{DoxyReturn}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em NULL}]Failure: unable to allocate, or attempt to allocate from more than one resource. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-malloc\_\-shared@{uiomux\_\-malloc\_\-shared}}
+\index{uiomux\_\-malloc\_\-shared@{uiomux\_\-malloc\_\-shared}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-malloc\_\-shared}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ uiomux\_\-malloc\_\-shared (UIOMux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource}, \/  size\_\-t {\em size}, \/  int {\em align})}\label{uiomux_8h_a99648b7ef9a6b76f1d207e6de3d75f1e}
+
+
+Allocate shared iomem from a UIO managed resource. 
+
+There can only be one shared memory region for a UIO device. 
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]A single named resource \item[{\em size}]Size of memory region \item[{\em align}]Alignment of memory region \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Address of allocated memory 
+\end{DoxyReturn}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em NULL}]Failure: unable to allocate, or attempt to allocate from more than one resource. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-meminfo@{uiomux\_\-meminfo}}
+\index{uiomux\_\-meminfo@{uiomux\_\-meminfo}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-meminfo}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-meminfo (UIOMux $\ast$ {\em uiomux})}\label{uiomux_8h_a109136c51764acd92dad6a167eeab43c}
+
+
+Print info about UIO memory allocations to stdout. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-open@{uiomux\_\-open}}
+\index{uiomux\_\-open@{uiomux\_\-open}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-open}]{\setlength{\rightskip}{0pt plus 5cm}UIOMux$\ast$ uiomux\_\-open (void)}\label{uiomux_8h_a71e45d7bbd218556dd55d79e153fee1c}
+
+
+Create a new UIOMux object,. 
+
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em NULL}]on system error; check errno for details. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-open\_\-blocks@{uiomux\_\-open\_\-blocks}}
+\index{uiomux\_\-open\_\-blocks@{uiomux\_\-open\_\-blocks}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-open\_\-blocks}]{\setlength{\rightskip}{0pt plus 5cm}UIOMux$\ast$ uiomux\_\-open\_\-blocks ({\bf uiomux\_\-resource\_\-t} {\em resources})}\label{uiomux_8h_a6623f87252c80539492c4fb196867318}
+
+
+Create a new UIOMux object for specified IP blocks,. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em resources}]A named resource, or multiple OR'd together \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em NULL}]on system error; check errno for details. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-open\_\-named@{uiomux\_\-open\_\-named}}
+\index{uiomux\_\-open\_\-named@{uiomux\_\-open\_\-named}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-open\_\-named}]{\setlength{\rightskip}{0pt plus 5cm}UIOMux$\ast$ uiomux\_\-open\_\-named (const char $\ast$ {\em name}[$\,$])}\label{uiomux_8h_a7c19588511ef401be49e97a8b6d268b6}
+
+
+Create a new UIOMux object for named IP blocks, When UIOMux object is created with this function, each bit in {\ttfamily uiomux\_\-resource\_\-t} refer to the corresponding element in the list. 
+
+For instance, {\ttfamily name}[n] is refered with the bit {\ttfamily }(1 $<$$<$ n). 
+\begin{DoxyParams}{Parameters}
+\item[{\em name}]A list of IP block names. List shall be terminated with NULL pointer. \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em NULL}]on system error; check errno for details. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-phys\_\-to\_\-virt@{uiomux\_\-phys\_\-to\_\-virt}}
+\index{uiomux\_\-phys\_\-to\_\-virt@{uiomux\_\-phys\_\-to\_\-virt}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-phys\_\-to\_\-virt}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ uiomux\_\-phys\_\-to\_\-virt (UIOMux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource}, \/  unsigned long {\em phys\_\-address})}\label{uiomux_8h_acc4eccfb721c0b8c04b817e62f914e32}
+
+
+Convert a physical address to a virtual address. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]A single named resource \item[{\em phys\_\-address}]Physical address to convert \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Virtual address corresponding to physical address 
+\end{DoxyReturn}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em NULL}]Failure: resource not managed, or more than one resource given, or physical address is not in range mapped for given resource. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-query@{uiomux\_\-query}}
+\index{uiomux\_\-query@{uiomux\_\-query}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-query}]{\setlength{\rightskip}{0pt plus 5cm}{\bf uiomux\_\-resource\_\-t} uiomux\_\-query (void)}\label{uiomux_8h_ab724610d0830ea5a3b748df432b00b43}
+
+
+Query which blocks are available on this platform. 
+
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em Bitwise}]OR of available resource names. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-register@{uiomux\_\-register}}
+\index{uiomux\_\-register@{uiomux\_\-register}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-register}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-register (void $\ast$ {\em virt}, \/  unsigned long {\em phys\_\-address}, \/  size\_\-t {\em size})}\label{uiomux_8h_a45f194895a477bab035beede54b28b82}
+
+
+Register a region of memory as accessible by the resources. 
+
+This region is included in the list of regions covered by uiomux\_\-all\_\-virt\_\-to\_\-phys. 
+\begin{DoxyParams}{Parameters}
+\item[{\em virt}]Virtual address of memory region \item[{\em phys\_\-address}]Physical address of memory region \item[{\em size}]Size of memory region \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-sleep@{uiomux\_\-sleep}}
+\index{uiomux\_\-sleep@{uiomux\_\-sleep}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-sleep}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-sleep (UIOMux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource})}\label{uiomux_8h_a5976899c07811b7c3b7060bfdad8663f}
+
+
+Wait for a UIO managed resource to complete its activity. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]A named resource \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-sleep\_\-timeout@{uiomux\_\-sleep\_\-timeout}}
+\index{uiomux\_\-sleep\_\-timeout@{uiomux\_\-sleep\_\-timeout}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-sleep\_\-timeout}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-sleep\_\-timeout (UIOMux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource}, \/  struct timeval $\ast$ {\em timeout})}\label{uiomux_8h_af3a25216c4410a190952f203441c015a}
+
+
+Wait for a UIO managed resource to complete its activity. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]A single named resource \item[{\em timeout}]A timeval structure to specify length of timeout NULL -\/$>$ no timeout 0 -\/$>$ return immediately (after checking interrupt status) \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \item[{\em -\/1}]No interrupt occured before the timeout expired or uiomux was closed \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-unlock@{uiomux\_\-unlock}}
+\index{uiomux\_\-unlock@{uiomux\_\-unlock}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-unlock}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-unlock (UIOMux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resources})}\label{uiomux_8h_aeb3da8e88f7131c23463175d64e56d3d}
+
+
+Unlock a UIOMux handle for access to specified blocks. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resources}]A named resource, or multiple OR'd together \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-unregister@{uiomux\_\-unregister}}
+\index{uiomux\_\-unregister@{uiomux\_\-unregister}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-unregister}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-unregister (void $\ast$ {\em virt})}\label{uiomux_8h_a48225e4f8c9c703d16c78c8ee4a3efd7}
+
+
+Unregister a region of memory as accessible by the resources. 
+
+This region is removed from the list of regions covered by uiomux\_\-all\_\-virt\_\-to\_\-phys. 
+\begin{DoxyParams}{Parameters}
+\item[{\em virt}]Virtual address of memory region \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-virt\_\-to\_\-phys@{uiomux\_\-virt\_\-to\_\-phys}}
+\index{uiomux\_\-virt\_\-to\_\-phys@{uiomux\_\-virt\_\-to\_\-phys}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-virt\_\-to\_\-phys}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long uiomux\_\-virt\_\-to\_\-phys (UIOMux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource}, \/  void $\ast$ {\em virt\_\-address})}\label{uiomux_8h_ad704c0ae05faf337ebb8f5ece778a078}
+
+
+Convert a virtual address to a physical address. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]A single named resource \item[{\em virt\_\-address}]Virtual address to convert \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Physical address corresponding to mapped virtual address 
+\end{DoxyReturn}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Failure: resource not managed, or more than one resource given, or virtual address is not in range mapped for given resource. \end{DoxyRetVals}
+\index{uiomux.h@{uiomux.h}!uiomux\_\-wakeup@{uiomux\_\-wakeup}}
+\index{uiomux\_\-wakeup@{uiomux\_\-wakeup}!uiomux.h@{uiomux.h}}
+\subsubsection[{uiomux\_\-wakeup}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-wakeup (struct uiomux $\ast$ {\em uiomux}, \/  {\bf uiomux\_\-resource\_\-t} {\em resource})}\label{uiomux_8h_a9e99a826173ef4c02bf91d44a389cae5}
+
+
+Wake up any processes waiting for UIO events via a uiomux\_\-sleep$\ast$ command. 
+
+The woken processes should be all confirm being woken before uiomux\_\-close is called. 
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \item[{\em resource}]A single named resource \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \end{DoxyRetVals}

@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.4
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private:   -L/home/mschreiber/Project/buildroot-2016.05/output/host/usr/sh4a-buildroot-linux-gnu/sysroot/usr/lib -lz     -lm  
+Cflags: -I${includedir}/libxml2 

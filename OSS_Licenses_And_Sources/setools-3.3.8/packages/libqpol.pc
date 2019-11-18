@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libqpol
+Description: SETools policy internals library
+Version: 1.7
+Requires:
+Conflicts:
+Libs: -L${libdir} -lqpol
+Cflags: -I${includedir}/qpol

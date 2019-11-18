@@ -1,0 +1,18 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysconfdir=/etc
+localstatedir=/var
+PACKAGE=fontconfig
+confdir=${sysconfdir}/fonts
+cachedir=/var/cache/fontconfig
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.11.1
+Requires:  freetype2
+Requires.private:  expat
+Libs: -L${libdir} -lfontconfig
+Libs.private: -L/home/mschreiber/Project/buildroot-2016.05/output/host/usr/sh4a-buildroot-linux-gnu/sysroot/usr/lib -lexpat   -L/home/mschreiber/Project/buildroot-2016.05/output/host/usr/sh4a-buildroot-linux-gnu/sysroot/usr/lib -lfreetype    
+Cflags: -I${includedir} -I/home/mschreiber/Project/buildroot-2016.05/output/host/usr/sh4a-buildroot-linux-gnu/sysroot/usr/include   -I/home/mschreiber/Project/buildroot-2016.05/output/host/usr/sh4a-buildroot-linux-gnu/sysroot/usr/include/freetype2 -I/home/mschreiber/Project/buildroot-2016.05/output/host/usr/sh4a-buildroot-linux-gnu/sysroot/usr/include    

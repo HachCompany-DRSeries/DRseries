@@ -1,0 +1,12 @@
+0001-fix-readline-libs-ordering.patch
+0002-WNM-Ignore-Key-Data-in-WNM-Sleep-Mode-Response-frame.patch
+0003-EAP-pwd-peer-Fix-last-fragment-length-validation.patch
+0004-EAP-pwd-server-Fix-last-fragment-length-validation.patch
+0005-EAP-pwd-peer-Fix-error-path-for-unexpected-Confirm-m.patch
+0006-fix-libwpa_client.patch
+0007-systemd-Update-service-files-according-to-dbus-inter.patch
+0008-WPS-Reject-a-Credential-with-invalid-passphrase.patch
+0009-Reject-psk-parameter-set-with-invalid-passphrase-cha.patch
+0010-Remove-newlines-from-wpa_supplicant-config-network-o.patch
+0011-Reject-SET_CRED-commands-with-newline-characters-in-.patch
+0012-Reject-SET-commands-with-newline-characters-in-the-s.patch

@@ -1,0 +1,3 @@
+LIBSWSCALE_0 {
+        global: *;
+};

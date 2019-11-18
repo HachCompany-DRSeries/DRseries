@@ -1,0 +1,36 @@
+\section{resource.h File Reference}
+\label{resource_8h}\index{resource.h@{resource.h}}
+
+
+UIOMux resource type.  
+
+
+{\ttfamily \#include $<$uiomux/arch\_\-sh.h$>$}\par
+\subsection*{Defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bf UIOMUX\_\-NONE}~0\label{resource_8h_a24230f93f1a6e395adab485e88628f8a}
+
+\begin{DoxyCompactList}\small\item\em Specifies that no resources are selected. \item\end{DoxyCompactList}\item 
+\#define {\bf UIOMUX\_\-ALL}~($\sim$0)\label{resource_8h_a6588d48e914b9f2830cc6290b745094a}
+
+\begin{DoxyCompactList}\small\item\em Specifies that all resources are selected. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef int {\bf uiomux\_\-resource\_\-t}
+\begin{DoxyCompactList}\small\item\em A mask of multiple resources. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+UIOMux resource type. IP blocks are accessed by symbolic name. This file includes architecture-\/specific resource names. 
+
+\subsection{Typedef Documentation}
+\index{resource.h@{resource.h}!uiomux\_\-resource\_\-t@{uiomux\_\-resource\_\-t}}
+\index{uiomux\_\-resource\_\-t@{uiomux\_\-resource\_\-t}!resource.h@{resource.h}}
+\subsubsection[{uiomux\_\-resource\_\-t}]{\setlength{\rightskip}{0pt plus 5cm}typedef int {\bf uiomux\_\-resource\_\-t}}\label{resource_8h_aa2e9141f7f5fef8c8a6f781dafcf1ea2}
+
+
+A mask of multiple resources. 
+
+A UIOMux handle corresponds to a set of blocks atomically allocated together. 

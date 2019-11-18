@@ -1,0 +1,234 @@
+\section{veu\_\-colorspace.h File Reference}
+\label{veu__colorspace_8h}\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}}
+
+
+Image/Video processing: Scale, rotate, crop, color conversion.  
+
+
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bf ren\_\-vid\_\-rect}
+\begin{DoxyCompactList}\small\item\em Bounding rectange. \item\end{DoxyCompactList}\item 
+struct {\bf ren\_\-vid\_\-surface}
+\begin{DoxyCompactList}\small\item\em Surface. \item\end{DoxyCompactList}\item 
+struct {\bf format\_\-info}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bf ren\_\-vid\_\-format\_\-t} \{ \par
+{\bfseries REN\_\-UNKNOWN}, 
+{\bf REN\_\-NV12}, 
+{\bf REN\_\-NV16}, 
+{\bf REN\_\-RGB565}, 
+\par
+{\bf REN\_\-RGB24}, 
+{\bf REN\_\-BGR24}, 
+{\bf REN\_\-RGB32}, 
+{\bf REN\_\-ARGB32}
+ \}
+\begin{DoxyCompactList}\small\item\em Surface formats. \item\end{DoxyCompactList}\item 
+enum {\bf shveu\_\-rotation\_\-t} \{ {\bf SHVEU\_\-NO\_\-ROT} = 0, 
+{\bf SHVEU\_\-ROT\_\-90}
+ \}
+\begin{DoxyCompactList}\small\item\em Rotation. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int {\bf shveu\_\-setup} (SHVEU $\ast$veu, const struct {\bf ren\_\-vid\_\-surface} $\ast$src\_\-surface, const struct {\bf ren\_\-vid\_\-surface} $\ast$dst\_\-surface, {\bf shveu\_\-rotation\_\-t} rotate)
+\begin{DoxyCompactList}\small\item\em Setup a (scale$|$rotate) \& crop between YCbCr \& RGB surfaces The scaling factor is calculated from the surface sizes. \item\end{DoxyCompactList}\item 
+void {\bf shveu\_\-set\_\-src} (SHVEU $\ast$veu, void $\ast$src\_\-py, void $\ast$src\_\-pc)
+\begin{DoxyCompactList}\small\item\em Set the source addresses. \item\end{DoxyCompactList}\item 
+void {\bf shveu\_\-set\_\-dst} (SHVEU $\ast$veu, void $\ast$dst\_\-py, void $\ast$dst\_\-pc)
+\begin{DoxyCompactList}\small\item\em Set the destination addresses. \item\end{DoxyCompactList}\item 
+void {\bf shveu\_\-set\_\-src\_\-phys} (SHVEU $\ast$veu, unsigned int src\_\-py, unsigned int src\_\-pc)
+\begin{DoxyCompactList}\small\item\em Set the source addresses. \item\end{DoxyCompactList}\item 
+void {\bf shveu\_\-set\_\-dst\_\-phys} (SHVEU $\ast$veu, unsigned int dst\_\-py, unsigned int dst\_\-pc)
+\begin{DoxyCompactList}\small\item\em Set the destination addresses. \item\end{DoxyCompactList}\item 
+void {\bf shveu\_\-set\_\-color\_\-conversion} (SHVEU $\ast$veu, int bt709, int full\_\-range)
+\begin{DoxyCompactList}\small\item\em Set the colour space conversion attributes. \item\end{DoxyCompactList}\item 
+void {\bf shveu\_\-start} (SHVEU $\ast$veu)
+\begin{DoxyCompactList}\small\item\em Start a VEU operation (non-\/bundle mode). \item\end{DoxyCompactList}\item 
+void {\bf shveu\_\-start\_\-bundle} (SHVEU $\ast$veu, int bundle\_\-lines)
+\begin{DoxyCompactList}\small\item\em Start a VEU operation (bundle mode). \item\end{DoxyCompactList}\item 
+int {\bf shveu\_\-wait} (SHVEU $\ast$veu)
+\begin{DoxyCompactList}\small\item\em Wait for a VEU operation to complete. \item\end{DoxyCompactList}\item 
+int {\bf shveu\_\-resize} (SHVEU $\ast$veu, const struct {\bf ren\_\-vid\_\-surface} $\ast$src\_\-surface, const struct {\bf ren\_\-vid\_\-surface} $\ast$dst\_\-surface)
+\begin{DoxyCompactList}\small\item\em Perform scale between YCbCr \& RGB surfaces. \item\end{DoxyCompactList}\item 
+int {\bf shveu\_\-rotate} (SHVEU $\ast$veu, const struct {\bf ren\_\-vid\_\-surface} $\ast$src\_\-surface, const struct {\bf ren\_\-vid\_\-surface} $\ast$dst\_\-surface, {\bf shveu\_\-rotation\_\-t} rotate)
+\begin{DoxyCompactList}\small\item\em Perform rotate between YCbCr \& RGB surfaces This operates on entire surfaces and blocks until completion. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Image/Video processing: Scale, rotate, crop, color conversion. 
+
+\subsection{Enumeration Type Documentation}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!ren\_\-vid\_\-format\_\-t@{ren\_\-vid\_\-format\_\-t}}
+\index{ren\_\-vid\_\-format\_\-t@{ren\_\-vid\_\-format\_\-t}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{ren\_\-vid\_\-format\_\-t}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf ren\_\-vid\_\-format\_\-t}}\label{veu__colorspace_8h_a7c6f3f06390ea9d0f845a37c02ca4954}
+
+
+Surface formats. 
+
+\begin{Desc}
+\item[Enumerator: ]\par
+\begin{description}
+\index{REN\_\-NV12@{REN\_\-NV12}!veu\_\-colorspace.h@{veu\_\-colorspace.h}}\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!REN\_\-NV12@{REN\_\-NV12}}\item[{\em 
+REN\_\-NV12\label{veu__colorspace_8h_a7c6f3f06390ea9d0f845a37c02ca4954ab77e03729897cbfcebdd291304f73175}
+}]YCbCr420: Y plane, packed CbCr plane, optional alpha plane. \index{REN\_\-NV16@{REN\_\-NV16}!veu\_\-colorspace.h@{veu\_\-colorspace.h}}\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!REN\_\-NV16@{REN\_\-NV16}}\item[{\em 
+REN\_\-NV16\label{veu__colorspace_8h_a7c6f3f06390ea9d0f845a37c02ca4954a54ab0601ca051cc10ea1c067f021963e}
+}]YCbCr422: Y plane, packed CbCr plane, optional alpha plane. \index{REN\_\-RGB565@{REN\_\-RGB565}!veu\_\-colorspace.h@{veu\_\-colorspace.h}}\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!REN\_\-RGB565@{REN\_\-RGB565}}\item[{\em 
+REN\_\-RGB565\label{veu__colorspace_8h_a7c6f3f06390ea9d0f845a37c02ca4954a384397bc7486130fb66aee4798dabd9a}
+}]Packed RGB565. \index{REN\_\-RGB24@{REN\_\-RGB24}!veu\_\-colorspace.h@{veu\_\-colorspace.h}}\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!REN\_\-RGB24@{REN\_\-RGB24}}\item[{\em 
+REN\_\-RGB24\label{veu__colorspace_8h_a7c6f3f06390ea9d0f845a37c02ca4954a0374c5a25d96f9f362303b2f081874f4}
+}]Packed RGB888. \index{REN\_\-BGR24@{REN\_\-BGR24}!veu\_\-colorspace.h@{veu\_\-colorspace.h}}\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!REN\_\-BGR24@{REN\_\-BGR24}}\item[{\em 
+REN\_\-BGR24\label{veu__colorspace_8h_a7c6f3f06390ea9d0f845a37c02ca4954adba4b520906167f79ad898b095b689f7}
+}]Packed BGR888. \index{REN\_\-RGB32@{REN\_\-RGB32}!veu\_\-colorspace.h@{veu\_\-colorspace.h}}\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!REN\_\-RGB32@{REN\_\-RGB32}}\item[{\em 
+REN\_\-RGB32\label{veu__colorspace_8h_a7c6f3f06390ea9d0f845a37c02ca4954a6d8a0f39ba316142aa0efca71ceae2b7}
+}]Packed XRGB8888 (most significant byte ignored). \index{REN\_\-ARGB32@{REN\_\-ARGB32}!veu\_\-colorspace.h@{veu\_\-colorspace.h}}\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!REN\_\-ARGB32@{REN\_\-ARGB32}}\item[{\em 
+REN\_\-ARGB32\label{veu__colorspace_8h_a7c6f3f06390ea9d0f845a37c02ca4954a528279835eb98b04e64c8e681ad69ef2}
+}]Packed ARGB8888. \end{description}
+\end{Desc}
+
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-rotation\_\-t@{shveu\_\-rotation\_\-t}}
+\index{shveu\_\-rotation\_\-t@{shveu\_\-rotation\_\-t}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-rotation\_\-t}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf shveu\_\-rotation\_\-t}}\label{veu__colorspace_8h_abb87bfd1257c5e4f6d46f3fdc0e64d75}
+
+
+Rotation. 
+
+\begin{Desc}
+\item[Enumerator: ]\par
+\begin{description}
+\index{SHVEU\_\-NO\_\-ROT@{SHVEU\_\-NO\_\-ROT}!veu\_\-colorspace.h@{veu\_\-colorspace.h}}\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!SHVEU\_\-NO\_\-ROT@{SHVEU\_\-NO\_\-ROT}}\item[{\em 
+SHVEU\_\-NO\_\-ROT\label{veu__colorspace_8h_abb87bfd1257c5e4f6d46f3fdc0e64d75a86ae5d6620cd79b5a7069bac7a37d4bc}
+}]No rotation. \index{SHVEU\_\-ROT\_\-90@{SHVEU\_\-ROT\_\-90}!veu\_\-colorspace.h@{veu\_\-colorspace.h}}\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!SHVEU\_\-ROT\_\-90@{SHVEU\_\-ROT\_\-90}}\item[{\em 
+SHVEU\_\-ROT\_\-90\label{veu__colorspace_8h_abb87bfd1257c5e4f6d46f3fdc0e64d75a03d1d6204b32893a2e4b6e1ae1cb650a}
+}]Rotate 90 degrees clockwise. \end{description}
+\end{Desc}
+
+
+
+\subsection{Function Documentation}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-resize@{shveu\_\-resize}}
+\index{shveu\_\-resize@{shveu\_\-resize}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-resize}]{\setlength{\rightskip}{0pt plus 5cm}int shveu\_\-resize (SHVEU $\ast$ {\em veu}, \/  const struct {\bf ren\_\-vid\_\-surface} $\ast$ {\em src\_\-surface}, \/  const struct {\bf ren\_\-vid\_\-surface} $\ast$ {\em dst\_\-surface})}\label{veu__colorspace_8h_a3b5381632c20c6a346ccc4e0dfcf6eb7}
+
+
+Perform scale between YCbCr \& RGB surfaces. 
+
+This operates on entire surfaces and blocks until completion.
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \item[{\em src\_\-surface}]Input surface \item[{\em dst\_\-surface}]Output surface \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \item[{\em -\/1}]Error: Unsupported parameters \end{DoxyRetVals}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-rotate@{shveu\_\-rotate}}
+\index{shveu\_\-rotate@{shveu\_\-rotate}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-rotate}]{\setlength{\rightskip}{0pt plus 5cm}int shveu\_\-rotate (SHVEU $\ast$ {\em veu}, \/  const struct {\bf ren\_\-vid\_\-surface} $\ast$ {\em src\_\-surface}, \/  const struct {\bf ren\_\-vid\_\-surface} $\ast$ {\em dst\_\-surface}, \/  {\bf shveu\_\-rotation\_\-t} {\em rotate})}\label{veu__colorspace_8h_a7cd4f9f903ae12ac3b15525611c2aec6}
+
+
+Perform rotate between YCbCr \& RGB surfaces This operates on entire surfaces and blocks until completion. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \item[{\em src\_\-surface}]Input surface \item[{\em dst\_\-surface}]Output surface \item[{\em rotate}]Rotation to apply \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \item[{\em -\/1}]Error: Unsupported parameters \end{DoxyRetVals}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-set\_\-color\_\-conversion@{shveu\_\-set\_\-color\_\-conversion}}
+\index{shveu\_\-set\_\-color\_\-conversion@{shveu\_\-set\_\-color\_\-conversion}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-set\_\-color\_\-conversion}]{\setlength{\rightskip}{0pt plus 5cm}void shveu\_\-set\_\-color\_\-conversion (SHVEU $\ast$ {\em veu}, \/  int {\em bt709}, \/  int {\em full\_\-range})}\label{veu__colorspace_8h_ac74be0ae955a37145f16e872f36932d4}
+
+
+Set the colour space conversion attributes. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \item[{\em bt709}]If true use ITU-\/R BT709, otherwise use ITU-\/R BT.601 (default) \item[{\em full\_\-range}]If true use YCbCr[0,255], otherwise use Y[16,235], CbCr[16,240] (default) \end{DoxyParams}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-set\_\-dst@{shveu\_\-set\_\-dst}}
+\index{shveu\_\-set\_\-dst@{shveu\_\-set\_\-dst}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-set\_\-dst}]{\setlength{\rightskip}{0pt plus 5cm}void shveu\_\-set\_\-dst (SHVEU $\ast$ {\em veu}, \/  void $\ast$ {\em dst\_\-py}, \/  void $\ast$ {\em dst\_\-pc})}\label{veu__colorspace_8h_a05f37b480ffc86659c972655a8c5b7d1}
+
+
+Set the destination addresses. 
+
+This is typically used for bundle mode. 
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \item[{\em dst\_\-py}]Address of Y or RGB plane of destination image \item[{\em dst\_\-pc}]Address of CbCr plane of destination image (ignored for RGB) \end{DoxyParams}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-set\_\-dst\_\-phys@{shveu\_\-set\_\-dst\_\-phys}}
+\index{shveu\_\-set\_\-dst\_\-phys@{shveu\_\-set\_\-dst\_\-phys}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-set\_\-dst\_\-phys}]{\setlength{\rightskip}{0pt plus 5cm}void shveu\_\-set\_\-dst\_\-phys (SHVEU $\ast$ {\em veu}, \/  unsigned int {\em dst\_\-py}, \/  unsigned int {\em dst\_\-pc})}\label{veu__colorspace_8h_aaaae7a664ff33eaed19ab7c94f3bb583}
+
+
+Set the destination addresses. 
+
+This is typically used for bundle mode. 
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \item[{\em dst\_\-py}]Address of Y or RGB plane of destination image \item[{\em dst\_\-pc}]Address of CbCr plane of destination image (ignored for RGB) \end{DoxyParams}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-set\_\-src@{shveu\_\-set\_\-src}}
+\index{shveu\_\-set\_\-src@{shveu\_\-set\_\-src}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-set\_\-src}]{\setlength{\rightskip}{0pt plus 5cm}void shveu\_\-set\_\-src (SHVEU $\ast$ {\em veu}, \/  void $\ast$ {\em src\_\-py}, \/  void $\ast$ {\em src\_\-pc})}\label{veu__colorspace_8h_a49f0b29153ad3debce864fa4105fc3a2}
+
+
+Set the source addresses. 
+
+This is typically used for bundle mode. 
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \item[{\em src\_\-py}]Address of Y or RGB plane of source image \item[{\em src\_\-pc}]Address of CbCr plane of source image (ignored for RGB) \end{DoxyParams}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-set\_\-src\_\-phys@{shveu\_\-set\_\-src\_\-phys}}
+\index{shveu\_\-set\_\-src\_\-phys@{shveu\_\-set\_\-src\_\-phys}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-set\_\-src\_\-phys}]{\setlength{\rightskip}{0pt plus 5cm}void shveu\_\-set\_\-src\_\-phys (SHVEU $\ast$ {\em veu}, \/  unsigned int {\em src\_\-py}, \/  unsigned int {\em src\_\-pc})}\label{veu__colorspace_8h_a9f0ea63b637240d8535d1be05a6a0822}
+
+
+Set the source addresses. 
+
+This is typically used for bundle mode. 
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \item[{\em src\_\-py}]Address of Y or RGB plane of source image \item[{\em src\_\-pc}]Address of CbCr plane of source image (ignored for RGB) \end{DoxyParams}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-setup@{shveu\_\-setup}}
+\index{shveu\_\-setup@{shveu\_\-setup}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-setup}]{\setlength{\rightskip}{0pt plus 5cm}int shveu\_\-setup (SHVEU $\ast$ {\em veu}, \/  const struct {\bf ren\_\-vid\_\-surface} $\ast$ {\em src\_\-surface}, \/  const struct {\bf ren\_\-vid\_\-surface} $\ast$ {\em dst\_\-surface}, \/  {\bf shveu\_\-rotation\_\-t} {\em rotate})}\label{veu__colorspace_8h_a7ac46541008aebed8ecc34d02f96e9f2}
+
+
+Setup a (scale$|$rotate) \& crop between YCbCr \& RGB surfaces The scaling factor is calculated from the surface sizes. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \item[{\em src\_\-surface}]Input surface \item[{\em dst\_\-surface}]Output surface \item[{\em rotate}]Rotation to apply \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \item[{\em -\/1}]Error: Attempt to perform simultaneous scaling and rotation \end{DoxyRetVals}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-start@{shveu\_\-start}}
+\index{shveu\_\-start@{shveu\_\-start}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-start}]{\setlength{\rightskip}{0pt plus 5cm}void shveu\_\-start (SHVEU $\ast$ {\em veu})}\label{veu__colorspace_8h_a1bf8f3da86f3884735266cbadaadafe1}
+
+
+Start a VEU operation (non-\/bundle mode). 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \end{DoxyParams}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-start\_\-bundle@{shveu\_\-start\_\-bundle}}
+\index{shveu\_\-start\_\-bundle@{shveu\_\-start\_\-bundle}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-start\_\-bundle}]{\setlength{\rightskip}{0pt plus 5cm}void shveu\_\-start\_\-bundle (SHVEU $\ast$ {\em veu}, \/  int {\em bundle\_\-lines})}\label{veu__colorspace_8h_ab8a81e4c1771beedeb4276bf05d61df2}
+
+
+Start a VEU operation (bundle mode). 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \item[{\em bundle\_\-lines}]Number of lines to process \end{DoxyParams}
+\index{veu\_\-colorspace.h@{veu\_\-colorspace.h}!shveu\_\-wait@{shveu\_\-wait}}
+\index{shveu\_\-wait@{shveu\_\-wait}!veu_colorspace.h@{veu\_\-colorspace.h}}
+\subsubsection[{shveu\_\-wait}]{\setlength{\rightskip}{0pt plus 5cm}int shveu\_\-wait (SHVEU $\ast$ {\em veu})}\label{veu__colorspace_8h_a7d6f7be4ff85d5dab1d8d0f7a080fb39}
+
+
+Wait for a VEU operation to complete. 
+
+The operation is started by a call to shveu\_\-start. 
+\begin{DoxyParams}{Parameters}
+\item[{\em veu}]VEU handle \end{DoxyParams}

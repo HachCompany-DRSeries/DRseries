@@ -1,0 +1,13 @@
+../build/dummy.o: ../build/dummy.c ../build/libc-modules.h \
+ ../include/libc-symbols.h ../build/config.h \
+ ../sysdeps/wordsize-32/symbol-hacks.h ../sysdeps/generic/symbol-hacks.h
+
+../build/libc-modules.h:
+
+../include/libc-symbols.h:
+
+../build/config.h:
+
+../sysdeps/wordsize-32/symbol-hacks.h:
+
+../sysdeps/generic/symbol-hacks.h:

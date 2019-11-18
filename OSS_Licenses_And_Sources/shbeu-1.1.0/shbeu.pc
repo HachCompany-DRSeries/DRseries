@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: shbeu
+Description: A library for controlling SH-Mobile BEU
+Requires:
+Version: 1.1.0
+Libs: -L${libdir} -lshbeu
+Libs.private:
+Cflags: -I${includedir}

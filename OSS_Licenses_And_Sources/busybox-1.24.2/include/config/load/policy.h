@@ -1,0 +1,1 @@
+#define CONFIG_LOAD_POLICY 1

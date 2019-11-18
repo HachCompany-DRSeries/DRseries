@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: uiomux
+Description: A library for sharing access to UIO devices
+Requires:
+Version: 1.6.2
+Libs: -L${libdir} -luiomux
+Libs.private: -lpthread
+Cflags: -I${includedir}

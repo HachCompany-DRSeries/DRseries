@@ -1,0 +1,150 @@
+\section{shbeu.h File Reference}
+\label{shbeu_8h}\index{shbeu.h@{shbeu.h}}
+
+
+The libshbeu C API.  
+
+
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bf ren\_\-vid\_\-rect}
+\begin{DoxyCompactList}\small\item\em Bounding rectange. \item\end{DoxyCompactList}\item 
+struct {\bf ren\_\-vid\_\-surface}
+\begin{DoxyCompactList}\small\item\em Surface. \item\end{DoxyCompactList}\item 
+struct {\bf format\_\-info}
+\item 
+struct {\bf shbeu\_\-surface}
+\begin{DoxyCompactList}\small\item\em Surface specification. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct SHBEU {\bfseries SHBEU}\label{shbeu_8h_a68a5adf8b25a239b16c3e21128cde170}
+
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bf ren\_\-vid\_\-format\_\-t} \{ \par
+{\bfseries REN\_\-UNKNOWN}, 
+{\bf REN\_\-NV12}, 
+{\bf REN\_\-NV16}, 
+{\bf REN\_\-RGB565}, 
+\par
+{\bf REN\_\-RGB24}, 
+{\bf REN\_\-BGR24}, 
+{\bf REN\_\-RGB32}, 
+{\bf REN\_\-ARGB32}
+ \}
+\begin{DoxyCompactList}\small\item\em Surface formats. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+SHBEU $\ast$ {\bf shbeu\_\-open} (void)
+\begin{DoxyCompactList}\small\item\em Open a BEU device. \item\end{DoxyCompactList}\item 
+SHBEU $\ast$ {\bf shbeu\_\-open\_\-named} (const char $\ast$name)
+\begin{DoxyCompactList}\small\item\em Open a BEU device with the specified name. \item\end{DoxyCompactList}\item 
+void {\bf shbeu\_\-close} (SHBEU $\ast$beu)
+\begin{DoxyCompactList}\small\item\em Close a BEU device. \item\end{DoxyCompactList}\item 
+int {\bf shbeu\_\-start\_\-blend} (SHBEU $\ast$beu, const struct {\bf shbeu\_\-surface} $\ast$src1, const struct {\bf shbeu\_\-surface} $\ast$src2, const struct {\bf shbeu\_\-surface} $\ast$src3, const struct {\bf shbeu\_\-surface} $\ast$dest)
+\begin{DoxyCompactList}\small\item\em Start a surface blend. \item\end{DoxyCompactList}\item 
+void {\bf shbeu\_\-wait} (SHBEU $\ast$beu)
+\begin{DoxyCompactList}\small\item\em Wait for a BEU operation to complete. \item\end{DoxyCompactList}\item 
+int {\bf shbeu\_\-blend} (SHBEU $\ast$beu, const struct {\bf shbeu\_\-surface} $\ast$src1, const struct {\bf shbeu\_\-surface} $\ast$src2, const struct {\bf shbeu\_\-surface} $\ast$src3, const struct {\bf shbeu\_\-surface} $\ast$dest)
+\begin{DoxyCompactList}\small\item\em Perform a surface blend. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The libshbeu C API. 
+
+\subsection{Enumeration Type Documentation}
+\index{shbeu.h@{shbeu.h}!ren\_\-vid\_\-format\_\-t@{ren\_\-vid\_\-format\_\-t}}
+\index{ren\_\-vid\_\-format\_\-t@{ren\_\-vid\_\-format\_\-t}!shbeu.h@{shbeu.h}}
+\subsubsection[{ren\_\-vid\_\-format\_\-t}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf ren\_\-vid\_\-format\_\-t}}\label{shbeu_8h_a7c6f3f06390ea9d0f845a37c02ca4954}
+
+
+Surface formats. 
+
+\begin{Desc}
+\item[Enumerator: ]\par
+\begin{description}
+\index{REN\_\-NV12@{REN\_\-NV12}!shbeu.h@{shbeu.h}}\index{shbeu.h@{shbeu.h}!REN\_\-NV12@{REN\_\-NV12}}\item[{\em 
+REN\_\-NV12\label{shbeu_8h_a7c6f3f06390ea9d0f845a37c02ca4954ab77e03729897cbfcebdd291304f73175}
+}]YCbCr420: Y plane, packed CbCr plane, optional alpha plane. \index{REN\_\-NV16@{REN\_\-NV16}!shbeu.h@{shbeu.h}}\index{shbeu.h@{shbeu.h}!REN\_\-NV16@{REN\_\-NV16}}\item[{\em 
+REN\_\-NV16\label{shbeu_8h_a7c6f3f06390ea9d0f845a37c02ca4954a54ab0601ca051cc10ea1c067f021963e}
+}]YCbCr422: Y plane, packed CbCr plane, optional alpha plane. \index{REN\_\-RGB565@{REN\_\-RGB565}!shbeu.h@{shbeu.h}}\index{shbeu.h@{shbeu.h}!REN\_\-RGB565@{REN\_\-RGB565}}\item[{\em 
+REN\_\-RGB565\label{shbeu_8h_a7c6f3f06390ea9d0f845a37c02ca4954a384397bc7486130fb66aee4798dabd9a}
+}]Packed RGB565. \index{REN\_\-RGB24@{REN\_\-RGB24}!shbeu.h@{shbeu.h}}\index{shbeu.h@{shbeu.h}!REN\_\-RGB24@{REN\_\-RGB24}}\item[{\em 
+REN\_\-RGB24\label{shbeu_8h_a7c6f3f06390ea9d0f845a37c02ca4954a0374c5a25d96f9f362303b2f081874f4}
+}]Packed RGB888. \index{REN\_\-BGR24@{REN\_\-BGR24}!shbeu.h@{shbeu.h}}\index{shbeu.h@{shbeu.h}!REN\_\-BGR24@{REN\_\-BGR24}}\item[{\em 
+REN\_\-BGR24\label{shbeu_8h_a7c6f3f06390ea9d0f845a37c02ca4954adba4b520906167f79ad898b095b689f7}
+}]Packed BGR888. \index{REN\_\-RGB32@{REN\_\-RGB32}!shbeu.h@{shbeu.h}}\index{shbeu.h@{shbeu.h}!REN\_\-RGB32@{REN\_\-RGB32}}\item[{\em 
+REN\_\-RGB32\label{shbeu_8h_a7c6f3f06390ea9d0f845a37c02ca4954a6d8a0f39ba316142aa0efca71ceae2b7}
+}]Packed XRGB8888 (most significant byte ignored). \index{REN\_\-ARGB32@{REN\_\-ARGB32}!shbeu.h@{shbeu.h}}\index{shbeu.h@{shbeu.h}!REN\_\-ARGB32@{REN\_\-ARGB32}}\item[{\em 
+REN\_\-ARGB32\label{shbeu_8h_a7c6f3f06390ea9d0f845a37c02ca4954a528279835eb98b04e64c8e681ad69ef2}
+}]Packed ARGB8888. \end{description}
+\end{Desc}
+
+
+
+\subsection{Function Documentation}
+\index{shbeu.h@{shbeu.h}!shbeu\_\-blend@{shbeu\_\-blend}}
+\index{shbeu\_\-blend@{shbeu\_\-blend}!shbeu.h@{shbeu.h}}
+\subsubsection[{shbeu\_\-blend}]{\setlength{\rightskip}{0pt plus 5cm}int shbeu\_\-blend (SHBEU $\ast$ {\em beu}, \/  const struct {\bf shbeu\_\-surface} $\ast$ {\em src1}, \/  const struct {\bf shbeu\_\-surface} $\ast$ {\em src2}, \/  const struct {\bf shbeu\_\-surface} $\ast$ {\em src3}, \/  const struct {\bf shbeu\_\-surface} $\ast$ {\em dest})}\label{shbeu_8h_a88c5462e8fa15ae971aedc4b0d3cf8a9}
+
+
+Perform a surface blend. 
+
+See shbeu\_\-start\_\-blend for parameter definitions. \index{shbeu.h@{shbeu.h}!shbeu\_\-close@{shbeu\_\-close}}
+\index{shbeu\_\-close@{shbeu\_\-close}!shbeu.h@{shbeu.h}}
+\subsubsection[{shbeu\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}void shbeu\_\-close (SHBEU $\ast$ {\em beu})}\label{shbeu_8h_a5c585dfa08b71cfb9e86e85e55174ca2}
+
+
+Close a BEU device. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em beu}]BEU handle \end{DoxyParams}
+\index{shbeu.h@{shbeu.h}!shbeu\_\-open@{shbeu\_\-open}}
+\index{shbeu\_\-open@{shbeu\_\-open}!shbeu.h@{shbeu.h}}
+\subsubsection[{shbeu\_\-open}]{\setlength{\rightskip}{0pt plus 5cm}SHBEU$\ast$ shbeu\_\-open (void)}\label{shbeu_8h_a0d3c9f7b67d242079cf0276417f39f0a}
+
+
+Open a BEU device. 
+
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Failure, otherwise BEU handle \end{DoxyRetVals}
+\index{shbeu.h@{shbeu.h}!shbeu\_\-open\_\-named@{shbeu\_\-open\_\-named}}
+\index{shbeu\_\-open\_\-named@{shbeu\_\-open\_\-named}!shbeu.h@{shbeu.h}}
+\subsubsection[{shbeu\_\-open\_\-named}]{\setlength{\rightskip}{0pt plus 5cm}SHBEU$\ast$ shbeu\_\-open\_\-named (const char $\ast$ {\em name})}\label{shbeu_8h_a1e7ca2bb54f90ba867519a78c6829f0d}
+
+
+Open a BEU device with the specified name. 
+
+If more than one BEU is available on the platform, each BEU has a name such as 'BEU0', 'BEU1', and so on. This API will allow to open a specific BEU by shbeu\_\-open\_\-named(\char`\"{}BEU0\char`\"{}) for instance. 
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Failure, otherwise BEU handle. \end{DoxyRetVals}
+\index{shbeu.h@{shbeu.h}!shbeu\_\-start\_\-blend@{shbeu\_\-start\_\-blend}}
+\index{shbeu\_\-start\_\-blend@{shbeu\_\-start\_\-blend}!shbeu.h@{shbeu.h}}
+\subsubsection[{shbeu\_\-start\_\-blend}]{\setlength{\rightskip}{0pt plus 5cm}int shbeu\_\-start\_\-blend (SHBEU $\ast$ {\em beu}, \/  const struct {\bf shbeu\_\-surface} $\ast$ {\em src1}, \/  const struct {\bf shbeu\_\-surface} $\ast$ {\em src2}, \/  const struct {\bf shbeu\_\-surface} $\ast$ {\em src3}, \/  const struct {\bf shbeu\_\-surface} $\ast$ {\em dest})}\label{shbeu_8h_af9b538f535412e83ade2b30aabe4fe3d}
+
+
+Start a surface blend. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em beu}]BEU handle \item[{\em src1}]Parent surface. The output will be this size. \item[{\em src2}]Overlay surface. Can be NULL, if no overlay required. \item[{\em src3}]Overlay surface. Can be NULL, if no overlay required. \item[{\em dest}]Output surface. \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \item[{\em -\/1}]Error \end{DoxyRetVals}
+\index{shbeu.h@{shbeu.h}!shbeu\_\-wait@{shbeu\_\-wait}}
+\index{shbeu\_\-wait@{shbeu\_\-wait}!shbeu.h@{shbeu.h}}
+\subsubsection[{shbeu\_\-wait}]{\setlength{\rightskip}{0pt plus 5cm}void shbeu\_\-wait (SHBEU $\ast$ {\em beu})}\label{shbeu_8h_aab59389e146d18776f96701a2b3e470d}
+
+
+Wait for a BEU operation to complete. 
+
+The operation is started by a call to shbeu\_\-start\_\-blend. 
+\begin{DoxyParams}{Parameters}
+\item[{\em beu}]BEU handle \end{DoxyParams}

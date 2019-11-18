@@ -1,0 +1,28 @@
+\section{Building against libshbeu}
+\label{group__building}\index{Building against libshbeu@{Building against libshbeu}}
+\subsection{Using GNU autoconf}\label{group__building_autoconf}
+If you are using GNU autoconf, you do not need to call pkg-\/config directly. Use the following macro to determine if libshbeu is available:
+
+
+\begin{DoxyPre}
+ PKG\_CHECK\_MODULES(SHBEU, shbeu >= 0.0.1,
+                   HAVE\_SHBEU="yes", HAVE\_SHBEU="no")
+ if test "x$HAVE\_SHBEU" = "xyes" ; then
+   AC\_SUBST(SHBEU\_CFLAGS)
+   AC\_SUBST(SHBEU\_LIBS)
+ fi
+ \end{DoxyPre}
+
+
+If libshbeu is found, HAVE\_\-SHBEU will be set to \char`\"{}yes\char`\"{}, and the autoconf variables SHBEU\_\-CFLAGS and SHBEU\_\-LIBS will be set appropriately.\subsection{Determining compiler options with pkg-\/config}\label{group__building_pkg-config}
+If you are not using GNU autoconf in your project, you can use the pkg-\/config tool directly to determine the correct compiler options.
+
+
+\begin{DoxyPre}
+ SHBEU\_CFLAGS=`pkg-config --cflags shbeu`\end{DoxyPre}
+
+
+
+\begin{DoxyPre} SHBEU\_LIBS=`pkg-config --libs shbeu`
+ \end{DoxyPre}
+ 

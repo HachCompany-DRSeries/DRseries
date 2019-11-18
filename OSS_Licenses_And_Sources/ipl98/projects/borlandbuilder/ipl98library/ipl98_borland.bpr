@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="..\..\..\lib\ipl98_borland.lib"/>
+    <OBJFILES value="..\..\..\source\ipl98\ipl98_cplusplus.obj"/>
+    <RESFILES value=""/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <PACKAGES value=""/>
+    <PATHCPP value=".;..\..\..\source\ipl98"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <LINKER value="TLib"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT"/>
+    <MAINSOURCE value="ipl98_borland.bpf"/>
+    <INCLUDEPATH value="..\..\..\source\ipl98;..\..\..\source;$(BCB)\include;$(BCB)\include\vcl;D:\projekte\ipl98\source"/>
+    <LIBPATH value="..\..\..\source\ipl98;..\..\..\source;D:\projekte\ipl98\source\ipl98;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <LISTFILE value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\..\..\source\ipl98 -I..\..\..\source -I$(BCB)\include 
+      -I$(BCB)\include\vcl -ID:\projekte\ipl98\source -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="/P64"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="$(OBJFILES)"/>
+    <ALLLIB value=""/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="ipl98_borland.bpf" FORMNAME="" UNITNAME="ipl98_borland" CONTAINERID="BPF" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\source\ipl98\ipl98_cplusplus.cpp" FORMNAME="" UNITNAME="ipl98_cplusplus" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3079
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=5
+Item0=..\..\..\source;$(BCB)\include;$(BCB)\include\vcl;D:\projekte\ipl98\source
+Item1=..\..\..\source\ipl98;$(BCB)\include;$(BCB)\include\vcl;D:\projekte\ipl98\source
+Item2=D:\projekte\ipl98\source\ipl98;$(BCB)\include;$(BCB)\include\vcl;D:\projekte\ipl98\source
+Item3=$(BCB)\include;$(BCB)\include\vcl;D:\projekte\ipl98\source
+Item4=D:\projekte\ipl98\source\ipl98;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=3
+Item0=..\..\..\source;D:\projekte\ipl98\source\ipl98;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\..\..\source\ipl98;D:\projekte\ipl98\source\ipl98;$(BCB)\lib\obj;$(BCB)\lib
+Item2=D:\projekte\ipl98\source\ipl98;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlFinalOutputDir]
+Count=3
+Item0=..\..\..\lib\
+Item1=D:\projekte\ipl98\lib\
+Item2=D:\projekte\ipl98\lib
+
+[HistoryLists\hlTlibPageSize]
+Count=2
+Item0=0x0040
+Item1=0x0010
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

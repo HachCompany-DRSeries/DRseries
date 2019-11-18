@@ -1,0 +1,2 @@
+using gcc : 4.9.3 : /home/mschreiber/Project/buildroot-2016.05/output/host/usr/bin/sh4a-buildroot-linux-gnu-g++ : <cxxflags>"-D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os " <linkflags>"" ;
+

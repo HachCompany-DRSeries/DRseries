@@ -1,0 +1,164 @@
+libdmtx_la-dmtx.lo: dmtx.c \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/stdlib.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/features.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/predefs.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/cdefs.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/wordsize.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/gnu/stubs.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include/stddef.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/stdio.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/types.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/typesizes.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/libio.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/_G_config.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/wchar.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include/stdarg.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/stdio_lim.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/sys_errlist.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/types.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/time.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/ctype.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/endian.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/endian.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include-fixed/limits.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include-fixed/syslimits.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/limits.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include/float.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/string.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/errno.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/errno.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/linux/errno.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm/errno.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm-generic/errno.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm-generic/errno-base.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/assert.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/math.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/huge_val.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/mathdef.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/mathcalls.h \
+  dmtx.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/time.h \
+  dmtxstatic.h config.h dmtxtime.c \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/time.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/select.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/select.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/sigset.h \
+  dmtxscangrid.c dmtxmessage.c dmtxregion.c dmtxdecode.c dmtxencode.c \
+  dmtxplacemod.c dmtxfec.c dmtxreedsol.c dmtxsymbol.c dmtxvector2.c \
+  dmtxmatrix3.c dmtximage.c
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/stdlib.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/features.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/predefs.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/cdefs.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/wordsize.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/gnu/stubs.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include/stddef.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/stdio.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/types.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/typesizes.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/libio.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/_G_config.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/wchar.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include/stdarg.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/stdio_lim.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/sys_errlist.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/types.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/time.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/ctype.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/endian.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/endian.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include-fixed/limits.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include-fixed/syslimits.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/limits.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include/float.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/string.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/errno.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/errno.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/linux/errno.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm/errno.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm-generic/errno.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm-generic/errno-base.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/assert.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/math.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/huge_val.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/mathdef.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/mathcalls.h:
+
+dmtx.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/time.h:
+
+dmtxstatic.h:
+
+config.h:
+
+dmtxtime.c:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/time.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/select.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/select.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/sigset.h:
+
+dmtxscangrid.c:
+
+dmtxmessage.c:
+
+dmtxregion.c:
+
+dmtxdecode.c:
+
+dmtxencode.c:
+
+dmtxplacemod.c:
+
+dmtxfec.c:
+
+dmtxreedsol.c:
+
+dmtxsymbol.c:
+
+dmtxvector2.c:
+
+dmtxmatrix3.c:
+
+dmtximage.c:

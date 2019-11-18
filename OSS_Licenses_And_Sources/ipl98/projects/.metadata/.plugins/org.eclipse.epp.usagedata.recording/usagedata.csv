@@ -1,0 +1,7 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1275653225352
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1275653226697
+closed,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1275653230746
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200906161748,"org.eclipse.cdt.debug.mi.ui",1275653231628
+stopped,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.200906161748,"org.eclipse.cdt.debug.mi.core",1275653231677
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.0.0.200906161748,"org.eclipse.cdt.dsf.gdb.ui",1275653231696

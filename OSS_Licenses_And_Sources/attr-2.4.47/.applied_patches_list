@@ -1,0 +1,4 @@
+0001-support-static-installation.patch
+0002-avoid-glibc-specific-decls-defines.patch
+0003-portability-fixes.patch
+buildroot-libtool-v2.4.patch

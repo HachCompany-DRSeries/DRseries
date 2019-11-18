@@ -1,0 +1,28 @@
+\section{Building against libshveu}
+\label{group__building}\index{Building against libshveu@{Building against libshveu}}
+\subsection{Using GNU autoconf}\label{group__building_autoconf}
+If you are using GNU autoconf, you do not need to call pkg-\/config directly. Use the following macro to determine if libshveu is available:
+
+
+\begin{DoxyPre}
+ PKG\_CHECK\_MODULES(SHVEU, shveu >= 0.5.0,
+                   HAVE\_SHVEU="yes", HAVE\_SHVEU="no")
+ if test "x$HAVE\_SHVEU" = "xyes" ; then
+   AC\_SUBST(SHVEU\_CFLAGS)
+   AC\_SUBST(SHVEU\_LIBS)
+ fi
+ \end{DoxyPre}
+
+
+If libshveu is found, HAVE\_\-SHVEU will be set to \char`\"{}yes\char`\"{}, and the autoconf variables SHVEU\_\-CFLAGS and SHVEU\_\-LIBS will be set appropriately.\subsection{Determining compiler options with pkg-\/config}\label{group__building_pkg-config}
+If you are not using GNU autoconf in your project, you can use the pkg-\/config tool directly to determine the correct compiler options.
+
+
+\begin{DoxyPre}
+ SHVEU\_CFLAGS=`pkg-config --cflags shveu`\end{DoxyPre}
+
+
+
+\begin{DoxyPre} SHVEU\_LIBS=`pkg-config --libs shveu`
+ \end{DoxyPre}
+ 

@@ -1,0 +1,2 @@
+0001-configure.ac-check-if-libatomic-is-needed.patch
+0002-thread-Name-include-stdio.h-for-prctl-as-well.patch

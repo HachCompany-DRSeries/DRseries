@@ -1,0 +1,6 @@
+Änderungen für MuPDF 1.3
+************************
+- Makefile und Makerules angepasst
+- Build-Script "makeMuPDF.sh" erstellt
+- Bugfix in Modul mupdf-1.3/include/mupdf/pdf/document.h Zeile 173: "struct pdf_obj_read_state_s" auf Typ umgeändert, weil sonst sonst "multiple definition error" auftrat
+ 

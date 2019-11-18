@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Project2.exe"/>
+    <OBJFILES value="Project2.obj"/>
+    <RESFILES value=""/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value="..\..\..\lib\ipl98_borland_d.lib"/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value=""/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi qrpt.bpi dbrtl.bpi vcldb.bpi 
+      bdertl.bpi ibsmp.bpi vcldbx.bpi teeui.bpi teedb.bpi tee.bpi nmfast.bpi 
+      dclocx.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_NO_VCL;_VIS_NOLIB"/>
+    <MAINSOURCE value="Project2.cpp"/>
+    <INCLUDEPATH value="..\lib_ipl98;D:\home\edr\resources\source\calibration;$(BCB)\include;..\..\..\source"/>
+    <LIBPATH value="..\lib_ipl98;$(BCB)\lib;..\..\..\lib"/>
+    <WARNINGS value=""/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\lib_ipl98 -ID:\home\edr\resources\source\calibration -I$(BCB)\include 
+      -I..\..\..\source -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -Tkh30000 -X- -r- -a8 -b -k -y -v -vi- -c -tWM -tWC"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHN -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -ap -Tpe -x -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0x32.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) import32.lib cw32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project2.cpp" FORMNAME="" UNITNAME="Project2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\lib\ipl98_borland_d.lib" FORMNAME="" UNITNAME="ipl98_borland_d.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1030
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=Executable (Console)
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=15
+Item0=..\lib_ipl98;D:\home\edr\resources\source\calibration\;$(BCB)\include;..\..\..\source
+Item1=..\lib_ipl98;D:\home\edr\resources\source\calibration\;$(BCB)\include;D:\ipl98\source
+Item2=..\lib_ipl98;D:\home\edr\resources\source\ipl98\;D:\home\edr\resources\source\calibration\;$(BCB)\include;D:\home\edr\resources\source\
+Item3=..\lib_ipl98;..\..\..\home\edr\resources\source\ipl98;..\..\..\home\edr\resources\source\calibration;$(BCB)\include;..\..\..\home\edr\resources\source
+Item4=..\..\..\home\edr\resources\source\ipl98;..\..\..\home\edr\resources\source\calibration;$(BCB)\include;..\..\..\home\edr\resources\source
+Item5=..\..\..\home\edr\resources\source\ipl98;..\..\..\home\edr\resources\source\calibration;$(BCB)\include;D:\home\edr\resources\source
+Item6=..\..\..\home\edr\resources\source\ipl98;..\..\..\home\edr\resources\source\calibration;$(BCB)\include
+Item7=$(BCB)\include;D:\projects\borland\console\hej
+Item8=$(BCB)\include
+Item9=ipl98;$(BCB)\include
+Item10=$(BCB)\include;D:\projects\borland\console
+Item11=..\..\..\home\edr\resources\source\calibration;$(BCB)\include
+Item12=..\..\..\home\edr\resources\source\calibration;..\..\..\home\edr\resources\source\ipl98;$(BCB)\include;
+Item13=..\..\..\home\edr\resources\source\ipl98;$(BCB)\include;..\..\..\home\edr\resources\source
+Item14=$(BCB)\include;D:\home\edr\resources\source
+
+[HistoryLists\hlLibraryPath]
+Count=9
+Item0=..\lib_ipl98;$(BCB)\lib;..\..\..\lib
+Item1=..\lib_ipl98;$(BCB)\lib;D:\ipl98\lib
+Item2=..\lib_ipl98;D:\home\edr\resources\source\ipl98\;D:\home\edr\resources\source\calibration\;$(BCB)\lib
+Item3=..\lib_ipl98;..\..\..\home\edr\resources\source\ipl98;..\..\..\home\edr\resources\source\calibration;$(BCB)\lib
+Item4=..\..\..\home\edr\resources\source\ipl98;..\..\..\home\edr\resources\source\calibration;$(BCB)\lib
+Item5=$(BCB)\lib
+Item6=ipl98;$(BCB)\lib
+Item7=..\..\..\home\edr\resources\source\calibration;..\..\..\home\edr\resources\source\ipl98;$(BCB)\lib
+Item8=..\..\..\home\edr\resources\source\ipl98;$(BCB)\lib
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=2
+Item0=..\..\..\projects\borlandbuilder\lib_ipl98
+Item1=D:\ipl98\projects\borlandbuilder\lib_ipl98
+
+[Debugging]
+DebugSourceDirs=
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

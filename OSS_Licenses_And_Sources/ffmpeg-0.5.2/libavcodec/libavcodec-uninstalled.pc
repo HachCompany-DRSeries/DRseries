@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/home/mschreiber/Project/buildroot-2016.05/output/build/ffmpeg-0.5.2
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 52.20.1
+Requires: libavutil = 49.15.0
+Conflicts:
+Libs: ${libdir}/libavcodec.a   -lz -lbz2 -pthread -lm -lasound -ldl -lasound -lasound
+Cflags: -I${includedir}

@@ -1,0 +1,46 @@
+\section{system.h File Reference}
+\label{system_8h}\index{system.h@{system.h}}
+
+
+UIOMux system API.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int {\bf uiomux\_\-system\_\-reset} (UIOMux $\ast$uiomux)
+\begin{DoxyCompactList}\small\item\em Reset the UIOMux system, initializing the associated shared memory segment and all shared mutexes. \item\end{DoxyCompactList}\item 
+int {\bf uiomux\_\-system\_\-destroy} (UIOMux $\ast$uiomux)
+\begin{DoxyCompactList}\small\item\em Destroy the UIOMux system, removing the associated shared memory segment and destroying all shared mutexes. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+UIOMux system API. These functions are used by the commandline tool uiomux, and should not be called by normal applications. 
+
+\subsection{Function Documentation}
+\index{system.h@{system.h}!uiomux\_\-system\_\-destroy@{uiomux\_\-system\_\-destroy}}
+\index{uiomux\_\-system\_\-destroy@{uiomux\_\-system\_\-destroy}!system.h@{system.h}}
+\subsubsection[{uiomux\_\-system\_\-destroy}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-system\_\-destroy (UIOMux $\ast$ {\em uiomux})}\label{system_8h_a5973bb40a90b5f3a813157ac0ac5a341}
+
+
+Destroy the UIOMux system, removing the associated shared memory segment and destroying all shared mutexes. 
+
+This will make UIOMux unusable by other applications which have previously opened it, so must not be used by normal applications. It is usually called by the commandline tool 'uiomux destroy'. 
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \end{DoxyRetVals}
+\index{system.h@{system.h}!uiomux\_\-system\_\-reset@{uiomux\_\-system\_\-reset}}
+\index{uiomux\_\-system\_\-reset@{uiomux\_\-system\_\-reset}!system.h@{system.h}}
+\subsubsection[{uiomux\_\-system\_\-reset}]{\setlength{\rightskip}{0pt plus 5cm}int uiomux\_\-system\_\-reset (UIOMux $\ast$ {\em uiomux})}\label{system_8h_a633c26ebc3e51e28bc0d1065960dbabc}
+
+
+Reset the UIOMux system, initializing the associated shared memory segment and all shared mutexes. 
+
+Note that this is done transparently by the first process to call \doxyref{uiomux\_\-open()}{p.}{uiomux_8h_a71e45d7bbd218556dd55d79e153fee1c}, so this function does not need to be used by normal applications. It is usually called by the commandline tool 'uiomux reset'. 
+\begin{DoxyParams}{Parameters}
+\item[{\em uiomux}]A UIOMux handle \end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+\item[{\em 0}]Success \end{DoxyRetVals}

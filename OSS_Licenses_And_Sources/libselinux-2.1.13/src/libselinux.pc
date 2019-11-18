@@ -1,0 +1,12 @@
+prefix=/home/mschreiber/Project/buildroot-2016.05/output/host/usr/sh4a-buildroot-linux-gnu/sysroot/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=/home/mschreiber/Project/buildroot-2016.05/output/host/usr/sh4a-buildroot-linux-gnu/sysroot/usr/include
+
+Name: libselinux
+Description: SELinux utility library
+Version: 2.1.13
+URL: http://userspace.selinuxproject.org/
+Requires.private: libsepol
+Libs: -L${libdir} -lselinux
+Cflags: -I${includedir}

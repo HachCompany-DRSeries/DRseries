@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libaudit
+Description: Libraries needed for apps that use the kernel audit framework
+Version: 2.4.4
+Libs: -L${libdir} -laudit
+Cflags: -I${includedir}

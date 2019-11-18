@@ -1,0 +1,7 @@
+0001-fix-ambiguous-format-call-on-64bit-builds.patch
+0002-fix-uclibc-eventfd.patch
+0003-fix-libquadmath-issue.patch
+0004-fix-declaration-error-with-gcc-4-4.patch
+0005-fix-undeclared-isnan.patch
+0006-fenv.patch
+0007-fix-getchar-with-uclibc-and-gcc-bug-58952.patch

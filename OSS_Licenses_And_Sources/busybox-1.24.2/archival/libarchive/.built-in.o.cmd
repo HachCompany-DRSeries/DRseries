@@ -1,0 +1,1 @@
+cmd_archival/libarchive/built-in.o :=  rm -f archival/libarchive/built-in.o; /home/mschreiber/Project/buildroot-2016.05/output/host/usr/bin/sh4a-buildroot-linux-gnu-ar rcs archival/libarchive/built-in.o

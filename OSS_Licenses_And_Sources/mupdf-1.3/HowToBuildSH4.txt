@@ -1,0 +1,13 @@
+MuPDF 1.3 für SH4 bauen
+-----------------------
+1) Script makeMuPDF.sh ausführen
+
+ODER selber
+
+1) make nuke			//alles cleanen
+2) make 			//Vorkompilierung "generated" Ordner
+3) make clean 			//HOST-Kompilate entfernen
+4) make OS=SH4 build=release	//SH4 Kompilierung
+
+
+

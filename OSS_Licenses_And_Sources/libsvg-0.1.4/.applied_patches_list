@@ -1,0 +1,3 @@
+0001-fix-expat-static-declaration.patch
+0002-Fix-undefined-symbol-png_set_gray_1_2_4_to_8.patch
+buildroot-libtool-v1.5.patch

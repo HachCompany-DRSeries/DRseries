@@ -1,0 +1,24 @@
+\section{UIOMux: A conflict manager for system resources, including UIO devices.}\label{index_intro}
+This is the documentation for the UIOMux C API.
+
+The user-\/level shared library libuiomux manages a shared memory segment containing mutexes for each managed resource. This segment and its mutexes are shared amongst all processes and threads on the system, to provide system-\/wide locking. In this way, libuiomux can be used to manage contention across multiple simultaneous processes and threads.
+
+UIOMux allows simultaneous locking of access to multiple resources, with deterministic locking and unlocking order to avoid circular waiting. Processes or threads requring simultaneous access to more than one resource should lock and unlock them simultaneously via libuiomux.
+
+UIOMux will save and restore of memory-\/mapped IO registers associated with a UIO device. Registers are saved on \doxyref{uiomux\_\-unlock()}{p.}{uiomux_8h_aeb3da8e88f7131c23463175d64e56d3d} and restored on \doxyref{uiomux\_\-lock()}{p.}{uiomux_8h_ab0d235b2ee947a7933448e762fd85dd7}, if intervening users have used the device.
+
+Additionally, UIOMux can be queried for whether or not a resource is available on the currently running system. This allows a vendor to create a single codec or application binary that works across a family of similar processors. An application can fall back to software if a required hardware resource is not available, or disable relevant funtionality at runtime.\subsection{Contents}\label{index_contents}
+
+\begin{DoxyItemize}
+\item \doxyref{uiomux.h }{p.}{uiomux_8h}: Documentation of the UIOMux C API
+\end{DoxyItemize}
+
+
+\begin{DoxyItemize}
+\item \doxyref{Configuration }{p.}{group__configuration}: Customizing libuiomux
+\end{DoxyItemize}
+
+
+\begin{DoxyItemize}
+\item \doxyref{Building }{p.}{group__building}: Building applications against libuiomux 
+\end{DoxyItemize}

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.version,sysinfo,,,"1.6.0_14-b08",1275653172109
+java.specification.name,sysinfo,,,"Java Platform API Specification",1275653172109
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1275653172109
+java.specification.version,sysinfo,,,"1.6",1275653172109
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1275653172109
+java.version,sysinfo,,,"1.6.0_14",1275653172109
+java.vm.info,sysinfo,,,"mixed mode, sharing",1275653172109
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1275653172109
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1275653172109
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1275653172109
+java.vm.specification.version,sysinfo,,,"1.0",1275653172109
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1275653172109
+java.vm.version,sysinfo,,,"14.0-b16",1275653172109
+started,bundle,org.eclipse.mylyn.tasks.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.tasks.ui",1275653172242
+started,bundle,org.eclipse.mylyn.team.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.team.ui",1275653172295
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1275653172334
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.monitor.ui",1275653172439
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1275653172452
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1275653172719
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1275653172727
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1275653172854
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1275653172932
+started,bundle,org.eclipse.team.cvs.ui,3.3.200.I20090521-1750,"org.eclipse.team.cvs.ui",1275653173108
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1275653221853
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.edit.text.openLocalFile",1275653225305

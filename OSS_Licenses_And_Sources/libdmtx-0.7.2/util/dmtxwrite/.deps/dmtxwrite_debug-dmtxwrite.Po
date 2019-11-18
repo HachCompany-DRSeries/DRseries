@@ -1,0 +1,436 @@
+dmtxwrite_debug-dmtxwrite.o: dmtxwrite.c dmtxwrite.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/stdlib.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/features.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/predefs.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/cdefs.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/wordsize.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/gnu/stubs.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include/stddef.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/types.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/types.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/typesizes.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/time.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/endian.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/endian.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/select.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/select.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/sigset.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/time.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/sysmacros.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/pthreadtypes.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/alloca.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/stdio.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/libio.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/_G_config.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/wchar.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include/stdarg.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/stdio_lim.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/sys_errlist.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/string.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/getopt.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/errno.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/errno.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/linux/errno.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm/errno.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm-generic/errno.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm-generic/errno-base.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/ctype.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/stat.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/stat.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/fcntl.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/fcntl.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/assert.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/magick-wand.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/MagickWand.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/magick-config.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/MagickCore.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/magick-type.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/animate.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/annotate.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/draw.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/geometry.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/image.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/color.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/pixel.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/colorspace.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/constitute.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/exception.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/semaphore.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/blob.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/stream.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/cache-view.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/composite.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/compress.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/effect.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/layer.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/monitor.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/profile.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/string_.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/quantum.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/resample.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/resize.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/timer.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/type.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/artifact.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/cache.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/cipher.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/client.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/coder.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/compare.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/configure.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/hashmap.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/decorate.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/delegate.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/deprecate.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/quantize.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/registry.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/display.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/distort.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/enhance.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/fx.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/gem.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/identify.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/list.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/locale_.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/log.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/magic.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/magick.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/matrix.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/memory_.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/module.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/version.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/mime.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/montage.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/option.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/paint.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/policy.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/prepress.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/property.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/random_.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/resource_.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/segment.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/shear.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/signature.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/splay-tree.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/statistic.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/token.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/transform.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/threshold.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/utility.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/xml-tree.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/xwindow.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/animate.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/compare.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/composite.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/conjure.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/convert.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/deprecate.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/drawing-wand.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/pixel-wand.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/pixel-iterator.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/display.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/identify.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/import.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/magick-property.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/magick-image.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/mogrify.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/montage.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/pixel-view.h \
+  /home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/stream.h \
+  ../../dmtx.h ../common/dmtxutil.h ../common/../../config.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sysexits.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/unistd.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/posix_opt.h \
+  /home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/confname.h
+
+dmtxwrite.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/stdlib.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/features.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/predefs.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/cdefs.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/wordsize.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/gnu/stubs.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include/stddef.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/types.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/types.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/typesizes.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/time.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/endian.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/endian.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/select.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/select.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/sigset.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/time.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/sysmacros.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/pthreadtypes.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/alloca.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/stdio.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/libio.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/_G_config.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/wchar.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../lib/gcc/sh-linux-gnu/4.3.3/include/stdarg.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/stdio_lim.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/sys_errlist.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/string.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/getopt.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/errno.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/errno.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/linux/errno.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm/errno.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm-generic/errno.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/asm-generic/errno-base.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/ctype.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sys/stat.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/stat.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/fcntl.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/fcntl.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/assert.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/magick-wand.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/MagickWand.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/magick-config.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/MagickCore.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/magick-type.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/animate.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/annotate.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/draw.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/geometry.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/image.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/color.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/pixel.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/colorspace.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/constitute.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/exception.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/semaphore.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/blob.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/stream.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/cache-view.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/composite.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/compress.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/effect.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/layer.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/monitor.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/profile.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/string_.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/quantum.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/resample.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/resize.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/timer.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/type.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/artifact.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/cache.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/cipher.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/client.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/coder.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/compare.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/configure.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/hashmap.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/decorate.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/delegate.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/deprecate.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/quantize.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/registry.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/display.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/distort.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/enhance.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/fx.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/gem.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/identify.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/list.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/locale_.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/log.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/magic.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/magick.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/matrix.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/memory_.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/module.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/version.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/mime.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/montage.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/option.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/paint.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/policy.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/prepress.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/property.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/random_.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/resource_.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/segment.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/shear.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/signature.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/splay-tree.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/statistic.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/token.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/transform.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/threshold.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/utility.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/xml-tree.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/magick/xwindow.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/animate.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/compare.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/composite.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/conjure.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/convert.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/deprecate.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/drawing-wand.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/pixel-wand.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/pixel-iterator.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/display.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/identify.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/import.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/magick-property.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/magick-image.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/mogrify.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/montage.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/pixel-view.h:
+
+/home/mschreiber/Project/platform/emdist-x/hico7723/rootfs/usr/include/ImageMagick/wand/stream.h:
+
+../../dmtx.h:
+
+../common/dmtxutil.h:
+
+../common/../../config.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/sysexits.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/unistd.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/posix_opt.h:
+
+/home/mschreiber/Project/platform/emdist-x/devhost/rootfs.hico7723/usr/CodeSourcery/bin/../sh-linux-gnu/libc/usr/include/bits/confname.h:

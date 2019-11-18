@@ -1,0 +1,3 @@
+0001-Disable-tests.patch
+0002-pixman-private-include-float.h-only-in-C-code.patch
+buildroot-libtool-v2.4.4.patch
