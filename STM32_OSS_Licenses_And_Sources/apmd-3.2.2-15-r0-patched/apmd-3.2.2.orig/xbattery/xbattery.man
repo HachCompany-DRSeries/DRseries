@@ -1,0 +1,89 @@
+.\" xbattery.man -- 
+.\" Created: Mon Mar 1 1999 by nathan@acm.org
+.\" Copyright 1999 Nathan Sidwell <nathan@acm.org>
+.\" Portions of this manual Copyright 1996 Rickard E. Faith (r.faith@ieee.org)
+.\" Derrived from xapm.1 by Rickard E. Faith (r.faith@ieee.org)
+.\" 
+.\" Permission is granted to make and distribute verbatim copies of this
+.\" manual provided the copyright notice and this permission notice are
+.\" preserved on all copies.
+.\" 
+.\" Permission is granted to copy and distribute modified versions of this
+.\" manual under the conditions for verbatim copying, provided that the
+.\" entire resulting derived work is distributed under the terms of a
+.\" permission notice identical to this one
+.\" 
+.\" Since the Linux kernel and libraries are constantly changing, this
+.\" manual page may be incorrect or out-of-date.  The author(s) assume no
+.\" responsibility for errors or omissions, or for damages resulting from
+.\" the use of the information contained herein.  The author(s) may not
+.\" have taken the same level of care in the production of this manual,
+.\" which is licensed free of charge, as they might when working
+.\" professionally.
+.\" 
+.\" Formatted or processed versions of this manual, if unaccompanied by
+.\" the source, must acknowledge the copyright and authors of this work.
+.\" 
+.TH XBATTERY 1 "1 Mar 1999" "" "Linux Programmer's Manual"
+.SH NAME
+xbattery \- display Advanced Power Management (APM) BIOS information
+.SH SYNOPSIS
+.B xbattery [ ... ]
+.SH DESCRIPTION
+.B xbattery
+puts up an X window that displays the remaining battery life.  A simple strip
+gauge shows the remaining battery power, and the color shows battery status.
+When power goes low or critical, the whole gauge flashes. When charging is
+completed, the gauge also flashes. Clicking on the gauge pops up a textual
+status window, and will stop it flashing.
+
+.B xbattery
+integrates well into fvwm's button box, and should behave
+similarly in other window manager's equivalents.
+
+.SH "OPTIONS AND RESOURCES"
+In addition to standard Xt options, the following options are available:
+.TP
+.BI \-highColor " color"
+The color of the bar when the battery status is high.
+Defaults to "green". (*highColor)
+.TP
+.BI \-lowColor " color"
+The color of the bar when the battery status is low.
+Defaults to "orange". (*lowColor)
+.TP
+.BI \-criticalColor " color"
+The color of the bar when the battery status is critical.
+Defaults to "red". (*criticalColor)
+.TP
+.BI \-chargingColor " color"
+The color of the bar when the battery is charging.  Defaults to
+"blue".  (*chargingColor)
+.TP
+.BI \-update " delay"
+Sets the number of seconds delay between each update.  When the battery
+status is low or critical, the status is checked 10 times faster, at most
+once per second. The default is 20. (*update)
+.TP
+.BI \-criticalLevel " level"
+Set the level at which the battery is deemed critical. Although apm provides
+a critical status level, there is generally insufficient time for you to do
+anything before a BIOS enforced suspend or shutdown is imposed. You can
+set a higher percentage with this flag. If you set a lower percentage than apm
+considers critical, this level is ignored. The default is 0. (*criticalLevel)
+.TP
+.BI \-flash " delay"
+Sets the number of milliseconds between flashes. The gauge is flashed whenever
+the status goes low or critcal, or charging completes. The default is
+250. (*flash)
+.TP
+.BI \-orientation " orientation"
+Sets the orientation of the gauge. Defaults to vertical. (*orientation)
+.SH FILES
+.I /proc/apm
+.SH AUTHOR
+This program was written by Nathan Sidwell (nathan@acm.org) and may be freely
+distributed under the terms of the GNU General Public License.  There is
+ABSOLUTELY NO WARANTY for this program.
+.SH "SEE ALSO"
+.BR apm "(1), "xapm "(1), "apmd "(8)"

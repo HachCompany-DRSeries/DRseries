@@ -1,0 +1,31 @@
+# Require trusty for now as it has a more recent version of autoconf
+sudo: required
+dist: trusty
+language: c
+
+compiler:
+    - gcc
+    - clang
+
+os:
+    - linux
+    - osx
+
+
+addons:
+    apt:
+        packages:
+            - autoconf
+            - automake
+            - libtool
+            - m4
+            - libusb-1.0
+        sources:
+            - ubuntu-toolchain-r-test
+
+before_script:
+    - if [[ "$TRAVIS_OS_NAME" == "osx" ]] ; then brew install libusb ; fi
+
+script:
+    - ./autogen.sh --enable-examples-build && make -j4
+    - cd examples ; ./testlibusb

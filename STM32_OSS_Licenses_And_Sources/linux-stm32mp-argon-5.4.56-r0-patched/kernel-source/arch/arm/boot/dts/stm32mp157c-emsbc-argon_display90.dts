@@ -1,0 +1,24 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR BSD-3-Clause)
+/*
+ * Copyright (C) emtrion GmbH 2019 - All Rights Reserved
+ * Author: Anthony Harivel <anthony.harivel@emtrion.de>.
+ */
+
+/dts-v1/;
+
+#include "stm32mp157c-emsbc-argon.dts"
+
+&dsi {
+	panel-dsi@0 {
+		rotation = <90>;
+		/* address mode configuration Parameter only B7, B6, B5 */
+		address_mode = <0x60>;
+	};
+};
+
+&i2c1 {
+	touchscreen@38 {
+		touchscreen-inverted-x;
+		touchscreen-swapped-x-y;
+	};
+};

@@ -1,0 +1,4294 @@
+# Swedish translation for cryptsetup.
+# Copyright © 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the cryptsetup package.
+# Daniel Nylander <po@danielnylander.se>, 2009.
+# Josef Andersson <l10nl18nsweja@gmail.com>, 2016-2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cryptsetup 2.4.2-rc0\n"
+"Report-Msgid-Bugs-To: dm-crypt@saout.de\n"
+"POT-Creation-Date: 2022-01-13 10:24+0100\n"
+"PO-Revision-Date: 2021-12-12 08:46+0100\n"
+"Last-Translator: Josef Andersson <l10nl18nsweja@gmail.com>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/libdevmapper.c:396
+msgid "Cannot initialize device-mapper, running as non-root user."
+msgstr "Det går inte att initiera device-mapper, kör som icke-root-användare."
+
+#: lib/libdevmapper.c:399
+msgid "Cannot initialize device-mapper. Is dm_mod kernel module loaded?"
+msgstr "Det går inte att initiera device-mapper. Är kärnmodulen dm_mod inläst?"
+
+#: lib/libdevmapper.c:1170
+msgid "Requested deferred flag is not supported."
+msgstr "Begärd flagga deferred stöds inte."
+
+#: lib/libdevmapper.c:1239
+#, c-format
+msgid "DM-UUID for device %s was truncated."
+msgstr "DM-UUID för enheten %s förkortades."
+
+#: lib/libdevmapper.c:1570
+msgid "Unknown dm target type."
+msgstr "Okänd måltyp dm."
+
+#: lib/libdevmapper.c:1691 lib/libdevmapper.c:1696 lib/libdevmapper.c:1760
+#: lib/libdevmapper.c:1763
+msgid "Requested dm-crypt performance options are not supported."
+msgstr "Begärd flagga för dm-crypt-prestanda stöds inte."
+
+#: lib/libdevmapper.c:1703 lib/libdevmapper.c:1707
+msgid "Requested dm-verity data corruption handling options are not supported."
+msgstr "Begärd flagga för dm-verity-dataintegritet stöds inte."
+
+#: lib/libdevmapper.c:1711
+msgid "Requested dm-verity FEC options are not supported."
+msgstr "Begärd flagga dm-verity FEC stöds inte."
+
+#: lib/libdevmapper.c:1715
+msgid "Requested data integrity options are not supported."
+msgstr "Begärd flagga för dataintegritet stöds inte."
+
+#: lib/libdevmapper.c:1717
+msgid "Requested sector_size option is not supported."
+msgstr "Begärd flagga sector_size stöds inte."
+
+#: lib/libdevmapper.c:1722 lib/libdevmapper.c:1726
+msgid "Requested automatic recalculation of integrity tags is not supported."
+msgstr "Begärd automatisk beräkning av integritetstaggar stöds inte."
+
+#: lib/libdevmapper.c:1730 lib/libdevmapper.c:1766 lib/libdevmapper.c:1769
+#: lib/luks2/luks2_json_metadata.c:2366
+msgid "Discard/TRIM is not supported."
+msgstr "Discard/TRIM stöds inte."
+
+#: lib/libdevmapper.c:1734
+msgid "Requested dm-integrity bitmap mode is not supported."
+msgstr "Begärt dm-integrity bitmap-läge stöds inte."
+
+#: lib/libdevmapper.c:2708
+#, c-format
+msgid "Failed to query dm-%s segment."
+msgstr "Misslyckades med att läsa dm-%s-segment."
+
+#: lib/random.c:75
+msgid ""
+"System is out of entropy while generating volume key.\n"
+"Please move mouse or type some text in another window to gather some random events.\n"
+msgstr ""
+"Systemet fick slut på entropi under generering av volymnyckeln.\n"
+"Rör på musen eller skriv in text i ett annat fönster för att samla in slumpmässiga händelser.\n"
+
+#: lib/random.c:79
+#, c-format
+msgid "Generating key (%d%% done).\n"
+msgstr "Genererar nyckel (%d%% done).\n"
+
+#: lib/random.c:165
+msgid "Running in FIPS mode."
+msgstr "Kör i FIPS-läge."
+
+#: lib/random.c:171
+msgid "Fatal error during RNG initialisation."
+msgstr "Ödesdigert fel under RNG-initiering."
+
+#: lib/random.c:208
+msgid "Unknown RNG quality requested."
+msgstr "Okänd RNG-kvalitet begärd."
+
+#: lib/random.c:213
+msgid "Error reading from RNG."
+msgstr "Fel vid läsning från RNG."
+
+#: lib/setup.c:226
+msgid "Cannot initialize crypto RNG backend."
+msgstr "Det går inte att initiera RNG-krypteringsbakände."
+
+#: lib/setup.c:232
+msgid "Cannot initialize crypto backend."
+msgstr "Det går inte att initiera krypteringsbakände."
+
+#: lib/setup.c:263 lib/setup.c:2079 lib/verity/verity.c:119
+#: lib/luks2/luks2_reencrypt.c:1028
+#, c-format
+msgid "Hash algorithm %s not supported."
+msgstr "Hashalgoritmen %s stöds inte."
+
+#: lib/setup.c:266 lib/loopaes/loopaes.c:90
+#, c-format
+msgid "Key processing error (using hash %s)."
+msgstr "Fel vid nyckelbearbetning (använder hash %s)."
+
+#: lib/setup.c:332 lib/setup.c:359
+msgid "Cannot determine device type. Incompatible activation of device?"
+msgstr "Det går inte att avgöra enhetstyp. Inkompatibel aktivering av enhet?"
+
+#: lib/setup.c:338 lib/setup.c:3142
+msgid "This operation is supported only for LUKS device."
+msgstr "Denna åtgärd stöds endast av LUKS-enheter."
+
+#: lib/setup.c:365
+msgid "This operation is supported only for LUKS2 device."
+msgstr "Denna åtgärd stöds endast av LUKS2-enheter."
+
+#: lib/setup.c:420 lib/luks2/luks2_reencrypt.c:2444
+msgid "All key slots full."
+msgstr "Alla nyckelplatser är upptagna."
+
+#: lib/setup.c:431
+#, c-format
+msgid "Key slot %d is invalid, please select between 0 and %d."
+msgstr "Nyckelplats %d är ogiltig. Välj mellan 0 och %d."
+
+#: lib/setup.c:437
+#, c-format
+msgid "Key slot %d is full, please select another one."
+msgstr "Nyckelplats %d är full. Välj en annan."
+
+#: lib/setup.c:522 lib/setup.c:2900
+msgid "Device size is not aligned to device logical block size."
+msgstr "Storlek på enhet är inte justerad till enhetens logiska blockstorlek."
+
+#: lib/setup.c:620
+#, c-format
+msgid "Header detected but device %s is too small."
+msgstr "Huvud identifierat men enheten %s är för liten."
+
+#: lib/setup.c:661 lib/setup.c:2845 lib/setup.c:4212
+#: lib/luks2/luks2_reencrypt.c:3141 lib/luks2/luks2_reencrypt.c:3511
+msgid "This operation is not supported for this device type."
+msgstr "Denna åtgärd stöds inte för denna enhetstyp."
+
+#: lib/setup.c:666
+msgid "Illegal operation with reencryption in-progress."
+msgstr "Ogiltig åtgärd under pågående omkryptering."
+
+#: lib/setup.c:834 lib/luks1/keymanage.c:527
+#, c-format
+msgid "Unsupported LUKS version %d."
+msgstr "LUKS-versionen %d stöds inte."
+
+#: lib/setup.c:1430 lib/setup.c:2610 lib/setup.c:2683 lib/setup.c:2695
+#: lib/setup.c:2853 lib/setup.c:4681
+#, c-format
+msgid "Device %s is not active."
+msgstr "Enheten %s är inte aktiv."
+
+#: lib/setup.c:1447
+#, c-format
+msgid "Underlying device for crypt device %s disappeared."
+msgstr "Underliggande enhet för krypteringsenhet %s försvann."
+
+#: lib/setup.c:1527
+msgid "Invalid plain crypt parameters."
+msgstr "Ogiltiga parametrar för plain-kryptering."
+
+#: lib/setup.c:1532 lib/setup.c:1982
+msgid "Invalid key size."
+msgstr "Ogiltig nyckelstorlek."
+
+#: lib/setup.c:1537 lib/setup.c:1987 lib/setup.c:2190
+msgid "UUID is not supported for this crypt type."
+msgstr "UUID stöds inte för denna krypteringstyp."
+
+#: lib/setup.c:1542 lib/setup.c:1992
+msgid "Detached metadata device is not supported for this crypt type."
+msgstr "Frånkopplad metadataenhet stöds ej av denna crypt-typ."
+
+#: lib/setup.c:1552 lib/setup.c:1754 lib/luks2/luks2_reencrypt.c:2405
+#: src/cryptsetup.c:1407 src/cryptsetup.c:3772
+msgid "Unsupported encryption sector size."
+msgstr "Stöder inte sektorstorleken för kryptering."
+
+#: lib/setup.c:1560 lib/setup.c:1895 lib/setup.c:2894
+msgid "Device size is not aligned to requested sector size."
+msgstr "Storlek på enhet är inte justerad till begärd sektorstorlek."
+
+#: lib/setup.c:1612 lib/setup.c:1732
+msgid "Can't format LUKS without device."
+msgstr "Det går inte att formatera LUKS utan enhet."
+
+#: lib/setup.c:1618 lib/setup.c:1738
+msgid "Requested data alignment is not compatible with data offset."
+msgstr "Begärd datajustering är inte kompatibel med dataoffset."
+
+#: lib/setup.c:1686 lib/setup.c:1882
+msgid "WARNING: Data offset is outside of currently available data device.\n"
+msgstr "VARNING: Dataoffset ligger utanför aktuell dataenhet.\n"
+
+#: lib/setup.c:1696 lib/setup.c:1912 lib/setup.c:1933 lib/setup.c:2202
+#, c-format
+msgid "Cannot wipe header on device %s."
+msgstr "Det går inte att rensa huvudet på enheten %s."
+
+#: lib/setup.c:1763
+msgid "WARNING: The device activation will fail, dm-crypt is missing support for requested encryption sector size.\n"
+msgstr "VARNING: Enhetsaktiveringen kommer att misslyckas, dm-crypt saknar stöd för begärd krypteringsektorstorlek.\n"
+
+#: lib/setup.c:1786
+msgid "Volume key is too small for encryption with integrity extensions."
+msgstr "Volymnyckeln är för liten för kryptering med integritetstillägg."
+
+#: lib/setup.c:1856
+#, c-format
+msgid "Cipher %s-%s (key size %zd bits) is not available."
+msgstr "Chiffret %s-%s (nyckelstorlek %zd bitar) är inte tillgängligt."
+
+#: lib/setup.c:1885
+#, c-format
+msgid "WARNING: LUKS2 metadata size changed to %<PRIu64> bytes.\n"
+msgstr "VARNING: storlek på LUKS2-metadata ändrades till %<PRIu64> byte.\n"
+
+#: lib/setup.c:1889
+#, c-format
+msgid "WARNING: LUKS2 keyslots area size changed to %<PRIu64> bytes.\n"
+msgstr "VARNING: storlek på LUKS2-nyckelplatsområde ändrades till %<PRIu64> byte.\n"
+
+#: lib/setup.c:1915 lib/utils_device.c:909 lib/luks1/keyencryption.c:255
+#: lib/luks2/luks2_reencrypt.c:2455 lib/luks2/luks2_reencrypt.c:3606
+#, c-format
+msgid "Device %s is too small."
+msgstr "Enheten %s är för liten."
+
+#: lib/setup.c:1926 lib/setup.c:1952
+#, c-format
+msgid "Cannot format device %s in use."
+msgstr "Det går inte att formatera enheten %s då den används."
+
+#: lib/setup.c:1929 lib/setup.c:1955
+#, c-format
+msgid "Cannot format device %s, permission denied."
+msgstr "Det går inte att formatera enheten %s, behörighet nekad."
+
+#: lib/setup.c:1941 lib/setup.c:2262
+#, c-format
+msgid "Cannot format integrity for device %s."
+msgstr "Det går inte att formatera integritet för enheten %s."
+
+#: lib/setup.c:1959
+#, c-format
+msgid "Cannot format device %s."
+msgstr "Det går inte att formatera enheten %s."
+
+#: lib/setup.c:1977
+msgid "Can't format LOOPAES without device."
+msgstr "Kan inte formatera LOOPAES utan enhet."
+
+#: lib/setup.c:2022
+msgid "Can't format VERITY without device."
+msgstr "Det går inte att formatera VERITY utan enhet."
+
+#: lib/setup.c:2033 lib/verity/verity.c:102
+#, c-format
+msgid "Unsupported VERITY hash type %d."
+msgstr "VERITY-hashtyp %d stöds inte."
+
+#: lib/setup.c:2039 lib/verity/verity.c:110
+msgid "Unsupported VERITY block size."
+msgstr "VERITY-blockstorlek som inte stöds."
+
+#: lib/setup.c:2044 lib/verity/verity.c:74
+msgid "Unsupported VERITY hash offset."
+msgstr "VERITY-hashoffset som inte stöds."
+
+#: lib/setup.c:2049
+msgid "Unsupported VERITY FEC offset."
+msgstr "VERITY-FEC-offset som inte stöds."
+
+#: lib/setup.c:2073
+msgid "Data area overlaps with hash area."
+msgstr "Dataområde spiller över på hashområdet."
+
+#: lib/setup.c:2098
+msgid "Hash area overlaps with FEC area."
+msgstr "Hashområde spiller över på FEC-mrådet."
+
+#: lib/setup.c:2105
+msgid "Data area overlaps with FEC area."
+msgstr "Dataområde spiller över på FEC-mrådet."
+
+#: lib/setup.c:2241
+#, c-format
+msgid "WARNING: Requested tag size %d bytes differs from %s size output (%d bytes).\n"
+msgstr "VARNING: Begärd taggstorlek på %d byte skiljer sig från %s utdatastorlek (%d byte).\n"
+
+#: lib/setup.c:2320
+#, c-format
+msgid "Unknown crypt device type %s requested."
+msgstr "Okänd typ av krypteringsenhet %s begärd."
+
+#: lib/setup.c:2616 lib/setup.c:2688 lib/setup.c:2701
+#, c-format
+msgid "Unsupported parameters on device %s."
+msgstr "Parametrar som inte stöds på enheten %s."
+
+#: lib/setup.c:2622 lib/setup.c:2708 lib/luks2/luks2_reencrypt.c:2511
+#: lib/luks2/luks2_reencrypt.c:2863
+#, c-format
+msgid "Mismatching parameters on device %s."
+msgstr "Kan inte rensa huvudet på enheten %s."
+
+#: lib/setup.c:2728
+msgid "Crypt devices mismatch."
+msgstr "Krypteringsenheter har matchningsfel."
+
+#: lib/setup.c:2765 lib/setup.c:2770 lib/luks2/luks2_reencrypt.c:2154
+#: lib/luks2/luks2_reencrypt.c:3353
+#, c-format
+msgid "Failed to reload device %s."
+msgstr "Misslyckades med att läsa om enhet %s."
+
+#: lib/setup.c:2776 lib/setup.c:2782 lib/luks2/luks2_reencrypt.c:2125
+#: lib/luks2/luks2_reencrypt.c:2132
+#, c-format
+msgid "Failed to suspend device %s."
+msgstr "Misslyckades med att försätta enhet %s i vänteläge."
+
+#: lib/setup.c:2788 lib/luks2/luks2_reencrypt.c:2139
+#: lib/luks2/luks2_reencrypt.c:3288 lib/luks2/luks2_reencrypt.c:3357
+#, c-format
+msgid "Failed to resume device %s."
+msgstr "Misslyckades med att återuppta enhet %s."
+
+#: lib/setup.c:2803
+#, c-format
+msgid "Fatal error while reloading device %s (on top of device %s)."
+msgstr "Ödesdigert fel vid omläsning av enhet %s (ovanpå enhet %s)."
+
+#: lib/setup.c:2806 lib/setup.c:2808
+#, c-format
+msgid "Failed to switch device %s to dm-error."
+msgstr "Misslyckades med att växla enhet %s till dm-error."
+
+#: lib/setup.c:2885
+msgid "Cannot resize loop device."
+msgstr "Det går inte att ändra storlek på loop-enhet."
+
+#: lib/setup.c:2958
+msgid "Do you really want to change UUID of device?"
+msgstr "Vill du verkligen ändra UUID för en enhet?"
+
+#: lib/setup.c:3034
+msgid "Header backup file does not contain compatible LUKS header."
+msgstr "Säkerhetskopian för huvud innehåller inte något giltigt LUKS-huvud."
+
+#: lib/setup.c:3150
+#, c-format
+msgid "Volume %s is not active."
+msgstr "Volymen %s är inte aktiv."
+
+#: lib/setup.c:3161
+#, c-format
+msgid "Volume %s is already suspended."
+msgstr "Volymen %s är redan i vänteläge."
+
+#: lib/setup.c:3174
+#, c-format
+msgid "Suspend is not supported for device %s."
+msgstr "Vänteläge stöds inte för enhet %s."
+
+#: lib/setup.c:3176
+#, c-format
+msgid "Error during suspending device %s."
+msgstr "Fel då enheten %s försattes i vänteläge."
+
+#: lib/setup.c:3212
+#, c-format
+msgid "Resume is not supported for device %s."
+msgstr "Att återuppta stöds inte för enhet %s."
+
+#: lib/setup.c:3214
+#, c-format
+msgid "Error during resuming device %s."
+msgstr "Fel då enheten %s återupptogs."
+
+#: lib/setup.c:3248 lib/setup.c:3296 lib/setup.c:3366
+#, c-format
+msgid "Volume %s is not suspended."
+msgstr "Volymen %s är inte i vänteläge."
+
+#: lib/setup.c:3381 lib/setup.c:3750 lib/setup.c:4461 lib/setup.c:4474
+#: lib/setup.c:4482 lib/setup.c:4495 lib/setup.c:4864 lib/setup.c:6046
+msgid "Volume key does not match the volume."
+msgstr "Volymnyckeln stämmer inte överens med volymen."
+
+#: lib/setup.c:3428 lib/setup.c:3633
+msgid "Cannot add key slot, all slots disabled and no volume key provided."
+msgstr "Det går inte att lägga till nyckelplats. Alla platser är inaktiverade och ingen volymnyckel har angivits."
+
+#: lib/setup.c:3585
+msgid "Failed to swap new key slot."
+msgstr "Misslyckades med att byta ny nyckelplats."
+
+#: lib/setup.c:3771
+#, c-format
+msgid "Key slot %d is invalid."
+msgstr "Nyckelplats %d är ogiltig."
+
+#: lib/setup.c:3777 src/cryptsetup.c:1750 src/cryptsetup.c:2090
+#: src/cryptsetup.c:2681 src/cryptsetup.c:2738
+#, c-format
+msgid "Keyslot %d is not active."
+msgstr "Nyckelplats %d är inte aktiv."
+
+#: lib/setup.c:3796
+msgid "Device header overlaps with data area."
+msgstr "Dataområde spiller över på hashområdet."
+
+#: lib/setup.c:4090
+msgid "Reencryption in-progress. Cannot activate device."
+msgstr "Omkryptering pågår. Det går inte att aktivera enheten."
+
+#: lib/setup.c:4092 lib/luks2/luks2_json_metadata.c:2449
+#: lib/luks2/luks2_reencrypt.c:2962
+msgid "Failed to get reencryption lock."
+msgstr "Misslyckades med att erhålla omkrypteringslås."
+
+#: lib/setup.c:4105 lib/luks2/luks2_reencrypt.c:2981
+msgid "LUKS2 reencryption recovery failed."
+msgstr "Misslyckades med återhämtning av LUKS2-omkryptering."
+
+#: lib/setup.c:4273 lib/setup.c:4538
+msgid "Device type is not properly initialized."
+msgstr "Enhetstypen är inte korrekt initierad."
+
+#: lib/setup.c:4321
+#, c-format
+msgid "Device %s already exists."
+msgstr "Enheten %s finns redan."
+
+#: lib/setup.c:4328
+#, c-format
+msgid "Cannot use device %s, name is invalid or still in use."
+msgstr "Det går inte att använda enheten %s som fortfarande används eller har ett ogiltigt namn."
+
+#: lib/setup.c:4448
+msgid "Incorrect volume key specified for plain device."
+msgstr "Felaktig volymnyckel för plain-enhet."
+
+#: lib/setup.c:4564
+msgid "Incorrect root hash specified for verity device."
+msgstr "Felaktig rothash angiven för verity-enhet."
+
+#: lib/setup.c:4571
+msgid "Root hash signature required."
+msgstr "Root-hashsignatur krävs."
+
+#: lib/setup.c:4580
+msgid "Kernel keyring missing: required for passing signature to kernel."
+msgstr "Kärnans nyckelring saknas: krävs för att skicka signatur till kärnan."
+
+#: lib/setup.c:4597 lib/setup.c:6122
+msgid "Failed to load key in kernel keyring."
+msgstr "Misslyckades med att öppna nyckelringen för kärnan."
+
+#: lib/setup.c:4653
+#, c-format
+msgid "Could not cancel deferred remove from device %s."
+msgstr "Misslyckades med att avbryta fördröjd borttagning från enheten %s."
+
+#: lib/setup.c:4660 lib/setup.c:4676 lib/luks2/luks2_json_metadata.c:2502
+#: src/cryptsetup.c:2834
+#, c-format
+msgid "Device %s is still in use."
+msgstr "Enheten %s används fortfarande."
+
+#: lib/setup.c:4685
+#, c-format
+msgid "Invalid device %s."
+msgstr "Ogiltig enhet %s."
+
+#: lib/setup.c:4801
+msgid "Volume key buffer too small."
+msgstr "Buffert för volymnyckelen är för liten."
+
+#: lib/setup.c:4809
+msgid "Cannot retrieve volume key for plain device."
+msgstr "Kan inte hämta volymnyckel för plain-enhet."
+
+#: lib/setup.c:4826
+msgid "Cannot retrieve root hash for verity device."
+msgstr "Det går inte att hämta root-hash för verity-enhet."
+
+#: lib/setup.c:4830
+#, c-format
+msgid "This operation is not supported for %s crypt device."
+msgstr "Denna åtgärd stöds inte för krypteringsenheter av typen %s."
+
+#: lib/setup.c:5036 lib/setup.c:5047
+msgid "Dump operation is not supported for this device type."
+msgstr "Utskriftsåtgärden stöds inte för denna enhetstyp."
+
+#: lib/setup.c:5375
+#, c-format
+msgid "Data offset is not multiple of %u bytes."
+msgstr "Dataförskjutning är inte en multipel av %u byte."
+
+#: lib/setup.c:5660
+#, c-format
+msgid "Cannot convert device %s which is still in use."
+msgstr "Det går inte konvertera enheten %s som fortfarande används."
+
+#: lib/setup.c:5979
+#, c-format
+msgid "Failed to assign keyslot %u as the new volume key."
+msgstr "Misslyckades med att tilldela nyckelplats %u som ny volymnyckel."
+
+#: lib/setup.c:6052
+msgid "Failed to initialize default LUKS2 keyslot parameters."
+msgstr "Misslyckades med att initiera standardnyckelplats för LUKS2-parametrar."
+
+#: lib/setup.c:6058
+#, c-format
+msgid "Failed to assign keyslot %d to digest."
+msgstr "Misslyckades med att tilldela nyckelplats %d till kontrollsummor."
+
+#: lib/setup.c:6189
+msgid "Kernel keyring is not supported by the kernel."
+msgstr "Kärnans nyckelring stöds inte av kärnan."
+
+#: lib/setup.c:6199 lib/luks2/luks2_reencrypt.c:3166
+#, c-format
+msgid "Failed to read passphrase from keyring (error %d)."
+msgstr "Misslyckades med att läsa lösenfras från nyckelringsnyckel (fel %d)."
+
+#: lib/setup.c:6223
+msgid "Failed to acquire global memory-hard access serialization lock."
+msgstr "Misslyckades med att inhämta globalt minneshårt serialiseringslås."
+
+#: lib/utils.c:80
+msgid "Cannot get process priority."
+msgstr "Det går inte att få processprioritet."
+
+#: lib/utils.c:94
+msgid "Cannot unlock memory."
+msgstr "Det går inte att låsa upp minne."
+
+#: lib/utils.c:168 lib/tcrypt/tcrypt.c:502
+msgid "Failed to open key file."
+msgstr "Misslyckades med att öppna nyckelfilen."
+
+#: lib/utils.c:173
+msgid "Cannot read keyfile from a terminal."
+msgstr "Det går inte läsa nyckelfilen från en terminal."
+
+#: lib/utils.c:189
+msgid "Failed to stat key file."
+msgstr "Misslyckades med att ta stat på nyckelfilen."
+
+#: lib/utils.c:197 lib/utils.c:218
+msgid "Cannot seek to requested keyfile offset."
+msgstr "Det går inte att söka till begärd nyckelfilsoffset."
+
+#: lib/utils.c:212 lib/utils.c:227 src/utils_password.c:219
+#: src/utils_password.c:231
+msgid "Out of memory while reading passphrase."
+msgstr "Slut på minne vid läsning av lösenfras."
+
+#: lib/utils.c:247
+msgid "Error reading passphrase."
+msgstr "Fel vid läsning av lösenfras."
+
+#: lib/utils.c:264
+msgid "Nothing to read on input."
+msgstr "Ingenting att läsa vid inmating."
+
+#: lib/utils.c:271
+msgid "Maximum keyfile size exceeded."
+msgstr "Högsta nyckelfilsstorlek överskriden."
+
+#: lib/utils.c:276
+msgid "Cannot read requested amount of data."
+msgstr "Det går inte läsa begärd mängd data."
+
+#: lib/utils_device.c:208 lib/utils_storage_wrappers.c:110
+#: lib/luks1/keyencryption.c:91
+#, c-format
+msgid "Device %s does not exist or access denied."
+msgstr "Enheten %s finns inte eller åtkomst nekas."
+
+#: lib/utils_device.c:218
+#, c-format
+msgid "Device %s is not compatible."
+msgstr "Enheten %s är inte aktiv."
+
+#: lib/utils_device.c:562
+#, c-format
+msgid "Ignoring bogus optimal-io size for data device (%u bytes)."
+msgstr "Ignorerar falsk optimal-io-storlek för dataenheten (%u byte)."
+
+#: lib/utils_device.c:720
+#, c-format
+msgid "Device %s is too small. Need at least %<PRIu64> bytes."
+msgstr "Enhet %s är för liten. Behöver minst %<PRIu64> byte."
+
+#: lib/utils_device.c:801
+#, c-format
+msgid "Cannot use device %s which is in use (already mapped or mounted)."
+msgstr "Det går inte att använda enheten %s som redan används (redan mappad eller monterad)."
+
+#: lib/utils_device.c:805
+#, c-format
+msgid "Cannot use device %s, permission denied."
+msgstr "Det går inte att använda enhet %s, behörighet nekad."
+
+#: lib/utils_device.c:808
+#, c-format
+msgid "Cannot get info about device %s."
+msgstr "Kan inte hämta information om enheten %s."
+
+#: lib/utils_device.c:831
+msgid "Cannot use a loopback device, running as non-root user."
+msgstr "Kan inte använda en loopback-enhet, kör som icke-root-användare."
+
+#: lib/utils_device.c:842
+msgid "Attaching loopback device failed (loop device with autoclear flag is required)."
+msgstr "Misslyckades med att fästa loopback-enhet (kräver loop-enhet med flaggan autoclear)."
+
+#: lib/utils_device.c:890
+#, c-format
+msgid "Requested offset is beyond real size of device %s."
+msgstr "Begärd offset är bortom faktiska enhetsstorleken för %s."
+
+#: lib/utils_device.c:898
+#, c-format
+msgid "Device %s has zero size."
+msgstr "Enheten %s har noll storlek."
+
+#: lib/utils_pbkdf.c:100
+msgid "Requested PBKDF target time cannot be zero."
+msgstr "Begärd måltid för PBKDF kan inte vara noll."
+
+#: lib/utils_pbkdf.c:106
+#, c-format
+msgid "Unknown PBKDF type %s."
+msgstr "Okänd PBKDF-typ %s."
+
+#: lib/utils_pbkdf.c:111
+#, c-format
+msgid "Requested hash %s is not supported."
+msgstr "Begärd hash %s stöds inte."
+
+#: lib/utils_pbkdf.c:122
+msgid "Requested PBKDF type is not supported for LUKS1."
+msgstr "Begärd PBKDF-typ stöds inte för LUKS1."
+
+#: lib/utils_pbkdf.c:128
+msgid "PBKDF max memory or parallel threads must not be set with pbkdf2."
+msgstr "Högsta minne för PBKDF eller parallella trådar får inte sättas med pbkdf2."
+
+#: lib/utils_pbkdf.c:133 lib/utils_pbkdf.c:143
+#, c-format
+msgid "Forced iteration count is too low for %s (minimum is %u)."
+msgstr "Tvingad iterationsuppräkning är för liten för %s (minsta är %u)."
+
+#: lib/utils_pbkdf.c:148
+#, c-format
+msgid "Forced memory cost is too low for %s (minimum is %u kilobytes)."
+msgstr "Tvingad minneskostnad är för låg för %s (minimum är %u kilobyte)."
+
+#: lib/utils_pbkdf.c:155
+#, c-format
+msgid "Requested maximum PBKDF memory cost is too high (maximum is %d kilobytes)."
+msgstr "Kostnaden för det begärda högsta minnet för PBKDF är för högt (maximum är %d kilobyte)."
+
+#: lib/utils_pbkdf.c:160
+msgid "Requested maximum PBKDF memory cannot be zero."
+msgstr "Högst begärt minne för PBKDF kan inte vara noll."
+
+#: lib/utils_pbkdf.c:164
+msgid "Requested PBKDF parallel threads cannot be zero."
+msgstr "Begärda parallella trådar för PBKDF kan inte vara noll."
+
+#: lib/utils_pbkdf.c:184
+msgid "Only PBKDF2 is supported in FIPS mode."
+msgstr "Stöder endast PBKDF2 i FIPS-läge."
+
+#: lib/utils_benchmark.c:172
+msgid "PBKDF benchmark disabled but iterations not set."
+msgstr "Prestandamätning för PBKDF är inaktiverad men iterationer är inte satt."
+
+#: lib/utils_benchmark.c:191
+#, c-format
+msgid "Not compatible PBKDF2 options (using hash algorithm %s)."
+msgstr "Ej kompatibla PBKDF2-flaggor (använder hash-algoritmen %s)."
+
+#: lib/utils_benchmark.c:211
+msgid "Not compatible PBKDF options."
+msgstr "Ej kompatibla PBKDF2-flaggor."
+
+#: lib/utils_device_locking.c:102
+#, c-format
+msgid "Locking aborted. The locking path %s/%s is unusable (not a directory or missing)."
+msgstr "Låsningen avbruten. Låsningsökvägen %s/%s oanvändbar (inte en katalog eller saknas)."
+
+#: lib/utils_device_locking.c:109
+#, c-format
+msgid "Locking directory %s/%s will be created with default compiled-in permissions."
+msgstr "Rättigheterna för låskatalogen %s/%s kommer att skapas med inkompilerade standardvärden."
+
+#: lib/utils_device_locking.c:119
+#, c-format
+msgid "Locking aborted. The locking path %s/%s is unusable (%s is not a directory)."
+msgstr "Låsningen avbruten. Låsningsökvägen %s/%s oanvändbar (%s är inte en katalog)."
+
+#: lib/utils_wipe.c:184 src/cryptsetup_reencrypt.c:922
+#: src/cryptsetup_reencrypt.c:1010
+msgid "Cannot seek to device offset."
+msgstr "Det går inte att söka till enhetsoffset."
+
+#: lib/utils_wipe.c:208
+#, c-format
+msgid "Device wipe error, offset %<PRIu64>."
+msgstr "Fel vid radering av enhet, förskjutning %<PRIu64>."
+
+#: lib/luks1/keyencryption.c:39
+#, c-format
+msgid ""
+"Failed to setup dm-crypt key mapping for device %s.\n"
+"Check that kernel supports %s cipher (check syslog for more info)."
+msgstr ""
+"Misslyckades med att konfigurera nyckelmappning för dm-crypt för enheten %s. \n"
+"Kontrollera att kärnan har stöd för chiffret %s (kontrollera syslog för mer information)."
+
+#: lib/luks1/keyencryption.c:44
+msgid "Key size in XTS mode must be 256 or 512 bits."
+msgstr "Nyckelstorlek i XTS-läge måste vara en multipel av 256 eller 512 bitar."
+
+#: lib/luks1/keyencryption.c:46
+msgid "Cipher specification should be in [cipher]-[mode]-[iv] format."
+msgstr "Chifferspecifikation ska vara i formatet [chiffer] - [läge] - [iv]."
+
+#: lib/luks1/keyencryption.c:97 lib/luks1/keymanage.c:364
+#: lib/luks1/keymanage.c:674 lib/luks1/keymanage.c:1125
+#: lib/luks2/luks2_json_metadata.c:1348 lib/luks2/luks2_keyslot.c:746
+#, c-format
+msgid "Cannot write to device %s, permission denied."
+msgstr "Kan inte skriva till enhet %s, behörighet nekad."
+
+#: lib/luks1/keyencryption.c:120
+msgid "Failed to open temporary keystore device."
+msgstr "Misslyckades med att öppna temporär nyckellagringsenhet."
+
+#: lib/luks1/keyencryption.c:127
+msgid "Failed to access temporary keystore device."
+msgstr "Misslyckades med att komma åt temporär nyckellagringsenhet."
+
+#: lib/luks1/keyencryption.c:200 lib/luks2/luks2_keyslot_luks2.c:60
+#: lib/luks2/luks2_keyslot_luks2.c:78 lib/luks2/luks2_keyslot_reenc.c:134
+msgid "IO error while encrypting keyslot."
+msgstr "In-/utfel vid kryptering av nyckelplats."
+
+#: lib/luks1/keyencryption.c:246 lib/luks1/keymanage.c:367
+#: lib/luks1/keymanage.c:627 lib/luks1/keymanage.c:677 lib/tcrypt/tcrypt.c:677
+#: lib/verity/verity.c:80 lib/verity/verity.c:193 lib/verity/verity_hash.c:320
+#: lib/verity/verity_hash.c:329 lib/verity/verity_hash.c:349
+#: lib/verity/verity_fec.c:251 lib/verity/verity_fec.c:263
+#: lib/verity/verity_fec.c:268 lib/luks2/luks2_json_metadata.c:1351
+#: src/cryptsetup_reencrypt.c:177 src/cryptsetup_reencrypt.c:189
+#, c-format
+msgid "Cannot open device %s."
+msgstr "Det går inte att öppna enheten %s."
+
+#: lib/luks1/keyencryption.c:257 lib/luks2/luks2_keyslot_luks2.c:137
+msgid "IO error while decrypting keyslot."
+msgstr "In-/utfel vid dekryptering av nyckelplats."
+
+#: lib/luks1/keymanage.c:130
+#, c-format
+msgid "Device %s is too small. (LUKS1 requires at least %<PRIu64> bytes.)"
+msgstr "Enhet %s är för liten. (LUKS1 kräver minst %<PRIu64> byte.)"
+
+#: lib/luks1/keymanage.c:151 lib/luks1/keymanage.c:159
+#: lib/luks1/keymanage.c:171 lib/luks1/keymanage.c:182
+#: lib/luks1/keymanage.c:194
+#, c-format
+msgid "LUKS keyslot %u is invalid."
+msgstr "LUKS-nyckelplats %u är ogiltig."
+
+#: lib/luks1/keymanage.c:248 lib/luks1/keymanage.c:524
+#: lib/luks2/luks2_json_metadata.c:1194 src/cryptsetup.c:1606
+#: src/cryptsetup.c:1737 src/cryptsetup.c:1792 src/cryptsetup.c:1847
+#: src/cryptsetup.c:1912 src/cryptsetup.c:2015 src/cryptsetup.c:2079
+#: src/cryptsetup.c:2308 src/cryptsetup.c:2521 src/cryptsetup.c:2581
+#: src/cryptsetup.c:2646 src/cryptsetup.c:2790 src/cryptsetup.c:3472
+#: src/cryptsetup.c:3481 src/cryptsetup_reencrypt.c:1373
+#, c-format
+msgid "Device %s is not a valid LUKS device."
+msgstr "Enheten %s är inte en giltig LUKS-enhet."
+
+#: lib/luks1/keymanage.c:266 lib/luks2/luks2_json_metadata.c:1211
+#, c-format
+msgid "Requested header backup file %s already exists."
+msgstr "Begärd säkerhetskopia %s av huvud finns redan."
+
+#: lib/luks1/keymanage.c:268 lib/luks2/luks2_json_metadata.c:1213
+#, c-format
+msgid "Cannot create header backup file %s."
+msgstr "Det går inte att skapa säkerhetskopia för huvud %s."
+
+#: lib/luks1/keymanage.c:275 lib/luks2/luks2_json_metadata.c:1220
+#, c-format
+msgid "Cannot write header backup file %s."
+msgstr "Det går inte skriva säkerhetskopia för huvud %s."
+
+#: lib/luks1/keymanage.c:306 lib/luks2/luks2_json_metadata.c:1257
+msgid "Backup file does not contain valid LUKS header."
+msgstr "Säkerhetskopian innehåller inte något giltigt LUKS-huvud."
+
+#: lib/luks1/keymanage.c:319 lib/luks1/keymanage.c:590
+#: lib/luks2/luks2_json_metadata.c:1278
+#, c-format
+msgid "Cannot open header backup file %s."
+msgstr "Det går inte att öppna säkerhetskopia för huvud %s."
+
+#: lib/luks1/keymanage.c:327 lib/luks2/luks2_json_metadata.c:1286
+#, c-format
+msgid "Cannot read header backup file %s."
+msgstr "Det går inte att läsa säkerhetskopia för huvud %s."
+
+#: lib/luks1/keymanage.c:337
+msgid "Data offset or key size differs on device and backup, restore failed."
+msgstr "Dataoffset eller nyckelstorlek skiljer sig åt på enhet och säkerhetskopia. Återställningen misslyckades."
+
+#: lib/luks1/keymanage.c:345
+#, c-format
+msgid "Device %s %s%s"
+msgstr "Enhet %s %s%s"
+
+#: lib/luks1/keymanage.c:346
+msgid "does not contain LUKS header. Replacing header can destroy data on that device."
+msgstr "innehåller inget LUKS-huvud. Ersättning av huvud kan förstöra data på enheten."
+
+#: lib/luks1/keymanage.c:347
+msgid "already contains LUKS header. Replacing header will destroy existing keyslots."
+msgstr "innehåller redan LUKS-huvud. Ersättningen av huvud kommer att förstöra befintliga nyckelplatser."
+
+#: lib/luks1/keymanage.c:348 lib/luks2/luks2_json_metadata.c:1320
+msgid ""
+"\n"
+"WARNING: real device header has different UUID than backup!"
+msgstr ""
+"\n"
+"VARNING: verkligt enhetshuvud har annat UUID än säkerhetskopian!"
+
+#: lib/luks1/keymanage.c:395
+msgid "Non standard key size, manual repair required."
+msgstr "Ej standardstorlek på nyckel, manuell reparation krävs."
+
+#: lib/luks1/keymanage.c:405
+msgid "Non standard keyslots alignment, manual repair required."
+msgstr "Ej standardjustering på nyckelplatser, manuell reparation krävs."
+
+#: lib/luks1/keymanage.c:414
+#, c-format
+msgid "Cipher mode repaired (%s -> %s)."
+msgstr "Chifferläge reparerat (%s -> %s)."
+
+#: lib/luks1/keymanage.c:425
+#, c-format
+msgid "Cipher hash repaired to lowercase (%s)."
+msgstr "Chifferhash reparerad till gemener (%s)."
+
+#: lib/luks1/keymanage.c:427 lib/luks1/keymanage.c:533
+#: lib/luks1/keymanage.c:789
+#, c-format
+msgid "Requested LUKS hash %s is not supported."
+msgstr "Begärd LUKS-hash %s stöds inte."
+
+#: lib/luks1/keymanage.c:441
+msgid "Repairing keyslots."
+msgstr "Reparerar nyckelplatser."
+
+#: lib/luks1/keymanage.c:460
+#, c-format
+msgid "Keyslot %i: offset repaired (%u -> %u)."
+msgstr "Nyckelplats %i: reparerad offset (%u -> %u)."
+
+#: lib/luks1/keymanage.c:468
+#, c-format
+msgid "Keyslot %i: stripes repaired (%u -> %u)."
+msgstr "Nyckelplats %i: reparerade remsor (%u -> %u)."
+
+#: lib/luks1/keymanage.c:477
+#, c-format
+msgid "Keyslot %i: bogus partition signature."
+msgstr "Nyckelplats %i: fejkpartitionssignatur."
+
+#: lib/luks1/keymanage.c:482
+#, c-format
+msgid "Keyslot %i: salt wiped."
+msgstr "Nyckelplats %i: salt borttaget."
+
+#: lib/luks1/keymanage.c:499
+msgid "Writing LUKS header to disk."
+msgstr "Skriver LUKS-huvud till disk."
+
+#: lib/luks1/keymanage.c:504
+msgid "Repair failed."
+msgstr "Reparation misslyckades."
+
+#: lib/luks1/keymanage.c:559
+#, c-format
+msgid "LUKS cipher mode %s is invalid."
+msgstr "LUKS-chifferläge %s är ogiltigt."
+
+#: lib/luks1/keymanage.c:564
+#, c-format
+msgid "LUKS hash %s is invalid."
+msgstr "LUKS-hash %s är ogiltig."
+
+#: lib/luks1/keymanage.c:571 src/cryptsetup.c:1292
+msgid "No known problems detected for LUKS header."
+msgstr "Inga kända problem identifierade för LUKS-huvud."
+
+#: lib/luks1/keymanage.c:699
+#, c-format
+msgid "Error during update of LUKS header on device %s."
+msgstr "Fel vid uppdatering av LUKS-huvud på enheten %s."
+
+#: lib/luks1/keymanage.c:707
+#, c-format
+msgid "Error re-reading LUKS header after update on device %s."
+msgstr "Fel vid omläsning av LUKS-huvud efter uppdatering på enheten %s."
+
+#: lib/luks1/keymanage.c:783
+msgid "Data offset for LUKS header must be either 0 or higher than header size."
+msgstr "Data-offset för fristående LUKS-huvud måste vara antingen 0 eller större än huvudstorleken."
+
+#: lib/luks1/keymanage.c:794 lib/luks1/keymanage.c:863
+#: lib/luks2/luks2_json_format.c:287 lib/luks2/luks2_json_metadata.c:1102
+#: src/cryptsetup.c:2953
+msgid "Wrong LUKS UUID format provided."
+msgstr "Felaktigt LUKS-UUID-format angavs."
+
+#: lib/luks1/keymanage.c:816
+msgid "Cannot create LUKS header: reading random salt failed."
+msgstr "Kan inte skapa LUKS-huvud: läsning av slumpmässigt salt misslyckades."
+
+#: lib/luks1/keymanage.c:842
+#, c-format
+msgid "Cannot create LUKS header: header digest failed (using hash %s)."
+msgstr "Kan inte skapa LUKS-huvud: kontrollsumma för huvud misslyckades (använder hashen %s)."
+
+#: lib/luks1/keymanage.c:886
+#, c-format
+msgid "Key slot %d active, purge first."
+msgstr "Nyckelplats %d är aktiv, rensa först."
+
+#: lib/luks1/keymanage.c:892
+#, c-format
+msgid "Key slot %d material includes too few stripes. Header manipulation?"
+msgstr "Nyckelplats %d material inkluderar för få remsor. Har huvudet manipulerats?"
+
+#: lib/luks1/keymanage.c:1033
+#, c-format
+msgid "Cannot open keyslot (using hash %s)."
+msgstr "Det går inte att öppna nyckeplats (använder hash %s)."
+
+#: lib/luks1/keymanage.c:1111
+#, c-format
+msgid "Key slot %d is invalid, please select keyslot between 0 and %d."
+msgstr "Nyckelplats %d är ogiltig. Välj en nyckelplats mellan 0 och %d."
+
+#: lib/luks1/keymanage.c:1129 lib/luks2/luks2_keyslot.c:750
+#, c-format
+msgid "Cannot wipe device %s."
+msgstr "Kan inte rensa enheten %s."
+
+#: lib/loopaes/loopaes.c:146
+msgid "Detected not yet supported GPG encrypted keyfile."
+msgstr "Identifierade en GPG-krypterad nyckelfil som ännu inte stöds."
+
+#: lib/loopaes/loopaes.c:147
+msgid "Please use gpg --decrypt <KEYFILE> | cryptsetup --keyfile=- ...\n"
+msgstr "Använd gpg --decrypt <KEYFILE> | cryptsetup --keyfile=- …\n"
+
+#: lib/loopaes/loopaes.c:168 lib/loopaes/loopaes.c:188
+msgid "Incompatible loop-AES keyfile detected."
+msgstr "Identifierade inkompatibel loop-AES-nyckelfil."
+
+#: lib/loopaes/loopaes.c:245
+msgid "Kernel does not support loop-AES compatible mapping."
+msgstr "Kärnan stöder inte loop-AES-kompatibel mappning."
+
+#: lib/tcrypt/tcrypt.c:509
+#, c-format
+msgid "Error reading keyfile %s."
+msgstr "Fel vid läsning av nyckelfil %s."
+
+#: lib/tcrypt/tcrypt.c:559
+#, c-format
+msgid "Maximum TCRYPT passphrase length (%zu) exceeded."
+msgstr "Högsta TCRYPT-lösenfraslängd (%zu) överskriden."
+
+#: lib/tcrypt/tcrypt.c:602
+#, c-format
+msgid "PBKDF2 hash algorithm %s not available, skipping."
+msgstr "PBKDF2-hashalgoritm %s ej tillgänglig, hoppar över."
+
+#: lib/tcrypt/tcrypt.c:618 src/cryptsetup.c:1110
+msgid "Required kernel crypto interface not available."
+msgstr "Begärt kryptogränssnitt för kärnan inte tillgängligt."
+
+#: lib/tcrypt/tcrypt.c:620 src/cryptsetup.c:1112
+msgid "Ensure you have algif_skcipher kernel module loaded."
+msgstr "Försäkra dig om att kärnmodulen algif_skcipher är inläst."
+
+#: lib/tcrypt/tcrypt.c:760
+#, c-format
+msgid "Activation is not supported for %d sector size."
+msgstr "Aktivering stöds inte för sektorstorlek %d."
+
+#: lib/tcrypt/tcrypt.c:766
+msgid "Kernel does not support activation for this TCRYPT legacy mode."
+msgstr "Kärnan stöder inte aktivering för detta föråldrade TCRYPT-läge."
+
+#: lib/tcrypt/tcrypt.c:797
+#, c-format
+msgid "Activating TCRYPT system encryption for partition %s."
+msgstr "Aktiverar TCRYPT-systemkryptering för partition %s."
+
+#: lib/tcrypt/tcrypt.c:875
+msgid "Kernel does not support TCRYPT compatible mapping."
+msgstr "Kärnan stöder inte TCRYPT-kompatibel mappning."
+
+#: lib/tcrypt/tcrypt.c:1088
+msgid "This function is not supported without TCRYPT header load."
+msgstr "Denna funktion stöds inte utan inläsning av TCRYPT-huvud."
+
+#: lib/bitlk/bitlk.c:350
+#, c-format
+msgid "Unexpected metadata entry type '%u' found when parsing supported Volume Master Key."
+msgstr "Oväntad metadatapost av typ ”%u” funnen vid tolkning av volymhuvudnyckel."
+
+#: lib/bitlk/bitlk.c:397
+msgid "Invalid string found when parsing Volume Master Key."
+msgstr "Ogiltig sträng funnen vid tolkning av volymhuvudnyckel."
+
+#: lib/bitlk/bitlk.c:402
+#, c-format
+msgid "Unexpected string ('%s') found when parsing supported Volume Master Key."
+msgstr "Oväntad sträng (”%s”) funnen vid tolkning av volymhuvudnycklar som stöds."
+
+#: lib/bitlk/bitlk.c:419
+#, c-format
+msgid "Unexpected metadata entry value '%u' found when parsing supported Volume Master Key."
+msgstr "Oväntad metadatapostvärde av typ ”%u” funnen vid tolkning av volymhuvudnycklar som stöds."
+
+#: lib/bitlk/bitlk.c:502
+#, c-format
+msgid "Failed to read BITLK signature from %s."
+msgstr "Misslyckades med att läsa BITLK-signatur från %s."
+
+#: lib/bitlk/bitlk.c:514
+msgid "Invalid or unknown signature for BITLK device."
+msgstr "Ogiltig eller okänd signatur för BITLK-enhet."
+
+#: lib/bitlk/bitlk.c:520
+msgid "BITLK version 1 is currently not supported."
+msgstr "BITLK version 1 stöds ej för närvarande."
+
+#: lib/bitlk/bitlk.c:526
+msgid "Invalid or unknown boot signature for BITLK device."
+msgstr "Ogiltig eller okänd boot-signatur för BITLK-enhet."
+
+#: lib/bitlk/bitlk.c:538
+#, c-format
+msgid "Unsupported sector size %<PRIu16>."
+msgstr "Stöder inte sektorstorleken %<PRIu16>."
+
+#: lib/bitlk/bitlk.c:546
+#, c-format
+msgid "Failed to read BITLK header from %s."
+msgstr "Misslyckades med att läsa BITLK-huvud från %s."
+
+#: lib/bitlk/bitlk.c:571
+#, c-format
+msgid "Failed to read BITLK FVE metadata from %s."
+msgstr "Misslyckades med att läsa BITLK FVE-metadata från %s."
+
+#: lib/bitlk/bitlk.c:622
+msgid "Unknown or unsupported encryption type."
+msgstr "Krypteringstypen är okänd eller stöds ej."
+
+#: lib/bitlk/bitlk.c:655
+#, c-format
+msgid "Failed to read BITLK metadata entries from %s."
+msgstr "Misslyckades med att läsa BITLK -metadataposter från %s."
+
+#: lib/bitlk/bitlk.c:903
+#, c-format
+msgid "Unexpected metadata entry type '%u' found when parsing external key."
+msgstr "Oväntad metadatapost av typ ”%u” funnen vid tolkning av extern nyckel."
+
+#: lib/bitlk/bitlk.c:922
+#, fuzzy, c-format
+msgid "BEK file GUID '%s' does not match GUID of the volume."
+msgstr "Volymnyckeln stämmer inte överens med volymen."
+
+#: lib/bitlk/bitlk.c:926
+#, c-format
+msgid "Unexpected metadata entry value '%u' found when parsing external key."
+msgstr "Oväntad metadatapostvärde av typ ”%u” funnen vid tolkning av extern nyckel."
+
+#: lib/bitlk/bitlk.c:965
+#, c-format
+msgid "Unsupported BEK metadata version %<PRIu32>"
+msgstr "Inget stöd för BEK metadata-version %<PRIu32>"
+
+#: lib/bitlk/bitlk.c:970
+#, c-format
+msgid "Unexpected BEK metadata size %<PRIu32> does not match BEK file length"
+msgstr "Oväntad BEK-metadatastorlek %<PRIu32> matchar inte BEK-fillängd"
+
+#: lib/bitlk/bitlk.c:995
+msgid "Unexpected metadata entry found when parsing startup key."
+msgstr "Oväntad metadatapost av typ ”%u” funnen vid tolkning av uppstartsnyckel."
+
+#: lib/bitlk/bitlk.c:1086
+msgid "This operation is not supported."
+msgstr "Denna åtgärd stöds ej."
+
+#: lib/bitlk/bitlk.c:1094
+msgid "Unexpected key data size."
+msgstr "Oväntad nyckeldatastorlek."
+
+#: lib/bitlk/bitlk.c:1220
+msgid "This BITLK device is in an unsupported state and cannot be activated."
+msgstr "Denna BITLK-enhet är i tillstånd som inte stöds och kan inte aktiveras."
+
+#: lib/bitlk/bitlk.c:1225
+#, c-format
+msgid "BITLK devices with type '%s' cannot be activated."
+msgstr "Det går inte att aktivera BITLK-enheter av typen ”%s”."
+
+#: lib/bitlk/bitlk.c:1232
+msgid "Activation of partially decrypted BITLK device is not supported."
+msgstr "Aktivering av delvis avkrypterade BITLK-enheter stöds ej."
+
+#: lib/bitlk/bitlk.c:1395
+msgid "Cannot activate device, kernel dm-crypt is missing support for BITLK IV."
+msgstr "Det går inte att aktivera enheten, kärnan dm-crypt saknar stöd för BITLK IV."
+
+#: lib/bitlk/bitlk.c:1399
+msgid "Cannot activate device, kernel dm-crypt is missing support for BITLK Elephant diffuser."
+msgstr "Det går inte att aktivera enheten, kärnan dm-crypt saknar stöd för BITLK Elephant diffuser."
+
+#: lib/verity/verity.c:68 lib/verity/verity.c:179
+#, c-format
+msgid "Verity device %s does not use on-disk header."
+msgstr "Verity-enheten %s använder inte huvud på disk."
+
+#: lib/verity/verity.c:90
+#, c-format
+msgid "Device %s is not a valid VERITY device."
+msgstr "Enheten %s är inte en giltig VERITY-enhet."
+
+#: lib/verity/verity.c:97
+#, c-format
+msgid "Unsupported VERITY version %d."
+msgstr "VERITY-versionen %d stöds inte."
+
+#: lib/verity/verity.c:128
+msgid "VERITY header corrupted."
+msgstr "VERITY-huvud är skadat."
+
+#: lib/verity/verity.c:173
+#, c-format
+msgid "Wrong VERITY UUID format provided on device %s."
+msgstr "Felaktigt VERITY-UUID-format angivet på enhet %s."
+
+#: lib/verity/verity.c:217
+#, c-format
+msgid "Error during update of verity header on device %s."
+msgstr "Fel vid uppdatering av verity-huvud på enheten %s."
+
+#: lib/verity/verity.c:275
+msgid "Root hash signature verification is not supported."
+msgstr "Begärd hashsignaturverifiering %s stöds inte."
+
+#: lib/verity/verity.c:287
+msgid "Errors cannot be repaired with FEC device."
+msgstr "Det går inte reparera fel med FEC-enhet."
+
+#: lib/verity/verity.c:289
+#, c-format
+msgid "Found %u repairable errors with FEC device."
+msgstr "Fann %u reparerbara fel med FEC-enhet."
+
+#: lib/verity/verity.c:332
+msgid "Kernel does not support dm-verity mapping."
+msgstr "Kärnan stöder inte dm-verity-mappning."
+
+#: lib/verity/verity.c:336
+msgid "Kernel does not support dm-verity signature option."
+msgstr "Kärnan stöder inte flaggan för dm-verity-signatur."
+
+#: lib/verity/verity.c:347
+msgid "Verity device detected corruption after activation."
+msgstr "Verity-enhet identifierades som skadad efter aktivering."
+
+#: lib/verity/verity_hash.c:66
+#, c-format
+msgid "Spare area is not zeroed at position %<PRIu64>."
+msgstr "Ledigt utrymme är inte nollställt vid position %<PRIu64>."
+
+#: lib/verity/verity_hash.c:167 lib/verity/verity_hash.c:300
+#: lib/verity/verity_hash.c:311
+msgid "Device offset overflow."
+msgstr "Enhets-offset spillde över."
+
+#: lib/verity/verity_hash.c:218
+#, c-format
+msgid "Verification failed at position %<PRIu64>."
+msgstr "Verifiering misslyckades vid %<PRIu64>."
+
+#: lib/verity/verity_hash.c:307
+msgid "Hash area overflow."
+msgstr "Hash-området spillde över."
+
+#: lib/verity/verity_hash.c:380
+msgid "Verification of data area failed."
+msgstr "Misslyckades med verifiering av dataområde."
+
+#: lib/verity/verity_hash.c:385
+msgid "Verification of root hash failed."
+msgstr "Misslyckades med verifiering av rot-hash."
+
+#: lib/verity/verity_hash.c:391
+msgid "Input/output error while creating hash area."
+msgstr "In-/utdatafel vid skapandet av hashområde."
+
+#: lib/verity/verity_hash.c:393
+msgid "Creation of hash area failed."
+msgstr "Misslyckades med skapandet av hashområde."
+
+#: lib/verity/verity_hash.c:428
+#, c-format
+msgid "WARNING: Kernel cannot activate device if data block size exceeds page size (%u)."
+msgstr "VARNING: Kärnan kan inte aktivera enhet om datablockstorleken överskrider sidstorlek (%u)."
+
+#: lib/verity/verity_fec.c:131
+msgid "Failed to allocate RS context."
+msgstr "Misslyckades med att öppna RS-kontext."
+
+#: lib/verity/verity_fec.c:149
+msgid "Failed to allocate buffer."
+msgstr "Misslyckades med att allokera buffert."
+
+#: lib/verity/verity_fec.c:159
+#, c-format
+msgid "Failed to read RS block %<PRIu64> byte %d."
+msgstr "Misslyckades med att läsa RS block %<PRIu64> byte %d."
+
+#: lib/verity/verity_fec.c:172
+#, c-format
+msgid "Failed to read parity for RS block %<PRIu64>."
+msgstr "Misslyckades med att skriva paritet för RS block %<PRIu64>."
+
+#: lib/verity/verity_fec.c:180
+#, c-format
+msgid "Failed to repair parity for block %<PRIu64>."
+msgstr "Misslyckades med att skriva paritet för RS block %<PRIu64>."
+
+#: lib/verity/verity_fec.c:192
+#, c-format
+msgid "Failed to write parity for RS block %<PRIu64>."
+msgstr "Misslyckades med att skriva paritet för RS block %<PRIu64>."
+
+#: lib/verity/verity_fec.c:228
+msgid "Block sizes must match for FEC."
+msgstr "Blockstorlekar måste matcha för FEC."
+
+#: lib/verity/verity_fec.c:234
+msgid "Invalid number of parity bytes."
+msgstr "Ogiltigt antal paritet-byte."
+
+#: lib/verity/verity_fec.c:239
+msgid "Invalid FEC segment length."
+msgstr "Ogiltig FEC-segmentlängd."
+
+#: lib/verity/verity_fec.c:303
+#, c-format
+msgid "Failed to determine size for device %s."
+msgstr "Misslyckades med att bestämma storlek för enhet %s."
+
+#: lib/integrity/integrity.c:272 lib/integrity/integrity.c:355
+msgid "Kernel does not support dm-integrity mapping."
+msgstr "Kärnan stöder inte dm-integrity-mappning."
+
+#: lib/integrity/integrity.c:278
+msgid "Kernel does not support dm-integrity fixed metadata alignment."
+msgstr "Kärnan stöder inte fast metadataförskjutning för dm-integrity."
+
+#: lib/integrity/integrity.c:287
+msgid "Kernel refuses to activate insecure recalculate option (see legacy activation options to override)."
+msgstr "Kärnan tillåter inte att den osäkra flaggan recalculate aktiveras (se föråldrade aktiveringsflaggor för att åsidosätta)."
+
+#: lib/luks2/luks2_disk_metadata.c:393 lib/luks2/luks2_json_metadata.c:1060
+#: lib/luks2/luks2_json_metadata.c:1340
+#, c-format
+msgid "Failed to acquire write lock on device %s."
+msgstr "Misslyckades med att få skrivlås på enheten %s."
+
+#: lib/luks2/luks2_disk_metadata.c:402
+msgid "Detected attempt for concurrent LUKS2 metadata update. Aborting operation."
+msgstr "Identifierade samtidiga försök att uppdatera LUKS2-metadata. Avbryter åtgärden."
+
+#: lib/luks2/luks2_disk_metadata.c:701 lib/luks2/luks2_disk_metadata.c:722
+msgid ""
+"Device contains ambiguous signatures, cannot auto-recover LUKS2.\n"
+"Please run \"cryptsetup repair\" for recovery."
+msgstr ""
+"Enheten innehåller tvetydiga signaturer, det går inte att automatiskt återhämta LUKS2.\n"
+"Kör ”cryptsetup repair” för återhämtning."
+
+#: lib/luks2/luks2_json_format.c:230
+msgid "Requested data offset is too small."
+msgstr "Begärd dataoff för liten."
+
+#: lib/luks2/luks2_json_format.c:275
+#, c-format
+msgid "WARNING: keyslots area (%<PRIu64> bytes) is very small, available LUKS2 keyslot count is very limited.\n"
+msgstr "VARNING: nyckelplatsområdet (%<PRIu64> byte) är väldigt liten, tillgängligt LUKS2-nyckelplatsantal är väldigt begränsat.\n"
+
+#: lib/luks2/luks2_json_metadata.c:1047 lib/luks2/luks2_json_metadata.c:1185
+#: lib/luks2/luks2_json_metadata.c:1246 lib/luks2/luks2_keyslot_luks2.c:92
+#: lib/luks2/luks2_keyslot_luks2.c:114
+#, c-format
+msgid "Failed to acquire read lock on device %s."
+msgstr "Misslyckades med att erhålla läslås på enheten %s."
+
+#: lib/luks2/luks2_json_metadata.c:1263
+#, c-format
+msgid "Forbidden LUKS2 requirements detected in backup %s."
+msgstr "Förbjudna LUKS2-krav identifierade i säkerhetskopian %s."
+
+#: lib/luks2/luks2_json_metadata.c:1304
+msgid "Data offset differ on device and backup, restore failed."
+msgstr "Dataoffset skiljer sig på enhet och säkerhetskopia. Återställningen misslyckades."
+
+#: lib/luks2/luks2_json_metadata.c:1310
+msgid "Binary header with keyslot areas size differ on device and backup, restore failed."
+msgstr "Binärhuvud med nyckelstorlek skiljer sig på enhet och säkerhetskopia. Återställningen misslyckades."
+
+#: lib/luks2/luks2_json_metadata.c:1317
+#, c-format
+msgid "Device %s %s%s%s%s"
+msgstr "Enhet %s %s%s%s%s"
+
+#: lib/luks2/luks2_json_metadata.c:1318
+msgid "does not contain LUKS2 header. Replacing header can destroy data on that device."
+msgstr "innehåller inget LUKS2-huvud. Ersättning av huvud kan förstöra data på enheten."
+
+#: lib/luks2/luks2_json_metadata.c:1319
+msgid "already contains LUKS2 header. Replacing header will destroy existing keyslots."
+msgstr "innehåller redan LUKS2-huvud. Ersättningen av huvud kommer att förstöra befintliga nyckelplatser."
+
+#: lib/luks2/luks2_json_metadata.c:1321
+msgid ""
+"\n"
+"WARNING: unknown LUKS2 requirements detected in real device header!\n"
+"Replacing header with backup may corrupt the data on that device!"
+msgstr ""
+"\n"
+"VARNING:okända LUKS2-krav identifierade i huvudet för riktig enhet!\n"
+"Att ersätta huvudet med en säkerhetskopia kan göra data korrupt på enheten!"
+
+#: lib/luks2/luks2_json_metadata.c:1323
+msgid ""
+"\n"
+"WARNING: Unfinished offline reencryption detected on the device!\n"
+"Replacing header with backup may corrupt data."
+msgstr ""
+"\n"
+"VARNING:Oavslutad frånkopplade kryptering identifierad på enheten!\n"
+"Att ersätta huvudet med en säkerhetskopia kan orsaka korrupt data."
+
+#: lib/luks2/luks2_json_metadata.c:1421
+#, c-format
+msgid "Ignored unknown flag %s."
+msgstr "Ignorerade okänd flagga %s."
+
+#: lib/luks2/luks2_json_metadata.c:2216 lib/luks2/luks2_reencrypt.c:1854
+#, c-format
+msgid "Missing key for dm-crypt segment %u"
+msgstr "Saknar nyckel för dm-crypt-segmentet %u"
+
+#: lib/luks2/luks2_json_metadata.c:2228 lib/luks2/luks2_reencrypt.c:1868
+msgid "Failed to set dm-crypt segment."
+msgstr "Misslyckades med att läsa dm-crypt-segment."
+
+#: lib/luks2/luks2_json_metadata.c:2234 lib/luks2/luks2_reencrypt.c:1874
+msgid "Failed to set dm-linear segment."
+msgstr "Misslyckades med att läsa dm-linear-segment."
+
+#: lib/luks2/luks2_json_metadata.c:2361
+msgid "Unsupported device integrity configuration."
+msgstr "Integritetskonfiguration som ej stöds på enheten."
+
+#: lib/luks2/luks2_json_metadata.c:2447
+msgid "Reencryption in-progress. Cannot deactivate device."
+msgstr "Omkryptering pågår. Det går inte att inaktivera enhet."
+
+#: lib/luks2/luks2_json_metadata.c:2458 lib/luks2/luks2_reencrypt.c:3403
+#, c-format
+msgid "Failed to replace suspended device %s with dm-error target."
+msgstr "Misslyckades med att ersätta inaktiverad enhet %s med målet dm-error."
+
+#: lib/luks2/luks2_json_metadata.c:2538
+msgid "Failed to read LUKS2 requirements."
+msgstr "Misslyckades med att läsa LUKS2-krav."
+
+#: lib/luks2/luks2_json_metadata.c:2545
+msgid "Unmet LUKS2 requirements detected."
+msgstr "Ej uppfyllt LUKS2-krav identifierat."
+
+#: lib/luks2/luks2_json_metadata.c:2553
+msgid "Operation incompatible with device marked for legacy reencryption. Aborting."
+msgstr "Åtgärden inkompatibel med enhet markerad för föråldrad omkryptering. Avbryter."
+
+#: lib/luks2/luks2_json_metadata.c:2555
+msgid "Operation incompatible with device marked for LUKS2 reencryption. Aborting."
+msgstr "Åtgärden inkompatibel med enhet markerad för LUKS2-omkryptering. Avbryter."
+
+#: lib/luks2/luks2_keyslot.c:563 lib/luks2/luks2_keyslot.c:600
+msgid "Not enough available memory to open a keyslot."
+msgstr "Inte nog med minne för att öppna en nyckelplats."
+
+#: lib/luks2/luks2_keyslot.c:565 lib/luks2/luks2_keyslot.c:602
+msgid "Keyslot open failed."
+msgstr "Misslyckades med att öppna nyckelplats."
+
+#: lib/luks2/luks2_keyslot_luks2.c:53 lib/luks2/luks2_keyslot_luks2.c:108
+#, c-format
+msgid "Cannot use %s-%s cipher for keyslot encryption."
+msgstr "Det går inte att använda %s-%s-chiffer för nyckelplatskryptering."
+
+#: lib/luks2/luks2_keyslot_luks2.c:485
+msgid "No space for new keyslot."
+msgstr "Inget utrymme för ny nyckelplats."
+
+#: lib/luks2/luks2_luks1_convert.c:482
+#, c-format
+msgid "Cannot check status of device with uuid: %s."
+msgstr "Det går inte kontrollera status för enheten med uuid: %s."
+
+#: lib/luks2/luks2_luks1_convert.c:508
+msgid "Unable to convert header with LUKSMETA additional metadata."
+msgstr "Det går inte att konvertera huvud med ytterligare metadata för LUKSMETA."
+
+#: lib/luks2/luks2_luks1_convert.c:548
+msgid "Unable to move keyslot area. Not enough space."
+msgstr "Kunde inte flytta nyckelplatsområde. Inte nog med utrymme."
+
+#: lib/luks2/luks2_luks1_convert.c:599
+msgid "Unable to move keyslot area. LUKS2 keyslots area too small."
+msgstr "Kunde inte flytta nyckelplatsområde. Området för LUKS2-nyckelplatser är för litet."
+
+#: lib/luks2/luks2_luks1_convert.c:605 lib/luks2/luks2_luks1_convert.c:889
+msgid "Unable to move keyslot area."
+msgstr "Kunde inte flytta nyckelplatsområde."
+
+#: lib/luks2/luks2_luks1_convert.c:697
+msgid "Cannot convert to LUKS1 format - default segment encryption sector size is not 512 bytes."
+msgstr "Det går inte att konvertera till LUKS1-format - standardkrypteringstorleken är inte 512 byte."
+
+#: lib/luks2/luks2_luks1_convert.c:705
+msgid "Cannot convert to LUKS1 format - key slot digests are not LUKS1 compatible."
+msgstr "Det går inte att konvertera till LUKS1-format - kontrollsummor för nyckelplatser är inte LUKS1-kompatibla."
+
+#: lib/luks2/luks2_luks1_convert.c:717
+#, c-format
+msgid "Cannot convert to LUKS1 format - device uses wrapped key cipher %s."
+msgstr "Det går inte att konvertera till LUKS1-format - enheterna använder inbäddat nyckelchiffer %s."
+
+#: lib/luks2/luks2_luks1_convert.c:725
+#, c-format
+msgid "Cannot convert to LUKS1 format - LUKS2 header contains %u token(s)."
+msgstr "Det går inte att konvertera till LUKS1-format - LUKS2-huvud innehåller %u token."
+
+#: lib/luks2/luks2_luks1_convert.c:739
+#, c-format
+msgid "Cannot convert to LUKS1 format - keyslot %u is in invalid state."
+msgstr "Det går inte att konvertera till LUKS1-format - nyckelplats %u är i ogiltigt tillstånd."
+
+#: lib/luks2/luks2_luks1_convert.c:744
+#, c-format
+msgid "Cannot convert to LUKS1 format - slot %u (over maximum slots) is still active."
+msgstr "Det går inte att konvertera till LUKS1-format - plats %u (av maximalt antal platser) är fortfarande aktiv."
+
+#: lib/luks2/luks2_luks1_convert.c:749
+#, c-format
+msgid "Cannot convert to LUKS1 format - keyslot %u is not LUKS1 compatible."
+msgstr "Det går inte att konvertera till LUKS1-format - nyckelplats %u är inte LUKS1-kompatibel."
+
+#: lib/luks2/luks2_reencrypt.c:998
+#, c-format
+msgid "Hotzone size must be multiple of calculated zone alignment (%zu bytes)."
+msgstr "Hotzone-storleken måste vara en multipel av beräknad zonjustering (%zu-byte)."
+
+#: lib/luks2/luks2_reencrypt.c:1003
+#, c-format
+msgid "Device size must be multiple of calculated zone alignment (%zu bytes)."
+msgstr "Enhetsstorleken måste vara en multipel av beräknad zonstorlek (%zu byte)."
+
+#: lib/luks2/luks2_reencrypt.c:1047
+#, c-format
+msgid "Unsupported resilience mode %s"
+msgstr "Stöder inte motståndsläge %s"
+
+#: lib/luks2/luks2_reencrypt.c:1264 lib/luks2/luks2_reencrypt.c:1419
+#: lib/luks2/luks2_reencrypt.c:1502 lib/luks2/luks2_reencrypt.c:1536
+#: lib/luks2/luks2_reencrypt.c:3238
+msgid "Failed to initialize old segment storage wrapper."
+msgstr "Misslyckades med att initiera gammal segmentlagringsinbäddning."
+
+#: lib/luks2/luks2_reencrypt.c:1278 lib/luks2/luks2_reencrypt.c:1397
+msgid "Failed to initialize new segment storage wrapper."
+msgstr "Misslyckades med att initiera ny segmentlagringsinbäddning."
+
+#: lib/luks2/luks2_reencrypt.c:1446
+msgid "Failed to read checksums for current hotzone."
+msgstr "Misslyckades med att läsa kontrollsummor från aktuell varm zon."
+
+#: lib/luks2/luks2_reencrypt.c:1453 lib/luks2/luks2_reencrypt.c:3246
+#, c-format
+msgid "Failed to read hotzone area starting at %<PRIu64>."
+msgstr "Misslyckades med att läsa område för varm zon med början %<PRIu64>."
+
+#: lib/luks2/luks2_reencrypt.c:1472
+#, c-format
+msgid "Failed to decrypt sector %zu."
+msgstr "Misslyckades med att dekryptera sektor %zu."
+
+#: lib/luks2/luks2_reencrypt.c:1478
+#, c-format
+msgid "Failed to recover sector %zu."
+msgstr "Misslyckades med återhämta sektor %zu."
+
+#: lib/luks2/luks2_reencrypt.c:1967
+#, c-format
+msgid "Source and target device sizes don't match. Source %<PRIu64>, target: %<PRIu64>."
+msgstr "Käll- och målenhetstorlekar stämmer inte överens. Källa %<PRIu64>, mål: %<PRIu64>."
+
+#: lib/luks2/luks2_reencrypt.c:2065
+#, c-format
+msgid "Failed to activate hotzone device %s."
+msgstr "Misslyckades med att aktivera varm zon-enhet %s."
+
+#: lib/luks2/luks2_reencrypt.c:2082
+#, c-format
+msgid "Failed to activate overlay device %s with actual origin table."
+msgstr "Misslyckades med att aktivera överlagringsenheten %s med aktuell ursprungstabell."
+
+#: lib/luks2/luks2_reencrypt.c:2089
+#, c-format
+msgid "Failed to load new mapping for device %s."
+msgstr "Misslyckades med att läsa in ny mappning för enhet %s."
+
+#: lib/luks2/luks2_reencrypt.c:2160
+msgid "Failed to refresh reencryption devices stack."
+msgstr "Misslyckades med att uppdatera listan över omkrypteringsenheter."
+
+#: lib/luks2/luks2_reencrypt.c:2313
+msgid "Failed to set new keyslots area size."
+msgstr "Misslyckades med att sätta en ny storlek på nyckelplatsområdet."
+
+#: lib/luks2/luks2_reencrypt.c:2417
+#, c-format
+msgid "Data shift is not aligned to requested encryption sector size (%<PRIu32> bytes)."
+msgstr "Dataskiftning är inte justerad till begärd sektorstorlek (%<PRIu32> byte)."
+
+#: lib/luks2/luks2_reencrypt.c:2438
+#, c-format
+msgid "Data device is not aligned to requested encryption sector size (%<PRIu32> bytes)."
+msgstr "Dataenhet är inte justerad till begärd sektorstorlek (%<PRIu32> byte)."
+
+#: lib/luks2/luks2_reencrypt.c:2459
+#, c-format
+msgid "Data shift (%<PRIu64> sectors) is less than future data offset (%<PRIu64> sectors)."
+msgstr "Dataskiftning (%<PRIu64> sektorer) är mindre än framtida dataförskjutning (%<PRIu64> sektorer)."
+
+#: lib/luks2/luks2_reencrypt.c:2465 lib/luks2/luks2_reencrypt.c:2905
+#: lib/luks2/luks2_reencrypt.c:2926
+#, c-format
+msgid "Failed to open %s in exclusive mode (already mapped or mounted)."
+msgstr "Misslyckades med att öppna %s i exklusivt läge (redan mappad eller monterad)."
+
+#: lib/luks2/luks2_reencrypt.c:2634
+msgid "Device not marked for LUKS2 reencryption."
+msgstr "Enheten är inte markerad för LUKS2-omkryptering."
+
+#: lib/luks2/luks2_reencrypt.c:2651 lib/luks2/luks2_reencrypt.c:3533
+msgid "Failed to load LUKS2 reencryption context."
+msgstr "Misslyckades med att läsa in LUKS2-omkrypteringskontext."
+
+#: lib/luks2/luks2_reencrypt.c:2731
+msgid "Failed to get reencryption state."
+msgstr "Misslyckades med att erhålla status för omkryptering."
+
+#: lib/luks2/luks2_reencrypt.c:2735 lib/luks2/luks2_reencrypt.c:3019
+msgid "Device is not in reencryption."
+msgstr "Enheten är inte i omkryptering."
+
+#: lib/luks2/luks2_reencrypt.c:2742 lib/luks2/luks2_reencrypt.c:3026
+msgid "Reencryption process is already running."
+msgstr "Omkrypteringsprocessen pågår redan."
+
+#: lib/luks2/luks2_reencrypt.c:2744 lib/luks2/luks2_reencrypt.c:3028
+msgid "Failed to acquire reencryption lock."
+msgstr "Misslyckades med att erhålla skrivlås för omkryptering."
+
+#: lib/luks2/luks2_reencrypt.c:2762
+msgid "Cannot proceed with reencryption. Run reencryption recovery first."
+msgstr "Det går inte att fortsätta med omkryptering. Kör återställning av omkryptering först."
+
+#: lib/luks2/luks2_reencrypt.c:2876
+msgid "Active device size and requested reencryption size don't match."
+msgstr "Aktiv enhetsstorlek och begärd omkrypteringsstorlek skiljer sig åt."
+
+#: lib/luks2/luks2_reencrypt.c:2890
+msgid "Illegal device size requested in reencryption parameters."
+msgstr "Ogiltig enhetsstorlek begärd i omkrypteringsparametrarna."
+
+#: lib/luks2/luks2_reencrypt.c:2960
+msgid "Reencryption in-progress. Cannot perform recovery."
+msgstr "Omkryptering pågår redan. Det går inte att utföra återhämtning."
+
+#: lib/luks2/luks2_reencrypt.c:3116
+msgid "LUKS2 reencryption already initialized in metadata."
+msgstr "LUKS2-omkryptering är redan initierad i metadata."
+
+#: lib/luks2/luks2_reencrypt.c:3123
+msgid "Failed to initialize LUKS2 reencryption in metadata."
+msgstr "Misslyckades med att initiera LUKS2-omkryptering i metadata."
+
+#: lib/luks2/luks2_reencrypt.c:3212
+msgid "Failed to set device segments for next reencryption hotzone."
+msgstr "Misslyckades med sätta enhetssegment för nästa varm zon-omkryptering."
+
+#: lib/luks2/luks2_reencrypt.c:3254
+msgid "Failed to write reencryption resilience metadata."
+msgstr "Misslyckades med att skriva motståndsmetadata för omkryptering."
+
+#: lib/luks2/luks2_reencrypt.c:3261
+msgid "Decryption failed."
+msgstr "Avkryptering misslyckades."
+
+#: lib/luks2/luks2_reencrypt.c:3266
+#, c-format
+msgid "Failed to write hotzone area starting at %<PRIu64>."
+msgstr "Misslyckades med att skriva område för varm zon med början vid %<PRIu64>."
+
+#: lib/luks2/luks2_reencrypt.c:3271
+msgid "Failed to sync data."
+msgstr "Misslyckades med att synkronisera data."
+
+#: lib/luks2/luks2_reencrypt.c:3279
+msgid "Failed to update metadata after current reencryption hotzone completed."
+msgstr "Misslyckades med att uppdatera metadata efter aktuell varm zon för omkrypteringär färdigställd."
+
+#: lib/luks2/luks2_reencrypt.c:3346
+msgid "Failed to write LUKS2 metadata."
+msgstr "Misslyckades med att skriva LUKS2-metadata."
+
+#: lib/luks2/luks2_reencrypt.c:3369
+msgid "Failed to wipe backup segment data."
+msgstr "Misslyckades med att radera säkerhetskopia av segmentdata."
+
+#: lib/luks2/luks2_reencrypt.c:3375
+#, fuzzy, c-format
+msgid "Failed to remove unused (unbound) keyslot %d."
+msgstr "Misslyckades med att tilldela token %d till nyckelplats %d."
+
+#: lib/luks2/luks2_reencrypt.c:3385
+#, fuzzy
+msgid "Failed to remove reencryption keyslot."
+msgstr "Misslyckades med att erhålla omkrypteringslås."
+
+#: lib/luks2/luks2_reencrypt.c:3395
+#, c-format
+msgid "Fatal error while reencrypting chunk starting at %<PRIu64>, %<PRIu64> sectors long."
+msgstr "Ödesdigert fel vid omkrypteringschunk med start vid %<PRIu64>, %<PRIu64> sektorer lång."
+
+#: lib/luks2/luks2_reencrypt.c:3399
+msgid "Online reencryption failed."
+msgstr "Misslyckades med omkryptering."
+
+#: lib/luks2/luks2_reencrypt.c:3404
+msgid "Do not resume the device unless replaced with error target manually."
+msgstr "Återuppta inte enheten om inte den ersatts med felmål manuellt."
+
+#: lib/luks2/luks2_reencrypt.c:3458
+msgid "Cannot proceed with reencryption. Unexpected reencryption status."
+msgstr "Det går inte att fortsätta med omkryptering. Oväntat omkrypteringsläge."
+
+#: lib/luks2/luks2_reencrypt.c:3464
+msgid "Missing or invalid reencrypt context."
+msgstr "Saknat eller ogiltigt omkrypteringskontext."
+
+#: lib/luks2/luks2_reencrypt.c:3471
+msgid "Failed to initialize reencryption device stack."
+msgstr "Misslyckades med att initiera listan för omkrypteringsenheter."
+
+#: lib/luks2/luks2_reencrypt.c:3499 lib/luks2/luks2_reencrypt.c:3546
+msgid "Failed to update reencryption context."
+msgstr "Misslyckades med att uppdatera omkrypteringskontext."
+
+#: lib/luks2/luks2_reencrypt_digest.c:376
+#, fuzzy
+msgid "Reencryption metadata is invalid."
+msgstr "Nyckelplats %d är ogiltig."
+
+#: src/cryptsetup.c:108
+msgid "Can't do passphrase verification on non-tty inputs."
+msgstr "Kan inte verifiera lösenfras på icke-tty-ingångar."
+
+#: src/cryptsetup.c:171
+msgid "Keyslot encryption parameters can be set only for LUKS2 device."
+msgstr "Krypteringsparametrar för nyckelplatser stöds endast av LUKS2-enheter."
+
+#: src/cryptsetup.c:198
+#, c-format
+msgid "Enter token PIN:"
+msgstr "Ange token-PIN:"
+
+#: src/cryptsetup.c:200
+#, c-format
+msgid "Enter token %d PIN:"
+msgstr "Ange token-PIN %d :"
+
+#: src/cryptsetup.c:245 src/cryptsetup.c:1057 src/cryptsetup.c:1450
+#: src/cryptsetup.c:3337 src/cryptsetup_reencrypt.c:700
+#: src/cryptsetup_reencrypt.c:770
+msgid "No known cipher specification pattern detected."
+msgstr "Inget känt chifferspecifikationsmönster kunde identifieras."
+
+#: src/cryptsetup.c:253
+msgid "WARNING: The --hash parameter is being ignored in plain mode with keyfile specified.\n"
+msgstr "VARNING: parametern --hash ignoreras i plain-läge med specificerad nyckelfil.\n"
+
+#: src/cryptsetup.c:261
+msgid "WARNING: The --keyfile-size option is being ignored, the read size is the same as the encryption key size.\n"
+msgstr "VARNING: flaggan --keyfile-size ignoreras, lässtorleken är densamma som storleken för krypteringsnyckeln.\n"
+
+#: src/cryptsetup.c:301
+#, c-format
+msgid "Detected device signature(s) on %s. Proceeding further may damage existing data."
+msgstr "Identfierar enhetssignatur(er) på %s. Att fortsätta kan skada befintlig data."
+
+#: src/cryptsetup.c:307 src/cryptsetup.c:1188 src/cryptsetup.c:1236
+#: src/cryptsetup.c:1302 src/cryptsetup.c:1427 src/cryptsetup.c:1500
+#: src/cryptsetup.c:2148 src/cryptsetup.c:2854 src/cryptsetup.c:2976
+#: src/integritysetup.c:176
+msgid "Operation aborted.\n"
+msgstr "Åtgärd avbruten.\n"
+
+#: src/cryptsetup.c:375
+msgid "Option --key-file is required."
+msgstr "Flaggan --key-file krävs."
+
+#: src/cryptsetup.c:426
+msgid "Enter VeraCrypt PIM: "
+msgstr "Ange VeraCrypt PIM: "
+
+#: src/cryptsetup.c:435
+msgid "Invalid PIM value: parse error."
+msgstr "Ogiltigt PIM-värde:tolkningsfel."
+
+#: src/cryptsetup.c:438
+msgid "Invalid PIM value: 0."
+msgstr "Ogiltigt PIM-värde: 0."
+
+#: src/cryptsetup.c:441
+msgid "Invalid PIM value: outside of range."
+msgstr "Ogiltigt PIM-värde:utanför intervallet."
+
+#: src/cryptsetup.c:464
+msgid "No device header detected with this passphrase."
+msgstr "Inget enhetshuvud finns tillgängligt med denna lösenfras."
+
+#: src/cryptsetup.c:537
+#, c-format
+msgid "Device %s is not a valid BITLK device."
+msgstr "Enheten %s är inte en giltig BITLK-enhet."
+
+#: src/cryptsetup.c:545
+msgid "Cannot determine volume key size for BITLK, please use --key-size option."
+msgstr "Det går inte att avgöra volymens nyckelstorlek för BTLK, använd flaggan --key-size."
+
+#: src/cryptsetup.c:588
+msgid ""
+"Header dump with volume key is sensitive information\n"
+"which allows access to encrypted partition without passphrase.\n"
+"This dump should be always stored encrypted on safe place."
+msgstr ""
+"Utskrift av huvudet med volymnyckel är känslig information\n"
+"som tillåter åtkomst till krypterad partition utan lösenfras.\n"
+"Denna utskrift bör alltid lagras krypterad på ett säkert ställe."
+
+#: src/cryptsetup.c:661 src/cryptsetup.c:2174
+msgid ""
+"The header dump with volume key is sensitive information\n"
+"that allows access to encrypted partition without a passphrase.\n"
+"This dump should be stored encrypted in a safe place."
+msgstr ""
+"Utskrift av huvudet med volymnyckel är känslig information\n"
+"som tillåter åtkomst till krypterad partition utan lösenfras.\n"
+"Denna utskrift bör alltid lagras krypterad på ett säkert ställe."
+
+#: src/cryptsetup.c:756 src/veritysetup.c:318 src/integritysetup.c:313
+#, c-format
+msgid "Device %s is still active and scheduled for deferred removal.\n"
+msgstr "Enheten %s är fortfarande aktiv och schemalagd för uppskjuten borttagning.\n"
+
+#: src/cryptsetup.c:790
+msgid "Resize of active device requires volume key in keyring but --disable-keyring option is set."
+msgstr "Att ändra storlek på aktiv enhet kräver volymnyckel i nyckelringen, men -flaggan --disable-keyring är angiven."
+
+#: src/cryptsetup.c:936
+msgid "Benchmark interrupted."
+msgstr "Prestandamätning avbruten."
+
+#: src/cryptsetup.c:957
+#, c-format
+msgid "PBKDF2-%-9s     N/A\n"
+msgstr "PBKDF2-%-9s     N/A\n"
+
+#: src/cryptsetup.c:959
+#, c-format
+msgid "PBKDF2-%-9s %7u iterations per second for %zu-bit key\n"
+msgstr "PBKDF2-%-9s %7u iterationer per sekund för %zu-bitnyckel\n"
+
+#: src/cryptsetup.c:973
+#, c-format
+msgid "%-10s N/A\n"
+msgstr "%-10s N/A\n"
+
+#: src/cryptsetup.c:975
+#, c-format
+msgid "%-10s %4u iterations, %5u memory, %1u parallel threads (CPUs) for %zu-bit key (requested %u ms time)\n"
+msgstr "%-10s %4u iterationer, %5u minne, %1u parallella trådar (CPU:er) för %zu-bitnyckelplats (begärde %u ms)\n"
+
+#: src/cryptsetup.c:999
+msgid "Result of benchmark is not reliable."
+msgstr "Resultat från prestandamätningen är inte pålitligt."
+
+#: src/cryptsetup.c:1049
+msgid "# Tests are approximate using memory only (no storage IO).\n"
+msgstr "# Tester är ungefärliga och använder endast minne (ingen lagrings-IO).\n"
+
+#. TRANSLATORS: The string is header of a table and must be exactly (right side) aligned.
+#: src/cryptsetup.c:1069
+#, c-format
+msgid "#%*s Algorithm |       Key |      Encryption |      Decryption\n"
+msgstr "#%*s Algoritm |       Nyckel |      Kryptering |      Avkryptering\n"
+
+#: src/cryptsetup.c:1073
+#, c-format
+msgid "Cipher %s (with %i bits key) is not available."
+msgstr "Chiffret %s (med nyckel av %i bitar) är inte tillgängligt."
+
+#. TRANSLATORS: The string is header of a table and must be exactly (right side) aligned.
+#: src/cryptsetup.c:1092
+msgid "#     Algorithm |       Key |      Encryption |      Decryption\n"
+msgstr "#     Algoritm |       Nyckel |      Kryptering |      AVkryptering\n"
+
+#: src/cryptsetup.c:1103
+msgid "N/A"
+msgstr "N/A"
+
+#: src/cryptsetup.c:1185
+msgid ""
+"Unprotected LUKS2 reencryption metadata detected. Please verify the reencryption operation is desirable (see luksDump output)\n"
+"and continue (upgrade metadata) only if you acknowledge the operation as genuine."
+msgstr ""
+
+#: src/cryptsetup.c:1191
+#, fuzzy
+msgid "Enter passphrase to protect and uppgrade reencryption metadata: "
+msgstr "Ange lösenfras för omkrypteringsåterhämtning: "
+
+#: src/cryptsetup.c:1235
+msgid "Really proceed with LUKS2 reencryption recovery?"
+msgstr "Vill du verkligen fortsätta med LUKS2-omkrypteringsåterställning?"
+
+#: src/cryptsetup.c:1244
+#, fuzzy
+msgid "Enter passphrase to verify reencryption metadata digest: "
+msgstr "Ange lösenfras för omkrypteringsåterhämtning: "
+
+#: src/cryptsetup.c:1246
+msgid "Enter passphrase for reencryption recovery: "
+msgstr "Ange lösenfras för omkrypteringsåterhämtning: "
+
+#: src/cryptsetup.c:1301
+msgid "Really try to repair LUKS device header?"
+msgstr "Vill du verkligen försöka att reparera LUKS-enhetshuvud?"
+
+#: src/cryptsetup.c:1326 src/integritysetup.c:90
+msgid ""
+"Wiping device to initialize integrity checksum.\n"
+"You can interrupt this by pressing CTRL+c (rest of not wiped device will contain invalid checksum).\n"
+msgstr ""
+"Rensar enheten för att initialisera kontrollsumma för integritet.\n"
+"Du kan avbryta detta genom att trycka ned CTRL+c (resten av den ej rensade enheten kommer att innehålla en ogiltigt kontrollsumma).\n"
+
+#: src/cryptsetup.c:1348 src/integritysetup.c:112
+#, c-format
+msgid "Cannot deactivate temporary device %s."
+msgstr "Det går inte att inaktivera temporär enhet %s."
+
+#: src/cryptsetup.c:1412
+msgid "Integrity option can be used only for LUKS2 format."
+msgstr "Flaggan för integritet kan endast användas för formatet LUKS2."
+
+#: src/cryptsetup.c:1417 src/cryptsetup.c:1477
+msgid "Unsupported LUKS2 metadata size options."
+msgstr "Flaggorna för storlekar på LUKS2-metadata stöds inte."
+
+#: src/cryptsetup.c:1426
+msgid "Header file does not exist, do you want to create it?"
+msgstr "Deklarationsfilen existerar inte, vill du skapa den?"
+
+#: src/cryptsetup.c:1434
+#, c-format
+msgid "Cannot create header file %s."
+msgstr "Det går inte att skapa huvudfil %s."
+
+#: src/cryptsetup.c:1457 src/integritysetup.c:138 src/integritysetup.c:146
+#: src/integritysetup.c:155 src/integritysetup.c:230 src/integritysetup.c:238
+#: src/integritysetup.c:248
+msgid "No known integrity specification pattern detected."
+msgstr "Inga kända integritetspecifikationsmönster identifierat."
+
+#: src/cryptsetup.c:1470
+#, c-format
+msgid "Cannot use %s as on-disk header."
+msgstr "Det går inte att använda %s som diskhuvud."
+
+#: src/cryptsetup.c:1494 src/integritysetup.c:170
+#, c-format
+msgid "This will overwrite data on %s irrevocably."
+msgstr "Detta kommer att skriva över data på %s och går inte att ångra."
+
+#: src/cryptsetup.c:1527 src/cryptsetup.c:1863 src/cryptsetup.c:1928
+#: src/cryptsetup.c:2030 src/cryptsetup.c:2096 src/cryptsetup_reencrypt.c:530
+msgid "Failed to set pbkdf parameters."
+msgstr "Misslyckades med att sätta pbkdf-parametrar."
+
+#: src/cryptsetup.c:1612
+msgid "Reduced data offset is allowed only for detached LUKS header."
+msgstr "Förminskad dataoffset endast tillåtet för fristående LUKS-huvuden."
+
+#: src/cryptsetup.c:1623 src/cryptsetup.c:1934
+msgid "Cannot determine volume key size for LUKS without keyslots, please use --key-size option."
+msgstr "Det går inte att avgöra volymens nyckelstorlek för LUKS utan nyckelplatser, använd flaggen --key-size."
+
+#: src/cryptsetup.c:1668
+msgid "Device activated but cannot make flags persistent."
+msgstr "Enheten aktiverad men kan inte spara undan flaggorna."
+
+#: src/cryptsetup.c:1747 src/cryptsetup.c:1815
+#, c-format
+msgid "Keyslot %d is selected for deletion."
+msgstr "Nyckelplats %d markerad för borttagning."
+
+#: src/cryptsetup.c:1759 src/cryptsetup.c:1819
+msgid "This is the last keyslot. Device will become unusable after purging this key."
+msgstr "Detta är sista nyckelplatsen. Enheten kommer att bli oanvändbar efter att denna nyckel tagits bort."
+
+#: src/cryptsetup.c:1760
+msgid "Enter any remaining passphrase: "
+msgstr "Ange eventuell återstående lösenfras: "
+
+#: src/cryptsetup.c:1761 src/cryptsetup.c:1821
+msgid "Operation aborted, the keyslot was NOT wiped.\n"
+msgstr "Åtgärden avbröts, nyckelplatsen raderades INTE.\n"
+
+#: src/cryptsetup.c:1797
+msgid "Enter passphrase to be deleted: "
+msgstr "Ange lösenfras att ta bort: "
+
+#: src/cryptsetup.c:1877 src/cryptsetup.c:1949 src/cryptsetup.c:1983
+msgid "Enter new passphrase for key slot: "
+msgstr "Ange ny lösenfras för nyckelplats: "
+
+#: src/cryptsetup.c:1966 src/cryptsetup_reencrypt.c:1328
+#, c-format
+msgid "Enter any existing passphrase: "
+msgstr "Ange valfri existerande lösenfras: "
+
+#: src/cryptsetup.c:2034
+msgid "Enter passphrase to be changed: "
+msgstr "Ange lösenfras att ändra: "
+
+#: src/cryptsetup.c:2050 src/cryptsetup_reencrypt.c:1314
+msgid "Enter new passphrase: "
+msgstr "Ange ny lösenfras: "
+
+#: src/cryptsetup.c:2100
+msgid "Enter passphrase for keyslot to be converted: "
+msgstr "Ange lösenfras för nyckelplats att konvertera: "
+
+#: src/cryptsetup.c:2124
+msgid "Only one device argument for isLuks operation is supported."
+msgstr "Endast ett enhetsargument för operationen isLuks stöds."
+
+#: src/cryptsetup.c:2239
+#, c-format
+msgid "Keyslot %d does not contain unbound key."
+msgstr "Nyckelplats %d innehåller inte obunden nyckel."
+
+#: src/cryptsetup.c:2244
+msgid ""
+"The header dump with unbound key is sensitive information.\n"
+"This dump should be stored encrypted in a safe place."
+msgstr ""
+"Utskrift av huvudet med obunden nyckel är känslig information.\n"
+"Denna utskrift bör alltid lagras krypterad på ett säkert ställe."
+
+#: src/cryptsetup.c:2335 src/cryptsetup.c:2363
+#, c-format
+msgid "%s is not active %s device name."
+msgstr "%s är inte ett aktivt %s-enhetsnamn."
+
+#: src/cryptsetup.c:2358
+#, c-format
+msgid "%s is not active LUKS device name or header is missing."
+msgstr "%s är inte ett aktivt LUKS-enhetsnamn eller så saknas deklaration."
+
+#: src/cryptsetup.c:2396 src/cryptsetup.c:2415
+msgid "Option --header-backup-file is required."
+msgstr "Flaggan --header-backup-file krävs."
+
+#: src/cryptsetup.c:2446
+#, c-format
+msgid "%s is not cryptsetup managed device."
+msgstr "%s är inte en cryptsetup-hanterad enhet."
+
+#: src/cryptsetup.c:2457
+#, c-format
+msgid "Refresh is not supported for device type %s"
+msgstr "Att uppdatera stöds inte för enhetstypen %s"
+
+#: src/cryptsetup.c:2503
+#, c-format
+msgid "Unrecognized metadata device type %s."
+msgstr "Okänd metadata för enhetstypen %s."
+
+#: src/cryptsetup.c:2505
+msgid "Command requires device and mapped name as arguments."
+msgstr "Kommandot kräver enhet och mappat namn som argument."
+
+#: src/cryptsetup.c:2526
+#, c-format
+msgid ""
+"This operation will erase all keyslots on device %s.\n"
+"Device will become unusable after this operation."
+msgstr ""
+"Denna åtgärd kommer att ta bort alla nyckelplatser på enhet %s.\n"
+"Enheten kommer att bli oanvändbar efter denna åtgärd."
+
+#: src/cryptsetup.c:2533
+msgid "Operation aborted, keyslots were NOT wiped.\n"
+msgstr "Åtgärden avbryten, nyckelplatser raderades EJ.\n"
+
+#: src/cryptsetup.c:2572
+msgid "Invalid LUKS type, only luks1 and luks2 are supported."
+msgstr "Ogiltig LUKS-typ, endast luks1 och luks2 stöds."
+
+#: src/cryptsetup.c:2588
+#, c-format
+msgid "Device is already %s type."
+msgstr "Enheten är redan av %s-typ."
+
+#: src/cryptsetup.c:2595
+#, c-format
+msgid "This operation will convert %s to %s format.\n"
+msgstr "Denna åtgärd kommer att konvertera %s till %s-format.\n"
+
+#: src/cryptsetup.c:2598
+msgid "Operation aborted, device was NOT converted.\n"
+msgstr "Åtgärden avbröts, enheten konverterades INTE.\n"
+
+#: src/cryptsetup.c:2638
+msgid "Option --priority, --label or --subsystem is missing."
+msgstr "Saknar flaggan --priority, --label eller --subsystem."
+
+#: src/cryptsetup.c:2672 src/cryptsetup.c:2709 src/cryptsetup.c:2729
+#, c-format
+msgid "Token %d is invalid."
+msgstr "Token %d är ogiltig."
+
+#: src/cryptsetup.c:2675 src/cryptsetup.c:2732
+#, c-format
+msgid "Token %d in use."
+msgstr "Token %d används."
+
+#: src/cryptsetup.c:2687
+#, c-format
+msgid "Failed to add luks2-keyring token %d."
+msgstr "Misslyckades med att lägga till luks2-nyckelringsstoken %d."
+
+#: src/cryptsetup.c:2695 src/cryptsetup.c:2758
+#, c-format
+msgid "Failed to assign token %d to keyslot %d."
+msgstr "Misslyckades med att tilldela token %d till nyckelplats %d."
+
+#: src/cryptsetup.c:2712
+#, c-format
+msgid "Token %d is not in use."
+msgstr "Token %d används ej."
+
+#: src/cryptsetup.c:2749
+msgid "Failed to import token from file."
+msgstr "Misslyckades med att importera token från fil."
+
+#: src/cryptsetup.c:2774
+#, c-format
+msgid "Failed to get token %d for export."
+msgstr "Misslyckades med att hämta token %d för export."
+
+#: src/cryptsetup.c:2838
+#, c-format
+msgid "Auto-detected active dm device '%s' for data device %s.\n"
+msgstr "Auto-identifierade aktiv dm-enhet ”%s” för dataenheten %s.\n"
+
+#: src/cryptsetup.c:2842
+#, c-format
+msgid "Device %s is not a block device.\n"
+msgstr "Enheten %s är inte en giltig blockenhet.\n"
+
+#: src/cryptsetup.c:2844
+#, c-format
+msgid "Failed to auto-detect device %s holders."
+msgstr "Misslyckades med att identifiera kopplingarna till enhet %s."
+
+#: src/cryptsetup.c:2848
+#, c-format
+msgid ""
+"Unable to decide if device %s is activated or not.\n"
+"Are you sure you want to proceed with reencryption in offline mode?\n"
+"It may lead to data corruption if the device is actually activated.\n"
+"To run reencryption in online mode, use --active-name parameter instead.\n"
+msgstr ""
+"Det går inte att avgöra om enheten %s är aktiverade eller ej.\n"
+"Är du säker på att du vill fortsätta kryptera om i frånkopplat läge?\n"
+"Det kan leda till datakorruption om enheten är aktiverad.\n"
+"För att kryptera om i uppkopplat läge, använd istället flaggan --active-name.\n"
+
+#: src/cryptsetup.c:2930
+msgid "Encryption is supported only for LUKS2 format."
+msgstr "Kryptering stöds endast för formatet LUKS2."
+
+#: src/cryptsetup.c:2935
+msgid "Encryption without detached header (--header) is not possible without data device size reduction (--reduce-device-size)."
+msgstr "Kryptering utan frånkopplat huvud (--header) är inte möjligt utan att minska datastorleken på enheten (--reduce-device-size)."
+
+#: src/cryptsetup.c:2940
+msgid "Requested data offset must be less than or equal to half of --reduce-device-size parameter."
+msgstr "Begärd dataförskjutning måste vara mindre än, eller lika med halva av parametern --reduce-device-size."
+
+#: src/cryptsetup.c:2949
+#, c-format
+msgid "Adjusting --reduce-device-size value to twice the --offset %<PRIu64> (sectors).\n"
+msgstr "Justera värdet av --reduce-device-size-värdet till dubbla --offset %<PRIu64> (sektorer).\n"
+
+#: src/cryptsetup.c:2972
+#, c-format
+msgid "Detected LUKS device on %s. Do you want to encrypt that LUKS device again?"
+msgstr "Identifierade LUKS-enhet på %s. Vill du kryptera LUKS-enheten igen?"
+
+#: src/cryptsetup.c:2990
+#, c-format
+msgid "Temporary header file %s already exists. Aborting."
+msgstr "Tillfällig huvudfil %s finns redan. Avbryter."
+
+#: src/cryptsetup.c:2992 src/cryptsetup.c:2999
+#, c-format
+msgid "Cannot create temporary header file %s."
+msgstr "Det går inte att skapa tillfällig huvudfil %s."
+
+#: src/cryptsetup.c:3024
+msgid "LUKS2 metadata size is larger than data shift value."
+msgstr "LUKS2-metadatastorleken är större än dataskift-värdet."
+
+#: src/cryptsetup.c:3056
+#, c-format
+msgid "Failed to place new header at head of device %s."
+msgstr "Misslyckades med att placera ny header i början på enheten %s."
+
+#: src/cryptsetup.c:3067
+#, c-format
+msgid "%s/%s is now active and ready for online encryption.\n"
+msgstr "%s/%s är nu aktiv och redo för uppkopplad kryptering.\n"
+
+#: src/cryptsetup.c:3104
+msgid "LUKS2 decryption is supported with detached header device only (with data offset set to 0)."
+msgstr "LUKS2-dekryptering stöds endast för enheter med fristående header (med data-offset satt till 0)."
+
+#: src/cryptsetup.c:3238 src/cryptsetup.c:3244
+msgid "Not enough free keyslots for reencryption."
+msgstr "Inte nog med fria nyckelplatser för omkryptering."
+
+#: src/cryptsetup.c:3264 src/cryptsetup_reencrypt.c:1279
+msgid "Key file can be used only with --key-slot or with exactly one key slot active."
+msgstr "Nyckelfil kan endast användas med --key-slot eller precis en aktiv nyckelplats."
+
+#: src/cryptsetup.c:3273 src/cryptsetup_reencrypt.c:1326
+#: src/cryptsetup_reencrypt.c:1337
+#, c-format
+msgid "Enter passphrase for key slot %d: "
+msgstr "Ange lösenfras för nyckelplats %d: "
+
+#: src/cryptsetup.c:3282
+#, c-format
+msgid "Enter passphrase for key slot %u: "
+msgstr "Ange lösenfras för nyckelplats %u: "
+
+#: src/cryptsetup.c:3327
+#, c-format
+msgid "Switching data encryption cipher to %s.\n"
+msgstr "Byter krypteringschiffer till %s.\n"
+
+#: src/cryptsetup.c:3464
+msgid "Command requires device as argument."
+msgstr "Kommandot kräver en enhet som argument."
+
+#: src/cryptsetup.c:3486
+msgid "Only LUKS2 format is currently supported. Please use cryptsetup-reencrypt tool for LUKS1."
+msgstr "Stödjer endast LUKS2-formatet. Använd verktyget cryptsetup-reencrypt för LUKS1."
+
+#: src/cryptsetup.c:3498
+msgid "Legacy offline reencryption already in-progress. Use cryptsetup-reencrypt utility."
+msgstr "Föråldrad frånkopplad omkryptering pågår redan. Använd verktyget cryptsetup-reencrypt."
+
+#: src/cryptsetup.c:3508 src/cryptsetup_reencrypt.c:155
+msgid "Reencryption of device with integrity profile is not supported."
+msgstr "Kryptering för enhet med integritetsprofil stöds ej."
+
+#: src/cryptsetup.c:3516
+msgid "LUKS2 reencryption already initialized. Aborting operation."
+msgstr "LUKS2-omkryptering är redan initierad. Avbryter åtgärd."
+
+#: src/cryptsetup.c:3520
+msgid "LUKS2 device is not in reencryption."
+msgstr "LUKS2-enheten är inte i omkryptering."
+
+#: src/cryptsetup.c:3547
+msgid "<device> [--type <type>] [<name>]"
+msgstr "<enhet> [--type <typ>] [<namn>]"
+
+#: src/cryptsetup.c:3547 src/veritysetup.c:480 src/integritysetup.c:446
+msgid "open device as <name>"
+msgstr "öppna enhet som <namn>"
+
+#: src/cryptsetup.c:3548 src/cryptsetup.c:3549 src/cryptsetup.c:3550
+#: src/veritysetup.c:481 src/veritysetup.c:482 src/integritysetup.c:447
+#: src/integritysetup.c:448
+msgid "<name>"
+msgstr "<namn>"
+
+#: src/cryptsetup.c:3548 src/veritysetup.c:481 src/integritysetup.c:447
+msgid "close device (remove mapping)"
+msgstr "stäng enhet (ta bort mappning)"
+
+#: src/cryptsetup.c:3549
+msgid "resize active device"
+msgstr "ändra storlek på aktiv enhet"
+
+#: src/cryptsetup.c:3550
+msgid "show device status"
+msgstr "visa enhetsstatus"
+
+#: src/cryptsetup.c:3551
+msgid "[--cipher <cipher>]"
+msgstr "[--cipher <chiffer>]"
+
+#: src/cryptsetup.c:3551
+msgid "benchmark cipher"
+msgstr "prestandamät chiffer"
+
+#: src/cryptsetup.c:3552 src/cryptsetup.c:3553 src/cryptsetup.c:3554
+#: src/cryptsetup.c:3555 src/cryptsetup.c:3556 src/cryptsetup.c:3563
+#: src/cryptsetup.c:3564 src/cryptsetup.c:3565 src/cryptsetup.c:3566
+#: src/cryptsetup.c:3567 src/cryptsetup.c:3568 src/cryptsetup.c:3569
+#: src/cryptsetup.c:3570 src/cryptsetup.c:3571
+msgid "<device>"
+msgstr "<enhet>"
+
+#: src/cryptsetup.c:3552
+msgid "try to repair on-disk metadata"
+msgstr "försök att reparera metadata på disken"
+
+#: src/cryptsetup.c:3553
+msgid "reencrypt LUKS2 device"
+msgstr "omkryptering av LUKS2-enhet"
+
+#: src/cryptsetup.c:3554
+msgid "erase all keyslots (remove encryption key)"
+msgstr "ta bort alla nyckelplatser (ta bort krypteringsnyckeln)"
+
+#: src/cryptsetup.c:3555
+msgid "convert LUKS from/to LUKS2 format"
+msgstr "konvertera LUKS från/till LUKS2-format"
+
+#: src/cryptsetup.c:3556
+msgid "set permanent configuration options for LUKS2"
+msgstr "ange permanenta konfigurationsflaggor för LUKS2"
+
+#: src/cryptsetup.c:3557 src/cryptsetup.c:3558
+msgid "<device> [<new key file>]"
+msgstr "<enhet> [<ny nyckelfil>]"
+
+#: src/cryptsetup.c:3557
+msgid "formats a LUKS device"
+msgstr "formaterar en LUKS-enhet"
+
+#: src/cryptsetup.c:3558
+msgid "add key to LUKS device"
+msgstr "lägg till nyckel till LUKS-enhet"
+
+#: src/cryptsetup.c:3559 src/cryptsetup.c:3560 src/cryptsetup.c:3561
+msgid "<device> [<key file>]"
+msgstr "<enhet> [<nyckelfil>]"
+
+#: src/cryptsetup.c:3559
+msgid "removes supplied key or key file from LUKS device"
+msgstr "tar bort angiven nyckel eller nyckelfil från LUKS-enhet"
+
+#: src/cryptsetup.c:3560
+msgid "changes supplied key or key file of LUKS device"
+msgstr "ändrar angiven nyckel eller nyckelfil för LUKS-enhet"
+
+#: src/cryptsetup.c:3561
+msgid "converts a key to new pbkdf parameters"
+msgstr "konverterar en nyckel till nya pbkdf-parametrar"
+
+#: src/cryptsetup.c:3562
+msgid "<device> <key slot>"
+msgstr "<enhet> <nyckelplats>"
+
+#: src/cryptsetup.c:3562
+msgid "wipes key with number <key slot> from LUKS device"
+msgstr "rensar nyckeln med nummer <nyckelplats> från LUKS-enhet"
+
+#: src/cryptsetup.c:3563
+msgid "print UUID of LUKS device"
+msgstr "skriv ut UUID för LUKS-enhet"
+
+#: src/cryptsetup.c:3564
+msgid "tests <device> for LUKS partition header"
+msgstr "testar <enhet> för LUKS-partitionshuvud"
+
+#: src/cryptsetup.c:3565
+msgid "dump LUKS partition information"
+msgstr "skriver ut information om LUKS-partition"
+
+#: src/cryptsetup.c:3566
+msgid "dump TCRYPT device information"
+msgstr "skriver ut information om TCRYPT-partition"
+
+#: src/cryptsetup.c:3567
+msgid "dump BITLK device information"
+msgstr "skriv ut BITLK-enhetsinformation"
+
+#: src/cryptsetup.c:3568
+msgid "Suspend LUKS device and wipe key (all IOs are frozen)"
+msgstr "Försätt LUKS-enhet i vänteläge och rensa nyckel (alla in-/ut-åtgärder är frusna)"
+
+#: src/cryptsetup.c:3569
+msgid "Resume suspended LUKS device"
+msgstr "Återuppta LUKS-enhet i vänteläge"
+
+#: src/cryptsetup.c:3570
+msgid "Backup LUKS device header and keyslots"
+msgstr "Säkerhetskopiera huvud och nyckelplatser från LUKS-enhet"
+
+#: src/cryptsetup.c:3571
+msgid "Restore LUKS device header and keyslots"
+msgstr "Återställ huvud och nyckelplatser för LUKS-enhet"
+
+#: src/cryptsetup.c:3572
+msgid "<add|remove|import|export> <device>"
+msgstr "<läggtill|tabort|importera|exportera> <enhet>"
+
+#: src/cryptsetup.c:3572
+msgid "Manipulate LUKS2 tokens"
+msgstr "Manipulera LUKS2-token"
+
+#: src/cryptsetup.c:3592 src/veritysetup.c:498 src/integritysetup.c:464
+msgid ""
+"\n"
+"<action> is one of:\n"
+msgstr ""
+"\n"
+"<åtgärd> är en av:\n"
+
+#: src/cryptsetup.c:3598
+msgid ""
+"\n"
+"You can also use old <action> syntax aliases:\n"
+"\topen: create (plainOpen), luksOpen, loopaesOpen, tcryptOpen, bitlkOpen\n"
+"\tclose: remove (plainClose), luksClose, loopaesClose, tcryptClose, bitlkClose\n"
+msgstr ""
+"\n"
+"Du kan också använda gamla <åtgärd> syntaxalias:\n"
+"\topen: create (plainOpen), luksOpen, loopaesOpen, tcryptOpen, bitlkOpen\n"
+"\tclose: remove (plainClose), luksClose, loopaesClose, tcryptClose, bitlkOpen\n"
+
+#: src/cryptsetup.c:3602
+#, c-format
+msgid ""
+"\n"
+"<name> is the device to create under %s\n"
+"<device> is the encrypted device\n"
+"<key slot> is the LUKS key slot number to modify\n"
+"<key file> optional key file for the new key for luksAddKey action\n"
+msgstr ""
+"\n"
+"<namn> är enheten att skapa under %s\n"
+"<enhet> är den krypterade enheten\n"
+"<nyckelplats> är numret för LUKS-nyckelplatsen att ändra\n"
+"<nyckelfil> valfri nyckelfil för den nya nyckeln för luksAddKey-åtgärden\n"
+
+#: src/cryptsetup.c:3609
+#, c-format
+msgid ""
+"\n"
+"Default compiled-in metadata format is %s (for luksFormat action).\n"
+msgstr ""
+"\n"
+"Inkompilerat standardmetadataformat är %s (för luksFormat-åtgärd).\n"
+
+#: src/cryptsetup.c:3614 src/cryptsetup.c:3617
+#, c-format
+msgid ""
+"\n"
+"LUKS2 external token plugin support is %s.\n"
+msgstr ""
+"\n"
+"Stöd för externa LUKS2-insticksmoduler är %s.\n"
+
+#: src/cryptsetup.c:3614
+msgid "compiled-in"
+msgstr "inkompilerad"
+
+#: src/cryptsetup.c:3615
+#, c-format
+msgid "LUKS2 external token plugin path: %s.\n"
+msgstr "Sökväg för externa LUKS2-insticksmoduler är %s.\n"
+
+#: src/cryptsetup.c:3617
+msgid "disabled"
+msgstr "inaktiverad"
+
+#: src/cryptsetup.c:3621
+#, c-format
+msgid ""
+"\n"
+"Default compiled-in key and passphrase parameters:\n"
+"\tMaximum keyfile size: %dkB, Maximum interactive passphrase length %d (characters)\n"
+"Default PBKDF for LUKS1: %s, iteration time: %d (ms)\n"
+"Default PBKDF for LUKS2: %s\n"
+"\tIteration time: %d, Memory required: %dkB, Parallel threads: %d\n"
+msgstr ""
+"\n"
+"Inkompilerade standardnyckel- och standardlösenfrasparametrar:\n"
+"\tStörsta nyckelfilstorlek: %dkB, Största interaktiv lösenfraslängd %d (tecken)\n"
+"Standard-PBKDF för LUKS1: %s, iterationstid: %d (ms)\n"
+"Standard-PBKDF för LUKS2: %s\n"
+"\tIterationstid: %d, Minne: %dkB, Parallella trådar: %d\n"
+
+#: src/cryptsetup.c:3632
+#, c-format
+msgid ""
+"\n"
+"Default compiled-in device cipher parameters:\n"
+"\tloop-AES: %s, Key %d bits\n"
+"\tplain: %s, Key: %d bits, Password hashing: %s\n"
+"\tLUKS: %s, Key: %d bits, LUKS header hashing: %s, RNG: %s\n"
+msgstr ""
+"\n"
+"Inkompilerade standardchifferparametrar för enheter:\n"
+"\tloop-AES: %s, Nyckel %d bitar\n"
+"\tplain: %s, Nyckel: %d bitar, Lösenordshashning: %s\n"
+"\tLUKS1: %s, Nyckel: %d bitar, LUKS-huvudhashning %s, RNG: %s\n"
+
+#: src/cryptsetup.c:3641
+msgid "\tLUKS: Default keysize with XTS mode (two internal keys) will be doubled.\n"
+msgstr "\tLUKS: Standardnyckelstorlek med XTS-läge (två interna nycklar) kommer att dubbleras.\n"
+
+#: src/cryptsetup.c:3659 src/veritysetup.c:637 src/integritysetup.c:620
+#, c-format
+msgid "%s: requires %s as arguments"
+msgstr "%s: kräver %s som argument"
+
+#: src/cryptsetup.c:3697 src/cryptsetup_reencrypt.c:1379
+#: src/cryptsetup_reencrypt.c:1704
+msgid "Key slot is invalid."
+msgstr "Nyckelplatsen är ogiltig."
+
+#: src/cryptsetup.c:3724
+msgid "Device size must be multiple of 512 bytes sector."
+msgstr "Enhetsstorlek måste vara en multipel av sektor på 512-byte."
+
+#: src/cryptsetup.c:3729
+msgid "Invalid max reencryption hotzone size specification."
+msgstr "Ogiltig högsta storlekspecifikation för varm zon-omkryptering."
+
+#: src/cryptsetup.c:3743 src/cryptsetup.c:3755 src/cryptsetup_reencrypt.c:1623
+msgid "Key size must be a multiple of 8 bits"
+msgstr "Nyckelstorlek måste vara en multipel av 8 bitar"
+
+#: src/cryptsetup.c:3760
+msgid "Maximum device reduce size is 1 GiB."
+msgstr "Högsta förminskningsstorlek för enhet är 1 GiB."
+
+#: src/cryptsetup.c:3763 src/cryptsetup_reencrypt.c:1631
+msgid "Reduce size must be multiple of 512 bytes sector."
+msgstr "Minskningsstorlek måste vara en multipel av 512-bytesektor."
+
+#: src/cryptsetup.c:3780
+msgid "Option --priority can be only ignore/normal/prefer."
+msgstr "Flaggan --priority kan endast vara ignore/normal/prefer."
+
+#: src/cryptsetup.c:3790 src/veritysetup.c:561 src/integritysetup.c:543
+#: src/cryptsetup_reencrypt.c:1641
+msgid "Show this help message"
+msgstr "Visa detta hjälpmeddelande"
+
+#: src/cryptsetup.c:3791 src/veritysetup.c:562 src/integritysetup.c:544
+#: src/cryptsetup_reencrypt.c:1642
+msgid "Display brief usage"
+msgstr "Visa kort information om användning"
+
+#: src/cryptsetup.c:3792 src/veritysetup.c:563 src/integritysetup.c:545
+#: src/cryptsetup_reencrypt.c:1643
+msgid "Print package version"
+msgstr "Skriv ut paketversion"
+
+#: src/cryptsetup.c:3803 src/veritysetup.c:574 src/integritysetup.c:556
+#: src/cryptsetup_reencrypt.c:1654
+msgid "Help options:"
+msgstr "Hjälpflaggor:"
+
+#: src/cryptsetup.c:3820 src/veritysetup.c:592 src/integritysetup.c:573
+msgid "[OPTION...] <action> <action-specific>"
+msgstr "[FLAGGA…] <åtgärd> <åtgärdsspecifik>"
+
+#: src/cryptsetup.c:3829 src/veritysetup.c:601 src/integritysetup.c:584
+msgid "Argument <action> missing."
+msgstr "Argumentet <åtgärd> saknas."
+
+#: src/cryptsetup.c:3899 src/veritysetup.c:632 src/integritysetup.c:615
+msgid "Unknown action."
+msgstr "Okänd åtgärd."
+
+#: src/cryptsetup.c:3910
+msgid "Options --refresh and --test-passphrase are mutually exclusive."
+msgstr "Flaggorna --refresh och --test-passphrase är ömsesidigt uteslutande."
+
+#: src/cryptsetup.c:3915 src/veritysetup.c:656 src/integritysetup.c:663
+msgid "Options --cancel-deferred and --deferred cannot be used at the same time."
+msgstr "Flaggorna --cancel-deferred och --deferred går inte att använda samtidigt."
+
+#: src/cryptsetup.c:3921
+msgid "Option --shared is allowed only for open of plain device."
+msgstr "Flaggan --shared är endast tillåten för öppning av plain-enhet."
+
+#: src/cryptsetup.c:3926
+msgid "Option --persistent is not allowed with --test-passphrase."
+msgstr "Flaggan --persistent är ej tillåtet med --test-passphrase."
+
+#: src/cryptsetup.c:3931
+msgid "Option --integrity-no-wipe can be used only for format action with integrity extension."
+msgstr "Flaggan --integrity-no-wipe kan endast användas för åtgärden formatera med integritetsutökningar."
+
+#: src/cryptsetup.c:3938
+msgid "Option --test-passphrase is allowed only for open of LUKS, TCRYPT and BITLK devices."
+msgstr "Flaggan --test-passphrase är endast tillåten för open för LUKS-, TCRYPT-, och BITLK-enheter."
+
+#: src/cryptsetup.c:3950
+msgid "Option --key-file takes precedence over specified key file argument."
+msgstr "Flaggan --key-file åsidosätter specificerade nyckelfilsargument."
+
+#: src/cryptsetup.c:3956
+msgid "Only one --key-file argument is allowed."
+msgstr "Endast ett argument för --key-file är tillåtet."
+
+#: src/cryptsetup.c:3960 src/cryptsetup_reencrypt.c:1689
+#: src/cryptsetup_reencrypt.c:1708
+msgid "Only one of --use-[u]random options is allowed."
+msgstr "Endast en av flaggorna --use-[u]random är tillåten."
+
+#: src/cryptsetup.c:3964
+msgid "Options --align-payload and --offset cannot be combined."
+msgstr "Flaggan --align-payload och --offset kan inte kombineras."
+
+#: src/cryptsetup.c:3970
+msgid "Option --skip is supported only for open of plain and loopaes devices."
+msgstr "Flaggan --skip stöds endast för öppning av plain-enheter och loopaes-enheter."
+
+#: src/cryptsetup.c:3976
+msgid "Option --offset with open action is only supported for plain and loopaes devices."
+msgstr "Flaggan --offset med åtgärden öppna stöds endast för öppning av plain-enheter och loopaes-enheter."
+
+#: src/cryptsetup.c:3982
+msgid "Option --tcrypt-hidden, --tcrypt-system or --tcrypt-backup is supported only for TCRYPT device."
+msgstr "Flaggorna --tcrypt-hidden, --tcrypt-system eller --tcrypt-backup stöds endast på TCRYPT-enhet."
+
+#: src/cryptsetup.c:3987
+msgid "Option --tcrypt-hidden cannot be combined with --allow-discards."
+msgstr "Flaggan --tcrypt-hidden kan inte kombineras med --allow-discards."
+
+#: src/cryptsetup.c:3992
+msgid "Option --veracrypt or --disable-veracrypt is supported only for TCRYPT device type."
+msgstr "Flaggan --veracrypt eller --disable-veracrypt stöds endast för TCRYPT-enhetstyper."
+
+#: src/cryptsetup.c:3997
+msgid "Option --veracrypt-pim is supported only for VeraCrypt compatible devices."
+msgstr "Flaggan --veracrypt-pim stöds endast för VeraCrypt-kompatibla enheter."
+
+#: src/cryptsetup.c:4003
+msgid "Option --veracrypt-query-pim is supported only for VeraCrypt compatible devices."
+msgstr "Flaggan --veracrypt-query-pim stöds endast för VeraCrypt-kompatibla enheter."
+
+#: src/cryptsetup.c:4007
+msgid "The options --veracrypt-pim and --veracrypt-query-pim are mutually exclusive."
+msgstr "Flaggorna --veracrypt-pim och --veracrypt-query-pim är ömsesidigt uteslutande."
+
+#: src/cryptsetup.c:4015 src/cryptsetup.c:4051
+msgid "Keyslot specification is required."
+msgstr "Specifikation för nyckelplats krävs."
+
+#: src/cryptsetup.c:4020 src/cryptsetup_reencrypt.c:1694
+msgid "Password-based key derivation function (PBKDF) can be only pbkdf2 or argon2i/argon2id."
+msgstr "Password-based key derivation function (PBKDF) kan endast vara pbkdf2 eller argon2i/argon2id."
+
+#: src/cryptsetup.c:4025 src/cryptsetup_reencrypt.c:1699
+msgid "PBKDF forced iterations cannot be combined with iteration time option."
+msgstr "Tvingade PBKDF-iterationer går inte att kombinera med flaggan iteration time."
+
+#: src/cryptsetup.c:4032
+msgid "Sector size option with open action is supported only for plain devices."
+msgstr "Flaggan för sektorstorlek med åtgärden öppna stöds endast för plain-enheter."
+
+#: src/cryptsetup.c:4039
+msgid "Large IV sectors option is supported only for opening plain type device with sector size larger than 512 bytes."
+msgstr "Flaggan för stora IV-sektorer stöds endast för att öppna enheter av plain-typ med sektorstorlek större än 512 byte."
+
+#: src/cryptsetup.c:4045
+msgid "Key size is required with --unbound option."
+msgstr "Nyckelstorlek krävs med flaggan --unbound."
+
+#: src/cryptsetup.c:4061
+msgid "LUKS2 decryption requires option --header."
+msgstr "LUKS2-dekryptering kräver flaggan --header."
+
+#: src/cryptsetup.c:4065
+msgid "Options --reduce-device-size and --data-size cannot be combined."
+msgstr "Flaggan  --reduce-device-size och --data-size kan inte kombineras."
+
+#: src/cryptsetup.c:4069
+msgid "Options --device-size and --size cannot be combined."
+msgstr "Flaggan  --device-size och --size kan inte kombineras."
+
+#: src/cryptsetup.c:4073
+msgid "Options --keyslot-cipher and --keyslot-key-size must be used together."
+msgstr "Flaggorna --keyslot-cipher och --keyslot-key-size måste användas tillsammans."
+
+#: src/cryptsetup.c:4077
+msgid "No action taken. Invoked with --test-args option.\n"
+msgstr "Ingen åtgärd utfördes. Startades med flaggan --test-args\n"
+
+#: src/cryptsetup.c:4089
+msgid "Invalid token action."
+msgstr "Ogiltig tokenåtgärd."
+
+#: src/cryptsetup.c:4094
+msgid "--key-description parameter is mandatory for token add action."
+msgstr "parametern --key-description krävs för åtgärden lägg till token."
+
+#: src/cryptsetup.c:4100
+msgid "Action requires specific token. Use --token-id parameter."
+msgstr "Åtgärden kräver specifik token. Använd parametern --token-id."
+
+#: src/cryptsetup.c:4111
+msgid "Cannot disable metadata locking."
+msgstr "Det går inte att inaktivera metadatalås."
+
+#: src/veritysetup.c:54
+msgid "Invalid salt string specified."
+msgstr "Angav ogiltig saltsträng."
+
+#: src/veritysetup.c:87
+#, c-format
+msgid "Cannot create hash image %s for writing."
+msgstr "Kan inte skapa hashavbild %s för skrivning."
+
+#: src/veritysetup.c:97
+#, c-format
+msgid "Cannot create FEC image %s for writing."
+msgstr "Det går inte att skapa FEC-avbild %s för skrivning."
+
+#: src/veritysetup.c:136
+#, c-format
+msgid "Cannot create root hash file %s for writing."
+msgstr "Kan inte skapa root-hashfil %s för skrivning."
+
+#: src/veritysetup.c:143
+#, c-format
+msgid "Cannot write to root hash file %s."
+msgstr "Det går inte att skriva till root-hash-filen %s."
+
+#: src/veritysetup.c:210 src/veritysetup.c:227
+#, c-format
+msgid "Cannot read root hash file %s."
+msgstr "Det går inte att läsa rot-hash-filen %s."
+
+#: src/veritysetup.c:215
+#, c-format
+msgid "Invalid root hash file %s."
+msgstr "Ogiltig rothashsträng %s."
+
+#: src/veritysetup.c:236
+msgid "Invalid root hash string specified."
+msgstr "Angav ogiltig rothashsträng."
+
+#: src/veritysetup.c:244
+#, c-format
+msgid "Invalid signature file %s."
+msgstr "Ogiltig signaturfil %s."
+
+#: src/veritysetup.c:251
+#, c-format
+msgid "Cannot read signature file %s."
+msgstr "Det går inte att läsa signaturfilen %s."
+
+#: src/veritysetup.c:274 src/veritysetup.c:288
+msgid "Command requires <root_hash> or --root-hash-file option as argument."
+msgstr "Kommandot kräver <root-hash> eller flaggan --root-hash-file som argument."
+
+#: src/veritysetup.c:478
+msgid "<data_device> <hash_device>"
+msgstr "<dataenhet> <hashenhet>"
+
+#: src/veritysetup.c:478 src/integritysetup.c:445
+msgid "format device"
+msgstr "formatera enhet"
+
+#: src/veritysetup.c:479
+msgid "<data_device> <hash_device> [<root_hash>]"
+msgstr "<dataenhet> <hashenhet> <root_hash>"
+
+#: src/veritysetup.c:479
+msgid "verify device"
+msgstr "verifiera enhet"
+
+#: src/veritysetup.c:480
+msgid "<data_device> <name> <hash_device> [<root_hash>]"
+msgstr "<dataenhet> <namn> <hashenhet> [<root_hash>]"
+
+#: src/veritysetup.c:482 src/integritysetup.c:448
+msgid "show active device status"
+msgstr "visa statistik för aktiv enhet"
+
+#: src/veritysetup.c:483
+msgid "<hash_device>"
+msgstr "<hash_enhet>"
+
+#: src/veritysetup.c:483 src/integritysetup.c:449
+msgid "show on-disk information"
+msgstr "visa information från disk"
+
+#: src/veritysetup.c:502
+#, c-format
+msgid ""
+"\n"
+"<name> is the device to create under %s\n"
+"<data_device> is the data device\n"
+"<hash_device> is the device containing verification data\n"
+"<root_hash> hash of the root node on <hash_device>\n"
+msgstr ""
+"\n"
+"<namn> är enheten att skapa under %s\n"
+"<dataenhet> är dataenheten\n"
+"<hashenhet> är enheten som innehåller verifieringsdata\n"
+"<rothash> hash för rotnoden på <hashenhet>\n"
+
+#: src/veritysetup.c:509
+#, c-format
+msgid ""
+"\n"
+"Default compiled-in dm-verity parameters:\n"
+"\tHash: %s, Data block (bytes): %u, Hash block (bytes): %u, Salt size: %u, Hash format: %u\n"
+msgstr ""
+"\n"
+"Inkompilerade standardparametrar för dm-verity:\n"
+"\tHash: %s, Datablock (byte): %u, Hashblock (byte): %u, Saltstorlek: %u, Hashformat: %u\n"
+
+#: src/veritysetup.c:646
+msgid "Option --ignore-corruption and --restart-on-corruption cannot be used together."
+msgstr "Flaggorna --ignore-corruption och --restart-on-corruption kan inte användas tillsammans."
+
+#: src/veritysetup.c:651
+msgid "Option --panic-on-corruption and --restart-on-corruption cannot be used together."
+msgstr "Det går inte att använda flaggorna --panic-on-corruption och --restart-on-corruption tillsammans."
+
+#: src/integritysetup.c:201
+#, c-format
+msgid "Formatted with tag size %u, internal integrity %s.\n"
+msgstr "Formaterad med taggstorlek %u, intern integritet %s.\n"
+
+#: src/integritysetup.c:445 src/integritysetup.c:449
+msgid "<integrity_device>"
+msgstr "<integrity_enhet>"
+
+#: src/integritysetup.c:446
+msgid "<integrity_device> <name>"
+msgstr "<integritet_enhet> <namn>"
+
+#: src/integritysetup.c:468
+#, c-format
+msgid ""
+"\n"
+"<name> is the device to create under %s\n"
+"<integrity_device> is the device containing data with integrity tags\n"
+msgstr ""
+"\n"
+"<namn> är enheten att skapa under %s\n"
+"<integritetsenhet> är enheten som innehåller data med integritetstaggar\n"
+
+#: src/integritysetup.c:473
+#, c-format
+msgid ""
+"\n"
+"Default compiled-in dm-integrity parameters:\n"
+"\tChecksum algorithm: %s\n"
+"\tMaximum keyfile size: %dkB\n"
+msgstr ""
+"\n"
+"Inkompilerade standardparametrar för dm-integrity:\n"
+"\tKontrollsummealgoritm: %s\n"
+"\tMaximal nyckelfilstorlek: %dkB\n"
+"\n"
+
+#: src/integritysetup.c:530
+#, c-format
+msgid "Invalid --%s size. Maximum is %u bytes."
+msgstr "Ogiltig --%s-storlek. Maximal storlek är %u byte."
+
+#: src/integritysetup.c:628
+msgid "Both key file and key size options must be specified."
+msgstr "Både flaggor för nyckelfil och nyckelstorlek måste specifiiceras."
+
+#: src/integritysetup.c:632
+msgid "Both journal integrity key file and key size options must be specified."
+msgstr "Både flaggor för nyckelfil för journalintegritet och nyckelstorlek måste specificeras."
+
+#: src/integritysetup.c:635
+msgid "Journal integrity algorithm must be specified if journal integrity key is used."
+msgstr "Integritetsalgoritm för journal måste anges om integritetsnyckel för journal används."
+
+#: src/integritysetup.c:639
+msgid "Both journal encryption key file and key size options must be specified."
+msgstr "Både flaggor för nyckelfil för journalkryptering och nyckelstorlek måste specificeras."
+
+#: src/integritysetup.c:642
+msgid "Journal encryption algorithm must be specified if journal encryption key is used."
+msgstr "Krypteringsalgoritm för journal måste anges om integritetsnyckel för journal används."
+
+#: src/integritysetup.c:646
+msgid "Recovery and bitmap mode options are mutually exclusive."
+msgstr "Flaggorna för återställning- och bitmap-läge är ömsesidigt uteslutande."
+
+#: src/integritysetup.c:653
+msgid "Journal options cannot be used in bitmap mode."
+msgstr "Det går inte att använda journalflaggor i bitmap-läge."
+
+#: src/integritysetup.c:658
+msgid "Bitmap options can be used only in bitmap mode."
+msgstr "Flaggan för integritet kan endast användas i bitmap-läge."
+
+#: src/cryptsetup_reencrypt.c:149
+msgid "Reencryption already in-progress."
+msgstr "Omkryptering pågår redan."
+
+#: src/cryptsetup_reencrypt.c:185
+#, c-format
+msgid "Cannot exclusively open %s, device in use."
+msgstr "Kan inte öppna %s exklusivt, enheten används."
+
+#: src/cryptsetup_reencrypt.c:199 src/cryptsetup_reencrypt.c:1120
+msgid "Allocation of aligned memory failed."
+msgstr "Misslyckades med allokering av justerat minne."
+
+#: src/cryptsetup_reencrypt.c:206
+#, c-format
+msgid "Cannot read device %s."
+msgstr "Det går inte att läsa enheten %s."
+
+#: src/cryptsetup_reencrypt.c:217
+#, c-format
+msgid "Marking LUKS1 device %s unusable."
+msgstr "Markerar LUKS1-enhet %s som oanvändbar."
+
+#: src/cryptsetup_reencrypt.c:221
+#, c-format
+msgid "Setting LUKS2 offline reencrypt flag on device %s."
+msgstr "Sätter LUKS2-flaggan för att kryptera om på enheten %s."
+
+#: src/cryptsetup_reencrypt.c:238
+#, c-format
+msgid "Cannot write device %s."
+msgstr "Det går inte att skriva till enheten %s."
+
+#: src/cryptsetup_reencrypt.c:286
+msgid "Cannot write reencryption log file."
+msgstr "Det går inte att skriva loggfil för omkryptering."
+
+#: src/cryptsetup_reencrypt.c:342
+msgid "Cannot read reencryption log file."
+msgstr "Det går inte att läsa loggfil för omkryptering."
+
+#: src/cryptsetup_reencrypt.c:353
+msgid "Wrong log format."
+msgstr "Fel loggformat."
+
+#: src/cryptsetup_reencrypt.c:380
+#, c-format
+msgid "Log file %s exists, resuming reencryption.\n"
+msgstr "Loggfilen %s existerar, återupptar kryptering.\n"
+
+#: src/cryptsetup_reencrypt.c:429
+msgid "Activating temporary device using old LUKS header."
+msgstr "Aktiverar temporär enhet användandes gammalt LUKS-huvud."
+
+#: src/cryptsetup_reencrypt.c:439
+msgid "Activating temporary device using new LUKS header."
+msgstr "Aktiverar temporär enhet användandes nytt LUKS-huvud."
+
+#: src/cryptsetup_reencrypt.c:449
+msgid "Activation of temporary devices failed."
+msgstr "Aktivering av temporära enheter misslyckades."
+
+#: src/cryptsetup_reencrypt.c:536
+msgid "Failed to set data offset."
+msgstr "Misslyckades med att sätta dataoffset."
+
+#: src/cryptsetup_reencrypt.c:542
+msgid "Failed to set metadata size."
+msgstr "Misslyckades med att sätta metadatastorlek."
+
+#: src/cryptsetup_reencrypt.c:550
+#, c-format
+msgid "New LUKS header for device %s created."
+msgstr "Skapade nytt LUKS-huvud för enhet %s."
+
+#: src/cryptsetup_reencrypt.c:610
+#, c-format
+msgid "This version of cryptsetup-reencrypt can't handle new internal token type %s."
+msgstr "Denna version av cryptsetup-reencrypt kan inte hantera ny interna tokentypen %s."
+
+#: src/cryptsetup_reencrypt.c:632
+msgid "Failed to read activation flags from backup header."
+msgstr "Misslyckades med att läsa aktiveringsflaggor från säkerhetskopia av huvud."
+
+#: src/cryptsetup_reencrypt.c:636
+msgid "Failed to write activation flags to new header."
+msgstr "Misslyckades med att skriva aktiveringsflaggor till nytt huvud."
+
+#: src/cryptsetup_reencrypt.c:640 src/cryptsetup_reencrypt.c:644
+msgid "Failed to read requirements from backup header."
+msgstr "Misslyckades med att läsa krav från säkerhetskopiehuvud."
+
+#: src/cryptsetup_reencrypt.c:682
+#, c-format
+msgid "%s header backup of device %s created."
+msgstr "Skapade säkerhetskopia av %s-huvud på enhet %s."
+
+#: src/cryptsetup_reencrypt.c:745
+msgid "Creation of LUKS backup headers failed."
+msgstr "Misslyckades med att skapa en säkerhetskopia av LUKS-huvuden."
+
+#: src/cryptsetup_reencrypt.c:878
+#, c-format
+msgid "Cannot restore %s header on device %s."
+msgstr "Det går inte återställa %s-huvudet på enheten %s."
+
+#: src/cryptsetup_reencrypt.c:880
+#, c-format
+msgid "%s header on device %s restored."
+msgstr "Återställde %s-huvudet på enheten %s."
+
+#: src/cryptsetup_reencrypt.c:1092 src/cryptsetup_reencrypt.c:1098
+msgid "Cannot open temporary LUKS device."
+msgstr "Misslyckades med att öppna temporär LUKS-enhet."
+
+#: src/cryptsetup_reencrypt.c:1103 src/cryptsetup_reencrypt.c:1108
+msgid "Cannot get device size."
+msgstr "Det går inte att hämta enhetsstorlek."
+
+#: src/cryptsetup_reencrypt.c:1143
+msgid "IO error during reencryption."
+msgstr "In-/utfel under återkryptering."
+
+#: src/cryptsetup_reencrypt.c:1174
+msgid "Provided UUID is invalid."
+msgstr "Angivet UUID är ogiltigt."
+
+#: src/cryptsetup_reencrypt.c:1408
+msgid "Cannot open reencryption log file."
+msgstr "Det går inte att öppna loggfilen för omkryptering."
+
+#: src/cryptsetup_reencrypt.c:1414
+msgid "No decryption in progress, provided UUID can be used only to resume suspended decryption process."
+msgstr "Ingen dekryptering pågår, givet UUID kan endast användas för att återuppta vilande dekrypteringsprocess."
+
+#: src/cryptsetup_reencrypt.c:1489
+#, c-format
+msgid "Changed pbkdf parameters in keyslot %i."
+msgstr "Ändrade pbkdf-parametrarna i nyckelplatsen %i."
+
+#: src/cryptsetup_reencrypt.c:1614
+msgid "Only values between 1 MiB and 64 MiB allowed for reencryption block size."
+msgstr "Endast värden mellan 1 MiB och 64 MiB är tillåtna som blockstorlek för omkryptering."
+
+#: src/cryptsetup_reencrypt.c:1628
+msgid "Maximum device reduce size is 64 MiB."
+msgstr "Högsta förminskningsstorlek för enhet är 64 MiB."
+
+#: src/cryptsetup_reencrypt.c:1669
+msgid "[OPTION...] <device>"
+msgstr "[FLAGGA…] <enhet>"
+
+#: src/cryptsetup_reencrypt.c:1677
+#, c-format
+msgid "Reencryption will change: %s%s%s%s%s%s."
+msgstr "Omkryptering kommer att ändra: %s%s%s%s%s%s."
+
+#: src/cryptsetup_reencrypt.c:1678
+msgid "volume key"
+msgstr "volymnyckeln"
+
+#: src/cryptsetup_reencrypt.c:1680
+msgid "set hash to "
+msgstr "sätt hash till "
+
+#: src/cryptsetup_reencrypt.c:1681
+msgid ", set cipher to "
+msgstr ", sätt chiffer till "
+
+#: src/cryptsetup_reencrypt.c:1685
+msgid "Argument required."
+msgstr "Kräver argument."
+
+#: src/cryptsetup_reencrypt.c:1712
+msgid "Option --new must be used together with --reduce-device-size or --header."
+msgstr "Flaggan --new måste användas tillsammans med --reduce-device-size eller --header."
+
+#: src/cryptsetup_reencrypt.c:1716
+msgid "Option --keep-key can be used only with --hash, --iter-time or --pbkdf-force-iterations."
+msgstr "Flaggan --keep-key kan endast användas med --hash, --iter-time eller --pbkdf-force-iterations."
+
+#: src/cryptsetup_reencrypt.c:1720
+msgid "Option --new cannot be used together with --decrypt."
+msgstr "Flaggan --new kan inte användas tillsammans med --decrypt."
+
+#: src/cryptsetup_reencrypt.c:1726
+msgid "Option --decrypt is incompatible with specified parameters."
+msgstr "Flaggan --decrypt är inkompatibel med specificerade parametrar."
+
+#: src/cryptsetup_reencrypt.c:1730
+msgid "Option --uuid is allowed only together with --decrypt."
+msgstr "Flaggan --uuid är endast tillåten tillsammans med --decrypt."
+
+#: src/cryptsetup_reencrypt.c:1734
+msgid "Invalid luks type. Use one of these: 'luks', 'luks1' or 'luks2'."
+msgstr "Ogiltig luks-typ. Använd en av dessa: 'luks', 'luks1' or 'luks2'."
+
+#: src/utils_tools.c:119
+msgid ""
+"\n"
+"WARNING!\n"
+"========\n"
+msgstr ""
+"\n"
+"VARNING!\n"
+"========\n"
+
+#. TRANSLATORS: User must type "YES" (in capital letters), do not translate this word.
+#: src/utils_tools.c:121
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Are you sure? (Type 'yes' in capital letters): "
+msgstr ""
+"%s\n"
+"\n"
+"Är du säker (Ange 'yes' i versaler): "
+
+#: src/utils_tools.c:127
+msgid "Error reading response from terminal."
+msgstr "Fel vid läsning av svar från terminal."
+
+#: src/utils_tools.c:159
+msgid "Command successful."
+msgstr "Kommandot lyckades."
+
+#: src/utils_tools.c:167
+msgid "wrong or missing parameters"
+msgstr "fel eller saknar parametrar"
+
+#: src/utils_tools.c:169
+msgid "no permission or bad passphrase"
+msgstr "ingen behörighet eller dålig lösenfras"
+
+#: src/utils_tools.c:171
+msgid "out of memory"
+msgstr "slut på minne"
+
+#: src/utils_tools.c:173
+msgid "wrong device or file specified"
+msgstr "angav fel enhet eller fil"
+
+#: src/utils_tools.c:175
+msgid "device already exists or device is busy"
+msgstr "enheten existerar redan eller så är enheten upptagen"
+
+#: src/utils_tools.c:177
+msgid "unknown error"
+msgstr "okänt fel"
+
+#: src/utils_tools.c:179
+#, c-format
+msgid "Command failed with code %i (%s)."
+msgstr "Kommandot misslyckades med kod %i (%s)."
+
+#: src/utils_tools.c:257
+#, c-format
+msgid "Key slot %i created."
+msgstr "Nyckelplats %i är ändrad."
+
+#: src/utils_tools.c:259
+#, c-format
+msgid "Key slot %i unlocked."
+msgstr "Nyckelplats %i är upplåst."
+
+#: src/utils_tools.c:261
+#, c-format
+msgid "Key slot %i removed."
+msgstr "Nyckelplats %i är upplåst."
+
+#: src/utils_tools.c:270
+#, c-format
+msgid "Token %i created."
+msgstr "Token %i används."
+
+#: src/utils_tools.c:272
+#, c-format
+msgid "Token %i removed."
+msgstr "Token %i används."
+
+#: src/utils_tools.c:282
+msgid "No token could be unlocked with this PIN."
+msgstr "Ingen token kunde låsas upp med denna PIN."
+
+#: src/utils_tools.c:284
+#, c-format
+msgid "Token %i requires PIN."
+msgstr "Token %i kräver PIN."
+
+#: src/utils_tools.c:286
+#, c-format
+msgid "Token (type %s) requires PIN."
+msgstr "Token (type %s) kräver PIN."
+
+#: src/utils_tools.c:289
+#, c-format
+msgid "Token %i cannot unlock assigned keyslot(s) (wrong keyslot passphrase)."
+msgstr "Token %i kan inte låsa upp tilldelade nyckelplatser (felaktigt lösenord)."
+
+#: src/utils_tools.c:291
+#, c-format
+msgid "Token (type %s) cannot unlock assigned keyslot(s) (wrong keyslot passphrase)."
+msgstr "Token (typ %s) kan inte låsa upp tilldelade nyckelplatser (felaktigt lösenord)."
+
+#: src/utils_tools.c:294
+#, c-format
+msgid "Token %i requires additional missing resource."
+msgstr "Token %i kräver en saknad resurs."
+
+#: src/utils_tools.c:296
+#, c-format
+msgid "Token (type %s) requires additional missing resource."
+msgstr "Token (typ %s) kräver en saknad resurs."
+
+#: src/utils_tools.c:299
+#, c-format
+msgid "No usable token (type %s) is available."
+msgstr "Ingen användbar token (typ %s) tillgänglig."
+
+#: src/utils_tools.c:301
+msgid "No usable token is available."
+msgstr "Ingen användbar token tillgänglig."
+
+#: src/utils_tools.c:463
+msgid ""
+"\n"
+"Wipe interrupted."
+msgstr ""
+"\n"
+"Skrivning avbruten."
+
+#: src/utils_tools.c:492
+msgid ""
+"\n"
+"Reencryption interrupted."
+msgstr ""
+"\n"
+"Omkryptering avbryten."
+
+#: src/utils_tools.c:511
+#, c-format
+msgid "Cannot read keyfile %s."
+msgstr "Det går inte att läsa nyckelfilen %s."
+
+#: src/utils_tools.c:516
+#, c-format
+msgid "Cannot read %d bytes from keyfile %s."
+msgstr "Det går inte att läsa %d byte från nyckelfilen %s."
+
+#: src/utils_tools.c:541
+#, c-format
+msgid "Cannot open keyfile %s for write."
+msgstr "Det går inte att öppna nyckelfilen %s för skrivning."
+
+#: src/utils_tools.c:548
+#, c-format
+msgid "Cannot write to keyfile %s."
+msgstr "Det går inte att skriva till nyckelfilen %s."
+
+#: src/utils_password.c:41 src/utils_password.c:74
+#, c-format
+msgid "Cannot check password quality: %s"
+msgstr "Det går inte att kontrollera lösenordskvalitet: %s"
+
+#: src/utils_password.c:49
+#, c-format
+msgid ""
+"Password quality check failed:\n"
+" %s"
+msgstr ""
+"Misslyckades med kvalitetskontroll av lösenord:\n"
+"%s"
+
+#: src/utils_password.c:81
+#, c-format
+msgid "Password quality check failed: Bad passphrase (%s)"
+msgstr "Misslyckades med kvalitetskontroll av lösenord: Dålig lösenfras (%s)"
+
+#: src/utils_password.c:224 src/utils_password.c:238
+msgid "Error reading passphrase from terminal."
+msgstr "Fel vid läsning av lösenfras från terminal."
+
+#: src/utils_password.c:236
+msgid "Verify passphrase: "
+msgstr "Verifiera lösenfras: "
+
+#: src/utils_password.c:243
+msgid "Passphrases do not match."
+msgstr "Lösenfraserna stämmer inte överens."
+
+#: src/utils_password.c:280
+msgid "Cannot use offset with terminal input."
+msgstr "Det går inte att använda offset med terminalinmatning."
+
+#: src/utils_password.c:283
+#, c-format
+msgid "Enter passphrase: "
+msgstr "Ange lösenfras: "
+
+#: src/utils_password.c:286
+#, c-format
+msgid "Enter passphrase for %s: "
+msgstr "Ange lösenfras för %s: "
+
+#: src/utils_password.c:317
+msgid "No key available with this passphrase."
+msgstr "Ingen nyckel finns tillgänglig med denna lösenfras."
+
+#: src/utils_password.c:319
+msgid "No usable keyslot is available."
+msgstr "Ingen tillgänglig användbar nyckelplats."
+
+#: src/utils_luks2.c:47
+#, c-format
+msgid "Failed to open file %s in read-only mode."
+msgstr "Misslyckades med att öppna filen %s i skrivskyddat läge."
+
+#: src/utils_luks2.c:60
+msgid "Provide valid LUKS2 token JSON:\n"
+msgstr "Tillhandahåll giltig JSON för LUKS2-token:\n"
+
+#: src/utils_luks2.c:67
+msgid "Failed to read JSON file."
+msgstr "Misslyckades med att läsa in JSON-filen."
+
+#: src/utils_luks2.c:72
+msgid ""
+"\n"
+"Read interrupted."
+msgstr ""
+"\n"
+"Läsning avbryten."
+
+#: src/utils_luks2.c:113
+#, c-format
+msgid "Failed to open file %s in write mode."
+msgstr "Misslyckades med att öppna filen %s in skrivläge."
+
+#: src/utils_luks2.c:122
+msgid ""
+"\n"
+"Write interrupted."
+msgstr ""
+"\n"
+"Skrivning avbruten."
+
+#: src/utils_luks2.c:126
+msgid "Failed to write JSON file."
+msgstr "Misslyckades med att skriva JSON-fil."
+
+#: src/utils_blockdev.c:192
+#, c-format
+msgid "WARNING: Device %s already contains a '%s' partition signature.\n"
+msgstr "VARNING: Enheten %s innehåller redan en ”%s”-partitionssignatur.\n"
+
+#: src/utils_blockdev.c:200
+#, c-format
+msgid "WARNING: Device %s already contains a '%s' superblock signature.\n"
+msgstr "VARNING: Enheten %s innehåller redan en ”%s”-superblocksignatur.\n"
+
+#: src/utils_blockdev.c:221 src/utils_blockdev.c:285
+msgid "Failed to initialize device signature probes."
+msgstr "Misslyckades med att initiera identifiering av enhetssignatur."
+
+#: src/utils_blockdev.c:265
+#, c-format
+msgid "Failed to stat device %s."
+msgstr "Misslyckades med att ta status på enhet %s."
+
+#: src/utils_blockdev.c:278
+#, c-format
+msgid "Device %s is in use. Cannot proceed with format operation."
+msgstr "Enheten %s används. Det går inte att fortsätta med formateringsåtgärden."
+
+#: src/utils_blockdev.c:280
+#, c-format
+msgid "Failed to open file %s in read/write mode."
+msgstr "Misslyckades med att öppna filen %s i läs-/skrivläge."
+
+#: src/utils_blockdev.c:294
+#, c-format
+msgid "Existing '%s' partition signature on device %s will be wiped."
+msgstr "Kommer att rensa befintlig ”%s” på enheten %s."
+
+#: src/utils_blockdev.c:297
+#, c-format
+msgid "Existing '%s' superblock signature on device %s will be wiped."
+msgstr "Kommer att rensa befintlig ”%s” på enheten %s."
+
+#: src/utils_blockdev.c:300
+msgid "Failed to wipe device signature."
+msgstr "Misslyckades med att radera enhetssignatur."
+
+#: src/utils_blockdev.c:307
+#, c-format
+msgid "Failed to probe device %s for a signature."
+msgstr "Misslyckades med söka av enheten %s efter en signatur."
+
+#: src/utils_args.c:65
+#, c-format
+msgid "Invalid size specification in parameter --%s."
+msgstr "Ogiltig datastorlekspecifikation i flaggan --%s."
+
+#: src/utils_args.c:121
+#, c-format
+msgid "Option --%s is not allowed with %s action."
+msgstr "Flaggan --%s tillåts inte med åtgärden --%s."
+
+#: tokens/ssh/cryptsetup-ssh.c:108
+msgid "Failed to write ssh token json."
+msgstr "Misslyckades med att skriva ssh-token i json."
+
+#: tokens/ssh/cryptsetup-ssh.c:126
+msgid ""
+"Experimental cryptsetup plugin for unlocking LUKS2 devices with token connected to an SSH server\vThis plugin currently allows only adding a token to an existing key slot.\n"
+"\n"
+"Specified SSH server must contain a key file on the specified path with a passphrase for an existing key slot on the device.\n"
+"Provided credentials will be used by cryptsetup to get the password when opening the device using the token.\n"
+"\n"
+"Note: The information provided when adding the token (SSH server address, user and paths) will be stored in the LUKS2 header in plaintext."
+msgstr ""
+"Experimentell cryptsetup-insticksmodul för att låsa upp LUKS2-enheter med token ansluten via SSH-server. Den tillåter för närvarande endast att lägga till en token till en existerande nyckelplats.\n"
+"\n"
+"Angiven SSH-server måste innehålla en nyckelfil på den angivna sökvägen med ett lösenord för en befintlig nyckelplats på enheten.\n"
+"Inloggningsuppgifter kommer att användas av cryptsetup för att att hämta lösenordet genom att använda token när enheten öppnas.\n"
+"\n"
+"Observera: Information som anges när token läggs till (SSH-serverns, adress, användare och sökvägar) kommer att lagras i LUKS2-headern i klartext."
+
+#: tokens/ssh/cryptsetup-ssh.c:136
+msgid "<action> <device>"
+msgstr "<åtgärd> <enhet>"
+
+#: tokens/ssh/cryptsetup-ssh.c:139
+msgid "Options for the 'add' action:"
+msgstr "Flaggor för åtgärden ”add”:"
+
+#: tokens/ssh/cryptsetup-ssh.c:140
+msgid "IP address/URL of the remote server for this token"
+msgstr "Fjärrserverns IP-adress/URL för denna token"
+
+#: tokens/ssh/cryptsetup-ssh.c:141
+msgid "Username used for the remote server"
+msgstr "Användarnamn för fjärrservern"
+
+#: tokens/ssh/cryptsetup-ssh.c:142
+msgid "Path to the key file on the remote server"
+msgstr "Sökvägen till nyckelfilen på fjärrservern"
+
+#: tokens/ssh/cryptsetup-ssh.c:143
+msgid "Path to the SSH key for connecting to the remote server"
+msgstr "Sökväg till SSH-nyckeln för anslutning till fjärrservern"
+
+#: tokens/ssh/cryptsetup-ssh.c:144
+msgid "Keyslot to assign the token to. If not specified, token will be assigned to the first keyslot matching provided passphrase."
+msgstr "Nyckelplats att ange token till. Om ej angiven så kommer token att tilldelas till den första nyckelplats som matchar angivet lösenfras."
+
+#: tokens/ssh/cryptsetup-ssh.c:146
+msgid "Generic options:"
+msgstr "Allmänna flaggor:"
+
+#: tokens/ssh/cryptsetup-ssh.c:147
+msgid "Shows more detailed error messages"
+msgstr "Visar mer detaljerade felmeddelanden"
+
+#: tokens/ssh/cryptsetup-ssh.c:148
+msgid "Show debug messages"
+msgstr "Visa felsökningsmeddelanden"
+
+#: tokens/ssh/cryptsetup-ssh.c:149
+msgid "Show debug messages including JSON metadata"
+msgstr "Visa felsökningsmeddelanden inklusive JSON-metadata"
+
+#: tokens/ssh/cryptsetup-ssh.c:260
+msgid "Failed to open and import private key:\n"
+msgstr "Misslyckades med att öppna och importera privat nyckel:\n"
+
+#: tokens/ssh/cryptsetup-ssh.c:264
+msgid "Failed to import private key (password protected?).\n"
+msgstr "Misslyckades med att importera privat nyckel (lösenordskyddad?).\n"
+
+#. TRANSLATORS: SSH credentials prompt, e.g. "user@server's password: "
+#: tokens/ssh/cryptsetup-ssh.c:266
+#, c-format
+msgid "%s@%s's password: "
+msgstr "%s@%s's lösenord: "
+
+#: tokens/ssh/cryptsetup-ssh.c:355
+#, c-format
+msgid "Failed to parse arguments.\n"
+msgstr "Misslyckades med att tolka argument.\n"
+
+#: tokens/ssh/cryptsetup-ssh.c:366
+#, c-format
+msgid "An action must be specified\n"
+msgstr "En åtgärd måste anges\n"
+
+#: tokens/ssh/cryptsetup-ssh.c:372
+#, c-format
+msgid "Device must be specified for '%s' action.\n"
+msgstr "En enhet måste anges för åtgärden ”%s”.\n"
+
+#: tokens/ssh/cryptsetup-ssh.c:377
+#, c-format
+msgid "SSH server must be specified for '%s' action.\n"
+msgstr "SSH-servern måste anges för åtgärden ”%s”.\n"
+
+#: tokens/ssh/cryptsetup-ssh.c:382
+#, c-format
+msgid "SSH user must be specified for '%s' action.\n"
+msgstr "SSH-användare måste anges för åtgärden ”%s”.\n"
+
+#: tokens/ssh/cryptsetup-ssh.c:387
+#, c-format
+msgid "SSH path must be specified for '%s' action.\n"
+msgstr "SSH-sökväg måste anges för åtgärden ”%s”.\n"
+
+#: tokens/ssh/cryptsetup-ssh.c:392
+#, c-format
+msgid "SSH key path must be specified for '%s' action.\n"
+msgstr "SSH-nyckelplats måste anges för åtgärden ”%s”.\n"
+
+#: tokens/ssh/cryptsetup-ssh.c:399
+#, c-format
+msgid "Failed open %s using provided credentials.\n"
+msgstr "Misslyckades med att öppna %s med tillhandahållna autentiseringsuppgifter.\n"
+
+#: tokens/ssh/cryptsetup-ssh.c:415
+#, c-format
+msgid "Only 'add' action is currently supported by this plugin.\n"
+msgstr "Endast åtgärden ”add” stöds för närvarande av denna insticksmodul.\n"
+
+#: tokens/ssh/ssh-utils.c:46 tokens/ssh/ssh-utils.c:59
+msgid "Cannot create sftp session: "
+msgstr "Det går inte att skapa sftp-sessionen: "
+
+#: tokens/ssh/ssh-utils.c:53
+msgid "Cannot init sftp session: "
+msgstr "Det går inte att initiera sftp-sessionen: "
+
+#: tokens/ssh/ssh-utils.c:66
+msgid "Cannot stat sftp file: "
+msgstr "Det går inte att stat sftp-filen: "
+
+#: tokens/ssh/ssh-utils.c:74
+msgid "Not enough memory.\n"
+msgstr "Inte tillräckligt med minne.\n"
+
+#: tokens/ssh/ssh-utils.c:81
+msgid "Cannot read remote key: "
+msgstr "Det går inte att läsa fjärrnyckeln: "
+
+#: tokens/ssh/ssh-utils.c:122
+msgid "Connection failed: "
+msgstr "Anslutning misslyckades: "
+
+#: tokens/ssh/ssh-utils.c:132
+msgid "Server not known: "
+msgstr "Okänd server: "
+
+#: tokens/ssh/ssh-utils.c:160
+msgid "Public key auth method not allowed on host.\n"
+msgstr "Den öppna nyckelns auth-metod tills inte på värddatorn.\n"
+
+#: tokens/ssh/ssh-utils.c:171
+msgid "Public key authentication error: "
+msgstr "Autentiseringsfel för öppen nyckel: "
+
+#~ msgid "Failed to disable reencryption requirement flag."
+#~ msgstr "Misslyckades med att inaktivera flaggan för omkrypteringskrav."
+
+#~ msgid ""
+#~ "Seems device does not require reencryption recovery.\n"
+#~ "Do you want to proceed anyway?"
+#~ msgstr ""
+#~ "Verkar som enheten inte kräver omkrypteringsåterställning.\n"
+#~ "Vill du ändå fortsätta?"
+
+#~ msgid "No free token slot."
+#~ msgstr "Ingen fri plats för token."
+
+#~ msgid "Invalid LUKS device type."
+#~ msgstr "Ogiltig LUKS-enhetstyp."
+
+#~ msgid "The cipher used to encrypt the disk (see /proc/crypto)"
+#~ msgstr "Chiffret som används för att kryptera disken (se /proc/crypto)"
+
+#~ msgid "The hash used to create the encryption key from the passphrase"
+#~ msgstr "Hashen som används för att skapa krypteringsnyckel från lösenfras"
+
+#~ msgid "Verifies the passphrase by asking for it twice"
+#~ msgstr "Verifierar lösenfrasen genom att fråga efter den två gånger"
+
+#~ msgid "Read the key from a file"
+#~ msgstr "Läs nyckeln från en fil"
+
+#~ msgid "Read the volume (master) key from file."
+#~ msgstr "Läs volymnyckeln (master) från fil."
+
+#~ msgid "Dump volume (master) key instead of keyslots info"
+#~ msgstr "Skriv ut volymnyckel (master) istället för nyckelplatsinfo"
+
+#~ msgid "The size of the encryption key"
+#~ msgstr "Storleken för krypteringsnyckeln"
+
+#~ msgid "BITS"
+#~ msgstr "BITAR"
+
+#~ msgid "Limits the read from keyfile"
+#~ msgstr "Begränsa läsningen från nyckelfil"
+
+#~ msgid "bytes"
+#~ msgstr "byte"
+
+#~ msgid "Number of bytes to skip in keyfile"
+#~ msgstr "Antal byte att hoppa över i nyckelfil"
+
+#~ msgid "Limits the read from newly added keyfile"
+#~ msgstr "Begränsa läsningen från nyligen tillagd nyckelfil"
+
+#~ msgid "Number of bytes to skip in newly added keyfile"
+#~ msgstr "Antal byte att hoppa över i nyligen tillagd nyckelfil"
+
+#~ msgid "Slot number for new key (default is first free)"
+#~ msgstr "Platsnummer för ny nyckel (standard är första lediga)"
+
+#~ msgid "The size of the device"
+#~ msgstr "Storleken för enheten"
+
+#~ msgid "SECTORS"
+#~ msgstr "SEKTORER"
+
+#~ msgid "Use only specified device size (ignore rest of device). DANGEROUS!"
+#~ msgstr "Använd endast specificerad enhetsstorlek (ignorera resten av enheten). FARLIGT!"
+
+#~ msgid "The start offset in the backend device"
+#~ msgstr "Startoffset i bakändesenheten"
+
+#~ msgid "How many sectors of the encrypted data to skip at the beginning"
+#~ msgstr "Hur många sektorer av krypterat data som ska hoppas över i början"
+
+#~ msgid "Create a readonly mapping"
+#~ msgstr "Skapa en skrivskyddad mappning"
+
+#~ msgid "Do not ask for confirmation"
+#~ msgstr "Fråga inte efter bekräftelse"
+
+#~ msgid "Timeout for interactive passphrase prompt (in seconds)"
+#~ msgstr "Tidsgräns för interaktiv lösenfrasprompt (i sekunder)"
+
+#~ msgid "secs"
+#~ msgstr "sek"
+
+#~ msgid "Progress line update (in seconds)"
+#~ msgstr "Uppdatering av förloppslinje (i sekunder)"
+
+#~ msgid "How often the input of the passphrase can be retried"
+#~ msgstr "Hur många inmatningsförsök av lösenfrasen som kan göras"
+
+#~ msgid "Align payload at <n> sector boundaries - for luksFormat"
+#~ msgstr "Justera nyttolast i <n> sektorgränser - för luksFormat"
+
+#~ msgid "File with LUKS header and keyslots backup"
+#~ msgstr "Fil med säkerhetskopior av LUKS-huvud och nyckelplatser"
+
+#~ msgid "Use /dev/random for generating volume key"
+#~ msgstr "Använd /dev/random för att generera volymnyckel"
+
+#~ msgid "Use /dev/urandom for generating volume key"
+#~ msgstr "Använd /dev/urandom för att generera volymnyckel"
+
+#~ msgid "Share device with another non-overlapping crypt segment"
+#~ msgstr "Dela enhet med ett annat ej överlappande krypteringssegment"
+
+#~ msgid "UUID for device to use"
+#~ msgstr "UUID för enheten att använda"
+
+#~ msgid "Allow discards (aka TRIM) requests for device"
+#~ msgstr "Tillåt avvisningsbegäran (TRIM) för enhet"
+
+#~ msgid "Device or file with separated LUKS header"
+#~ msgstr "Enhet eller fil med separerat LUKS-huvud"
+
+#~ msgid "Do not activate device, just check passphrase"
+#~ msgstr "Aktivera inte enhet, kontrollera endast lösenfrasen"
+
+#~ msgid "Use hidden header (hidden TCRYPT device)"
+#~ msgstr "Använd dolt huvud (gömd TCRYPT-enhet)"
+
+#~ msgid "Device is system TCRYPT drive (with bootloader)"
+#~ msgstr "Enheten är system-TCRYPT-disk (med starthanterare)"
+
+#~ msgid "Use backup (secondary) TCRYPT header"
+#~ msgstr "Använd säkerhetskopia (sekundär) för TCRYPT-huvud"
+
+#~ msgid "Scan also for VeraCrypt compatible device"
+#~ msgstr "Sök också efter VeraCrypt-kompatibel enhet"
+
+#~ msgid "Personal Iteration Multiplier for VeraCrypt compatible device"
+#~ msgstr "Personlig iteration för VeraCrypt-kompatibel enhet"
+
+#~ msgid "Query Personal Iteration Multiplier for VeraCrypt compatible device"
+#~ msgstr "Query Personal Iteration Multiplier för VeraCrypt-kompatibel enhet"
+
+#~ msgid "Type of device metadata: luks, luks1, luks2, plain, loopaes, tcrypt, bitlk"
+#~ msgstr "Typer av enhetsmetadata: luks, luks1, luks2, plain, loopaes, tcrypt, bitlk"
+
+#~ msgid "Disable password quality check (if enabled)"
+#~ msgstr "Inaktivera kvalitetskontroll av lösenord (om aktiverat)"
+
+#~ msgid "Use dm-crypt same_cpu_crypt performance compatibility option"
+#~ msgstr "Använd flaggan dm-crypt same_cpu_crypt för prestandakompatibilitet"
+
+#~ msgid "Use dm-crypt submit_from_crypt_cpus performance compatibility option"
+#~ msgstr "Använd flaggan dm-crypt submit_from_crypt_cpus för prestandakompatibilitet"
+
+#~ msgid "Bypass dm-crypt workqueue and process read requests synchronously"
+#~ msgstr "Förbigå dm-crypt's arbetskö och bearbeta läsbegäran synkront"
+
+#~ msgid "Bypass dm-crypt workqueue and process write requests synchronously"
+#~ msgstr "Förbigå dm-crypt's arbetskö och bearbeta skrivbegäran synkront"
+
+#~ msgid "Device removal is deferred until the last user closes it"
+#~ msgstr "Enhetsborttagning är förskjuten tills den sista användaren stänger den"
+
+#~ msgid "Use global lock to serialize memory hard PBKDF (OOM workaround)"
+#~ msgstr "Använder globalt lås för att serialisera minneshård PBKDF (OOM-lösning)"
+
+#~ msgid "PBKDF iteration time for LUKS (in ms)"
+#~ msgstr "PBKDF-iterationstid för LUKS (i ms)"
+
+#~ msgid "msecs"
+#~ msgstr "ms"
+
+#~ msgid "PBKDF algorithm (for LUKS2): argon2i, argon2id, pbkdf2"
+#~ msgstr "PBKDF-algoritm (för LUKS2) (argon2i/argon2id/pbkdf2)"
+
+#~ msgid "PBKDF memory cost limit"
+#~ msgstr "Minneskostnadsgräns för PBKDF"
+
+#~ msgid "kilobytes"
+#~ msgstr "kilobyte"
+
+#~ msgid "PBKDF parallel cost"
+#~ msgstr "Parallellkostnad för PBKDF"
+
+#~ msgid "threads"
+#~ msgstr "trådar"
+
+#~ msgid "PBKDF iterations cost (forced, disables benchmark)"
+#~ msgstr "Iterationskostnad för PBKDF (tvingad, inaktiverar prestandamätning)"
+
+#~ msgid "Keyslot priority: ignore, normal, prefer"
+#~ msgstr "Nyckelplats-prioritet: ignore,normal,prefer"
+
+#~ msgid "Disable locking of on-disk metadata"
+#~ msgstr "Inaktivera låsning av metadata på disk"
+
+#~ msgid "Disable loading volume keys via kernel keyring"
+#~ msgstr "Inaktivera att läsa in volymnycklar via kärnans nyckelring"
+
+#~ msgid "Data integrity algorithm (LUKS2 only)"
+#~ msgstr "Algoritm för dataintegritet (endast LUKS2)"
+
+#~ msgid "Disable journal for integrity device"
+#~ msgstr "Inaktivera journal för integritetsenhet"
+
+#~ msgid "Do not wipe device after format"
+#~ msgstr "Rensa inte enhet efter formatering"
+
+#~ msgid "Use inefficient legacy padding (old kernels)"
+#~ msgstr "Använd ineffektiv föråldrad padding (gamla kärnor)"
+
+#~ msgid "Do not ask for passphrase if activation by token fails"
+#~ msgstr "Fråga inte efter lösenfras om aktivering med token misslyckas"
+
+#~ msgid "Token number (default: any)"
+#~ msgstr "Tokenantal (standardvärde: any)"
+
+#~ msgid "Key description"
+#~ msgstr "Nyckelbeskrivning"
+
+#~ msgid "Encryption sector size (default: 512 bytes)"
+#~ msgstr "Sektorstorlek för kryptering (standardvärde 512 byte)"
+
+#~ msgid "Use IV counted in sector size (not in 512 bytes)"
+#~ msgstr "Använd IV-räkning i sektorstorlek (ej i 512 byte)"
+
+#~ msgid "Set activation flags persistent for device"
+#~ msgstr "Sätt och spara undan aktiveringsflaggorna för enheten"
+
+#~ msgid "Set label for the LUKS2 device"
+#~ msgstr "Ange etikett för LUKS2-enhet"
+
+#~ msgid "Set subsystem label for the LUKS2 device"
+#~ msgstr "Ange undersystemsetikett för LUKS2-enheten"
+
+#~ msgid "Create or dump unbound (no assigned data segment) LUKS2 keyslot"
+#~ msgstr "Skapa eller skriv ut obunden (inget tilldelat datasegment) LUKS2-nyckelplats"
+
+#~ msgid "Read or write the json from or to a file"
+#~ msgstr "Läs eller skriv json från eller till en fil"
+
+#~ msgid "LUKS2 header metadata area size"
+#~ msgstr "Områdesstorlek för metadata på LUKS2-huvudet"
+
+#~ msgid "LUKS2 header keyslots area size"
+#~ msgstr "Storlek på nyckelplatsområdet för LUKS2-huvud"
+
+#~ msgid "Refresh (reactivate) device with new parameters"
+#~ msgstr "Uppdatera (återaktivera) enhet med nya parametrar"
+
+#~ msgid "LUKS2 keyslot: The size of the encryption key"
+#~ msgstr "LUKS2-nyckelplats: Storleken för krypteringsnyckeln"
+
+#~ msgid "LUKS2 keyslot: The cipher used for keyslot encryption"
+#~ msgstr "LUKS2-nyckelplats: Chiffret används krypering av nyckelplats"
+
+#~ msgid "Encrypt LUKS2 device (in-place encryption)."
+#~ msgstr "Kryptera LUKS2-enheten permanent (direktkryptering)."
+
+#~ msgid "Decrypt LUKS2 device (remove encryption)."
+#~ msgstr "Dekryptera LUKS2-enheten (ta bort kryptering)"
+
+#~ msgid "Initialize LUKS2 reencryption in metadata only."
+#~ msgstr "Initiera LUKS2-omkryptering endast i metadata."
+
+#~ msgid "Resume initialized LUKS2 reencryption only."
+#~ msgstr "Återupptog endast initierad LUKS2-omkryptering."
+
+#~ msgid "Reduce data device size (move data offset). DANGEROUS!"
+#~ msgstr "Förminska dataenhetsstorleken (flytta dataoffset). FARLIGT!"
+
+#~ msgid "Maximal reencryption hotzone size."
+#~ msgstr "Maximal storlek på omkryptering av varm zon."
+
+#~ msgid "Reencryption hotzone resilience type (checksum,journal,none)"
+#~ msgstr "Återhämtningstyp för omkrypteringszon (checksumma,journal,ingen)"
+
+#~ msgid "Reencryption hotzone checksums hash"
+#~ msgstr "Hashkontrollsumma för omkryptering av varm zon"
+
+#~ msgid "Override device autodetection of dm device to be reencrypted"
+#~ msgstr "Överlagra automatisk identifiering av dm-enhet för omkryptering"
+
+#~ msgid "Option --deferred is allowed only for close command."
+#~ msgstr "Flaggan --deferred är endast tillåten för kommandot close."
+
+#~ msgid "Option --allow-discards is allowed only for open operation."
+#~ msgstr "Flaggan --allow-discards är endast tillåten för åtgärden open."
+
+#~ msgid "Option --persistent is allowed only for open operation."
+#~ msgstr "Flaggan --persistent är endast tillåten för åtgärden open."
+
+#~ msgid "Option --serialize-memory-hard-pbkdf is allowed only for open operation."
+#~ msgstr "Flaggan --allow-discards är endast tillåten för åtgärden open."
+
+#~ msgid ""
+#~ "Option --key-size is allowed only for luksFormat, luksAddKey,\n"
+#~ "open and benchmark actions. To limit read from keyfile use --keyfile-size=(bytes)."
+#~ msgstr ""
+#~ "Flaggan --key-size är endast tillåten för åtgärderna luksFormat, luksAddKey,\n"
+#~ "open och benchmark. För att begränsa läsning från nyckelfil, använd --keyfile-size=(byte)."
+
+#~ msgid "Option --integrity is allowed only for luksFormat (LUKS2)."
+#~ msgstr "Flaggan --integrity är endast tillåten för luksFormat (LUKS2)."
+
+#~ msgid "Options --label and --subsystem are allowed only for luksFormat and config LUKS2 operations."
+#~ msgstr "Flaggorna --label och --subsystem är endast tillåtna för luksFormat och konfiguration av LUKS2-åtgärder."
+
+#~ msgid "Negative number for option not permitted."
+#~ msgstr "Negativt tal för flagga ej tillåtet."
+
+#~ msgid "Option --use-[u]random is allowed only for luksFormat."
+#~ msgstr "Flaggan --use-[u]random är endast tillåten för luksFormat."
+
+#~ msgid "Option --uuid is allowed only for luksFormat and luksUUID."
+#~ msgstr "Flaggan --uuid är endast tillåten för luksFormat och luksUUID."
+
+#~ msgid "Option --align-payload is allowed only for luksFormat."
+#~ msgstr "Flaggan --align-payload är endast tillåten för luksFormat."
+
+#~ msgid "Options --luks2-metadata-size and --opt-luks2-keyslots-size are allowed only for luksFormat with LUKS2."
+#~ msgstr "Flaggorna --luks2-metadata-size och --opt-luks2-keyslots-size tillåts endast för luksFormat med LUKS2."
+
+#~ msgid "Invalid LUKS2 metadata size specification."
+#~ msgstr "Ogiltig storlekspecifikation för LUKS2-metadata på enhet."
+
+#~ msgid "Invalid LUKS2 keyslots size specification."
+#~ msgstr "Ogiltig storlekspecifikation för LUKS2-nyckelplats på enhet."
+
+#~ msgid "Option --offset is supported only for open of plain and loopaes devices, luksFormat and device reencryption."
+#~ msgstr "Flaggan --offset stöds endast för öppning av vanliga och loopaes-enheter, luksFormat och omkrypteringsenheter."
+
+#~ msgid "Invalid argument for parameter --veracrypt-pim supplied."
+#~ msgstr "Angav ett ogiltigt argument för parametern --veracrypt-pim."
+
+#~ msgid "Sector size option is not supported for this command."
+#~ msgstr "Flaggan för sektorstorlek stöds inte för detta kommando."
+
+#~ msgid "Option --unbound may be used only with luksAddKey and luksDump actions."
+#~ msgstr "Flaggan --unbound kan endast användas tillsammans med ätgärderna luksAddKey och luksDump."
+
+#~ msgid "Option --refresh may be used only with open action."
+#~ msgstr "Flaggan --refresh är endast tillåten för åtgärden open."
+
+#~ msgid "Invalid device size specification."
+#~ msgstr "Ogiltig storlekspecifikation på enhet."
+
+#~ msgid "Reduce size overflow."
+#~ msgstr "Minska storleksöverspill."
+
+#~ msgid "Do not use verity superblock"
+#~ msgstr "Använd inte verity superblock"
+
+#~ msgid "Format type (1 - normal, 0 - original Chrome OS)"
+#~ msgstr "Formattyp (1 - normal, 0 - ursprungliga Chrome OS)"
+
+#~ msgid "number"
+#~ msgstr "antal"
+
+#~ msgid "Block size on the data device"
+#~ msgstr "Blockstorlek på dataenheten"
+
+#~ msgid "Block size on the hash device"
+#~ msgstr "Blockstorlek på hashenheten"
+
+#~ msgid "FEC parity bytes"
+#~ msgstr "FEC paritetsbyte"
+
+#~ msgid "The number of blocks in the data file"
+#~ msgstr "Antalet block i datafilen"
+
+#~ msgid "blocks"
+#~ msgstr "block"
+
+#~ msgid "Path to device with error correction data"
+#~ msgstr "Sökväg till enhet med felkorrigeringsdata"
+
+#~ msgid "path"
+#~ msgstr "sökväg"
+
+#~ msgid "Starting offset on the hash device"
+#~ msgstr "Startoffset på hashenheten"
+
+#~ msgid "Starting offset on the FEC device"
+#~ msgstr "Startoffset på FEC-enheten"
+
+#~ msgid "Hash algorithm"
+#~ msgstr "Hashalgoritm"
+
+#~ msgid "string"
+#~ msgstr "sträng"
+
+#~ msgid "Salt"
+#~ msgstr "Salt"
+
+#~ msgid "hex string"
+#~ msgstr "hexsträng"
+
+#~ msgid "Path to root hash signature file"
+#~ msgstr "Sökväg till root-hashsignaturfilen"
+
+#~ msgid "Restart kernel if corruption is detected"
+#~ msgstr "Starta om kärna om något skadat identifieras"
+
+#~ msgid "Panic kernel if corruption is detected"
+#~ msgstr "Sätt kärnan i Panic-läge om korruption identifieras"
+
+#~ msgid "Ignore corruption, log it only"
+#~ msgstr "Ignorera om något är skadat, logga endast"
+
+#~ msgid "Do not verify zeroed blocks"
+#~ msgstr "Verifiera inte nollställda block"
+
+#~ msgid "Verify data block only the first time it is read"
+#~ msgstr "Verifiera datablock endast första gången det läses in"
+
+#~ msgid "Option --ignore-corruption, --restart-on-corruption or --ignore-zero-blocks is allowed only for open operation."
+#~ msgstr "Flaggorna --ignore-corruption, --restart-on-corruption eller --ignore-zero-blocks är endast tillåtna för åtgärden open."
+
+#~ msgid "Option --root-hash-signature can be used only for open operation."
+#~ msgstr "Flaggan --root-hash-signature kan användas endast för åtgärden open."
+
+#~ msgid "Path to data device (if separated)"
+#~ msgstr "Sökvägen till dataenhet (om separat)"
+
+#~ msgid "Journal size"
+#~ msgstr "Journalstorlek"
+
+#~ msgid "Interleave sectors"
+#~ msgstr "Infoga sektorer"
+
+#~ msgid "Journal watermark"
+#~ msgstr "Journalvattenmärke"
+
+#~ msgid "percent"
+#~ msgstr "procent"
+
+#~ msgid "Journal commit time"
+#~ msgstr "Journalincheckningstid"
+
+#~ msgid "ms"
+#~ msgstr "ms"
+
+#~ msgid "Number of 512-byte sectors per bit (bitmap mode)."
+#~ msgstr "Antal 512-byte sektorer per bit (bitmap-läge)."
+
+#~ msgid "Bitmap mode flush time"
+#~ msgstr "Renstid för bitmap-läge"
+
+#~ msgid "Tag size (per-sector)"
+#~ msgstr "Taggstorlek (per sektor)"
+
+#~ msgid "Sector size"
+#~ msgstr "Sektorstorlek"
+
+#~ msgid "Buffers size"
+#~ msgstr "Bufferstorlek"
+
+#~ msgid "Data integrity algorithm"
+#~ msgstr "Dataintegritetsalgoritm"
+
+#~ msgid "The size of the data integrity key"
+#~ msgstr "Storleken för dataintegritetsnyckeln"
+
+#~ msgid "Read the integrity key from a file"
+#~ msgstr "Läs integritetsnyckeln från en fil"
+
+#~ msgid "Journal integrity algorithm"
+#~ msgstr "Integritetsalgoritm för journal"
+
+#~ msgid "The size of the journal integrity key"
+#~ msgstr "Storleken för journalens integritetssnyckel"
+
+#~ msgid "Read the journal integrity key from a file"
+#~ msgstr "Läs journalens integritetsnyckel från en fil"
+
+#~ msgid "Journal encryption algorithm"
+#~ msgstr "Krypteringsalgoritm för journal"
+
+#~ msgid "The size of the journal encryption key"
+#~ msgstr "Storleken för journalens krypteringsnyckel"
+
+#~ msgid "Read the journal encryption key from a file"
+#~ msgstr "Läs journalens krypteringsnyckel från en fil"
+
+#~ msgid "Recovery mode (no journal, no tag checking)"
+#~ msgstr "Återhämtningsläge (ingen journal, ingen taggkontroll)"
+
+#~ msgid "Use bitmap to track changes and disable journal for integrity device"
+#~ msgstr "Använd bitmap för att spåra ändringar och inaktivera journal för integritetsenhet"
+
+#~ msgid "Recalculate initial tags automatically."
+#~ msgstr "Räkna automatiskt initiala taggar."
+
+#~ msgid "Do not protect superblock with HMAC (old kernels)"
+#~ msgstr "Skydda inte superblock md HMAC (gamla kärnor)"
+
+#~ msgid "Allow recalculating of volumes with HMAC keys (old kernels)"
+#~ msgstr "Tillåt recalculating (omräkning) av volymer med HMAC-nycklar (äldre kärnor)"
+
+#~ msgid "Option --integrity-recalculate can be used only for open action."
+#~ msgstr "Flaggan --integrity-recalculate kan användas endast för öppen åtgärd."
+
+#~ msgid "Options --journal-size, --interleave-sectors, --sector-size, --tag-size and --no-wipe can be used only for format action."
+#~ msgstr "Flaggorna --journal-size, --interleave-sectors, --sector-size, --tag-size och --no-wipe kan endast användas för åtgärden formatera."
+
+#~ msgid "Invalid journal size specification."
+#~ msgstr "Ogiltig storlekspecifikation på journal."
+
+#~ msgid "Reencryption block size"
+#~ msgstr "Blockstorlek för omkryptering"
+
+#~ msgid "MiB"
+#~ msgstr "MiB"
+
+#~ msgid "Do not change key, no data area reencryption"
+#~ msgstr "Ändra inte nyckel, ingen omkryptering av dataområde"
+
+#~ msgid "Read new volume (master) key from file"
+#~ msgstr "Läs volymnyckeln (master) från fil"
+
+#~ msgid "PBKDF2 iteration time for LUKS (in ms)"
+#~ msgstr "PBKDF2-iterationstid för LUKS (i ms)"
+
+#~ msgid "Use direct-io when accessing devices"
+#~ msgstr "Använd direct-io vid enhetsåtkomst"
+
+#~ msgid "Use fsync after each block"
+#~ msgstr "Använd fsync efter varje block"
+
+#~ msgid "Update log file after every block"
+#~ msgstr "Uppdatera loggfilen efter varje block"
+
+#~ msgid "Use only this slot (others will be disabled)"
+#~ msgstr "Använd endast denna plats (andra kommer att inaktiveras)"
+
+#~ msgid "Create new header on not encrypted device"
+#~ msgstr "Skapa nytt huvud på icke-krypterad enhet"
+
+#~ msgid "Permanently decrypt device (remove encryption)"
+#~ msgstr "Avkoda enheten permanent (ta bort kryptering)"
+
+#~ msgid "The UUID used to resume decryption"
+#~ msgstr "Det UUID som används för att återuppta kryptering"
+
+#~ msgid "Type of LUKS metadata: luks1, luks2"
+#~ msgstr "Typ av LUKS-metadata: luks1, luks2"
+
+#~ msgid "WARNING: Locking directory %s/%s is missing!\n"
+#~ msgstr "VARNING:Låskatalog %s/%s saknas!\n"
+
+#~ msgid "Invalid size parameters for verity device."
+#~ msgstr "Ogiltig storlek på parametrar för verity-enhet."
+
+#~ msgid "Integrity algorithm must be specified if integrity key is used."
+#~ msgstr "Integritetsalgoritm måste specificieras om integritetsnyckel används."
+
+#~ msgid "Wrong key size."
+#~ msgstr "Fel nyckelstorlek."
+
+#~ msgid "Requested dmcrypt performance options are not supported."
+#~ msgstr "Begärda flaggor för dmcrypt-prestanda stöds inte."
+
+#~ msgid "Cannot format device %s which is still in use."
+#~ msgstr "Det går inte att formatera enheten %s då den används."
+
+#~ msgid "Key slot %d is not used."
+#~ msgstr "Nyckelplats %d används inte."
+
+#~ msgid "Function not available in FIPS mode."
+#~ msgstr "Funktionen är inte tillgänglig i FIPS-läge."
+
+#~ msgid "Cipher %s is not available."
+#~ msgstr "Chiffret %s är inte tillgängligt."
+
+#~ msgid "Key slot %d selected for deletion."
+#~ msgstr "Nyckelplats %d markerad för borttagning."
+
+#~ msgid "open device as mapping <name>"
+#~ msgstr "öppna enhet som mappning <namn>"
+
+#, fuzzy
+#~ msgid "Parameter --refresh is only allowed with open or refresh commands.\n"
+#~ msgstr "Flaggan --refresh är endast tillåten för kommandona open eller refresh."
+
+#~ msgid "Unsupported encryption sector size.\n"
+#~ msgstr "Stöder inte sektorstorlek för kryptering.\n"
+
+#~ msgid "close device (deactivate and remove mapping)"
+#~ msgstr "stäng enhet (inaktivera och ta bort mappning)"
+
+#~ msgid "Failed to set PBKDF parameters."
+#~ msgstr "Misslyckades med att sätta PBKDF-parametrar."
+
+#~ msgid "Cannot seek to device offset.\n"
+#~ msgstr "Kan inte söka till enhetsoffset.\n"
+
+#~ msgid "Interrupted by a signal."
+#~ msgstr "Avbruten av en signal."
+
+#~ msgid "Replaced with key slot %d.\n"
+#~ msgstr "Ersätt med nyckelplats %d.\n"
+
+#~ msgid "Device %s is too small. (LUKS2 requires at least %<PRIu64> bytes.)\n"
+#~ msgstr "Enhet %s är för liten. (LUKS2 kräver minst  %<PRIu64> bytes.)\n"
+
+#~ msgid "memory allocation error in action_luksFormat"
+#~ msgstr "minnesallokeringsfel i action_luksFormat"
+
+#~ msgid "Missing LUKS target type, option --type is required.\n"
+#~ msgstr "Saknar måltyp för LUKS, flaggan -type krävs.\n"
+
+#~ msgid "Missing --token option specifying token for removal.\n"
+#~ msgstr ""
+#~ "Saknad flagga --token för att ange token att ta bort.\n"
+#~ " \n"
+
+#~ msgid "Add or remove keyring token"
+#~ msgstr "Lägg till eller ta bort token för nyckelring"
+
+#~ msgid "Activated keyslot %i.\n"
+#~ msgstr "Aktiverade nyckelplats %i.\n"
+
+#~ msgid "Using default pbkdf parameters for new LUKS2 header.\n"
+#~ msgstr "Använder pbkdf-standardparametrar för nya LUKS2-huvuden.\n"
+
+#~ msgid "Too many tree levels for verity volume.\n"
+#~ msgstr "För många trädnivåer för verity-volym.\n"
+
+#~ msgid "Key %d not active. Can't wipe.\n"
+#~ msgstr "Nyckel %d är inte aktiv. Kan inte rensa.\n"
+
+#~ msgid "<name> <data_device> <hash_device> <root_hash>"
+#~ msgstr "<namn> <dataenhet> <hashenhet> <rothash>"
+
+#~ msgid "create active device"
+#~ msgstr "skapa aktiv enhet"
+
+#~ msgid "remove (deactivate) device"
+#~ msgstr "ta bort (inaktivera) enhet"
+
+#~ msgid "Progress: %5.1f%%, ETA %02llu:%02llu, %4llu MiB written, speed %5.1f MiB/s%s"
+#~ msgstr "Förlopp: %5.1f%%, ETA %02llu:%02llu, %4llu MiB skrivna, hastighet %5.1f MiB/s%s"
+
+#~ msgid "Cannot find a free loopback device.\n"
+#~ msgstr "Kan inte hitta en ledig loopback-enhet.\n"
+
+#~ msgid "Cannot open device %s\n"
+#~ msgstr "Kan inte öppna enheten %s\n"
+
+#~ msgid "Cannot use passed UUID unless decryption in progress.\n"
+#~ msgstr "Kan inte använda insänt UUID om inte dekryptering pågår.\n"
+
+#~ msgid "Enter LUKS passphrase: "
+#~ msgstr "Ange LUKS-lösenfras: "
+
+#~ msgid "Warning: exhausting read requested, but key file %s is not a regular file, function might never return.\n"
+#~ msgstr "Varning: utförlig läsning begärd men nyckelfilen %s är inte en vanlig fil, funktionen kanske aldrig avslutas.\n"
+
+#~ msgid "exclusive "
+#~ msgstr "exklusiv"
+
+#~ msgid "read-only"
+#~ msgstr "skrivskyddad"
+
+#~ msgid "Cannot open device: %s\n"
+#~ msgstr "Kan inte öppna enheten: %s\n"
+
+#~ msgid "BLKROGET failed on device %s.\n"
+#~ msgstr "BLKROGET misslyckades på enheten %s.\n"
+
+#~ msgid "BLKGETSIZE failed on device %s.\n"
+#~ msgstr "BLKGETSIZE misslyckades på enheten %s.\n"
+
+#~ msgid "WARNING!!! Possibly insecure memory. Are you root?\n"
+#~ msgstr "VARNING!!! Potentiellt osäkert minne. Är du root?\n"
+
+#~ msgid "Unable to obtain sector size for %s"
+#~ msgstr "Kunde inte läsa av sektorstorlek för %s"
+
+#~ msgid "Backup file %s doesn't exist.\n"
+#~ msgstr "Säkerhetskopian %s finns inte.\n"
+
+#~ msgid "remove LUKS mapping"
+#~ msgstr "ta bort LUKS-mappning"
+
+#~ msgid "identical to luksKillSlot - DEPRECATED - see man page"
+#~ msgstr "identisk med luksKillSlot - FÖRÅLDRAD - se manualsida"
+
+#~ msgid "modify active device - DEPRECATED - see man page"
+#~ msgstr "ändra aktiv enhet - FÖRÅLDRAD - se manualsida"
+
+#~ msgid ""
+#~ "The reload action is deprecated. Please use \"dmsetup reload\" in case you really need this functionality.\n"
+#~ "WARNING: do not use reload to touch LUKS devices. If that is the case, hit Ctrl-C now.\n"
+#~ msgstr ""
+#~ "Omläsningsåtgärden är föråldrad. Använd ”dmsetup reload” om du verkligen behöver denna funktion.\n"
+#~ "VARNING: använd inte omläsning för ”touch” på LUKS-enheter. Om så är fallet, tryck Ctrl-C nu.\n"
+
+#~ msgid "Obsolete option --non-exclusive is ignored.\n"
+#~ msgstr "Föråldrad flagga --non-exclusive ignoreras.\n"
+
+#~ msgid "Read the key from a file (can be /dev/random)"
+#~ msgstr "Läs nyckeln från en fil (kan vara /dev/random)"
+
+#~ msgid "(Obsoleted, see man page.)"
+#~ msgstr "(Föråldrad, se manualsida)"

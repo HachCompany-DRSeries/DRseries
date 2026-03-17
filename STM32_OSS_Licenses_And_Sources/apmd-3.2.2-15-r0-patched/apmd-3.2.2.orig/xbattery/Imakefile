@@ -1,0 +1,57 @@
+#ifndef XCOMM
+#define XCOMM #
+#endif
+
+XCOMM Copyright (C) 1999 Nathan Sidwell
+XCOMM $Id: Imakefile,v 1.2 1999/08/02 20:09:55 apenwarr Exp $
+XCOMM This file is available under the GNU General Public License
+
+XCOMM $Format: "VERSION = $ReleaseMajorVersion$.$ReleaseMinorVersion$"$
+VERSION = nathan.0
+XCOMM $Format: "APP = $Project$"$
+APP = xbattery
+
+XCOMM compiler options
+#if HasGcc
+EXTRACCOPTIONS = -I.. -Wall -Wpointer-arith -Wwrite-strings -Wtraditional
+#endif /* HasGcc */
+NDEBUG = -DNDEBUG
+CDEBUGFLAGS = -g -O2
+
+DEFINES = $(EXTRACCOPTIONS) $(NDEBUG)
+LOCAL_LIBRARIES = ../libapm.a $(XAWLIB) $(XTOOLLIB) $(XMULIB) $(XLIB) $(MATHSLIB)
+DEPLIBS = $(DEPXLIB)
+
+HDRS = BatteryGauge.h BatteryGaugeP.h 
+SRCS = BatteryGauge.c xbattery.c
+FILES = Imakefile README xbattery.man 
+OBJS = $(SRCS:.c=.o)
+ALLFILES = $(FILES) $(HDRS) $(SRCS)
+
+all :: xbattery
+	@#keep gnumake happy
+
+NormalProgramTarget(xbattery,$(OBJS),$(DEPLIBS),$(LOCAL_LIBRARIES),)
+
+InstallProgramWithFlags(xbattery,$(BINDIR),$(INSTWIDOWFLAGS))
+
+InstallManPage(xbattery,$(MANDIR))
+
+clean ::
+	$(RM) $(OBJS)
+
+tarball:
+	@echo Tarring \& feathering into $(APP).$(VERSION).tgz
+	$(LN) . $(APP)-$(VERSION)
+	tar cf $(APP)-$(VERSION).tar $(ALLFILES:%=$(APP)-$(VERSION)/%)
+	$(RM) $(APP)-$(VERSION)
+	gzip $(APP)-$(VERSION).tar
+	$(MV) $(APP)-$(VERSION).tar.gz $(APP)-$(VERSION).tgz 
+
+DependTarget()
+
+.DONE :
+	@echo "Hurrah!"
+
+.FAILED :
+	@echo "Bummer!"

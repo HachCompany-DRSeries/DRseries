@@ -1,0 +1,24 @@
+On laptop computers, the APM support provides access to battery status
+information and may help you to conserve battery power, depending on your
+laptop and the APM implementation.
+
+Here's what apmd can do:
+
+	- apmd(8): can log the battery status to syslog every now and take
+	  action when the power status changes
+	
+	- apm(1): a command-line tool to print the current battery status
+	  or suspend the computer;
+
+	- xapm(1x): provides a battery meter for X;
+	
+	- libapm.a: a library for writing applications that interface with
+	  the Linux APM subsystem.
+
+Please read the manual pages for more information.
+
+The license for library can be found in the apmlib.COPYING file.
+The license for the remainder of this package can be found in the COPYING file.
+
+--
+The authors

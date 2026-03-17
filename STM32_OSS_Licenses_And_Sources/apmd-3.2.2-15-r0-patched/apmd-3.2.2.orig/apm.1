@@ -1,0 +1,82 @@
+.\" apm.1 -- 
+.\" Created: Wed Jan 10 14:54:03 1996 by r.faith@ieee.org
+.\" Revised: Sun Apr 21 16:37:43 1996 by r.faith@ieee.org
+.\" Copyright 1996 Rickard E. Faith (r.faith@ieee.org)
+.\" 
+.\" Permission is granted to make and distribute verbatim copies of this
+.\" manual provided the copyright notice and this permission notice are
+.\" preserved on all copies.
+.\" 
+.\" Permission is granted to copy and distribute modified versions of this
+.\" manual under the conditions for verbatim copying, provided that the
+.\" entire resulting derived work is distributed under the terms of a
+.\" permission notice identical to this one
+.\" 
+.\" Since the Linux kernel and libraries are constantly changing, this
+.\" manual page may be incorrect or out-of-date.  The author(s) assume no
+.\" responsibility for errors or omissions, or for damages resulting from
+.\" the use of the information contained herein.  The author(s) may not
+.\" have taken the same level of care in the production of this manual,
+.\" which is licensed free of charge, as they might when working
+.\" professionally.
+.\" 
+.\" Formatted or processed versions of this manual, if unaccompanied by
+.\" the source, must acknowledge the copyright and authors of this work.
+.\" 
+.TH APM 1 "January 2004" "" ""
+.SH NAME
+apm \- interface with the APM subsystem
+.SH SYNOPSIS
+.B apm [ \-VvmMsSdin ]
+.SH DESCRIPTION
+This command requires the Advanced Power Management subsystem.
+If run without arguments it reads
+.I /proc/apm
+and presents the output in a human-readable format.
+.P
+Given a
+.B \-S
+or
+.B \-s
+option it requests that the machine be put into the APM standby
+or the APM suspend state, respectively.
+For a brief description of these states, see
+.BR apmd (8).
+.SH OPTIONS
+.TP
+.B \-V, \-\-version
+Print the version of the program and exit.
+.TP
+.B \-v, \-\-verbose
+Also print version information for the APM subsystem.
+The APM subsystem consists of power-management hardware,
+firmware usually referred to as the APM BIOS
+and a driver in the operating system kernel.
+.TP
+.B \-m, \-\-minutes
+Print the time remaining as a number of minutes.
+The default is to print the time remaining in "hours:minutes" format.
+.TP
+.B \-M, \-\-monitor
+Continuously monitor and update the status information.
+Assumes that the standard output is a terminal.
+.TP
+.B \-S, \-\-standby
+Request that the machine be put into the APM standby state.
+.TP
+.B \-s, \-\-suspend
+Request that the machine be put into the APM suspend state.
+.TP
+.B \-d, \-\-debug
+Print APM status information in a format more useful for debugging.
+Implies \-v.
+.SH FILES
+.I /proc/apm
+.SH AUTHOR
+This program was written by Rik Faith (faith@cs.unc.edu) and may be freely
+distributed under the terms of the GNU General Public License.  There is
+ABSOLUTELY NO WARRANTY for this program.  The current maintainer is Avery
+Pennarun (apenwarr@worldvisions.ca).
+.SH "SEE ALSO"
+.BR xapm (1),
+.BR apmd (8).

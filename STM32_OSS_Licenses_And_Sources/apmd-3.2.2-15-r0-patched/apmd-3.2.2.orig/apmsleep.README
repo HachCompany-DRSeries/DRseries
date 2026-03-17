@@ -1,0 +1,17 @@
+Please report bugs to:
+	ppe@mpe.mpg.de
+
+The following information would be helpful:
+
+	1) Program output with debugging turned on including
+	   the command line used to run apmsleep.
+	2) Make & model of computer.
+	3) Linux version used.
+	4) /proc/apm
+	5) /proc/rtc
+	6) /proc/interrupts
+
+Please write, if you find that my program works on non-intel
+platforms as well. 
+
+Peter Englmaier.

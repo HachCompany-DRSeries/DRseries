@@ -1,0 +1,31 @@
+image: fedora:rawhide
+
+variables:
+  DEPENDENCIES: gcc
+                gcc-c++
+                glibc-devel
+                make
+                libxml2-devel
+                glib2-devel
+                gettext
+                git
+                itstool
+                xmlto
+                findutils
+                gettext-devel
+                meson
+
+build:meson:
+  before_script:
+    - dnf update -y --nogpgcheck
+    - dnf install -y --nogpgcheck $DEPENDENCIES
+  script:
+    # Compile xdgmime
+    - git clone https://gitlab.freedesktop.org/xdg/xdgmime.git
+    - make -C xdgmime
+
+    # Compile and test shared-mime-info
+    - meson _build
+    - ninja -C _build
+    - ninja -C _build test
+    - ninja -C _build dist

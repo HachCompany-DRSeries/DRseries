@@ -1,0 +1,452 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR BSD-3-Clause)
+/*
+ * Copyright (C) emtrion GmbH 2021 - All Rights Reserved
+ */
+
+/dts-v1/;
+
+#include "stm32mp157c-emstamp-argon.dtsi"
+#include <dt-bindings/rtc/rtc-stm32.h>
+
+/ {
+	model = "Hach Lange XMF937A";
+	compatible = "Hach Lange,stm32mp157c-XMF937A", "st,stm32mp157";
+
+	chosen {
+		stdout-path = "serial2:115200n8";
+		framebuffer {
+			compatible = "simple-framebuffer";
+			clocks = <&rcc LTDC_PX>;
+			status = "disabled";
+			//reg = <0xdb000000 0x1ff000>;
+			//width = <800>;
+			//height = <480>;
+			//stride = <3200>;
+			//format = "a8r8g8b8";
+		};
+	};
+
+	clocks {
+	
+	       clk_hsi: clk-hsi {
+                       u-boot,dm-pre-reloc;
+                       #clock-cells = <0>;
+                       compatible = "fixed-clock";
+                       clock-frequency = <64000000>;
+
+                       /* USER CODE BEGIN clk_hsi */
+                       /* USER CODE END clk_hsi */
+               };
+               clk_lse: clk-lse {
+                       u-boot,dm-pre-reloc;
+                       #clock-cells = <0>;
+                       compatible = "fixed-clock";
+                       clock-frequency = <32768>;
+                       st,drive = < LSEDRV_MEDIUM_HIGH >;
+
+                       /* USER CODE BEGIN clk_lse */
+                       /* USER CODE END clk_lse */
+               };
+               clk_lsi: clk-lsi {
+                       u-boot,dm-pre-reloc;
+                       #clock-cells = <0>;
+                       compatible = "fixed-clock";
+                       clock-frequency = <32000>;
+               };
+               clk_hse: clk-hse {
+                       u-boot,dm-pre-reloc;
+                       #clock-cells = <0>;
+                       compatible = "fixed-clock";
+
+                       clock-frequency = <24000000>;
+
+                       /* USER CODE BEGIN clk_hse */
+                       /* USER CODE END clk_hse */
+               };
+               clk_csi: clk-csi {
+                       u-boot,dm-pre-reloc;
+                       #clock-cells = <0>;
+                       compatible = "fixed-clock";
+                       clock-frequency = <4000000>;
+               };
+               i2s_ckin: i2s_ckin {
+                       u-boot,dm-pre-reloc;
+                       #clock-cells = <0>;
+                       compatible = "fixed-clock";
+                       clock-frequency = <26000000>;
+
+               };
+
+
+	};
+
+	panel_backlight: panel-backlight {
+               compatible = "gpio-backlight";
+               gpios = <&gpioa 5 GPIO_ACTIVE_HIGH>;
+               default-on;
+               status = "okay";
+        };
+
+        panel_rgb: panel-rgb {
+               compatible = "simple-panel";
+               status = "okay";
+               backlight = <&panel_backlight>;
+//               enable-gpios = <&gpioj 13 GPIO_ACTIVE_HIGH>;
+               pwm-cells = <2>;
+               port {
+                       panel_in_rgb: endpoint {
+                               remote-endpoint = <&ltdc_out_rgb>;
+                       };
+               };
+               display-timings {
+                        timing@0 {
+                                clock-frequency = <26000000>;
+                                hactive = <800>;
+                                vactive = <480>;
+
+                                hfront-porch = <0>;
+                                hback-porch = <0>;
+                                hsync-len = <256>;
+
+                                vfront-porch = <2>;
+                                vback-porch = <2>;
+                                vsync-len = <47>;
+
+                               de-active = <0>;
+                               pixelclk-active = <1>;
+                        };
+                };
+
+       };
+
+};
+
+&pinctrl {
+	u-boot,dm-pre-reloc;
+       ltdc_pins_emtrion: ltdc-c-0 {
+               pins {
+                      // pinmux = <STM32_PINMUX('I', 12, AF14)>, /* LCD_HSYNC */
+                      //          <STM32_PINMUX('I', 13, AF14)>, /* LCD_VSYNC */
+                       pinmux = <STM32_PINMUX('E', 13, AF14)>, /* LCD_DE */
+                                <STM32_PINMUX('J',  1, AF14)>, /* LCD_R2 */
+                                <STM32_PINMUX('J',  2, AF14)>, /* LCD_R3 */
+                                <STM32_PINMUX('J',  3, AF14)>, /* LCD_R4 */
+                                <STM32_PINMUX('J',  4, AF14)>, /* LCD_R5 */
+                                <STM32_PINMUX('A',  8, AF14)>, /* LCD_R6 */
+                                <STM32_PINMUX('J',  6, AF14)>, /* LCD_R7 */
+                                <STM32_PINMUX('H', 13, AF14)>,  /* LCD_G2 */
+                                <STM32_PINMUX('J', 12, AF9)>,  /* LCD_G3 */
+                                <STM32_PINMUX('H', 15, AF14)>, /* LCD_G4 */
+                                <STM32_PINMUX('H',  4, AF9)>,  /* LCD_G5 */
+                                <STM32_PINMUX('I',  1, AF14)>, /* LCD_G6 */
+                                <STM32_PINMUX('I',  2, AF14)>, /* LCD_G7 */
+                                <STM32_PINMUX('J', 14, AF14)>, /* LCD_B2 */
+                                <STM32_PINMUX('D', 10, AF14)>, /* LCD_B3 */
+                                <STM32_PINMUX('K',  3, AF14)>, /* LCD_B4 */
+                                <STM32_PINMUX('K',  4, AF14)>, /* LCD_B5 */
+                                <STM32_PINMUX('K',  5, AF14)>, /* LCD_B6 */
+                                <STM32_PINMUX('K',  6, AF14)>; /* LCD_B7 */
+                       bias-disable;
+                       drive-push-pull;
+                       slew-rate = <1>;
+               };
+               pins2 {
+                       pinmux = <STM32_PINMUX('E', 14, AF14)>; /* LTDC_CLK */
+                       bias-disable;
+                       drive-push-pull;
+                       slew-rate = <1>;
+               };
+/*	       pins3 {
+		        u-boot,dm-pre-reloc;
+			pinmux = <STM32_PINMUX('J', 13, GPIO)>;
+			bias-pull-up;
+			output-high;
+			slew-rate = <0>;
+      	       };*/
+
+       };
+
+       ltdc_pins_sleep_emtrion: ltdc-c-1 {
+               pins {
+                       pinmux = <STM32_PINMUX('E', 14, ANALOG)>, /* LTDC_CLK */
+                                <STM32_PINMUX('I', 12, ANALOG)>, /* LCD_HSYNC */
+                                <STM32_PINMUX('I', 13, ANALOG)>, /* LCD_VSYNC */
+                                <STM32_PINMUX('E', 13, ANALOG)>, /* LCD_DE */
+                                 <STM32_PINMUX('J',  1, ANALOG)>, /* LCD_R2 */
+                                 <STM32_PINMUX('J',  2, ANALOG)>, /* LCD_R3 */
+                                 <STM32_PINMUX('J',  3, ANALOG)>, /* LCD_R4 */
+                                 <STM32_PINMUX('J',  4, ANALOG)>, /* LCD_R5 */
+                                 <STM32_PINMUX('A',  8, ANALOG)>, /* LCD_R6 */
+                                 <STM32_PINMUX('J',  6, ANALOG)>, /* LCD_R7 */
+                                 <STM32_PINMUX('H', 13, ANALOG)>, /* LCD_G2 */
+                                 <STM32_PINMUX('J', 12, ANALOG)>, /* LCD_G3 */
+                                 <STM32_PINMUX('H', 15, ANALOG)>, /* LCD_G4 */
+                                 <STM32_PINMUX('H',  4, ANALOG)>, /* LCD_G5 */
+                                 <STM32_PINMUX('I',  1, ANALOG)>, /* LCD_G6 */
+                                 <STM32_PINMUX('I',  2, ANALOG)>, /* LCD_G7 */
+                                 <STM32_PINMUX('J', 14, ANALOG)>, /* LCD_B2 */
+                                 <STM32_PINMUX('D', 10, ANALOG)>, /* LCD_B3 */
+                                 <STM32_PINMUX('K',  3, ANALOG)>, /* LCD_B4 */
+                                 <STM32_PINMUX('K',  4, ANALOG)>, /* LCD_B5 */
+                                 <STM32_PINMUX('K',  5, ANALOG)>, /* LCD_B6 */
+                                 <STM32_PINMUX('K',  6, ANALOG)>; /* LCD_B7 */
+
+               };
+       };
+
+       rcc_pins_mx: rcc_mx-0 {
+	       u-boot,dm-pre-reloc;
+               pins {
+ 		       u-boot,dm-pre-reloc;
+                       pinmux = <STM32_PINMUX('G', 2, AF1)>, /* RCC_MCO_2 */
+                                <STM32_PINMUX('I', 11, AF5)>; /* I2S_CKIN */
+                       bias-disable;
+                       drive-push-pull;
+                       slew-rate = <1>;
+               };
+/*	       pins2 {
+		       u-boot,dm-pre-reloc;
+		       pinmux = <STM32_PINMUX('J', 13, GPIO)>;
+		       bias-pull-up;
+		       output-high;
+		       drive-push-pull;
+		       slew-rate = <0>;
+	       };*/
+       };
+
+       rcc_sleep_pins_mx: rcc_sleep_mx-0 {
+	       u-boot,dm-pre-reloc;
+               pins {
+		       u-boot,dm-pre-reloc;
+                       pinmux = <STM32_PINMUX('G', 2, ANALOG)>, /* RCC_MCO_2 */
+                                <STM32_PINMUX('I', 11, ANALOG)>; /* I2S_CKIN */
+               };
+       };
+
+       sdmmc2_b8_sleep_pins: sdmmc2-b8-sleep-0 {
+		pins {
+			pinmux = <STM32_PINMUX('B', 14, ANALOG)>, /* SDMMC2_D0 */
+				 <STM32_PINMUX('B', 15, ANALOG)>, /* SDMMC2_D1 */
+				 <STM32_PINMUX('B', 3, ANALOG)>, /* SDMMC2_D2 */
+				 <STM32_PINMUX('B', 4, ANALOG)>, /* SDMMC2_D3 */
+                 <STM32_PINMUX('E', 4, ANALOG)>, /* SDMMC2_D4 */
+                 <STM32_PINMUX('A', 15, ANALOG)>, /* SDMMC2_D5 */
+                 <STM32_PINMUX('C', 6, ANALOG)>, /* SDMMC2_D6 */
+                 <STM32_PINMUX('C', 7, ANALOG)>, /* SDMMC2_D7 */
+				 <STM32_PINMUX('E', 3, ANALOG)>, /* SDMMC2_CK */
+				 <STM32_PINMUX('G', 6, ANALOG)>; /* SDMMC2_CMD */
+		};
+	};
+
+	sdmmc2_b8_pins: sdmmc2-b8 {
+		pins1 {
+			pinmux = <STM32_PINMUX('B', 14, AF9)>, /* SDMMC2_D0 */
+				 <STM32_PINMUX('B', 15, AF9)>, /* SDMMC2_D1 */
+				 <STM32_PINMUX('B', 3, AF9)>, /* SDMMC2_D2 */
+				 <STM32_PINMUX('B', 4, AF9)>, /* SDMMC2_D3 */
+                 <STM32_PINMUX('E', 4, AF9)>, /* SDMMC2_D4 */
+                 <STM32_PINMUX('A', 15, AF9)>, /* SDMMC2_D5 */
+                 <STM32_PINMUX('C', 6, AF10)>, /* SDMMC2_D6 */
+                 <STM32_PINMUX('C', 7, AF10)>, /* SDMMC2_D7 */
+				 <STM32_PINMUX('G', 6, AF10)>; /* SDMMC2_CMD */
+			slew-rate = <1>;
+			drive-push-pull;
+			bias-disable;
+		};
+		pins2 {
+			pinmux = <STM32_PINMUX('E', 3, AF9)>; /* SDMMC2_CK */
+			slew-rate = <2>;
+			drive-push-pull;
+			bias-disable;
+		};
+	};
+
+	sdmmc2_b8_od_pins: sdmmc2-b8-od {
+		pins1 {
+			pinmux = <STM32_PINMUX('B', 14, AF9)>, /* SDMMC2_D0 */
+				 <STM32_PINMUX('B', 15, AF9)>, /* SDMMC2_D1 */
+				 <STM32_PINMUX('B', 3, AF9)>, /* SDMMC2_D2 */
+				 <STM32_PINMUX('B', 4, AF9)>, /* SDMMC2_D3 */
+                 <STM32_PINMUX('E', 4, AF9)>, /* SDMMC2_D4 */
+                 <STM32_PINMUX('A', 15, AF9)>, /* SDMMC2_D5 */
+                 <STM32_PINMUX('C', 6, AF10)>, /* SDMMC2_D6 */
+                 <STM32_PINMUX('C', 7, AF10)>; /* SDMMC2_D7 */
+			slew-rate = <1>;
+			drive-push-pull;
+			bias-disable;
+		};
+		pins2 {
+			pinmux = <STM32_PINMUX('E', 3, AF9)>; /* SDMMC2_CK */
+			slew-rate = <2>;
+			drive-push-pull;
+			bias-disable;
+		};
+		pins3 {
+			pinmux = <STM32_PINMUX('G', 6, AF10)>; /* SDMMC2_CMD */
+			slew-rate = <1>;
+			drive-open-drain;
+			bias-disable;
+		};
+	};
+ };
+
+
+&rcc {
+        u-boot,dm-pre-reloc;
+        st,clksrc = <
+                CLK_MPU_PLL1P
+                CLK_AXI_PLL2P
+                CLK_MCU_PLL3P
+                CLK_PLL12_HSE
+                CLK_PLL3_HSE
+                CLK_PLL4_I2SCKIN
+                CLK_RTC_LSE
+                CLK_MCO1_DISABLED
+                CLK_MCO2_DISABLED
+        >;
+	st,clksrc = <
+		CLK_MPU_PLL1P
+		CLK_AXI_PLL2P
+		CLK_MCU_PLL3P
+		CLK_PLL12_HSE
+		CLK_PLL3_HSE
+		CLK_PLL4_I2SCKIN
+		CLK_RTC_LSE
+		CLK_MCO1_DISABLED
+		CLK_MCO2_DISABLED
+	>;
+
+	st,clkdiv = <
+               1               /*MPU*/
+               0               /*AXI*/
+               0               /*MCU*/
+               1               /*APB1*/
+               1               /*APB2*/
+               1               /*APB3*/
+               1               /*APB4*/
+               2               /*APB5*/
+               23              /*RTC*/
+               0               /*MCO1*/
+               0               /*MCO2*/
+	>;
+
+	st,pkcs = <
+		CLK_CKPER_HSE
+		CLK_FMC_ACLK
+		CLK_QSPI_ACLK
+		CLK_ETH_PLL3Q
+		CLK_SDMMC12_HSI
+		CLK_DSI_DSIPLL
+		CLK_STGEN_HSE
+		CLK_USBPHY_HSE
+		CLK_SPI2S1_PLL3Q
+		CLK_SPI2S23_PLL3Q
+		CLK_SPI45_HSE
+		CLK_SPI6_HSE
+		CLK_I2C46_HSI
+		CLK_SDMMC3_PLL3R
+		CLK_USBO_USBPHY
+		CLK_ADC_CKPER
+		CLK_CEC_LSE
+		CLK_I2C12_HSI
+		CLK_I2C35_HSI
+		CLK_UART1_HSI
+		CLK_UART24_HSI
+		CLK_UART35_HSI
+		CLK_UART6_HSI
+		CLK_UART78_HSI
+		CLK_SPDIF_PLL3Q
+		CLK_FDCAN_HSE
+		CLK_SAI1_PLL3R
+		CLK_SAI2_PLL3R
+		CLK_SAI3_PLL3R
+		CLK_SAI4_PLL3R
+		CLK_RNG1_LSI
+		CLK_RNG2_LSI
+		CLK_LPTIM1_PCLK1
+		CLK_LPTIM23_PCLK3
+		CLK_LPTIM45_LSE
+	>;
+	
+	//Input=HSE=24MHz DIVM=3 DIVN=81 DIVP=1 DIVQ=2 DIVR=2 frac=2048
+	//PLL1P=650MHz PLL1Q=325MHz PLL1R=325MHz
+	pll1:st,pll@0 {
+		compatible = "st,stm32mp1-pll";
+		reg = <0>;
+		cfg = < 2 80 0 1 1 PQR(1,0,0) >;
+		frac = < 0x800 >;
+		u-boot,dm-pre-reloc;
+	};
+
+	//Input=HSE=24MHz DIVM=3 DIVN=66 DIVP=2 DIVQ=2 DIVR=1 frac=4096
+	//PLL2P=266MHz PLL2Q=266MHz PLL2R=532MHz
+	pll2:st,pll@1 {
+		compatible = "st,stm32mp1-pll";
+		reg = <1>;
+		frac = < 0x1000 >;
+		cfg = < 2 65 1 1 0 PQR(1,1,1) >;
+		u-boot,dm-pre-reloc;
+	};
+
+	//Input=HSE=24MHz DIVM=2 DIVN=50 DIVP=3 DIVQ=12 DIVR=53  
+	//PLL3P=200MHz PLL3Q=50MHz PLL3R=11.32MHz
+	pll3:st,pll@2 {
+		compatible = "st,stm32mp1-pll";
+		reg = <2>;
+		cfg = < 1 49 2 11 52 PQR(1,1,1) >;
+		u-boot,dm-pre-reloc;
+	};
+
+	//Input=I2SCKIN=26MHz DIVM=2 DIVN=32 DIVP=16 DIVq=16 DIVR=16
+	//PLL4P=26MHz PLL4Q=26MHz PLL4R=26MHz
+	pll4:st,pll@3 {
+		compatible = "st,stm32mp1-pll";
+		reg = <3>;
+		cfg = < 1 31 15 15 15 PQR(1,1,0) >;
+		u-boot,dm-pre-reloc;
+	};
+};
+
+&sdmmc2 {
+	arm,primecell-periphid = <0x10153180>;
+	pinctrl-names = "default", "opendrain", "sleep";
+	pinctrl-0 = <&sdmmc2_b8_pins>;
+	pinctrl-1 = <&sdmmc2_b8_od_pins>;
+	pinctrl-2 = <&sdmmc2_b8_sleep_pins>;
+	non-removable;
+	st,neg-edge;
+	bus-width = <8>;
+	vmmc-supply = <&v3v3>;
+	vqmmc-supply = <&vdd>;
+	keep-power-in-suspend;
+	no-sd;
+	no-sdio;
+	mmc-ddr-3_3v;
+	status = "okay";
+};
+
+&sdmmc1 {
+	status = "disabled";
+};
+
+&dsi {
+       status = "disabled";
+};
+
+&ltdc {
+       u-boot,dm-pre-reloc;
+       pinctrl-names = "default", "sleep";
+       pinctrl-0 = <&ltdc_pins_emtrion>;
+       pinctrl-1 = <&ltdc_pins_sleep_emtrion>;
+       status = "okay";
+
+       port {
+               #address-cells = <1>;
+               #size-cells = <0>;
+
+               ltdc_out_rgb: endpoint@0 {
+                       reg = <0>;
+                       remote-endpoint = <&panel_in_rgb>;
+               };
+       };
+};

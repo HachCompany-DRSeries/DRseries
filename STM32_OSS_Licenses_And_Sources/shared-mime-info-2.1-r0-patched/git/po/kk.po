@@ -1,0 +1,3255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the shared-mime-info package.
+# 
+# Translators:
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2011-2020
+msgid ""
+msgstr ""
+"Project-Id-Version: shared-mime-info\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-24 10:27+0200\n"
+"PO-Revision-Date: 2020-12-24 08:30+0000\n"
+"Last-Translator: Ville Skyttä <ville.skytta@iki.fi>\n"
+"Language-Team: Kazakh (http://www.transifex.com/freedesktop/shared-mime-info/language/kk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: kk\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: data/freedesktop.org.xml.in:83
+msgid "Atari 2600 ROM"
+msgstr "Atari 2600 ROM"
+
+#: data/freedesktop.org.xml.in:88
+msgid "Atari 7800 ROM"
+msgstr "Atari 7800 ROM"
+
+#: data/freedesktop.org.xml.in:96
+msgid "Atari Lynx ROM"
+msgstr "Atari Lynx ROM"
+
+#: data/freedesktop.org.xml.in:104
+msgid "ATK inset"
+msgstr "ATK беті"
+
+#: data/freedesktop.org.xml.in:111
+msgid "electronic book document"
+msgstr "электронды кітабы"
+
+#: data/freedesktop.org.xml.in:125
+msgid "Kindle book document"
+msgstr "Kindle кітап құжаты"
+
+#: data/freedesktop.org.xml.in:132
+msgid "Adobe Illustrator document"
+msgstr "Adobe Illustrator құжаты"
+
+#: data/freedesktop.org.xml.in:138
+msgid "Macintosh BinHex-encoded file"
+msgstr "Macintosh BinHex кодталған файлы"
+
+#: data/freedesktop.org.xml.in:145
+msgid "Mathematica Notebook file"
+msgstr "Mathematica блокнот файлы"
+
+#: data/freedesktop.org.xml.in:160
+msgid "MathML document"
+msgstr "MathML құжаты"
+
+#: data/freedesktop.org.xml.in:169
+msgid "mailbox file"
+msgstr "пошта жәшігінің файлы"
+
+#: data/freedesktop.org.xml.in:178 data/freedesktop.org.xml.in:187
+msgid "Metalink file"
+msgstr "Metalink файлы"
+
+#: data/freedesktop.org.xml.in:196
+msgid "unknown"
+msgstr "белгісіз"
+
+#: data/freedesktop.org.xml.in:199
+msgid "Partially downloaded file"
+msgstr "Жартылай жүктелген файл"
+
+#: data/freedesktop.org.xml.in:206
+msgid "ODA document"
+msgstr "ODA құжаты"
+
+#: data/freedesktop.org.xml.in:213
+msgid "WWF document"
+msgstr "WWF құжаты"
+
+#: data/freedesktop.org.xml.in:220
+msgid "PDF document"
+msgstr "PDF құжаты"
+
+#: data/freedesktop.org.xml.in:234
+msgid "XSPF playlist"
+msgstr "XSPF ойнау тізімі"
+
+#: data/freedesktop.org.xml.in:248
+msgid "Microsoft Windows theme pack"
+msgstr "Microsoft Windows тема дестесі"
+
+#: data/freedesktop.org.xml.in:254
+msgid "AmazonMP3 download file"
+msgstr "AmazonMP3 жүктеме файлы"
+
+#: data/freedesktop.org.xml.in:258
+msgid "GSM 06.10 audio"
+msgstr "GSM 06.10 аудиосы"
+
+#: data/freedesktop.org.xml.in:264
+msgid "iRiver playlist"
+msgstr "iRiver ойнау тізімі"
+
+#: data/freedesktop.org.xml.in:271
+msgid "PGP/MIME-encrypted message header"
+msgstr "PGP/MIME-шифрленген мәлімдеме тақырыптамасы"
+
+#: data/freedesktop.org.xml.in:283
+msgid "PGP keys"
+msgstr "PGP кілттері"
+
+#: data/freedesktop.org.xml.in:304
+msgid "detached OpenPGP signature"
+msgstr "бөлінген OpenPGP қолтаңбасы"
+
+#: data/freedesktop.org.xml.in:317
+msgid "PKCS#7 file"
+msgstr "PKCS#7 файлы"
+
+#: data/freedesktop.org.xml.in:325
+msgid "detached S/MIME signature"
+msgstr "бөлінген S/MIME қолтаңбасы"
+
+#: data/freedesktop.org.xml.in:333
+msgid "PKCS#8 private key"
+msgstr "PKCS#8 меншік кілті"
+
+#: data/freedesktop.org.xml.in:339
+msgid "PKCS#8 private key (encrypted)"
+msgstr "PKCS#8 жеке кілті (шифрленген)"
+
+#: data/freedesktop.org.xml.in:345
+msgid "PKCS#10 certification request"
+msgstr "PKCS#10 сертификацияға сұранымы"
+
+#: data/freedesktop.org.xml.in:352
+msgid "X.509 certificate"
+msgstr "X.509 сертификаты"
+
+#: data/freedesktop.org.xml.in:356
+msgid "certificate revocation list"
+msgstr "сертификатты қайта шақыру тізімі"
+
+#: data/freedesktop.org.xml.in:360
+msgid "PkiPath certification path"
+msgstr "PkiPath сертификаттау жолы"
+
+#: data/freedesktop.org.xml.in:364
+msgid "PostScript document"
+msgstr "PostScript құжаты"
+
+#: data/freedesktop.org.xml.in:374
+msgid "Plucker document"
+msgstr "Plucker құжаты"
+
+#: data/freedesktop.org.xml.in:381
+msgid "RAML document"
+msgstr "RAML құжаты"
+
+#: data/freedesktop.org.xml.in:391
+msgid "RELAX NG XML schema"
+msgstr "RELAX NG XML сұлбасы"
+
+#: data/freedesktop.org.xml.in:400
+msgid "RTF document"
+msgstr "RTF құжаты"
+
+#: data/freedesktop.org.xml.in:412
+msgid "Sieve mail filter script"
+msgstr "Sieve пошталық фильтр сценарийі"
+
+#: data/freedesktop.org.xml.in:418
+msgid "SMIL document"
+msgstr "SMIL құжаты"
+
+#: data/freedesktop.org.xml.in:436
+msgid "WPL playlist"
+msgstr "WPL ойнау тізімі"
+
+#: data/freedesktop.org.xml.in:446
+msgid "SQLite2 database"
+msgstr "SQLite2 дерекқоры"
+
+#: data/freedesktop.org.xml.in:453
+msgid "SQLite3 database"
+msgstr "SQLite3 дерекқоры"
+
+#: data/freedesktop.org.xml.in:461
+msgid "Apple System Profiler"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:470
+msgid "GEDCOM family history"
+msgstr "GEDCOM отбасы тарихы"
+
+#: data/freedesktop.org.xml.in:482
+msgid "Flash video"
+msgstr "Flash видеосы"
+
+#: data/freedesktop.org.xml.in:493
+msgid "JavaFX video"
+msgstr "JavaFX аудиосы"
+
+#. translators: a record is in this context a description of a board game
+#. that has been played, and that can be played back again:
+#. http://www.red-bean.com/sgf/
+#: data/freedesktop.org.xml.in:505
+msgid "SGF record"
+msgstr "SGF жазбасы"
+
+#: data/freedesktop.org.xml.in:517
+msgid "XLIFF translation file"
+msgstr "XLIFF аударма файлы"
+
+#: data/freedesktop.org.xml.in:531
+msgid "YAML document"
+msgstr "YAML құжаты"
+
+#: data/freedesktop.org.xml.in:545
+msgid "Corel Draw drawing"
+msgstr "Corel Draw суреті"
+
+#: data/freedesktop.org.xml.in:560
+msgid "HPGL file"
+msgstr "HPGL файлы"
+
+#: data/freedesktop.org.xml.in:567
+msgid "PCL file"
+msgstr "PCL файлы"
+
+#: data/freedesktop.org.xml.in:574
+msgid "Lotus 1-2-3 spreadsheet"
+msgstr "Lotus 1-2-3 электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:591
+msgid "Lotus Word Pro document"
+msgstr "Lotus Word Pro құжаты"
+
+#: data/freedesktop.org.xml.in:599
+msgid "JET database"
+msgstr "JET дерекқоры"
+
+#: data/freedesktop.org.xml.in:616
+msgid "Microsoft Cabinet archive"
+msgstr "Microsoft Cabinet архиві"
+
+#: data/freedesktop.org.xml.in:625 data/freedesktop.org.xml.in:655
+msgid "Excel spreadsheet"
+msgstr "Excel электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:643
+msgid "Excel add-in"
+msgstr "Excel қосымшасы"
+
+#: data/freedesktop.org.xml.in:649
+msgid "Excel 2007 binary spreadsheet"
+msgstr "Excel 2007 бинарды кестесі"
+
+#: data/freedesktop.org.xml.in:661
+msgid "Excel spreadsheet template"
+msgstr "Excel кестесінің үлгісі"
+
+#: data/freedesktop.org.xml.in:667 data/freedesktop.org.xml.in:683
+#: data/freedesktop.org.xml.in:695
+msgid "PowerPoint presentation"
+msgstr "PowerPoint презентациясы"
+
+#: data/freedesktop.org.xml.in:678
+msgid "PowerPoint add-in"
+msgstr "PowerPoint қосымшасы"
+
+#: data/freedesktop.org.xml.in:689
+msgid "PowerPoint slide"
+msgstr "PowerPoint слайды"
+
+#: data/freedesktop.org.xml.in:701
+msgid "PowerPoint presentation template"
+msgstr "PowerPoint презентация үлгісі"
+
+#: data/freedesktop.org.xml.in:707 data/freedesktop.org.xml.in:725
+msgid "Office Open XML Visio drawing"
+msgstr "Office Open XML Visio суреті"
+
+#: data/freedesktop.org.xml.in:713 data/freedesktop.org.xml.in:731
+msgid "Office Open XML Visio template"
+msgstr "Office Open XML Visio үлгісі"
+
+#: data/freedesktop.org.xml.in:719 data/freedesktop.org.xml.in:737
+msgid "Office Open XML Visio stencil"
+msgstr "Office Open XML Visio трафареті"
+
+#: data/freedesktop.org.xml.in:743 data/freedesktop.org.xml.in:785
+msgid "Word document"
+msgstr "Word құжаты"
+
+#: data/freedesktop.org.xml.in:749
+msgid "Word document template"
+msgstr "Word құжатының үлгісі"
+
+#: data/freedesktop.org.xml.in:755
+msgid "XPS document"
+msgstr "XPS құжаты"
+
+#: data/freedesktop.org.xml.in:766
+msgid "Microsoft Works document"
+msgstr "Microsoft Works құжаты"
+
+#: data/freedesktop.org.xml.in:776
+msgid "Microsoft Visio document"
+msgstr "Microsoft Visio құжаты"
+
+#: data/freedesktop.org.xml.in:805
+msgid "Word template"
+msgstr "Word үлгісі"
+
+#: data/freedesktop.org.xml.in:811
+msgid "GML document"
+msgstr "GML құжаты"
+
+#: data/freedesktop.org.xml.in:819
+msgid "GNUnet search file"
+msgstr "GNUnet іздеу файлы"
+
+#: data/freedesktop.org.xml.in:826
+msgid "TNEF message"
+msgstr "TNEF мәлімдемесі"
+
+#: data/freedesktop.org.xml.in:838
+msgid "StarCalc spreadsheet"
+msgstr "StarCalc электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:843
+msgid "StarChart chart"
+msgstr "StarChart диаграммасы"
+
+#: data/freedesktop.org.xml.in:848
+msgid "StarDraw drawing"
+msgstr "StarDraw суреті"
+
+#: data/freedesktop.org.xml.in:853
+msgid "StarImpress presentation"
+msgstr "StarImpress презентациясы"
+
+#: data/freedesktop.org.xml.in:859
+msgid "StarMail email"
+msgstr "StarMail электрондық хаты"
+
+#: data/freedesktop.org.xml.in:863
+msgid "StarMath formula"
+msgstr "StarMath формуласы"
+
+#: data/freedesktop.org.xml.in:868
+msgid "StarWriter document"
+msgstr "StarWriter құжаты"
+
+#: data/freedesktop.org.xml.in:879
+msgid "OpenOffice Calc spreadsheet"
+msgstr "OpenOffice Calc электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:892
+msgid "OpenOffice Calc template"
+msgstr "OpenOffice Calc үлгісі"
+
+#: data/freedesktop.org.xml.in:905
+msgid "OpenOffice Draw drawing"
+msgstr "OpenOffice Draw суреті"
+
+#: data/freedesktop.org.xml.in:918
+msgid "OpenOffice Draw template"
+msgstr "OpenOffice Draw үлгісі"
+
+#: data/freedesktop.org.xml.in:931
+msgid "OpenOffice Impress presentation"
+msgstr "OpenOffice Impress презентациясы"
+
+#: data/freedesktop.org.xml.in:944
+msgid "OpenOffice Impress template"
+msgstr "OpenOffice Impress үлгісі"
+
+#: data/freedesktop.org.xml.in:957
+msgid "OpenOffice Math formula"
+msgstr "OpenOffice Math формуласы"
+
+#: data/freedesktop.org.xml.in:970
+msgid "OpenOffice Writer document"
+msgstr "OpenOffice Writer құжаты"
+
+#: data/freedesktop.org.xml.in:983
+msgid "OpenOffice Writer global document"
+msgstr "OpenOffice Writer негізгі құжаты"
+
+#: data/freedesktop.org.xml.in:996
+msgid "OpenOffice Writer template"
+msgstr "OpenOffice Writer үлгісі"
+
+#: data/freedesktop.org.xml.in:1009
+msgid "ODT document"
+msgstr "ODT құжаты"
+
+#: data/freedesktop.org.xml.in:1024
+msgid "ODT document (Flat XML)"
+msgstr "ODT құжаты (Тек XML)"
+
+#: data/freedesktop.org.xml.in:1032
+msgid "ODT template"
+msgstr "ODT үлгісі"
+
+#: data/freedesktop.org.xml.in:1047
+msgid "OTH template"
+msgstr "OTH үлгісі"
+
+#: data/freedesktop.org.xml.in:1062
+msgid "ODM document"
+msgstr "ODM құжаты"
+
+#: data/freedesktop.org.xml.in:1077
+msgid "ODG drawing"
+msgstr "ODG суреті"
+
+#: data/freedesktop.org.xml.in:1092
+msgid "ODG drawing (Flat XML)"
+msgstr "ODG сызбасы (Тек XML)"
+
+#: data/freedesktop.org.xml.in:1100
+msgid "ODG template"
+msgstr "ODG үлгісі"
+
+#: data/freedesktop.org.xml.in:1115
+msgid "ODP presentation"
+msgstr "ODP презентациясы"
+
+#: data/freedesktop.org.xml.in:1130
+msgid "ODP presentation (Flat XML)"
+msgstr "ODP презентациясы (Тек XML)"
+
+#: data/freedesktop.org.xml.in:1138
+msgid "ODP template"
+msgstr "ODP үлгісі"
+
+#: data/freedesktop.org.xml.in:1153
+msgid "ODS spreadsheet"
+msgstr "ODS электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:1168
+msgid "ODS spreadsheet (Flat XML)"
+msgstr "ODS электрондық кестесі (Тек XML)"
+
+#: data/freedesktop.org.xml.in:1176
+msgid "ODS template"
+msgstr "ODS үлгісі"
+
+#: data/freedesktop.org.xml.in:1191
+msgid "ODC chart"
+msgstr "ODC диаграммасы"
+
+#: data/freedesktop.org.xml.in:1206
+msgid "ODC template"
+msgstr "ODC үлгісі"
+
+#: data/freedesktop.org.xml.in:1221
+msgid "ODF formula"
+msgstr "ODF формуласы"
+
+#: data/freedesktop.org.xml.in:1236
+msgid "ODF template"
+msgstr "ODF үлгісі"
+
+#: data/freedesktop.org.xml.in:1251
+msgid "ODB database"
+msgstr "ODB дерекқоры"
+
+#: data/freedesktop.org.xml.in:1267
+msgid "ODI image"
+msgstr "ODI суреті"
+
+#: data/freedesktop.org.xml.in:1282
+msgid "OpenOffice.org extension"
+msgstr "OpenOffice.org кеңейтуі"
+
+#: data/freedesktop.org.xml.in:1288
+msgid "Android package"
+msgstr "Android дестесі"
+
+#: data/freedesktop.org.xml.in:1293
+msgid "SIS package"
+msgstr "SIS дестесі"
+
+#: data/freedesktop.org.xml.in:1303
+msgid "SISX package"
+msgstr "SISX дестесі"
+
+#: data/freedesktop.org.xml.in:1313
+msgid "network packet capture"
+msgstr "ұсталған желілік пакеттер"
+
+#: data/freedesktop.org.xml.in:1325
+msgid "WordPerfect document"
+msgstr "WordPerfect құжаты"
+
+#: data/freedesktop.org.xml.in:1341
+msgid "YouTube media archive"
+msgstr "YouTube медиа архиві"
+
+#: data/freedesktop.org.xml.in:1347
+msgid "SPSS portable data file"
+msgstr "SPSS тасымалы деректер файлы"
+
+#: data/freedesktop.org.xml.in:1356
+msgid "SPSS data file"
+msgstr "SPSS деректер файлы"
+
+#: data/freedesktop.org.xml.in:1368
+msgid "XBEL bookmarks"
+msgstr "XBEL бетбелгілері"
+
+#: data/freedesktop.org.xml.in:1379
+msgid "7-zip archive"
+msgstr "7-zip архиві"
+
+#: data/freedesktop.org.xml.in:1387
+msgid "AbiWord document"
+msgstr "AbiWord құжаты"
+
+#: data/freedesktop.org.xml.in:1401
+msgid "CD image cuesheet"
+msgstr "CD бейнесінің құрама кестесі"
+
+#: data/freedesktop.org.xml.in:1407
+msgid "Lotus AmiPro document"
+msgstr "Lotus AmiPro құжаты"
+
+#: data/freedesktop.org.xml.in:1412
+msgid "AportisDoc document"
+msgstr "AportisDoc құжаты"
+
+#: data/freedesktop.org.xml.in:1423
+msgid "Applix Spreadsheets spreadsheet"
+msgstr "Applix Spreadsheets электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:1434
+msgid "Applix Words document"
+msgstr "Applix Words құжаты"
+
+#: data/freedesktop.org.xml.in:1444
+msgid "ARC archive"
+msgstr "ARC архиві"
+
+#: data/freedesktop.org.xml.in:1456
+msgid "AR archive"
+msgstr "AR архиві"
+
+#: data/freedesktop.org.xml.in:1466
+msgid "ARJ archive"
+msgstr "ARJ архиві"
+
+#: data/freedesktop.org.xml.in:1476
+msgid "ASP page"
+msgstr "ASP парағы"
+
+#: data/freedesktop.org.xml.in:1484
+msgid "AWK script"
+msgstr "AWK сценарийі"
+
+#: data/freedesktop.org.xml.in:1503
+msgid "BCPIO document"
+msgstr "BCPIO құжаты"
+
+#: data/freedesktop.org.xml.in:1510
+msgid "BitTorrent seed file"
+msgstr "BitTorrent көз файлы"
+
+#: data/freedesktop.org.xml.in:1517
+msgid "Blender scene"
+msgstr "Blender сахнасы"
+
+#: data/freedesktop.org.xml.in:1527
+msgid "TeX DVI document (bzip-compressed)"
+msgstr "TeX DVI құжаты (bzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:1533
+msgid "Bzip archive"
+msgstr "Bzip архиві"
+
+#: data/freedesktop.org.xml.in:1544
+msgid "Tar archive (bzip-compressed)"
+msgstr "Tar архиві (bzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:1554
+msgid "PDF document (bzip-compressed)"
+msgstr "PDF құжаты (bzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:1560
+msgid "PostScript document (bzip-compressed)"
+msgstr "PostScript құжаты (bzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:1566 data/freedesktop.org.xml.in:1573
+#: data/freedesktop.org.xml.in:1579 data/freedesktop.org.xml.in:1585
+msgid "comic book archive"
+msgstr "комикстар архиві"
+
+#: data/freedesktop.org.xml.in:1592
+msgid "Lrzip archive"
+msgstr "Lrzip архиві"
+
+#: data/freedesktop.org.xml.in:1600
+msgid "Tar archive (lrzip-compressed)"
+msgstr "Tar архиві (lrzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:1607
+msgid "Apple disk image"
+msgstr "Apple диск бейнесі"
+
+#: data/freedesktop.org.xml.in:1611
+msgid "Raw disk image"
+msgstr "Шикі диск бейнесі"
+
+#: data/freedesktop.org.xml.in:1616
+msgid "Floppy disk image"
+msgstr "Иілгіш диск бейнесі"
+
+#: data/freedesktop.org.xml.in:1623
+msgid "Raw disk image (XZ-compressed)"
+msgstr "Шикі диск бейнесі (XZ-мен сығылған)"
+
+#: data/freedesktop.org.xml.in:1629
+msgid "raw CD image"
+msgstr "өңделмеген CD бейнесі"
+
+#: data/freedesktop.org.xml.in:1637
+msgid "Compressed CD image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1644 data/freedesktop.org.xml.in:7335
+msgid "AppImage application bundle"
+msgstr "AppImage қолданбалар дестесі"
+
+#: data/freedesktop.org.xml.in:1660
+msgid "CD Table Of Contents"
+msgstr "CD құрама кестесі"
+
+#: data/freedesktop.org.xml.in:1675
+msgid "GD-ROM image cuesheet"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1685
+msgid "Padus DiscJuggler CD image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1689
+msgid "PGN chess game notation"
+msgstr "PGN шахмат ойыны"
+
+#: data/freedesktop.org.xml.in:1701
+msgid "CHM document"
+msgstr "CHM құжаты"
+
+#: data/freedesktop.org.xml.in:1709
+msgid "Java byte code"
+msgstr "Java байт коды"
+
+#: data/freedesktop.org.xml.in:1712
+msgid "UNIX-compressed file"
+msgstr "файл (UNIX-сығылған)"
+
+#: data/freedesktop.org.xml.in:1720
+msgid "Tar archive (gzip-compressed)"
+msgstr "Tar архиві (gzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:1727
+msgid "program crash data"
+msgstr "апатты аяқтаудың мәліметтері"
+
+#: data/freedesktop.org.xml.in:1746
+msgid "CPIO archive"
+msgstr "CPIO архиві"
+
+#: data/freedesktop.org.xml.in:1757
+msgid "CPIO archive (gzip-compressed)"
+msgstr "CPIO архиві (gzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:1763
+msgid "C shell script"
+msgstr "C shell сценарийі"
+
+#: data/freedesktop.org.xml.in:1776
+msgid "Xbase document"
+msgstr "Xbase құжаты"
+
+#: data/freedesktop.org.xml.in:1784
+msgid "ECMAScript program"
+msgstr "ECMAScript программасы"
+
+#: data/freedesktop.org.xml.in:1792
+msgid "MAME compressed hard disk image"
+msgstr ""
+
+#. Translate this to Mega-CD if the console was known as such in your locale
+#. Should be Mega-CD in all but en_US, Mexico, Canada and Brazil:
+#. https://en.wikipedia.org/wiki/Sega_CD
+#: data/freedesktop.org.xml.in:1802
+msgid "Sega CD disc image"
+msgstr "Sega CD диск бейнесі"
+
+#. Translate this to Kids Computer Pico if the console was known as such in
+#. your locale
+#. Should be Sega Pico in all but Japan:
+#. https://en.wikipedia.org/wiki/Sega_Pico
+#: data/freedesktop.org.xml.in:1818
+msgid "Sega Pico ROM"
+msgstr "Sega Pico ROM"
+
+#: data/freedesktop.org.xml.in:1825
+msgid "Sega Saturn disc image"
+msgstr "Sega Saturn диск бейнесі"
+
+#: data/freedesktop.org.xml.in:1834
+msgid "Dreamcast disc image"
+msgstr "Dreamcast диск бейнесі"
+
+#: data/freedesktop.org.xml.in:1841
+msgid "Nintendo DS ROM"
+msgstr "Nintendo DS ROM"
+
+#: data/freedesktop.org.xml.in:1846
+msgid "Nintendo 3DS ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1855
+msgid "Nintendo 3DS Executable"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1863
+msgid "PC Engine ROM"
+msgstr "PC Engine ROM"
+
+#: data/freedesktop.org.xml.in:1868
+msgid "Wii disc image"
+msgstr "Wii диск бейнесі"
+
+#: data/freedesktop.org.xml.in:1881
+msgid "WiiWare bundle"
+msgstr "WiiWare дестесі"
+
+#: data/freedesktop.org.xml.in:1891
+msgid "GameCube disc image"
+msgstr "GameCube диск бейнесі"
+
+#: data/freedesktop.org.xml.in:1900
+msgid "Thomson Mémo7 cartridge"
+msgstr "Thomson Mémo7 картриджі"
+
+#: data/freedesktop.org.xml.in:1905
+msgid "Thomson cassette"
+msgstr "Thomson кассетасы"
+
+#: data/freedesktop.org.xml.in:1910
+msgid "HFE floppy disk image"
+msgstr "HFE иілгіш диск бейнесі"
+
+#: data/freedesktop.org.xml.in:1921
+msgid "SAP Thomson floppy disk image"
+msgstr "SAP Thomson иілгіш диск бейнесі"
+
+#: data/freedesktop.org.xml.in:1932
+msgid "Debian package"
+msgstr "Debian дестесі"
+
+#: data/freedesktop.org.xml.in:1945
+msgid "Qt Designer interface document"
+msgstr "Qt Designer интерфейс құжаты"
+
+#: data/freedesktop.org.xml.in:1955
+msgid "Kaitai Struct definition file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1960
+msgid "Qt Markup Language file"
+msgstr "Qt Markup Language файлы"
+
+#: data/freedesktop.org.xml.in:1975
+msgid "desktop configuration file"
+msgstr "жұмыс үстел баптаулар файлы"
+
+#: data/freedesktop.org.xml.in:1990
+msgid "FictionBook document"
+msgstr "FictionBook құжаты"
+
+#: data/freedesktop.org.xml.in:2000
+msgid "Compressed FictionBook document"
+msgstr "Сығылған FictionBook құжаты"
+
+#: data/freedesktop.org.xml.in:2011
+msgid "Dia diagram"
+msgstr "Dia диаграммасы"
+
+#: data/freedesktop.org.xml.in:2021
+msgid "Dia shape"
+msgstr "Dia сызбасы"
+
+#: data/freedesktop.org.xml.in:2031
+msgid "TeX DVI document"
+msgstr "TeX DVI құжаты"
+
+#: data/freedesktop.org.xml.in:2041
+msgid "Enlightenment theme"
+msgstr "Enlightenment темасы"
+
+#: data/freedesktop.org.xml.in:2045
+msgid "Egon Animator animation"
+msgstr "Egon Animator анимациясы"
+
+#: data/freedesktop.org.xml.in:2050
+msgid "executable"
+msgstr "орындалатын"
+
+#: data/freedesktop.org.xml.in:2067
+msgid "FLTK Fluid file"
+msgstr "FLTK Fluid файлы"
+
+#: data/freedesktop.org.xml.in:2078
+msgid "WOFF font"
+msgstr "WOFF қарібі"
+
+#: data/freedesktop.org.xml.in:2089
+msgid "WOFF2 font"
+msgstr "WOFF2 қарібі"
+
+#: data/freedesktop.org.xml.in:2099
+msgid "PostScript type-1 font"
+msgstr "PostScript type-1 қарібі"
+
+#: data/freedesktop.org.xml.in:2115
+msgid "Adobe font metrics"
+msgstr "Adobe қаріп метрикалары"
+
+#: data/freedesktop.org.xml.in:2120
+msgid "BDF font"
+msgstr "BDF қарібі"
+
+#: data/freedesktop.org.xml.in:2128
+msgid "DOS font"
+msgstr "DOS қарібі"
+
+#: data/freedesktop.org.xml.in:2137
+msgid "Adobe FrameMaker font"
+msgstr "Adobe FrameMaker қарібі"
+
+#: data/freedesktop.org.xml.in:2144
+msgid "LIBGRX font"
+msgstr "LIBGRX қарібі"
+
+#: data/freedesktop.org.xml.in:2151
+msgid "Linux PSF console font"
+msgstr "Linux PSF консольдік қарібі"
+
+#: data/freedesktop.org.xml.in:2159
+msgid "Linux PSF console font (gzip-compressed)"
+msgstr "Linux PSF консольдік қарібі (gzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:2165
+msgid "PCF font"
+msgstr "PCF қарібі"
+
+#: data/freedesktop.org.xml.in:2175
+msgid "OpenType font"
+msgstr "OpenType қарібі"
+
+#: data/freedesktop.org.xml.in:2185
+msgid "Speedo font"
+msgstr "Speedo қарібі"
+
+#: data/freedesktop.org.xml.in:2193
+msgid "SunOS News font"
+msgstr "SunOS News қарібі"
+
+#: data/freedesktop.org.xml.in:2202
+msgid "TeX font"
+msgstr "TeX қарібі"
+
+#: data/freedesktop.org.xml.in:2211
+msgid "TeX font metrics"
+msgstr "TeX қаріп метрикалары"
+
+#: data/freedesktop.org.xml.in:2219
+msgid "TrueType font"
+msgstr "TrueType қарібі"
+
+#: data/freedesktop.org.xml.in:2230
+msgid "Font collection"
+msgstr "Қаріптер жинағы"
+
+#: data/freedesktop.org.xml.in:2235
+msgid "TrueType XML font"
+msgstr "TrueType XML қарібі"
+
+#: data/freedesktop.org.xml.in:2244
+msgid "V font"
+msgstr "V font қарібі"
+
+#: data/freedesktop.org.xml.in:2251
+msgid "Adobe FrameMaker document"
+msgstr "Adobe FrameMaker құжаты"
+
+#: data/freedesktop.org.xml.in:2266
+msgid "Game Boy ROM"
+msgstr "Game Boy ROM"
+
+#: data/freedesktop.org.xml.in:2277
+msgid "Game Boy Color ROM"
+msgstr "Game Boy Color ROM"
+
+#: data/freedesktop.org.xml.in:2288
+msgid "Game Boy Advance ROM"
+msgstr "Game Boy Advance ROM"
+
+#: data/freedesktop.org.xml.in:2294
+msgid "Virtual Boy ROM"
+msgstr "Virtual Boy ROM"
+
+#: data/freedesktop.org.xml.in:2299
+msgid "GDBM database"
+msgstr "GDBM дерекқоры"
+
+#. Translate this to Mega Drive if the console was known as such in your
+#. locale
+#. Should be Mega Drive in all but en_US, Mexico and Canada:
+#. https://en.wikipedia.org/wiki/Sega_Genesis#History
+#: data/freedesktop.org.xml.in:2311
+msgid "Genesis ROM"
+msgstr "Genesis ROM"
+
+#. Translate this to Super 32X, Mega Drive 32X or Mega 32X if the system was
+#. known as such in your locale
+#. Should be Super 32X in Japan, Mega Drive 32X in PAL region and Mega 32X in
+#. Brazil: https://en.wikipedia.org/wiki/32X
+#: data/freedesktop.org.xml.in:2327
+msgid "Genesis 32X ROM"
+msgstr "Genesis 32X ROM"
+
+#: data/freedesktop.org.xml.in:2336
+msgid "translated messages (machine-readable)"
+msgstr "аударылған хабарламалар (машиналық түрде)"
+
+#: data/freedesktop.org.xml.in:2345
+msgid "GTK+ Builder interface document"
+msgstr "GTK+ Builder интерфейс құжаты"
+
+#: data/freedesktop.org.xml.in:2354
+msgid "Glade project"
+msgstr "Glade жобасы"
+
+#: data/freedesktop.org.xml.in:2363
+msgid "GnuCash financial data"
+msgstr "GnuCash қаржы ақпараты"
+
+#: data/freedesktop.org.xml.in:2370
+msgid "Gnumeric spreadsheet"
+msgstr "Gnumeric электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:2379
+msgid "Gnuplot document"
+msgstr "Gnuplot құжаты"
+
+#: data/freedesktop.org.xml.in:2387
+msgid "Graphite scientific graph"
+msgstr "Graphite ғылыми кескіні"
+
+#: data/freedesktop.org.xml.in:2392
+msgid "GTKtalog catalog"
+msgstr "GTKtalog каталогы"
+
+#: data/freedesktop.org.xml.in:2399
+msgid "TeX DVI document (gzip-compressed)"
+msgstr "TeX DVI құжаты (gzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:2405
+msgid "Gzip archive"
+msgstr "Gzip архиві"
+
+#: data/freedesktop.org.xml.in:2414
+msgid "PDF document (gzip-compressed)"
+msgstr "PDF құжаты (gzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:2420
+msgid "PostScript document (gzip-compressed)"
+msgstr "PostScript құжаты (gzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:2426
+msgid "HDF document"
+msgstr "HDF құжаты"
+
+#: data/freedesktop.org.xml.in:2441
+msgid "IFF file"
+msgstr "IFF файлы"
+
+#: data/freedesktop.org.xml.in:2449
+msgid "iPod firmware"
+msgstr "iPod микробағдарламасы"
+
+#: data/freedesktop.org.xml.in:2455
+msgid "Java archive"
+msgstr "Java архиві"
+
+#: data/freedesktop.org.xml.in:2463
+msgid "Java class"
+msgstr "Java класы"
+
+#: data/freedesktop.org.xml.in:2475
+msgid "Groovy source code"
+msgstr "Groovy бастапқы коды"
+
+#: data/freedesktop.org.xml.in:2484
+msgid "Gradle scripts"
+msgstr "Gradle сценарийлері"
+
+#: data/freedesktop.org.xml.in:2489
+msgid "JNLP file"
+msgstr "JNLP файлы"
+
+#: data/freedesktop.org.xml.in:2500
+msgid "Java keystore"
+msgstr "Java сақталымы"
+
+#: data/freedesktop.org.xml.in:2509
+msgid "Java JCE keystore"
+msgstr "Java JCE сақталымы"
+
+#: data/freedesktop.org.xml.in:2518
+msgid "Pack200 Java archive"
+msgstr "Pack200 Java архиві"
+
+#: data/freedesktop.org.xml.in:2526
+msgid "JavaScript program"
+msgstr "JavaScript бағдарламасы"
+
+#: data/freedesktop.org.xml.in:2548
+msgid "JSON document"
+msgstr "JSON құжаты"
+
+#: data/freedesktop.org.xml.in:2556
+msgid "JRD document"
+msgstr "JRD құжаты"
+
+#: data/freedesktop.org.xml.in:2564
+msgid "JSON patch"
+msgstr "JSON өзгерісі"
+
+#: data/freedesktop.org.xml.in:2572
+msgid "JSON-LD document"
+msgstr "JSON-LD құжаты"
+
+#: data/freedesktop.org.xml.in:2580
+msgid "Jupyter notebook document"
+msgstr "Jupyter блокнот құжаты"
+
+#: data/freedesktop.org.xml.in:2591
+msgid "CoffeeScript document"
+msgstr "CoffeeScript құжаты"
+
+#: data/freedesktop.org.xml.in:2597
+msgid "JBuilder project"
+msgstr "JBuilder жобасы"
+
+#: data/freedesktop.org.xml.in:2603
+msgid "Karbon14 drawing"
+msgstr "Karbon14 суреті"
+
+#: data/freedesktop.org.xml.in:2620
+msgid "KChart chart"
+msgstr "KChart диаграммасы"
+
+#: data/freedesktop.org.xml.in:2637
+msgid "Kexi settings"
+msgstr "Kexi баптаулары"
+
+#: data/freedesktop.org.xml.in:2641
+msgid "Kexi shortcut"
+msgstr "Kexi жарлығы"
+
+#: data/freedesktop.org.xml.in:2645 data/freedesktop.org.xml.in:2650
+msgid "Kexi database file"
+msgstr "Kexi дерекқор файлы"
+
+#: data/freedesktop.org.xml.in:2657
+msgid "KFormula formula"
+msgstr "KFormula формуласы"
+
+#: data/freedesktop.org.xml.in:2674
+msgid "KIllustrator drawing"
+msgstr "KIllustrator суреті"
+
+#: data/freedesktop.org.xml.in:2686
+msgid "Kivio flowchart"
+msgstr "Kivio диаграммасы"
+
+#: data/freedesktop.org.xml.in:2703
+msgid "Kontour drawing"
+msgstr "Kontour суреті"
+
+#: data/freedesktop.org.xml.in:2720
+msgid "KPovModeler scene"
+msgstr "KPovModeler сахнасы"
+
+#: data/freedesktop.org.xml.in:2725
+msgid "KPresenter presentation"
+msgstr "KPresenter презентациясы"
+
+#: data/freedesktop.org.xml.in:2743
+msgid "Krita document"
+msgstr "Krita құжаты"
+
+#: data/freedesktop.org.xml.in:2760
+msgid "KSpread spreadsheet"
+msgstr "KSpread электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:2777
+msgid "KSpread spreadsheet (encrypted)"
+msgstr "KSpread электрондық кестесі (шифрленген)"
+
+#: data/freedesktop.org.xml.in:2784
+msgid "KSysV init package"
+msgstr "KSysV инициализация дестесі"
+
+#: data/freedesktop.org.xml.in:2793
+msgid "Kugar document"
+msgstr "Kugar құжаты"
+
+#: data/freedesktop.org.xml.in:2798
+msgid "KWord document"
+msgstr "KWord құжаты"
+
+#: data/freedesktop.org.xml.in:2816
+msgid "KWord document (encrypted)"
+msgstr "KWord құжаты (шифрленген)"
+
+#: data/freedesktop.org.xml.in:2823
+msgid "LHA archive"
+msgstr "LHA архиві"
+
+#: data/freedesktop.org.xml.in:2844
+msgid "LHZ archive"
+msgstr "LHZ архиві"
+
+#: data/freedesktop.org.xml.in:2849
+msgid "message catalog"
+msgstr "мәлімдемелер каталогы"
+
+#: data/freedesktop.org.xml.in:2859
+msgid "LyX document"
+msgstr "LyX құжаты"
+
+#: data/freedesktop.org.xml.in:2869
+msgid "LZ4 archive"
+msgstr "LZ4 архиві"
+
+#: data/freedesktop.org.xml.in:2878
+msgid "Tar archive (LZ4-compressed)"
+msgstr "Tar архиві (LZ4-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:2884
+msgid "Lzip archive"
+msgstr "Lzip архиві"
+
+#: data/freedesktop.org.xml.in:2892
+msgid "Tar archive (lzip-compressed)"
+msgstr "Tar архиві (lzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:2898
+msgid "PDF document (lzip-compressed)"
+msgstr "PDF құжаты (lzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:2904
+msgid "LZMA archive"
+msgstr "LZMA архиві"
+
+#: data/freedesktop.org.xml.in:2911
+msgid "Tar archive (LZMA-compressed)"
+msgstr "Tar архиві (LZMA-мен сығылған)"
+
+#: data/freedesktop.org.xml.in:2918
+msgid "LZO archive"
+msgstr "LZO архиві"
+
+#: data/freedesktop.org.xml.in:2928
+msgid "Qpress archive"
+msgstr "Qpress архиві"
+
+#: data/freedesktop.org.xml.in:2936
+msgid "XAR archive"
+msgstr "XAR архиві"
+
+#: data/freedesktop.org.xml.in:2948
+msgid "Zlib archive"
+msgstr "Zlib архиві"
+
+#: data/freedesktop.org.xml.in:2953
+msgid "MagicPoint presentation"
+msgstr "MagicPoint презентациясы"
+
+#: data/freedesktop.org.xml.in:2959
+msgid "Macintosh MacBinary file"
+msgstr "Macintosh MacBinary файлы"
+
+#: data/freedesktop.org.xml.in:2966
+msgid "Matroska stream"
+msgstr "Matroska ағымы"
+
+#: data/freedesktop.org.xml.in:2980
+msgid "Matroska video"
+msgstr "Matroska видеосы"
+
+#: data/freedesktop.org.xml.in:2985
+msgid "Matroska 3D video"
+msgstr "Matroska 3D видеосы"
+
+#: data/freedesktop.org.xml.in:2990
+msgid "Matroska audio"
+msgstr "Matroska аудиосы"
+
+#: data/freedesktop.org.xml.in:2995
+msgid "WebM video"
+msgstr "WebM видеосы"
+
+#: data/freedesktop.org.xml.in:3009
+msgid "WebM audio"
+msgstr "WebM аудиосы"
+
+#: data/freedesktop.org.xml.in:3013
+msgid "MHTML web archive"
+msgstr "MHTML веб архиві"
+
+#: data/freedesktop.org.xml.in:3021
+msgid "MXF video"
+msgstr "MXF видеосы"
+
+#: data/freedesktop.org.xml.in:3031
+msgid "OCL file"
+msgstr "OCL файлы"
+
+#: data/freedesktop.org.xml.in:3038
+msgid "COBOL source code"
+msgstr "COBOL бастапқы коды"
+
+#: data/freedesktop.org.xml.in:3046
+msgid "Mobipocket e-book"
+msgstr "Mobipocket эл. кітабы"
+
+#: data/freedesktop.org.xml.in:3060
+msgid "Adobe FrameMaker MIF document"
+msgstr "Adobe FrameMaker MIF құжаты"
+
+#: data/freedesktop.org.xml.in:3064
+msgid "Mozilla bookmarks"
+msgstr "Mozilla бетбелгілері"
+
+#: data/freedesktop.org.xml.in:3073
+msgid "DOS/Windows executable"
+msgstr "DOS/Windows орындалатын файлы"
+
+#: data/freedesktop.org.xml.in:3081
+msgid "Internet shortcut"
+msgstr "Интернет сілтемесі"
+
+#: data/freedesktop.org.xml.in:3091
+msgid "WRI document"
+msgstr "WRI құжаты"
+
+#: data/freedesktop.org.xml.in:3096
+msgid "MSX ROM"
+msgstr "MSX ROM"
+
+#: data/freedesktop.org.xml.in:3101
+msgid "M4 macro"
+msgstr "M4 макросы"
+
+#: data/freedesktop.org.xml.in:3107
+msgid "Nintendo64 ROM"
+msgstr "Nintendo64 ROM"
+
+#: data/freedesktop.org.xml.in:3122
+msgid "Nautilus link"
+msgstr "Nautilus сілтемесі"
+
+#: data/freedesktop.org.xml.in:3130
+msgid "Neo-Geo Pocket ROM"
+msgstr "Neo-Geo Pocket ROM"
+
+#: data/freedesktop.org.xml.in:3141
+msgid "Neo-Geo Pocket Color ROM"
+msgstr "Neo-Geo Pocket Color ROM"
+
+#. Translate this to Famicom if the console was known as such in your locale
+#: data/freedesktop.org.xml.in:3153
+msgid "NES ROM"
+msgstr "NES ROM"
+
+#: data/freedesktop.org.xml.in:3161
+msgid "Unidata NetCDF document"
+msgstr "Unidata NetCDF құжаты"
+
+#: data/freedesktop.org.xml.in:3169
+msgid "NewzBin usenet index"
+msgstr "NewzBin usenet индексі"
+
+#: data/freedesktop.org.xml.in:3177
+msgid "object code"
+msgstr "объектті коды"
+
+#: data/freedesktop.org.xml.in:3194
+msgid "Annodex exchange format"
+msgstr "Annodex алмасу пішімі"
+
+#: data/freedesktop.org.xml.in:3207
+msgid "Annodex video"
+msgstr "Annodex видеосы"
+
+#: data/freedesktop.org.xml.in:3220
+msgid "Annodex audio"
+msgstr "Annodex аудиосы"
+
+#: data/freedesktop.org.xml.in:3233
+msgid "Ogg multimedia file"
+msgstr "Ogg мультимедиа файлы"
+
+#: data/freedesktop.org.xml.in:3242
+msgid "Ogg audio"
+msgstr "Ogg аулиосы"
+
+#: data/freedesktop.org.xml.in:3253
+msgid "Ogg video"
+msgstr "Ogg видеосы"
+
+#: data/freedesktop.org.xml.in:3263
+msgid "Ogg Vorbis audio"
+msgstr "Ogg Vorbis аудиосы"
+
+#: data/freedesktop.org.xml.in:3276
+msgid "Ogg FLAC audio"
+msgstr "Ogg FLAC аудиосы"
+
+#: data/freedesktop.org.xml.in:3291
+msgid "Opus audio"
+msgstr "Opus аудиосы"
+
+#: data/freedesktop.org.xml.in:3301
+msgid "Ogg Speex audio"
+msgstr "Ogg Speex аудиосы"
+
+#: data/freedesktop.org.xml.in:3313
+msgid "Speex audio"
+msgstr "Speex аудиосы"
+
+#: data/freedesktop.org.xml.in:3320
+msgid "Ogg Theora video"
+msgstr "Ogg Theora видеосы"
+
+#: data/freedesktop.org.xml.in:3331
+msgid "OGM video"
+msgstr "OGM видеосы"
+
+#: data/freedesktop.org.xml.in:3344
+msgid "OLE2 compound document storage"
+msgstr "OLE2 құрама құжаттар қоймасы"
+
+#: data/freedesktop.org.xml.in:3352
+msgid "Microsoft Publisher document"
+msgstr "Microsoft Publisher құжаты"
+
+#: data/freedesktop.org.xml.in:3357
+msgid "Windows Installer package"
+msgstr "Windows Installer дестесі"
+
+#: data/freedesktop.org.xml.in:3362
+msgid "GNU Oleo spreadsheet"
+msgstr "GNU Oleo электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:3370
+msgid "PAK archive"
+msgstr "PAK архиві"
+
+#: data/freedesktop.org.xml.in:3378
+msgid "Palm OS database"
+msgstr "Palm OS дерекқоры"
+
+#: data/freedesktop.org.xml.in:3386
+msgid "Parchive archive"
+msgstr "Parchive архиві"
+
+#: data/freedesktop.org.xml.in:3397
+msgid "PEF executable"
+msgstr "PEF орындалатын файлы"
+
+#: data/freedesktop.org.xml.in:3404
+msgid "Perl script"
+msgstr "Perl сценарийі"
+
+#: data/freedesktop.org.xml.in:3433
+msgid "PHP script"
+msgstr "PHP сценарийі"
+
+#: data/freedesktop.org.xml.in:3446
+msgid "PKCS#7 certificate bundle"
+msgstr "PKCS#7 сертификаттар дестесі"
+
+#: data/freedesktop.org.xml.in:3453
+msgid "PKCS#12 certificate bundle"
+msgstr "PKCS#12 сертификаттар дестесі"
+
+#: data/freedesktop.org.xml.in:3461
+msgid "PlanPerfect spreadsheet"
+msgstr "PlanPerfect электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:3466
+msgid "Pocket Word document"
+msgstr "Pocket Word құжаты"
+
+#: data/freedesktop.org.xml.in:3474
+msgid "profiler results"
+msgstr "прифильдеу нәтижелері"
+
+#: data/freedesktop.org.xml.in:3480
+msgid "Pathetic Writer document"
+msgstr "Pathetic Writer құжаты"
+
+#: data/freedesktop.org.xml.in:3485
+msgid "Python bytecode"
+msgstr "Python байткоды"
+
+#: data/freedesktop.org.xml.in:3493
+msgid "QtiPlot document"
+msgstr "QtiPlot құжаты"
+
+#: data/freedesktop.org.xml.in:3503
+msgid "Quattro Pro spreadsheet"
+msgstr "Quattro Pro электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:3510
+msgid "QuickTime playlist"
+msgstr "QuickTime ойнау тізімі"
+
+#: data/freedesktop.org.xml.in:3525
+msgid "Quicken document"
+msgstr "Quicken құжаты"
+
+#: data/freedesktop.org.xml.in:3530
+msgid "RAR archive"
+msgstr "RAR архиві"
+
+#: data/freedesktop.org.xml.in:3542
+msgid "DAR archive"
+msgstr "DAR архиві"
+
+#: data/freedesktop.org.xml.in:3550
+msgid "Alzip archive"
+msgstr "Alzip архиві"
+
+#: data/freedesktop.org.xml.in:3558
+msgid "rejected patch"
+msgstr "алынбаған патч"
+
+#: data/freedesktop.org.xml.in:3565
+msgid "RPM package"
+msgstr "RPM дестесі"
+
+#: data/freedesktop.org.xml.in:3574
+msgid "Source RPM package"
+msgstr "RPM бастапқы код дестесі"
+
+#: data/freedesktop.org.xml.in:3581
+msgid "Ruby script"
+msgstr "Ruby сценарийі"
+
+#: data/freedesktop.org.xml.in:3592
+msgid "Markaby script"
+msgstr "Markaby сценарийі"
+
+#: data/freedesktop.org.xml.in:3598
+msgid "Rust source code"
+msgstr "Rust бастапқы коды"
+
+#: data/freedesktop.org.xml.in:3603
+msgid "SC/Xspread spreadsheet"
+msgstr "SC/Xspread электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:3610
+msgid "shell archive"
+msgstr "қоршам архиві"
+
+#: data/freedesktop.org.xml.in:3615
+msgid "libtool shared library"
+msgstr "libtool ортақ жинағы"
+
+#: data/freedesktop.org.xml.in:3621
+msgid "shared library"
+msgstr "бөлісетін библиотека"
+
+#: data/freedesktop.org.xml.in:3630
+msgid "shell script"
+msgstr "қоршам сценарийі"
+
+#: data/freedesktop.org.xml.in:3651
+msgid "Shockwave Flash file"
+msgstr "Shockwave Flash файлы"
+
+#. translators: "Shorten" is the name of an audio codec
+#: data/freedesktop.org.xml.in:3664
+msgid "Shorten audio"
+msgstr "Shorten аудиосы"
+
+#: data/freedesktop.org.xml.in:3673
+msgid "Siag spreadsheet"
+msgstr "Siag электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:3678
+msgid "Skencil document"
+msgstr "Skencil құжаты"
+
+#: data/freedesktop.org.xml.in:3686
+msgid "Stampede package"
+msgstr "Stampede дестесі"
+
+#: data/freedesktop.org.xml.in:3690
+msgid "SG-1000 ROM"
+msgstr "SG-1000 ROM"
+
+#. Translate this to "Master System/Mark III" if the console was known as such
+#. in your locale (probably only in Japan)
+#: data/freedesktop.org.xml.in:3696
+msgid "Master System ROM"
+msgstr "Master System ROM"
+
+#: data/freedesktop.org.xml.in:3708
+msgid "Game Gear ROM"
+msgstr "Game Gear ROM"
+
+#. Translate this as Super Famicom (in Far East Asia) or Super Nintendo (in
+#. Europe) if the console was known as such in your locale
+#: data/freedesktop.org.xml.in:3722
+msgid "Super NES ROM"
+msgstr "Super NES ROM"
+
+#: data/freedesktop.org.xml.in:3729
+msgid "StuffIt archive"
+msgstr "StuffIt архиві"
+
+#: data/freedesktop.org.xml.in:3740
+msgid "SubRip subtitles"
+msgstr "SubRip субтитрлары"
+
+#: data/freedesktop.org.xml.in:3752
+msgid "WebVTT subtitles"
+msgstr "WebVTT субтитрлары"
+
+#: data/freedesktop.org.xml.in:3763
+msgid "SAMI subtitles"
+msgstr "SAMI субтитрлары"
+
+#: data/freedesktop.org.xml.in:3775
+msgid "MicroDVD subtitles"
+msgstr "MicroDVD субтитрлары"
+
+#: data/freedesktop.org.xml.in:3785
+msgid "MPSub subtitles"
+msgstr "MPSub субтитрлары"
+
+#: data/freedesktop.org.xml.in:3795
+msgid "SSA subtitles"
+msgstr "SSA субтитрлары"
+
+#: data/freedesktop.org.xml.in:3807
+msgid "SubViewer subtitles"
+msgstr "SubViewer субтитрлары"
+
+#: data/freedesktop.org.xml.in:3815
+msgid "iMelody ringtone"
+msgstr "iMelody әуені"
+
+#: data/freedesktop.org.xml.in:3825
+msgid "SMAF audio"
+msgstr "SMAF аудиосы"
+
+#: data/freedesktop.org.xml.in:3837
+msgid "MRML playlist"
+msgstr "MRML ойнау тізімі"
+
+#: data/freedesktop.org.xml.in:3847
+msgid "XMF audio"
+msgstr "XMF аудиосы"
+
+#: data/freedesktop.org.xml.in:3859
+msgid "SV4 CPIO archive"
+msgstr "SV4 CPIO архиві"
+
+#: data/freedesktop.org.xml.in:3864
+msgid "SV4 CPIO archive (with CRC)"
+msgstr "SV4 CPIO архиві (CRC бар)"
+
+#: data/freedesktop.org.xml.in:3869
+msgid "Tar archive"
+msgstr "Tar архиві"
+
+#: data/freedesktop.org.xml.in:3881
+msgid "Tar archive (compressed)"
+msgstr "Tar архиві (сығылған)"
+
+#: data/freedesktop.org.xml.in:3888
+msgid "generic font file"
+msgstr "қаріп файлы"
+
+#: data/freedesktop.org.xml.in:3893
+msgid "packed font file"
+msgstr "қаріп файлы (дестеленген)"
+
+#: data/freedesktop.org.xml.in:3898
+msgid "TGIF document"
+msgstr "TGIF құжаты"
+
+#: data/freedesktop.org.xml.in:3906
+msgid "theme"
+msgstr "тема"
+
+#: data/freedesktop.org.xml.in:3912
+msgid "ToutDoux document"
+msgstr "ToutDoux құжаты"
+
+#: data/freedesktop.org.xml.in:3916
+msgid "backup file"
+msgstr "резервті көшірмесі"
+
+#: data/freedesktop.org.xml.in:3924
+msgid "Troff document"
+msgstr "Troff құжаты"
+
+#: data/freedesktop.org.xml.in:3939
+msgid "Manpage manual document"
+msgstr "Manpage нұсқаулық құжаты"
+
+#: data/freedesktop.org.xml.in:3945
+msgid "manual page (compressed)"
+msgstr "әдістемелік парағы (сығылған)"
+
+#: data/freedesktop.org.xml.in:3949
+msgid "Tar archive (LZO-compressed)"
+msgstr "Tar архиві (LZO-мен сығылған)"
+
+#: data/freedesktop.org.xml.in:3956
+msgid "XZ archive"
+msgstr "XZ архиві"
+
+#: data/freedesktop.org.xml.in:3964
+msgid "Tar archive (XZ-compressed)"
+msgstr "Tar архиві (XZ-мен сығылған)"
+
+#: data/freedesktop.org.xml.in:3971
+msgid "Zstandard archive"
+msgstr "Zstandard архиві"
+
+#: data/freedesktop.org.xml.in:3979
+msgid "Tar archive (Zstandard-compressed)"
+msgstr "Tar архиві (Zstandard-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:3986
+msgid "PDF document (XZ-compressed)"
+msgstr "PDF құжаты (XZ-мен сығылған)"
+
+#: data/freedesktop.org.xml.in:3992
+msgid "Ustar archive"
+msgstr "Ustar архиві"
+
+#: data/freedesktop.org.xml.in:3997
+msgid "WAIS source code"
+msgstr "WAIS бастапқы коды"
+
+#: data/freedesktop.org.xml.in:4003
+msgid "WordPerfect/Drawperfect image"
+msgstr "WordPerfect/Drawperfect суреті"
+
+#: data/freedesktop.org.xml.in:4008
+msgid "Bandai WonderSwan ROM"
+msgstr "Bandai WonderSwan ROM"
+
+#: data/freedesktop.org.xml.in:4013
+msgid "Bandai WonderSwan Color ROM"
+msgstr "Bandai WonderSwan Color ROM"
+
+#: data/freedesktop.org.xml.in:4018
+msgid "DER/PEM/Netscape-encoded X.509 certificate"
+msgstr "X.509 сертификаты (DER/PEM/Netscape кодталған)"
+
+#: data/freedesktop.org.xml.in:4026
+msgid "empty document"
+msgstr "бос құжат"
+
+#: data/freedesktop.org.xml.in:4029
+msgid "Zoo archive"
+msgstr "Zoo архиві"
+
+#: data/freedesktop.org.xml.in:4037
+msgid "XHTML page"
+msgstr "XHTML парағы"
+
+#: data/freedesktop.org.xml.in:4055
+msgid "Zip archive"
+msgstr "Zip архиві"
+
+#: data/freedesktop.org.xml.in:4065
+msgid "WIM disk image"
+msgstr "WIM диск бейнесі"
+
+#: data/freedesktop.org.xml.in:4075
+msgid "Dolby Digital audio"
+msgstr "Dolby Digital аудиосы"
+
+#: data/freedesktop.org.xml.in:4082
+msgid "DTS audio"
+msgstr "DTS аудиосы"
+
+#: data/freedesktop.org.xml.in:4093
+msgid "DTSHD audio"
+msgstr "DTSHD аудиосы"
+
+#: data/freedesktop.org.xml.in:4102
+msgid "AMR audio"
+msgstr "AMR аудиосы"
+
+#: data/freedesktop.org.xml.in:4113
+msgid "AMR-WB audio"
+msgstr "AMR-WB аудиосы"
+
+#: data/freedesktop.org.xml.in:4124
+msgid "ULAW (Sun) audio"
+msgstr "ULAW (Sun) аудиосы"
+
+#: data/freedesktop.org.xml.in:4132
+msgid "Commodore 64 audio"
+msgstr "Commodore 64 аудиосы"
+
+#: data/freedesktop.org.xml.in:4140
+msgid "PCM audio"
+msgstr "PCM аудиосы"
+
+#: data/freedesktop.org.xml.in:4158
+msgid "AIFC audio"
+msgstr "AIFC аудиосы"
+
+#: data/freedesktop.org.xml.in:4170
+msgid "AIFF/Amiga/Mac audio"
+msgstr "AIFF/Amiga/Mac аудиосы"
+
+#: data/freedesktop.org.xml.in:4182
+msgid "Monkey's audio"
+msgstr "Monkey аудиосы"
+
+#: data/freedesktop.org.xml.in:4189
+msgid "Audible.Com audio"
+msgstr "Audible.Com аудиосы"
+
+#: data/freedesktop.org.xml.in:4198
+msgid "Audible Enhanced audio"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4205
+msgid "Impulse Tracker audio"
+msgstr "Impulse Tracker аудиосы"
+
+#: data/freedesktop.org.xml.in:4212
+msgid "FLAC audio"
+msgstr "FLAC аудиосы"
+
+#: data/freedesktop.org.xml.in:4220
+msgid "WavPack audio"
+msgstr "WavPack аудиосы"
+
+#: data/freedesktop.org.xml.in:4228
+msgid "WavPack audio correction file"
+msgstr "WavPack аудио түзету файлы"
+
+#: data/freedesktop.org.xml.in:4235
+msgid "MIDI audio"
+msgstr "MIDI аудиосы"
+
+#: data/freedesktop.org.xml.in:4245
+msgid "compressed Tracker audio"
+msgstr "сығылған Tracker аудиосы"
+
+#: data/freedesktop.org.xml.in:4252
+msgid "AAC audio"
+msgstr "AAC аудиосы"
+
+#: data/freedesktop.org.xml.in:4265
+msgid "USAC audio"
+msgstr "USAC аудиосы"
+
+#: data/freedesktop.org.xml.in:4272
+msgid "MPEG-4 audio"
+msgstr "MPEG-4 аудиосы"
+
+#: data/freedesktop.org.xml.in:4282
+msgid "MPEG-4 ringtone"
+msgstr "MPEG-4 рингтоны"
+
+#: data/freedesktop.org.xml.in:4287
+msgid "MPEG-4 video"
+msgstr "MPEG-4 видеосы"
+
+#: data/freedesktop.org.xml.in:4304
+msgid "MPEG-4 audio book"
+msgstr "MPEG-4 аудио кітабы"
+
+#: data/freedesktop.org.xml.in:4313
+msgid "3GPP multimedia file"
+msgstr "3GPP мультимедиялық файлы"
+
+#: data/freedesktop.org.xml.in:4336
+msgid "3GPP2 multimedia file"
+msgstr "3GPP2 мультимедиялық файлы"
+
+#: data/freedesktop.org.xml.in:4348
+msgid "Amiga SoundTracker audio"
+msgstr "Amiga SoundTracker аудиосы"
+
+#: data/freedesktop.org.xml.in:4392
+msgid "MP2 audio"
+msgstr "MP2 аудиосы"
+
+#: data/freedesktop.org.xml.in:4397
+msgid "MP3 audio"
+msgstr "MP3 аудиосы"
+
+#: data/freedesktop.org.xml.in:4410
+msgid "MP3 audio (streamed)"
+msgstr "MP3 аудиосы (ағымдық)"
+
+#: data/freedesktop.org.xml.in:4425
+msgid "HTTP Live Streaming playlist"
+msgstr "HTTP тірі ағым ойнау тізімі"
+
+#: data/freedesktop.org.xml.in:4437
+msgid "Microsoft ASX playlist"
+msgstr "Microsoft ASX ойнау тізімі"
+
+#: data/freedesktop.org.xml.in:4454
+msgid "PSF audio"
+msgstr "PSF аудиосы"
+
+#: data/freedesktop.org.xml.in:4463
+msgid "MiniPSF audio"
+msgstr "MiniPSF аудиосы"
+
+#: data/freedesktop.org.xml.in:4470
+msgid "PSFlib audio library"
+msgstr "PSFlib аудио жинағы"
+
+#: data/freedesktop.org.xml.in:4477
+msgid "Windows Media audio"
+msgstr "Windows Media аудиосы"
+
+#: data/freedesktop.org.xml.in:4483
+msgid "Musepack audio"
+msgstr "Musepack аудиосы"
+
+#: data/freedesktop.org.xml.in:4493
+msgid "RealAudio document"
+msgstr "RealAudio құжаты"
+
+#: data/freedesktop.org.xml.in:4500
+msgid "RealMedia playlist"
+msgstr "RealMedia ойнау тізімі"
+
+#: data/freedesktop.org.xml.in:4504
+msgid "RealVideo document"
+msgstr "RealVideo құжаты"
+
+#: data/freedesktop.org.xml.in:4510
+msgid "RealMedia document"
+msgstr "RealMedia құжаты"
+
+#: data/freedesktop.org.xml.in:4524
+msgid "RealPix document"
+msgstr "RealPix құжаты"
+
+#: data/freedesktop.org.xml.in:4528
+msgid "RealText document"
+msgstr "RealText құжаты"
+
+#: data/freedesktop.org.xml.in:4532
+msgid "RIFF audio"
+msgstr "RIFF аудиосы"
+
+#: data/freedesktop.org.xml.in:4535
+msgid "RIFF container"
+msgstr "RIFF контейнері"
+
+#: data/freedesktop.org.xml.in:4542
+msgid "Scream Tracker 3 audio"
+msgstr "Scream Tracker 3 аудиосы"
+
+#: data/freedesktop.org.xml.in:4549
+msgid "MP3 ShoutCast playlist"
+msgstr "MP3 ShoutCast ойнау тізімі"
+
+#: data/freedesktop.org.xml.in:4560
+msgid "Scream Tracker audio"
+msgstr "Scream Tracker аудиосы"
+
+#: data/freedesktop.org.xml.in:4569
+msgid "VOC audio"
+msgstr "VOC аудиосы"
+
+#: data/freedesktop.org.xml.in:4573
+msgid "WAV audio"
+msgstr "WAV аудиосы"
+
+#: data/freedesktop.org.xml.in:4583
+msgid "Scream Tracker instrument"
+msgstr "Scream Tracker сайманы"
+
+#: data/freedesktop.org.xml.in:4590
+msgid "FastTracker II audio"
+msgstr "FastTracker II аудиосы"
+
+#: data/freedesktop.org.xml.in:4597
+msgid "TrueAudio audio"
+msgstr "TrueAudio аудиосы"
+
+#: data/freedesktop.org.xml.in:4605
+msgid "Windows BMP image"
+msgstr "Windows BMP суреті"
+
+#: data/freedesktop.org.xml.in:4620
+msgid "WBMP image"
+msgstr "WBMP суреті"
+
+#: data/freedesktop.org.xml.in:4626
+msgid "CGM image"
+msgstr "CGM суреті"
+
+#: data/freedesktop.org.xml.in:4632
+msgid "CCITT G3 fax image"
+msgstr "CCITT G3 факс суреті"
+
+#: data/freedesktop.org.xml.in:4637
+msgid "GIF image"
+msgstr "GIF суреті"
+
+#: data/freedesktop.org.xml.in:4644
+msgid "HEIF image"
+msgstr "HEIF суреті"
+
+#: data/freedesktop.org.xml.in:4654
+msgid "IEF image"
+msgstr "IEF суреті"
+
+#: data/freedesktop.org.xml.in:4658
+msgid "JPEG image"
+msgstr "JPEG суреті"
+
+#: data/freedesktop.org.xml.in:4669
+msgid "MJPEG video stream"
+msgstr "MJPEG видео ағыны"
+
+#: data/freedesktop.org.xml.in:4677
+msgid "JPEG-2000 codestream"
+msgstr "JPEG-2000 код ағыны"
+
+#: data/freedesktop.org.xml.in:4686
+msgid "JPEG-2000 JP2 image"
+msgstr "JPEG-2000 JP2 суреті"
+
+#: data/freedesktop.org.xml.in:4699
+msgid "JPEG-2000 JPX image"
+msgstr "JPEG-2000 JPX суреті"
+
+#: data/freedesktop.org.xml.in:4709
+msgid "JPEG-2000 JPM image"
+msgstr "JPEG-2000 JPM суреті"
+
+#: data/freedesktop.org.xml.in:4719
+msgid "JPEG-2000 MJ2 video"
+msgstr "JPEG-2000 MJ2 видеосы"
+
+#: data/freedesktop.org.xml.in:4729
+msgid "OpenRaster image"
+msgstr "OpenRaster суреті"
+
+#: data/freedesktop.org.xml.in:4741
+msgid "DirectDraw surface"
+msgstr "DirectDraw жазықтығы"
+
+#: data/freedesktop.org.xml.in:4748
+msgid "X11 cursor"
+msgstr "X11 курсоры"
+
+#: data/freedesktop.org.xml.in:4754
+msgid "EXR image"
+msgstr "EXR суреті"
+
+#: data/freedesktop.org.xml.in:4761
+msgid "Macintosh Quickdraw/PICT drawing"
+msgstr "Macintosh Quickdraw/PICT суреті"
+
+#: data/freedesktop.org.xml.in:4786
+msgid "UFRaw ID image"
+msgstr "UFRaw ID суреті"
+
+#: data/freedesktop.org.xml.in:4794
+msgid "digital raw image"
+msgstr "өңделмеген сандық суреттер"
+
+#: data/freedesktop.org.xml.in:4797
+msgid "Adobe DNG negative"
+msgstr "Adobe DNG негативі"
+
+#: data/freedesktop.org.xml.in:4807
+msgid "Canon CRW raw image"
+msgstr "Canon CRW өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4818
+msgid "Canon CR2 raw image"
+msgstr "Canon CR2 өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4826
+msgid "Fuji RAF raw image"
+msgstr "Fuji RAF өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4836
+msgid "Kodak DCR raw image"
+msgstr "Kodak DCR өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4844
+msgid "Kodak K25 raw image"
+msgstr "Kodak K25 өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4852
+msgid "Kodak KDC raw image"
+msgstr "Kodak KDC өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4863
+msgid "Minolta MRW raw image"
+msgstr "Minolta MRW өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4873
+msgid "Nikon NEF raw image"
+msgstr "Nikon NEF өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4881
+msgid "Olympus ORF raw image"
+msgstr "Olympus ORF өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4896 data/freedesktop.org.xml.in:4906
+msgid "Panasonic raw image"
+msgstr "Panasonic өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4916
+msgid "Pentax PEF raw image"
+msgstr "Pentax PEF өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4924
+msgid "Sigma X3F raw image"
+msgstr "Sigma X3F өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4938
+msgid "Sony SRF raw image"
+msgstr "Sony SRF өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4946
+msgid "Sony SR2 raw image"
+msgstr "Sony SR2 өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4954
+msgid "Sony ARW raw image"
+msgstr "Sony ARW өңделмеген суреті"
+
+#: data/freedesktop.org.xml.in:4962
+msgid "PNG image"
+msgstr "PNG суреті"
+
+#: data/freedesktop.org.xml.in:4969
+msgid "RLE bitmap image"
+msgstr "RLE растрлық суреті"
+
+#: data/freedesktop.org.xml.in:4975
+msgid "SVG image"
+msgstr "SVG суреті"
+
+#: data/freedesktop.org.xml.in:4993
+msgid "compressed SVG image"
+msgstr "сығылған SVG суреті"
+
+#: data/freedesktop.org.xml.in:5000
+msgid "TIFF image"
+msgstr "TIFF суреті"
+
+#: data/freedesktop.org.xml.in:5011
+msgid "Multi-page TIFF image"
+msgstr "Көпбеттік TIFF суреті"
+
+#: data/freedesktop.org.xml.in:5017
+msgid "AutoCAD image"
+msgstr "AutoCAD суреті"
+
+#: data/freedesktop.org.xml.in:5021
+msgid "DXF vector image"
+msgstr "DXF векторлық суреті"
+
+#: data/freedesktop.org.xml.in:5029
+msgid "MDI image"
+msgstr "MDI суреті"
+
+#: data/freedesktop.org.xml.in:5038
+msgid "WebP image"
+msgstr "WebP суреті"
+
+#: data/freedesktop.org.xml.in:5047
+msgid "3D Studio image"
+msgstr "3D Studio суреті"
+
+#: data/freedesktop.org.xml.in:5054
+msgid "Applix Graphics image"
+msgstr "Applix Graphics суреті"
+
+#: data/freedesktop.org.xml.in:5063
+msgid "EPS image (bzip-compressed)"
+msgstr "EPS суреті (bzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:5070
+msgid "CMU raster image"
+msgstr "CMU растрлық суреті"
+
+#: data/freedesktop.org.xml.in:5074
+msgid "compressed GIMP image"
+msgstr "сығылған GIMP суреті"
+
+#: data/freedesktop.org.xml.in:5079
+msgid "DICOM image"
+msgstr "DICOM суреті"
+
+#: data/freedesktop.org.xml.in:5090
+msgid "DocBook document"
+msgstr "DocBook құжаты"
+
+#: data/freedesktop.org.xml.in:5105
+msgid "DIB image"
+msgstr "DIB суреті"
+
+#: data/freedesktop.org.xml.in:5113
+msgid "DjVu image"
+msgstr "DjVu суреті"
+
+#: data/freedesktop.org.xml.in:5128
+msgid "DjVu document"
+msgstr "DjVu құжаты"
+
+#: data/freedesktop.org.xml.in:5143
+msgid "DPX image"
+msgstr "DPX суреті"
+
+#: data/freedesktop.org.xml.in:5151
+msgid "EPS image"
+msgstr "EPS суреті"
+
+#: data/freedesktop.org.xml.in:5169
+msgid "FITS document"
+msgstr "FITS құжаты"
+
+#: data/freedesktop.org.xml.in:5179
+msgid "FPX image"
+msgstr "FPX суреті"
+
+#: data/freedesktop.org.xml.in:5187
+msgid "EPS image (gzip-compressed)"
+msgstr "EPS суреті (gzip-пен сығылған)"
+
+#: data/freedesktop.org.xml.in:5194
+msgid "Windows icon"
+msgstr "Windows таңбашасы"
+
+#: data/freedesktop.org.xml.in:5209
+msgid "MacOS X icon"
+msgstr "MacOS X таңбашасы"
+
+#: data/freedesktop.org.xml.in:5216
+msgid "ILBM image"
+msgstr "ILBM суреті"
+
+#: data/freedesktop.org.xml.in:5230
+msgid "JNG image"
+msgstr "JNG суреті"
+
+#: data/freedesktop.org.xml.in:5236
+msgid "LightWave object"
+msgstr "LightWave объекті"
+
+#: data/freedesktop.org.xml.in:5241
+msgid "LightWave scene"
+msgstr "LightWave сахнасы"
+
+#: data/freedesktop.org.xml.in:5245
+msgid "MacPaint Bitmap image"
+msgstr "MacPaint растрлық суреті"
+
+#: data/freedesktop.org.xml.in:5249
+msgid "Office drawing"
+msgstr "Office суреті"
+
+#: data/freedesktop.org.xml.in:5253
+msgid "NIFF image"
+msgstr "NIFF суреті"
+
+#: data/freedesktop.org.xml.in:5259
+msgid "PCX image"
+msgstr "PCX суреті"
+
+#: data/freedesktop.org.xml.in:5274
+msgid "PCD image"
+msgstr "PCD суреті"
+
+#: data/freedesktop.org.xml.in:5280
+msgid "PNM image"
+msgstr "PNM суреті"
+
+#: data/freedesktop.org.xml.in:5284
+msgid "PBM image"
+msgstr "PBM суреті"
+
+#: data/freedesktop.org.xml.in:5305
+msgid "PGM image"
+msgstr "PGM суреті"
+
+#: data/freedesktop.org.xml.in:5326
+msgid "PPM image"
+msgstr "PPM суреті"
+
+#: data/freedesktop.org.xml.in:5347
+msgid "Photoshop image"
+msgstr "изображение Photoshop"
+
+#: data/freedesktop.org.xml.in:5360
+msgid "RGB image"
+msgstr "RGB суреті"
+
+#: data/freedesktop.org.xml.in:5364
+msgid "SGI image"
+msgstr "SGI суреті"
+
+#: data/freedesktop.org.xml.in:5368
+msgid "Sun raster image"
+msgstr "Sun растрлық суреті"
+
+#: data/freedesktop.org.xml.in:5375
+msgid "TGA image"
+msgstr "TGA суреті"
+
+#: data/freedesktop.org.xml.in:5401
+msgid "Windows cursor"
+msgstr "Windows курсоры"
+
+#: data/freedesktop.org.xml.in:5410
+msgid "Windows animated cursor"
+msgstr "Windows анимациясы бар курсор"
+
+#: data/freedesktop.org.xml.in:5419
+msgid "EMF image"
+msgstr "EMF суреті"
+
+#: data/freedesktop.org.xml.in:5437
+msgid "WMF image"
+msgstr "WMF суреті"
+
+#: data/freedesktop.org.xml.in:5461
+msgid "XBM image"
+msgstr "XBM суреті"
+
+#: data/freedesktop.org.xml.in:5467
+msgid "GIMP image"
+msgstr "GIMP суреті"
+
+#: data/freedesktop.org.xml.in:5475
+msgid "GIMP brush"
+msgstr "GIMP бояу жаққышы"
+
+#: data/freedesktop.org.xml.in:5482
+msgid "GIMP brush pipe"
+msgstr "GIMP бояу жаққыш түтігі"
+
+#: data/freedesktop.org.xml.in:5486
+msgid "GIMP pattern"
+msgstr "GIMP оюы"
+
+#: data/freedesktop.org.xml.in:5493
+msgid "XFig image"
+msgstr "XFig суреті"
+
+#: data/freedesktop.org.xml.in:5500
+msgid "XPM image"
+msgstr "XPM суреті"
+
+#: data/freedesktop.org.xml.in:5510
+msgid "X window image"
+msgstr "X window суреті"
+
+#: data/freedesktop.org.xml.in:5514
+msgid "block device"
+msgstr "блоктық құрылғысы"
+
+#: data/freedesktop.org.xml.in:5517
+msgid "character device"
+msgstr "символдық құрылғысы"
+
+#: data/freedesktop.org.xml.in:5520
+msgid "folder"
+msgstr "бума"
+
+#: data/freedesktop.org.xml.in:5525
+msgid "pipe"
+msgstr "арна"
+
+#: data/freedesktop.org.xml.in:5528
+msgid "mount point"
+msgstr "тіркеу нүктесі"
+
+#: data/freedesktop.org.xml.in:5532
+msgid "socket"
+msgstr "сокет"
+
+#: data/freedesktop.org.xml.in:5535
+msgid "symbolic link"
+msgstr "символдық сілтеме"
+
+#: data/freedesktop.org.xml.in:5538
+msgid "mail delivery report"
+msgstr "пошта жеткізілгені туралы отчет"
+
+#: data/freedesktop.org.xml.in:5543
+msgid "mail disposition report"
+msgstr "пошта жылжытылғаны туралы отчет"
+
+#: data/freedesktop.org.xml.in:5548
+msgid "reference to remote file"
+msgstr "қашықтағы файлға сілтеме"
+
+#: data/freedesktop.org.xml.in:5552
+msgid "Usenet news message"
+msgstr "Usenet жаңалық мәлімдемесі"
+
+#: data/freedesktop.org.xml.in:5562
+msgid "partial email message"
+msgstr "электронды поштаның үзінді мәлімдемесі"
+
+#: data/freedesktop.org.xml.in:5567
+msgid "email message"
+msgstr "пошталық мәлімдеме"
+
+#: data/freedesktop.org.xml.in:5585
+msgid "GNU mail message"
+msgstr "GNU пошта хабарламасы"
+
+#: data/freedesktop.org.xml.in:5590
+msgid "IGES document"
+msgstr "IGES құжаты"
+
+#: data/freedesktop.org.xml.in:5603
+msgid "VRML document"
+msgstr "VRML құжаты"
+
+#: data/freedesktop.org.xml.in:5616
+msgid "message in several formats"
+msgstr "бірнеше пішімдегі мәлімдеме"
+
+#: data/freedesktop.org.xml.in:5619
+msgid "Macintosh AppleDouble-encoded file"
+msgstr "Macintosh AppleDouble кодталған файлы"
+
+#: data/freedesktop.org.xml.in:5622
+msgid "message digest"
+msgstr "мәлімдеме профилі"
+
+#: data/freedesktop.org.xml.in:5625
+msgid "encrypted message"
+msgstr "шифрленген мәлімдеме"
+
+#: data/freedesktop.org.xml.in:5628
+msgid "compound documents"
+msgstr "құрама құжаттары"
+
+#: data/freedesktop.org.xml.in:5631
+msgid "compound document"
+msgstr "құрама құжаты"
+
+#: data/freedesktop.org.xml.in:5634
+msgid "mail system report"
+msgstr "пошта жүйесінің мәлімдемесі"
+
+#: data/freedesktop.org.xml.in:5637
+msgid "signed message"
+msgstr "қолтаңбасы бар мәлімдеме"
+
+#: data/freedesktop.org.xml.in:5640
+msgid "stream of data (server push)"
+msgstr "мәліметтер ағымы (server push)"
+
+#: data/freedesktop.org.xml.in:5643
+msgid "VCS/ICS calendar"
+msgstr "VCS/ICS күнтізбесі"
+
+#: data/freedesktop.org.xml.in:5657
+msgid "CSS stylesheet"
+msgstr "CSS стильдер кестесі"
+
+#: data/freedesktop.org.xml.in:5664
+msgid "electronic business card"
+msgstr "электронды визит карточкасы"
+
+#: data/freedesktop.org.xml.in:5678
+msgid "Turtle document"
+msgstr "Turtle құжаты"
+
+#: data/freedesktop.org.xml.in:5683
+msgid "txt2tags document"
+msgstr "txt2tags құжаты"
+
+#: data/freedesktop.org.xml.in:5692
+msgid "Verilog source code"
+msgstr "Verilog бастапқы коды"
+
+#: data/freedesktop.org.xml.in:5697
+msgid "SystemVerilog header"
+msgstr "SystemVerilog тақырыптамасы"
+
+#: data/freedesktop.org.xml.in:5702
+msgid "SystemVerilog source code"
+msgstr "SystemVerilog бастапқы коды"
+
+#: data/freedesktop.org.xml.in:5707
+msgid "VHDL source code"
+msgstr "VHDL бастапқы коды"
+
+#: data/freedesktop.org.xml.in:5715
+msgid "enriched text document"
+msgstr "пішімделген мәтіндік құжаты"
+
+#: data/freedesktop.org.xml.in:5719
+msgid "help page"
+msgstr "анықтама парағы"
+
+#: data/freedesktop.org.xml.in:5723
+msgid "plain text document"
+msgstr "мәтіндік құжаты"
+
+#: data/freedesktop.org.xml.in:5733
+msgid "RDF file"
+msgstr "RDF файлы"
+
+#: data/freedesktop.org.xml.in:5744
+msgid "reStructuredText document"
+msgstr "reStructuredText құжаты"
+
+#: data/freedesktop.org.xml.in:5749
+msgid "OWL XML file"
+msgstr "OWL XML файлы"
+
+#: data/freedesktop.org.xml.in:5760
+msgid "email headers"
+msgstr "пошталық тақырыптамалары"
+
+#: data/freedesktop.org.xml.in:5764
+msgid "rich text document"
+msgstr "пішімделген мәтіні бар құжаты"
+
+#: data/freedesktop.org.xml.in:5769
+msgid "RSS summary"
+msgstr "RSS жинақталғаны"
+
+#: data/freedesktop.org.xml.in:5782
+msgid "Atom syndication feed"
+msgstr "Atom жаңалықтар таспасы"
+
+#: data/freedesktop.org.xml.in:5792
+msgid "OPML syndication feed"
+msgstr "OPML жаңалықтар таспасы"
+
+#: data/freedesktop.org.xml.in:5802
+msgid "SGML document"
+msgstr "SGML құжаты"
+
+#: data/freedesktop.org.xml.in:5810
+msgid "spreadsheet interchange document"
+msgstr "spreadsheet interchange құжаты"
+
+#: data/freedesktop.org.xml.in:5819
+msgid "TSV document"
+msgstr "TSV құжаты"
+
+#: data/freedesktop.org.xml.in:5826
+msgid "Graphviz DOT graph"
+msgstr "Graphviz DOT сызбасы"
+
+#: data/freedesktop.org.xml.in:5838
+msgid "JAD document"
+msgstr "JAD құжаты"
+
+#: data/freedesktop.org.xml.in:5847
+msgid "WML document"
+msgstr "WML құжаты"
+
+#: data/freedesktop.org.xml.in:5854
+msgid "WMLScript program"
+msgstr "WMLScript бағдарламасы"
+
+#: data/freedesktop.org.xml.in:5858
+msgid "WarpScript source code"
+msgstr "WarpScript бастапқы коды"
+
+#: data/freedesktop.org.xml.in:5863
+msgid "ACE archive"
+msgstr "ACE архиві"
+
+#: data/freedesktop.org.xml.in:5871
+msgid "Ada source code"
+msgstr "Ada бастапқы коды"
+
+#: data/freedesktop.org.xml.in:5877
+msgid "author list"
+msgstr "авторлар тізімі"
+
+#: data/freedesktop.org.xml.in:5882
+msgid "BibTeX document"
+msgstr "BibTeX құжаты"
+
+#: data/freedesktop.org.xml.in:5890
+msgid "C++ header"
+msgstr "C++ тақырыптама файлы"
+
+#: data/freedesktop.org.xml.in:5899
+msgid "C++ source code"
+msgstr "C++ бастапқы коды"
+
+#: data/freedesktop.org.xml.in:5908
+msgid "ChangeLog document"
+msgstr "ChangeLog құжаты"
+
+#: data/freedesktop.org.xml.in:5913
+msgid "C header"
+msgstr "C тақырыптама файлы"
+
+#: data/freedesktop.org.xml.in:5918
+msgid "CMake source code"
+msgstr "CMake бастапқы коды"
+
+#: data/freedesktop.org.xml.in:5924
+msgid "Common Lisp source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5932
+msgid "CSV document"
+msgstr "CSV құжаты"
+
+#: data/freedesktop.org.xml.in:5941
+msgid "CSV Schema document"
+msgstr "CSV сұлба құжаты"
+
+#: data/freedesktop.org.xml.in:5948
+msgid "license terms"
+msgstr "лицензиялық келісімі"
+
+#: data/freedesktop.org.xml.in:5953
+msgid "author credits"
+msgstr "бағдарлама авторлары"
+
+#: data/freedesktop.org.xml.in:5958
+msgid "C source code"
+msgstr "C бастапқы коды"
+
+#: data/freedesktop.org.xml.in:5969
+msgid "C# source code"
+msgstr "C# бастапқы коды"
+
+#: data/freedesktop.org.xml.in:5974
+msgid "Vala source code"
+msgstr "Vala бастапқы коды"
+
+#: data/freedesktop.org.xml.in:5980
+msgid "OOC source code"
+msgstr "OOC бастапқы коды"
+
+#: data/freedesktop.org.xml.in:5987
+msgid "DCL script"
+msgstr "DCL сценарийі"
+
+#: data/freedesktop.org.xml.in:5994
+msgid "DSSSL document"
+msgstr "DSSSL құжаты"
+
+#: data/freedesktop.org.xml.in:6001
+msgid "D source code"
+msgstr "D бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6007
+msgid "DTD file"
+msgstr "DTD файлы"
+
+#: data/freedesktop.org.xml.in:6016
+msgid "Eiffel source code"
+msgstr "Eiffel бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6022
+msgid "Emacs Lisp source code"
+msgstr "Emacs Lisp бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6031
+msgid "Erlang source code"
+msgstr "Erlang бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6036
+msgid "Fortran source code"
+msgstr "Fortran бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6044
+msgid "Genie source code"
+msgstr "Genie бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6050
+msgid "translation file"
+msgstr "аудармалар файлы"
+
+#: data/freedesktop.org.xml.in:6057
+msgid "translation template"
+msgstr "аудармалар үлгісі"
+
+#: data/freedesktop.org.xml.in:6066
+msgid "Gherkin document"
+msgstr "Gherkin құжаты"
+
+#: data/freedesktop.org.xml.in:6071
+msgid "HTML document"
+msgstr "HTML құжаты"
+
+#: data/freedesktop.org.xml.in:6100
+msgid "Web application cache file"
+msgstr "Веб қолданбасының кэш файлы"
+
+#: data/freedesktop.org.xml.in:6113
+msgid "Google Video Pointer shortcut"
+msgstr "Google Video Pointer жарлығы"
+
+#: data/freedesktop.org.xml.in:6122
+msgid "Haskell source code"
+msgstr "Haskell бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6127
+msgid "IDL document"
+msgstr "IDL құжаты"
+
+#: data/freedesktop.org.xml.in:6134
+msgid "installation instructions"
+msgstr "бағдарламаны орнату нұсқаулары"
+
+#: data/freedesktop.org.xml.in:6139
+msgid "Java source code"
+msgstr "Java бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6144
+msgid "LDIF address book"
+msgstr "LDIF адрестер кітабы"
+
+#: data/freedesktop.org.xml.in:6155
+msgid "Lilypond music sheet"
+msgstr "Lilypond музыка тізімі"
+
+#: data/freedesktop.org.xml.in:6160
+msgid "LHS source code"
+msgstr "LHS бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6167
+msgid "application log"
+msgstr "мәлімдемелер журналы"
+
+#: data/freedesktop.org.xml.in:6172
+msgid "Makefile build file"
+msgstr "Makefile құрастыру файлы"
+
+#: data/freedesktop.org.xml.in:6185
+msgid "Markdown document"
+msgstr "Markdown құжаты"
+
+#: data/freedesktop.org.xml.in:6193
+msgid "Qt MOC file"
+msgstr "Qt MOC файлы"
+
+#: data/freedesktop.org.xml.in:6200
+msgid "Windows Registry extract"
+msgstr "Windows Registry бөлігі"
+
+#: data/freedesktop.org.xml.in:6210
+msgid "MOF file"
+msgstr "MOF файлы"
+
+#: data/freedesktop.org.xml.in:6217
+msgid "Mup musical composition document"
+msgstr "Mup музыкалық композиция құжаты"
+
+#: data/freedesktop.org.xml.in:6226
+msgid "Objective-C source code"
+msgstr "Objective-C бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6234
+msgid "OCaml source code"
+msgstr "OCaml бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6239
+msgid "OpenCL source code"
+msgstr "OpenCL бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6246
+msgid "MATLAB file"
+msgstr "MATLAB файлы"
+
+#: data/freedesktop.org.xml.in:6261
+msgid "Meson source code"
+msgstr "Meson бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6267
+msgid "Modelica model"
+msgstr "Modelica моделі"
+
+#: data/freedesktop.org.xml.in:6287
+msgid "Pascal source code"
+msgstr "Pascal бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6293
+msgid "differences between files"
+msgstr "файлдар арасындағы айырмашылықтары"
+
+#: data/freedesktop.org.xml.in:6312
+msgid "Go source code"
+msgstr "Go бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6317
+msgid "SCons configuration file"
+msgstr "SCons баптаулар файлы"
+
+#: data/freedesktop.org.xml.in:6324
+msgid "Python 3 script"
+msgstr "Python 3 скрипті"
+
+#: data/freedesktop.org.xml.in:6343
+msgid "Python script"
+msgstr "Python сценарийі"
+
+#: data/freedesktop.org.xml.in:6363
+msgid "SageMath script"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6368
+msgid "Lua script"
+msgstr "Lua сценарийі"
+
+#: data/freedesktop.org.xml.in:6380
+msgid "README document"
+msgstr "README құжаты"
+
+#: data/freedesktop.org.xml.in:6385
+msgid "NFO document"
+msgstr "NFO құжаты"
+
+#: data/freedesktop.org.xml.in:6390
+msgid "RPM spec file"
+msgstr "RPM анықтама файлы"
+
+#: data/freedesktop.org.xml.in:6401
+msgid "Sass CSS pre-processor file"
+msgstr "Sass CSS препроцессор файлы"
+
+#: data/freedesktop.org.xml.in:6409
+msgid "Scala source code"
+msgstr "Scala бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6414
+msgid "Scheme source code"
+msgstr "Scheme бастапқы коды"
+
+#: data/freedesktop.org.xml.in:6420
+msgid "SCSS pre-processor file"
+msgstr "SCSS препроцессор файлы"
+
+#: data/freedesktop.org.xml.in:6428
+msgid "Setext document"
+msgstr "Setext құжаты"
+
+#: data/freedesktop.org.xml.in:6433
+msgid "SQL code"
+msgstr "SQL коды"
+
+#: data/freedesktop.org.xml.in:6439
+msgid "Tcl script"
+msgstr "Tcl сценарийі"
+
+#: data/freedesktop.org.xml.in:6446
+msgid "TeX document"
+msgstr "TeX құжаты"
+
+#: data/freedesktop.org.xml.in:6464
+msgid "TeXInfo document"
+msgstr "TeXInfo құжаты"
+
+#: data/freedesktop.org.xml.in:6470
+msgid "Troff ME input document"
+msgstr "Troff ME кіріс құжаты"
+
+#: data/freedesktop.org.xml.in:6475
+msgid "Troff MM input document"
+msgstr "Troff MM кіріс құжаты"
+
+#: data/freedesktop.org.xml.in:6480
+msgid "Troff MS input document"
+msgstr "Troff MS кіріс құжаты"
+
+#: data/freedesktop.org.xml.in:6485
+msgid "Twig template"
+msgstr "Twig үлгісі"
+
+#: data/freedesktop.org.xml.in:6491
+msgid "X-Motif UIL table"
+msgstr "X-Motif UIL кестесі"
+
+#: data/freedesktop.org.xml.in:6496
+msgid "resource location"
+msgstr "ресурс орналасуы"
+
+#: data/freedesktop.org.xml.in:6501
+msgid "uuencoded file"
+msgstr "uuencode кодталған файлы"
+
+#: data/freedesktop.org.xml.in:6510
+msgid "VBScript program"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6517
+msgid "XMI file"
+msgstr "XMI файлы"
+
+#: data/freedesktop.org.xml.in:6526
+msgid "XSL FO file"
+msgstr "XSL FO файлы"
+
+#: data/freedesktop.org.xml.in:6535
+msgid "iptables configuration file"
+msgstr "iptables баптаулар файлы"
+
+#: data/freedesktop.org.xml.in:6560
+msgid "D-Bus service file"
+msgstr "D-Bus қызметтік файлы"
+
+#: data/freedesktop.org.xml.in:6569
+msgid "systemd unit file"
+msgstr "systemd юнит файлы"
+
+#: data/freedesktop.org.xml.in:6613
+msgid "XSLT stylesheet"
+msgstr "XSLT стильдер кестесі"
+
+#: data/freedesktop.org.xml.in:6626
+msgid "Maven description file"
+msgstr "Maven сипаттама файлы"
+
+#: data/freedesktop.org.xml.in:6633
+msgid "XMCD CD database"
+msgstr "XMCD CD дерекқоры"
+
+#: data/freedesktop.org.xml.in:6640
+msgid "XML document"
+msgstr "XML құжаты"
+
+#: data/freedesktop.org.xml.in:6655
+msgid "XML entities document"
+msgstr "XML мәндер құжаты"
+
+#: data/freedesktop.org.xml.in:6664
+msgid "DV video"
+msgstr "DV видеосы"
+
+#: data/freedesktop.org.xml.in:6673
+msgid "ISI video"
+msgstr "ISI видеосы"
+
+#: data/freedesktop.org.xml.in:6676
+msgid "MPEG-2 transport stream"
+msgstr "MPEG-2 көліктік ағыны"
+
+#: data/freedesktop.org.xml.in:6711
+msgid "MPEG video"
+msgstr "MPEG видеосы"
+
+#: data/freedesktop.org.xml.in:6731
+msgid "MPEG video (streamed)"
+msgstr "MPEG видео (ағымдық)"
+
+#: data/freedesktop.org.xml.in:6742
+msgid "QuickTime video"
+msgstr "QuickTime видеосы"
+
+#: data/freedesktop.org.xml.in:6755
+msgid "QuickTime image"
+msgstr "QuickTime суреті"
+
+#: data/freedesktop.org.xml.in:6763
+msgid "Khronos texture image"
+msgstr "Khronos текстура суреті"
+
+#: data/freedesktop.org.xml.in:6774
+msgid "ASTC texture"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6783
+msgid "Vivo video"
+msgstr "Vivo видеосы"
+
+#: data/freedesktop.org.xml.in:6789
+msgid "Wavelet video"
+msgstr "Wavelet видеосы"
+
+#: data/freedesktop.org.xml.in:6792
+msgid "ANIM animation"
+msgstr "ANIM анимациясы"
+
+#: data/freedesktop.org.xml.in:6796
+msgid "FLIC animation"
+msgstr "FLIC анимациясы"
+
+#: data/freedesktop.org.xml.in:6807
+msgid "Haansoft Hangul document"
+msgstr "Haansoft Hangul құжаты"
+
+#: data/freedesktop.org.xml.in:6816
+msgid "Haansoft Hangul document template"
+msgstr "Haansoft Hangul құжат үлгісі"
+
+#: data/freedesktop.org.xml.in:6822
+msgid "MNG animation"
+msgstr "MNG анимациясы"
+
+#: data/freedesktop.org.xml.in:6831
+msgid "ASF video"
+msgstr "ASF видеосы"
+
+#: data/freedesktop.org.xml.in:6844
+msgid "Windows Media Station file"
+msgstr "Windows Media Station файлы"
+
+#: data/freedesktop.org.xml.in:6853
+msgid "Windows Media video"
+msgstr "Windows Media видеосы"
+
+#: data/freedesktop.org.xml.in:6858
+msgid "AVI video"
+msgstr "AVI видеосы"
+
+#: data/freedesktop.org.xml.in:6879
+msgid "NullSoft video"
+msgstr "NullSoft видеосы"
+
+#: data/freedesktop.org.xml.in:6886
+msgid "SDP multicast stream file"
+msgstr "SDP мультикаст ағым файлы"
+
+#: data/freedesktop.org.xml.in:6901
+msgid "SGI video"
+msgstr "SGI видеосы"
+
+#: data/freedesktop.org.xml.in:6908
+msgid "eMusic download package"
+msgstr "eMusic жүктемелер дестесі"
+
+#: data/freedesktop.org.xml.in:6916
+msgid "KML geographic data"
+msgstr "KML географилық ақпараты"
+
+#: data/freedesktop.org.xml.in:6924
+msgid "KML geographic compressed data"
+msgstr "KML географиялық сығылған ақпарат"
+
+#: data/freedesktop.org.xml.in:6931
+msgid "GeoJSON geospatial data"
+msgstr "GeoJSON геокеңістіктік деректері"
+
+#: data/freedesktop.org.xml.in:6938
+msgid "GPX geographic data"
+msgstr "GPX географикалық деректері"
+
+#: data/freedesktop.org.xml.in:6950
+msgid "Citrix ICA settings file"
+msgstr "Citrix ICA баптаулар файлы"
+
+#: data/freedesktop.org.xml.in:6958
+msgid "XUL interface document"
+msgstr "XUL интерфейс құжаты"
+
+#: data/freedesktop.org.xml.in:6967
+msgid "XPInstall installer module"
+msgstr "XPInstall орнату модулі"
+
+#: data/freedesktop.org.xml.in:6972
+msgid "Word 2007 document"
+msgstr "Word 2007 құжаты"
+
+#: data/freedesktop.org.xml.in:6978
+msgid "Word 2007 document template"
+msgstr "Word 2007 құжатының үлгісі"
+
+#: data/freedesktop.org.xml.in:6984
+msgid "PowerPoint 2007 presentation"
+msgstr "PowerPoint 2007 презентациясы"
+
+#: data/freedesktop.org.xml.in:6990
+msgid "PowerPoint 2007 slide"
+msgstr "PowerPoint 2007 слайды"
+
+#: data/freedesktop.org.xml.in:6996
+msgid "PowerPoint 2007 show"
+msgstr "PowerPoint 2007 көрсетілімі"
+
+#: data/freedesktop.org.xml.in:7002
+msgid "PowerPoint 2007 presentation template"
+msgstr "PowerPoint 2007 презентация шаблоны"
+
+#: data/freedesktop.org.xml.in:7008
+msgid "Excel 2007 spreadsheet"
+msgstr "Excel 2007 электрондық кестесі"
+
+#: data/freedesktop.org.xml.in:7014
+msgid "Excel 2007 spreadsheet template"
+msgstr "Excel 2007 кесте шаблоны"
+
+#: data/freedesktop.org.xml.in:7020
+msgid "T602 document"
+msgstr "T602 құжаты"
+
+#: data/freedesktop.org.xml.in:7030
+msgid "Cisco VPN settings"
+msgstr "Cisco VPN баптаулары"
+
+#: data/freedesktop.org.xml.in:7040
+msgid "ICC profile"
+msgstr "ICC профайлы"
+
+#: data/freedesktop.org.xml.in:7048
+msgid "IT 8.7 color calibration file"
+msgstr "IT 8.7 түс баптау файлы"
+
+#: data/freedesktop.org.xml.in:7057
+msgid "CCMX color correction file"
+msgstr "CCMX түсті келтіру файлы"
+
+#: data/freedesktop.org.xml.in:7066
+msgid "WinHelp help file"
+msgstr "WinHelp көмек файлы"
+
+#: data/freedesktop.org.xml.in:7074
+msgid "binary differences between files"
+msgstr "файлдар арасындағы бинарлық айырмашылықтар"
+
+#. http://en.wikipedia.org/wiki/Design_rule_for_Camera_File_system
+#: data/freedesktop.org.xml.in:7085
+msgid "digital photos"
+msgstr "сандық фотосуреттер"
+
+#. TRANSLATORS: This is a brand-name, not a generic term. Please see
+#. http://en.wikipedia.org/wiki/Video_CD
+#. http://www.herongyang.com/CD-DVD/VCD-Movie-File-Directory-Structure.html
+#: data/freedesktop.org.xml.in:7095
+msgid "Video CD"
+msgstr "видео CD"
+
+#. TRANSLATORS: This is a brand-name, not a generic term. Please see
+#. http://en.wikipedia.org/wiki/Super_Video_CD
+#. http://everything2.com/index.pl?node_id=1009222
+#: data/freedesktop.org.xml.in:7105
+msgid "Super Video CD"
+msgstr "Super Video CD"
+
+#. http://en.wikipedia.org/wiki/DVD-Video
+#: data/freedesktop.org.xml.in:7113
+msgid "video DVD"
+msgstr "видео DVD"
+
+#. http://en.wikipedia.org/wiki/Red_Book_(audio_CD_standard)
+#: data/freedesktop.org.xml.in:7124
+msgid "audio CD"
+msgstr "аудио CD"
+
+#. http://en.wikipedia.org/wiki/Compact_Disc
+#: data/freedesktop.org.xml.in:7129
+msgid "blank CD disc"
+msgstr "таза CD дискі"
+
+#. http://en.wikipedia.org/wiki/DVD
+#: data/freedesktop.org.xml.in:7134
+msgid "blank DVD disc"
+msgstr "таза DVD дискі"
+
+#. http://en.wikipedia.org/wiki/Blu-ray_Disc
+#: data/freedesktop.org.xml.in:7139
+msgid "blank Blu-ray disc"
+msgstr "таза Blu-ray дискі"
+
+#. http://en.wikipedia.org/wiki/HD_DVD
+#: data/freedesktop.org.xml.in:7144
+msgid "blank HD DVD disc"
+msgstr "таза HD DVD дискі"
+
+#. http://en.wikipedia.org/wiki/DVD-Audio
+#: data/freedesktop.org.xml.in:7149
+msgid "audio DVD"
+msgstr "аудио DVD"
+
+#. http://en.wikipedia.org/wiki/Blu-ray_Disc
+#. http://www.blu-raydisc.com/Section-13470/Section-13890/Index.html
+#: data/freedesktop.org.xml.in:7159
+msgid "Blu-ray video disc"
+msgstr "Blu-ray видео дискі"
+
+#. http://en.wikipedia.org/wiki/HD_DVD
+#. http://www.dvdafteredit.com/wiki/The_HVDVD_TS_Folder
+#: data/freedesktop.org.xml.in:7169
+msgid "HD DVD video disc"
+msgstr "HD DVD видео дискі"
+
+#. see fd.o hal spec
+#: data/freedesktop.org.xml.in:7179
+msgid "e-book reader"
+msgstr "электронды кітаптарды оқу құрылғысы"
+
+#. TRANSLATORS: This is a brand-name, not a generic term. Please see
+#. http://en.wikipedia.org/wiki/Picture_CD
+#. http://www.re.org/kristin/picturecd.html
+#: data/freedesktop.org.xml.in:7190
+msgid "Picture CD"
+msgstr "Picture CD"
+
+#. see fd.o hal spec
+#: data/freedesktop.org.xml.in:7198
+msgid "portable audio player"
+msgstr "тасымалы аудио плеер"
+
+#. https://github.com/ostreedev/ostree/blob/master/man/ostree-create-usb.xml
+#: data/freedesktop.org.xml.in:7203
+msgid "OSTree software updates"
+msgstr "OSTree бағдарламалық қамтама жаңартулары"
+
+#. http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
+#. http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3
+#: data/freedesktop.org.xml.in:7214
+msgid "software"
+msgstr "бағдарламалық қамтама"
+
+#. http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
+#. http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3
+#: data/freedesktop.org.xml.in:7220
+msgid "UNIX software"
+msgstr "UNIX бағдарламасы"
+
+#. http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
+#. http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3
+#: data/freedesktop.org.xml.in:7232
+msgid "Windows software"
+msgstr "Windows бағдарламасы"
+
+#: data/freedesktop.org.xml.in:7241
+msgid "TriG RDF document"
+msgstr "TriG RDF құжаты"
+
+#: data/freedesktop.org.xml.in:7250
+msgid "Apple Keynote 5 presentation"
+msgstr "Apple Keynote 5 презентациясы"
+
+#: data/freedesktop.org.xml.in:7263
+msgid "Adobe PageMaker document"
+msgstr "Adobe PageMaker құжаты"
+
+#: data/freedesktop.org.xml.in:7273
+msgid "Doom WAD file"
+msgstr "Doom WAD файлы"
+
+#: data/freedesktop.org.xml.in:7285
+msgid "Amiga disk image"
+msgstr "Amiga диск бейнесі"
+
+#: data/freedesktop.org.xml.in:7293
+msgid "Flatpak application bundle"
+msgstr "Flatpak қолданбалар дестесі"
+
+#: data/freedesktop.org.xml.in:7305
+msgid "Flatpak repository description"
+msgstr "Flatpak репозиторийі сипаттамасы"
+
+#: data/freedesktop.org.xml.in:7315
+msgid "Flatpak repository reference"
+msgstr "Flatpak репозиторийіне сілтеме"
+
+#: data/freedesktop.org.xml.in:7325
+msgid "Squashfs filesystem image"
+msgstr "Squashfs файлдық жүйе бейнесі"
+
+#: data/freedesktop.org.xml.in:7352
+msgid "Snap package"
+msgstr "Snap дестесі"
+
+#: data/freedesktop.org.xml.in:7359
+msgid "STL 3D model"
+msgstr "STL 3D моделі"
+
+#: data/freedesktop.org.xml.in:7372
+msgid "G-code file"
+msgstr "G-code файлы"
+
+#: data/freedesktop.org.xml.in:7379
+msgid "Nintendo FDS disk image"
+msgstr "Nintendo FDS диск бейнесі"
+
+#: data/freedesktop.org.xml.in:7389
+msgid "QEMU QCOW disk image"
+msgstr "QEMU QCOW диск бейнесі"
+
+#: data/freedesktop.org.xml.in:7402
+msgid "AppleWorks document"
+msgstr "AppleWorks құжаты"
+
+#: data/freedesktop.org.xml.in:7408
+msgid "BPS patch"
+msgstr "BPS өзгерісі"
+
+#: data/freedesktop.org.xml.in:7418
+msgid "IPS patch"
+msgstr "IPS өзгерісі"
+
+#: data/freedesktop.org.xml.in:7428
+msgid "Pyspread spreadsheet"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7436
+msgid "Pyspread spreadsheet (bzip-compressed)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7443
+msgid "Kotlin source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7449
+msgid "AV1 Image File Format (AVIF)"
+msgstr ""

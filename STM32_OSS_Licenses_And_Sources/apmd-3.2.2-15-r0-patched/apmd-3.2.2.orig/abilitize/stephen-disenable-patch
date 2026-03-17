@@ -1,0 +1,205 @@
+From worldvisions@worldvisions.ca Wed Apr 19 00:05:03 2000
+Received: from worldvisions by insight.worldvisions.ca with local (Exim 3.12 #1 (Debian))
+	id 12hljb-0005DV-00; Wed, 19 Apr 2000 00:05:03 -0400
+Received: from localhost [127.0.0.1] (apenwarr)
+	by insight.worldvisions.ca with esmtp (Exim 3.12 #1 (Debian))
+	id 12hljb-0005DP-00; Wed, 19 Apr 2000 00:05:03 -0400
+Received: from www.bond.net
+	by localhost with POP3 (fetchmail-5.2.3)
+	for worldvisions@localhost (single-drop); Wed, 19 Apr 2000 00:05:03 -0400 (EDT)
+Received: from front.linuxcare.com.au (root@linuxcare.com.au [203.29.91.49])
+	by ns4.bond.net (8.9.3/8.9.3) with ESMTP id AAA19564
+	for <apenwarr@worldvisions.ca>; Wed, 19 Apr 2000 00:04:46 -0400 (EDT)
+Received: from elm.linuxcare.com.au (elm.linuxcare.com.au [10.61.2.17])
+	by front.linuxcare.com.au (8.9.3/8.9.3/Debian 8.9.3-21) with ESMTP id OAA12011
+	for <apenwarr@worldvisions.ca>; Wed, 19 Apr 2000 14:04:43 +1000
+Received: from linuxcare.com (localhost [127.0.0.1])
+	by elm.linuxcare.com.au (8.9.3/8.9.3/Debian 8.9.3-21) with ESMTP id OAA03706
+	for <apenwarr@worldvisions.ca>; Wed, 19 Apr 2000 14:04:41 +1000
+Message-Id: <200004190404.OAA03706@elm.linuxcare.com.au>
+X-Authentication-Warning: elm.linuxcare.com.au: Host localhost [127.0.0.1] claimed to be linuxcare.com
+To: apenwarr@worldvisions.ca
+Subject: apmd patch for --{dis,en}able
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-ID: <3703.956117081.1@linuxcare.com>
+Date: Wed, 19 Apr 2000 14:04:41 +1000
+From: Stephen Rothwell <sfr@linuxcare.com>
+X-UIDL: pdhd9Yh5e9P6]!!Sn+!!
+Sender:  <worldvisions@worldvisions.ca>
+Status: RO
+X-Status: A
+Content-Length: 4242
+Lines: 170
+
+Hi Avery,
+
+Since I am adding stuff to the kernel apm driver, I figured
+I might as well patch apmd at the same time.  So here is my
+first apmd patch.  Please feel free to modify it to your own
+style etc ...
+
+Cheers,
+Stephen
+-- 
+Stephen Rothwell, Open Source Project Engineer, Linuxcare, Inc.
++61-2-62628990 tel, +61-2-62628991 fax 
+sfr@linuxcare.com, http://www.linuxcare.com/ 
+Linuxcare. Support for the revolution.
+
+diff -ruN apmd-3.0final/apm.c apmd-3.0final-sfr/apm.c
+--- apmd-3.0final/apm.c	Mon Oct 18 14:37:48 1999
++++ apmd-3.0final-sfr/apm.c	Tue Apr 18 15:26:21 2000
+@@ -51,8 +51,12 @@
+     case IGNORE:
+     case NOIGNORE:
+ 	error = apm_set_ignore(fd, mode);
+-	apm_close(fd);
+-	return;
++	break;
++#endif
++#ifdef APM_IOC_ENABLE
++    case ENABLE:
++    case DISABLE:
++	error = apm_enable(fd, mode == ENABLE);
+ 	break;
+ #endif
+     default:
+@@ -60,9 +64,15 @@
+ 	break;
+     }
+     
+-    if (error != 0)
+-	perror("apm");
+-    else
++    if (error != 0) {
++#ifdef APM_IOC_LAST_ERROR
++	if (errno == EIO)
++	    fprintf(stderr, "apm: %s\n",
++		apm_error_name(apm_last_error(fd)));
++	else
++#endif
++	    perror("apm");
++    } else
+ 	time(&now);
+ 
+     apm_close(fd);
+@@ -71,11 +81,21 @@
+ void usage(void)
+ {
+     fprintf(stderr,
+-	    "usage: apm [-vmsSin] [--verbose] [--minutes] [--suspend] [--standby]");
+-#ifdef APM_IOC_IGNORE		/* detect kernel support of IGNORE/NOIGNORE functions */
+-    fprintf(stderr, " [--ignore] [--noignore]");
++	    "usage: apm [-vmsS"
++#ifdef APM_IOC_IGNORE
++	    "in"
++#endif
++#ifdef APM_IOC_ENABLE
++	    "ED"
++#endif
++	    "] [--verbose] [--minutes] [--suspend] [--standby]"
++#ifdef APM_IOC_IGNORE
++	    " [--ignore] [--noignore]"
++#endif
++#ifdef APM_IOC_ENABLE
++	    " [--disable] [--enable]"
+ #endif
+-    fprintf(stderr, "\n");
++	    "\n");
+     exit(1);
+ }
+ 
+@@ -99,31 +119,44 @@
+ 	{"ignore", 0, 0, 'i'},
+ 	{"noignore", 0, 0, 'n'},
+ #endif
++#ifdef APM_IOC_ENABLE
++	{"enable", 0, 0, 'E'},
++	{"disable", 0, 0, 'D'},
++#endif
+ 	{NULL, 0, 0, 0}
+     };
++    char options[20];
+     extern int opterr;
+ 
+-    opterr = 0;
+-#ifndef APM_IOC_IGNORE		/* detect kernel support of IGNORE/NOIGNORE functions */
+-    while ((c = getopt_long(argc, argv, "VvsSdm", longopts, NULL)) != -1)
+-#else
+-    while ((c = getopt_long(argc, argv, "VvsSdmin", longopts, NULL)) != -1)
++    strcpy(options, "VvsSdm");
++#ifdef APM_IOC_IGNORE
++    strcat(options, "in");
+ #endif
++#ifdef APM_IOC_ENABLE
++    strcat(options, "DE");
++#endif
++    opterr = 0;
++    while ((c = getopt_long(argc, argv, options, longopts, NULL)) != -1)
+ 	switch (c)
+ 	{
+ 	case 'V':
+ 	    fprintf(stderr, "apm version %s\n", VERSION);
+ 	    exit(0);
+-	    break;
++#ifdef APM_IOC_ENABLE
++	case 'E':
++	    change_state(ENABLE);
++	    exit(0);
++	case 'D':
++	    change_state(DISABLE);
++	    exit(0);
++#endif
+ #ifdef APM_IOC_IGNORE		/* detect kernel support of IGNORE/NOIGNORE functions */
+ 	case 'i':
+ 	    change_state(IGNORE);
+ 	    exit(0);
+-	    break;
+ 	case 'n':
+ 	    change_state(NOIGNORE);
+ 	    exit(0);
+-	    break;
+ #endif
+ 	case 'v':
+ 	    ++verbose;
+diff -ruN apmd-3.0final/apm.h apmd-3.0final-sfr/apm.h
+--- apmd-3.0final/apm.h	Tue Jul  6 08:31:11 1999
++++ apmd-3.0final-sfr/apm.h	Tue Apr 18 14:40:07 2000
+@@ -57,6 +57,7 @@
+ extern int apm_suspend(int fd);
+ extern int apm_standby(int fd);
+ extern int apm_set_ignore(int fd, int mode);
++extern int apm_enable(int fd, int mode);
+ extern unsigned int apm_last_error(int fd);
+ extern const char *apm_error_name( unsigned int err );
+ extern int apm_reject(int fd);
+@@ -69,6 +70,8 @@
+ #define STANDBY 1
+ #define IGNORE 2
+ #define NOIGNORE 3
++#define ENABLE 4
++#define DISABLE 5
+ 
+ /* Linux Kernel APM drivers version 1.10 and higher permit suspend
+    rejections. */
+diff -ruN apmd-3.0final/apmlib.c apmd-3.0final-sfr/apmlib.c
+--- apmd-3.0final/apmlib.c	Tue Aug  3 14:26:43 1999
++++ apmd-3.0final-sfr/apmlib.c	Tue Apr 18 15:01:46 2000
+@@ -364,6 +364,13 @@
+ }
+ #endif
+ 
++#ifdef APM_IOC_ENABLE
++int apm_enable(int fd, int mode)
++{
++    return ioctl(fd, APM_IOC_ENABLE, &mode);
++}
++#endif
++
+ /* Return a string describing the event. From p. 16 of the Intel/Microsoft
+  * Advanded Power Management (APM) BIOS Interface Specification, Revision
+  * 1.1 (September 1993). Intel Order Number: 241704-001.  Microsoft Part
+
+
+

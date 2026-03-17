@@ -1,0 +1,3254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the shared-mime-info package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: shared-mime-info\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-24 10:27+0200\n"
+"PO-Revision-Date: 2020-12-24 08:30+0000\n"
+"Last-Translator: Ville Skyttä <ville.skytta@iki.fi>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/freedesktop/shared-mime-info/language/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/freedesktop.org.xml.in:83
+msgid "Atari 2600 ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:88
+msgid "Atari 7800 ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:96
+msgid "Atari Lynx ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:104
+msgid "ATK inset"
+msgstr "Bộ dát ATK"
+
+#: data/freedesktop.org.xml.in:111
+msgid "electronic book document"
+msgstr "tài liệu cuốn sách điện tử"
+
+#: data/freedesktop.org.xml.in:125
+msgid "Kindle book document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:132
+msgid "Adobe Illustrator document"
+msgstr "Tài liệu Adobe Illustrator"
+
+#: data/freedesktop.org.xml.in:138
+msgid "Macintosh BinHex-encoded file"
+msgstr "Tập tin đã mã hoá BinHex của Macintosh"
+
+#: data/freedesktop.org.xml.in:145
+msgid "Mathematica Notebook file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:160
+msgid "MathML document"
+msgstr "Tài liệu MathML"
+
+#: data/freedesktop.org.xml.in:169
+msgid "mailbox file"
+msgstr "tập tin hộp thư"
+
+#: data/freedesktop.org.xml.in:178 data/freedesktop.org.xml.in:187
+msgid "Metalink file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:196
+msgid "unknown"
+msgstr "không rõ"
+
+#: data/freedesktop.org.xml.in:199
+msgid "Partially downloaded file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:206
+msgid "ODA document"
+msgstr "Tài liệu ODA"
+
+#: data/freedesktop.org.xml.in:213
+msgid "WWF document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:220
+msgid "PDF document"
+msgstr "Tài liệu PDF"
+
+#: data/freedesktop.org.xml.in:234
+msgid "XSPF playlist"
+msgstr "Danh mục nhạc XSPF"
+
+#: data/freedesktop.org.xml.in:248
+msgid "Microsoft Windows theme pack"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:254
+msgid "AmazonMP3 download file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:258
+msgid "GSM 06.10 audio"
+msgstr "Âm thanh GSM 06.10"
+
+#: data/freedesktop.org.xml.in:264
+msgid "iRiver playlist"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:271
+msgid "PGP/MIME-encrypted message header"
+msgstr "Phần đầu thông điệp đã mật mã bằng PGP/MIME"
+
+#: data/freedesktop.org.xml.in:283
+msgid "PGP keys"
+msgstr "Khoá PGP"
+
+#: data/freedesktop.org.xml.in:304
+msgid "detached OpenPGP signature"
+msgstr "chữ ký OpenPGP tách rời"
+
+#: data/freedesktop.org.xml.in:317
+msgid "PKCS#7 file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:325
+msgid "detached S/MIME signature"
+msgstr "chữ ký S/MIME tách rời"
+
+#: data/freedesktop.org.xml.in:333
+msgid "PKCS#8 private key"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:339
+msgid "PKCS#8 private key (encrypted)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:345
+msgid "PKCS#10 certification request"
+msgstr "Yêu cầu chứng nhận PKCS#10"
+
+#: data/freedesktop.org.xml.in:352
+msgid "X.509 certificate"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:356
+msgid "certificate revocation list"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:360
+msgid "PkiPath certification path"
+msgstr "Đường dẫn cấp chứng nhận PkiPath"
+
+#: data/freedesktop.org.xml.in:364
+msgid "PostScript document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:374
+msgid "Plucker document"
+msgstr "Tài liệu Plucker"
+
+#: data/freedesktop.org.xml.in:381
+msgid "RAML document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:391
+msgid "RELAX NG XML schema"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:400
+msgid "RTF document"
+msgstr "Tài liệu RTF"
+
+#: data/freedesktop.org.xml.in:412
+msgid "Sieve mail filter script"
+msgstr "Văn lệnh lọc thư Sieve"
+
+#: data/freedesktop.org.xml.in:418
+msgid "SMIL document"
+msgstr "Tài liệu SMIL"
+
+#: data/freedesktop.org.xml.in:436
+msgid "WPL playlist"
+msgstr "Danh mục nhạc WPL"
+
+#: data/freedesktop.org.xml.in:446
+msgid "SQLite2 database"
+msgstr "Cơ sở dữ liệu SQLite2"
+
+#: data/freedesktop.org.xml.in:453
+msgid "SQLite3 database"
+msgstr "Cơ sở dữ liệu SQLite3"
+
+#: data/freedesktop.org.xml.in:461
+msgid "Apple System Profiler"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:470
+msgid "GEDCOM family history"
+msgstr "Lịch sử gia đình GEDCOM"
+
+#: data/freedesktop.org.xml.in:482
+msgid "Flash video"
+msgstr "Ảnh động Flash"
+
+#: data/freedesktop.org.xml.in:493
+msgid "JavaFX video"
+msgstr ""
+
+#. translators: a record is in this context a description of a board game
+#. that has been played, and that can be played back again:
+#. http://www.red-bean.com/sgf/
+#: data/freedesktop.org.xml.in:505
+msgid "SGF record"
+msgstr "Mục ghi SGF"
+
+#: data/freedesktop.org.xml.in:517
+msgid "XLIFF translation file"
+msgstr "Tập tin dịch XLIFF"
+
+#: data/freedesktop.org.xml.in:531
+msgid "YAML document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:545
+msgid "Corel Draw drawing"
+msgstr "Bản vẽ Corel Draw"
+
+#: data/freedesktop.org.xml.in:560
+msgid "HPGL file"
+msgstr "Tập tin HPGL"
+
+#: data/freedesktop.org.xml.in:567
+msgid "PCL file"
+msgstr "Tập tin PCL"
+
+#: data/freedesktop.org.xml.in:574
+msgid "Lotus 1-2-3 spreadsheet"
+msgstr "Bảng tính Lotus 1-2-3"
+
+#: data/freedesktop.org.xml.in:591
+msgid "Lotus Word Pro document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:599
+msgid "JET database"
+msgstr "Cơ sở dữ liệu JET"
+
+#: data/freedesktop.org.xml.in:616
+msgid "Microsoft Cabinet archive"
+msgstr "Kho lưu Cabinet Microsoft"
+
+#: data/freedesktop.org.xml.in:625 data/freedesktop.org.xml.in:655
+msgid "Excel spreadsheet"
+msgstr "Bảng tính Excel"
+
+#: data/freedesktop.org.xml.in:643
+msgid "Excel add-in"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:649
+msgid "Excel 2007 binary spreadsheet"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:661
+msgid "Excel spreadsheet template"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:667 data/freedesktop.org.xml.in:683
+#: data/freedesktop.org.xml.in:695
+msgid "PowerPoint presentation"
+msgstr "Trình diễn PowerPoint"
+
+#: data/freedesktop.org.xml.in:678
+msgid "PowerPoint add-in"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:689
+msgid "PowerPoint slide"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:701
+msgid "PowerPoint presentation template"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:707 data/freedesktop.org.xml.in:725
+msgid "Office Open XML Visio drawing"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:713 data/freedesktop.org.xml.in:731
+msgid "Office Open XML Visio template"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:719 data/freedesktop.org.xml.in:737
+msgid "Office Open XML Visio stencil"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:743 data/freedesktop.org.xml.in:785
+msgid "Word document"
+msgstr "Tài liệu Word"
+
+#: data/freedesktop.org.xml.in:749
+msgid "Word document template"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:755
+msgid "XPS document"
+msgstr "Tài liệu XPS"
+
+#: data/freedesktop.org.xml.in:766
+msgid "Microsoft Works document"
+msgstr "Tài liệu Microsoft Works"
+
+#: data/freedesktop.org.xml.in:776
+msgid "Microsoft Visio document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:805
+msgid "Word template"
+msgstr "Mẫu Word"
+
+#: data/freedesktop.org.xml.in:811
+msgid "GML document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:819
+msgid "GNUnet search file"
+msgstr "Tập tin tìm kiếm GNUnet"
+
+#: data/freedesktop.org.xml.in:826
+msgid "TNEF message"
+msgstr "Thông điệp TNEF"
+
+#: data/freedesktop.org.xml.in:838
+msgid "StarCalc spreadsheet"
+msgstr "Bảng tính StarCalc"
+
+#: data/freedesktop.org.xml.in:843
+msgid "StarChart chart"
+msgstr "Đồ thị StarChart"
+
+#: data/freedesktop.org.xml.in:848
+msgid "StarDraw drawing"
+msgstr "Bản vẽ StarDraw"
+
+#: data/freedesktop.org.xml.in:853
+msgid "StarImpress presentation"
+msgstr "Trình diễn StarImpress"
+
+#: data/freedesktop.org.xml.in:859
+msgid "StarMail email"
+msgstr "Thư điện tử StarMail"
+
+#: data/freedesktop.org.xml.in:863
+msgid "StarMath formula"
+msgstr "Công thức StarMath"
+
+#: data/freedesktop.org.xml.in:868
+msgid "StarWriter document"
+msgstr "Tài liệu StarWriter"
+
+#: data/freedesktop.org.xml.in:879
+msgid "OpenOffice Calc spreadsheet"
+msgstr "Bảng tính Calc của OpenOffice.org"
+
+#: data/freedesktop.org.xml.in:892
+msgid "OpenOffice Calc template"
+msgstr "Mẫu bảng tính Calc của OpenOffice.org"
+
+#: data/freedesktop.org.xml.in:905
+msgid "OpenOffice Draw drawing"
+msgstr "Bản vẽ Draw của OpenOffice.org"
+
+#: data/freedesktop.org.xml.in:918
+msgid "OpenOffice Draw template"
+msgstr "Mẫu bản vẽ Draw của OpenOffice.org"
+
+#: data/freedesktop.org.xml.in:931
+msgid "OpenOffice Impress presentation"
+msgstr "Trình diễn Impress của OpenOffice.org"
+
+#: data/freedesktop.org.xml.in:944
+msgid "OpenOffice Impress template"
+msgstr "Mẫu trình diễn Impress của OpenOffice.org"
+
+#: data/freedesktop.org.xml.in:957
+msgid "OpenOffice Math formula"
+msgstr "Công thức Math của OpenOffice.org"
+
+#: data/freedesktop.org.xml.in:970
+msgid "OpenOffice Writer document"
+msgstr "Tài liệu Writer của OpenOffice.org"
+
+#: data/freedesktop.org.xml.in:983
+msgid "OpenOffice Writer global document"
+msgstr "Tài liệu toàn cục Writer của OpenOffice.org"
+
+#: data/freedesktop.org.xml.in:996
+msgid "OpenOffice Writer template"
+msgstr "Mẫu tài liệu Writer của OpenOffice.org"
+
+#: data/freedesktop.org.xml.in:1009
+msgid "ODT document"
+msgstr "Tài liệu ODT"
+
+#: data/freedesktop.org.xml.in:1024
+msgid "ODT document (Flat XML)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1032
+msgid "ODT template"
+msgstr "Mẫu ODT"
+
+#: data/freedesktop.org.xml.in:1047
+msgid "OTH template"
+msgstr "Mẫu ODH"
+
+#: data/freedesktop.org.xml.in:1062
+msgid "ODM document"
+msgstr "Tài liệu ODM"
+
+#: data/freedesktop.org.xml.in:1077
+msgid "ODG drawing"
+msgstr "Bản vẽ ODG"
+
+#: data/freedesktop.org.xml.in:1092
+msgid "ODG drawing (Flat XML)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1100
+msgid "ODG template"
+msgstr "Mẫu ODG"
+
+#: data/freedesktop.org.xml.in:1115
+msgid "ODP presentation"
+msgstr "Trình diễn ODM"
+
+#: data/freedesktop.org.xml.in:1130
+msgid "ODP presentation (Flat XML)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1138
+msgid "ODP template"
+msgstr "Mẫu ODP"
+
+#: data/freedesktop.org.xml.in:1153
+msgid "ODS spreadsheet"
+msgstr "Bảng tính ODS"
+
+#: data/freedesktop.org.xml.in:1168
+msgid "ODS spreadsheet (Flat XML)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1176
+msgid "ODS template"
+msgstr "Mẫu ODS"
+
+#: data/freedesktop.org.xml.in:1191
+msgid "ODC chart"
+msgstr "Sơ đồ ODC"
+
+#: data/freedesktop.org.xml.in:1206
+msgid "ODC template"
+msgstr "Mẫu ODC"
+
+#: data/freedesktop.org.xml.in:1221
+msgid "ODF formula"
+msgstr "Công thức ODF"
+
+#: data/freedesktop.org.xml.in:1236
+msgid "ODF template"
+msgstr "Mẫu ODF"
+
+#: data/freedesktop.org.xml.in:1251
+msgid "ODB database"
+msgstr "Cơ sở dữ liệu ODB"
+
+#: data/freedesktop.org.xml.in:1267
+msgid "ODI image"
+msgstr "Ảnh ODI"
+
+#: data/freedesktop.org.xml.in:1282
+msgid "OpenOffice.org extension"
+msgstr "Phần mở rộng của OpenOffice.org"
+
+#: data/freedesktop.org.xml.in:1288
+msgid "Android package"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1293
+msgid "SIS package"
+msgstr "Gói SIS"
+
+#: data/freedesktop.org.xml.in:1303
+msgid "SISX package"
+msgstr "Gói SISX"
+
+#: data/freedesktop.org.xml.in:1313
+msgid "network packet capture"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1325
+msgid "WordPerfect document"
+msgstr "Tài liệu WordPerfect"
+
+#: data/freedesktop.org.xml.in:1341
+msgid "YouTube media archive"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1347
+msgid "SPSS portable data file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1356
+msgid "SPSS data file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1368
+msgid "XBEL bookmarks"
+msgstr "Liên kết đã lưu XBEL"
+
+#: data/freedesktop.org.xml.in:1379
+msgid "7-zip archive"
+msgstr "Kho nén 7-zip"
+
+#: data/freedesktop.org.xml.in:1387
+msgid "AbiWord document"
+msgstr "Tài liệu AbiWord"
+
+#: data/freedesktop.org.xml.in:1401
+msgid "CD image cuesheet"
+msgstr "Tờ tín hiệu báo ảnh CD"
+
+#: data/freedesktop.org.xml.in:1407
+msgid "Lotus AmiPro document"
+msgstr "Tài liệu Lotus AmiPro"
+
+#: data/freedesktop.org.xml.in:1412
+msgid "AportisDoc document"
+msgstr "Tài liệu AportisDoc"
+
+#: data/freedesktop.org.xml.in:1423
+msgid "Applix Spreadsheets spreadsheet"
+msgstr "Bảng tính Applix Spreadsheets"
+
+#: data/freedesktop.org.xml.in:1434
+msgid "Applix Words document"
+msgstr "Tài liệu Applix Words"
+
+#: data/freedesktop.org.xml.in:1444
+msgid "ARC archive"
+msgstr "Kho nén ARC"
+
+#: data/freedesktop.org.xml.in:1456
+msgid "AR archive"
+msgstr "Kho nén AR"
+
+#: data/freedesktop.org.xml.in:1466
+msgid "ARJ archive"
+msgstr "Kho nén ARJ"
+
+#: data/freedesktop.org.xml.in:1476
+msgid "ASP page"
+msgstr "Trang ASP"
+
+#: data/freedesktop.org.xml.in:1484
+msgid "AWK script"
+msgstr "Văn lệnh AWK"
+
+#: data/freedesktop.org.xml.in:1503
+msgid "BCPIO document"
+msgstr "Tài liệu BCPIO"
+
+#: data/freedesktop.org.xml.in:1510
+msgid "BitTorrent seed file"
+msgstr "Tải tập hạt BitTorrent"
+
+#: data/freedesktop.org.xml.in:1517
+msgid "Blender scene"
+msgstr "Cảnh Blender"
+
+#: data/freedesktop.org.xml.in:1527
+msgid "TeX DVI document (bzip-compressed)"
+msgstr "Tài liệu DVI TeX (đã nén bzip)"
+
+#: data/freedesktop.org.xml.in:1533
+msgid "Bzip archive"
+msgstr "Kho nén bzip"
+
+#: data/freedesktop.org.xml.in:1544
+msgid "Tar archive (bzip-compressed)"
+msgstr "Kho nén tar (đã nén bzip)"
+
+#: data/freedesktop.org.xml.in:1554
+msgid "PDF document (bzip-compressed)"
+msgstr "Tài liệu PDF (đã nén bzip)"
+
+#: data/freedesktop.org.xml.in:1560
+msgid "PostScript document (bzip-compressed)"
+msgstr "Tài liệu PostScript (đã nén bzip)"
+
+#: data/freedesktop.org.xml.in:1566 data/freedesktop.org.xml.in:1573
+#: data/freedesktop.org.xml.in:1579 data/freedesktop.org.xml.in:1585
+msgid "comic book archive"
+msgstr "Kho nén sách tranh chuyện vui"
+
+#: data/freedesktop.org.xml.in:1592
+msgid "Lrzip archive"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1600
+msgid "Tar archive (lrzip-compressed)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1607
+msgid "Apple disk image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1611
+msgid "Raw disk image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1616
+msgid "Floppy disk image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1623
+msgid "Raw disk image (XZ-compressed)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1629
+msgid "raw CD image"
+msgstr "ảnh đĩa CD thô"
+
+#: data/freedesktop.org.xml.in:1637
+msgid "Compressed CD image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1644 data/freedesktop.org.xml.in:7335
+msgid "AppImage application bundle"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1660
+msgid "CD Table Of Contents"
+msgstr "Mục Lục của đĩa CD"
+
+#: data/freedesktop.org.xml.in:1675
+msgid "GD-ROM image cuesheet"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1685
+msgid "Padus DiscJuggler CD image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1689
+msgid "PGN chess game notation"
+msgstr "Cách ghi lượt chơi cờ PGN"
+
+#: data/freedesktop.org.xml.in:1701
+msgid "CHM document"
+msgstr "Tài liệu CHM"
+
+#: data/freedesktop.org.xml.in:1709
+msgid "Java byte code"
+msgstr "Mã byte Java"
+
+#: data/freedesktop.org.xml.in:1712
+msgid "UNIX-compressed file"
+msgstr "Tập tin đã nén UNIX"
+
+#: data/freedesktop.org.xml.in:1720
+msgid "Tar archive (gzip-compressed)"
+msgstr "Kho nén tar (đã nén gzip)"
+
+#: data/freedesktop.org.xml.in:1727
+msgid "program crash data"
+msgstr "dữ liệu sụp đổ chương trình"
+
+#: data/freedesktop.org.xml.in:1746
+msgid "CPIO archive"
+msgstr "Kho nén CPIO"
+
+#: data/freedesktop.org.xml.in:1757
+msgid "CPIO archive (gzip-compressed)"
+msgstr "Kho nén CPIO (đã nén gzip)"
+
+#: data/freedesktop.org.xml.in:1763
+msgid "C shell script"
+msgstr "Văn lệnh trình bao C"
+
+#: data/freedesktop.org.xml.in:1776
+msgid "Xbase document"
+msgstr "Tài liệu Xbase"
+
+#: data/freedesktop.org.xml.in:1784
+msgid "ECMAScript program"
+msgstr "Chương trình ECMAScript"
+
+#: data/freedesktop.org.xml.in:1792
+msgid "MAME compressed hard disk image"
+msgstr ""
+
+#. Translate this to Mega-CD if the console was known as such in your locale
+#. Should be Mega-CD in all but en_US, Mexico, Canada and Brazil:
+#. https://en.wikipedia.org/wiki/Sega_CD
+#: data/freedesktop.org.xml.in:1802
+msgid "Sega CD disc image"
+msgstr ""
+
+#. Translate this to Kids Computer Pico if the console was known as such in
+#. your locale
+#. Should be Sega Pico in all but Japan:
+#. https://en.wikipedia.org/wiki/Sega_Pico
+#: data/freedesktop.org.xml.in:1818
+msgid "Sega Pico ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1825
+msgid "Sega Saturn disc image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1834
+msgid "Dreamcast disc image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1841
+msgid "Nintendo DS ROM"
+msgstr "ROM DS Nintendo"
+
+#: data/freedesktop.org.xml.in:1846
+msgid "Nintendo 3DS ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1855
+msgid "Nintendo 3DS Executable"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1863
+msgid "PC Engine ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1868
+msgid "Wii disc image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1881
+msgid "WiiWare bundle"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1891
+msgid "GameCube disc image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1900
+msgid "Thomson Mémo7 cartridge"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1905
+msgid "Thomson cassette"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1910
+msgid "HFE floppy disk image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1921
+msgid "SAP Thomson floppy disk image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1932
+msgid "Debian package"
+msgstr "Gói Debian"
+
+#: data/freedesktop.org.xml.in:1945
+msgid "Qt Designer interface document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1955
+msgid "Kaitai Struct definition file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1960
+msgid "Qt Markup Language file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:1975
+msgid "desktop configuration file"
+msgstr "tập tin cấu hình môi trường"
+
+#: data/freedesktop.org.xml.in:1990
+msgid "FictionBook document"
+msgstr "Tài liệu FictionBook"
+
+#: data/freedesktop.org.xml.in:2000
+msgid "Compressed FictionBook document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2011
+msgid "Dia diagram"
+msgstr "Biểu đồ Dia"
+
+#: data/freedesktop.org.xml.in:2021
+msgid "Dia shape"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2031
+msgid "TeX DVI document"
+msgstr "Tài liệu DVI Tex"
+
+#: data/freedesktop.org.xml.in:2041
+msgid "Enlightenment theme"
+msgstr "Sắc thái Enlightenment"
+
+#: data/freedesktop.org.xml.in:2045
+msgid "Egon Animator animation"
+msgstr "Hoạt ảnh Egon Animator"
+
+#: data/freedesktop.org.xml.in:2050
+msgid "executable"
+msgstr "thực hiện được"
+
+#: data/freedesktop.org.xml.in:2067
+msgid "FLTK Fluid file"
+msgstr "Tập tin Fluid FLTK"
+
+#: data/freedesktop.org.xml.in:2078
+msgid "WOFF font"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2089
+msgid "WOFF2 font"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2099
+msgid "PostScript type-1 font"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2115
+msgid "Adobe font metrics"
+msgstr "Cách đo phông chữ Adobe"
+
+#: data/freedesktop.org.xml.in:2120
+msgid "BDF font"
+msgstr "Phông chữ BDF"
+
+#: data/freedesktop.org.xml.in:2128
+msgid "DOS font"
+msgstr "Phông chữ DOS"
+
+#: data/freedesktop.org.xml.in:2137
+msgid "Adobe FrameMaker font"
+msgstr "Phông chữ Adobe FrameMaker"
+
+#: data/freedesktop.org.xml.in:2144
+msgid "LIBGRX font"
+msgstr "Phông chữ LIBGRX"
+
+#: data/freedesktop.org.xml.in:2151
+msgid "Linux PSF console font"
+msgstr "Phông chữ bàn giao tiếp PSF Linux"
+
+#: data/freedesktop.org.xml.in:2159
+msgid "Linux PSF console font (gzip-compressed)"
+msgstr "Phông chữ bàn giao tiếp PSF Linux (đã nén gzip)"
+
+#: data/freedesktop.org.xml.in:2165
+msgid "PCF font"
+msgstr "Phông chữ PCF"
+
+#: data/freedesktop.org.xml.in:2175
+msgid "OpenType font"
+msgstr "Phông chữ OpenType"
+
+#: data/freedesktop.org.xml.in:2185
+msgid "Speedo font"
+msgstr "Phông chữ Speedo"
+
+#: data/freedesktop.org.xml.in:2193
+msgid "SunOS News font"
+msgstr "Phông chữ SunOS News"
+
+#: data/freedesktop.org.xml.in:2202
+msgid "TeX font"
+msgstr "Phông chữ TeX"
+
+#: data/freedesktop.org.xml.in:2211
+msgid "TeX font metrics"
+msgstr "Cách đo phông chữ TeX"
+
+#: data/freedesktop.org.xml.in:2219
+msgid "TrueType font"
+msgstr "Phông chữ TrueType"
+
+#: data/freedesktop.org.xml.in:2230
+msgid "Font collection"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2235
+msgid "TrueType XML font"
+msgstr "Phông chữ XML TrueType"
+
+#: data/freedesktop.org.xml.in:2244
+msgid "V font"
+msgstr "Phông chữ V"
+
+#: data/freedesktop.org.xml.in:2251
+msgid "Adobe FrameMaker document"
+msgstr "Tài liệu Adobe FrameMaker"
+
+#: data/freedesktop.org.xml.in:2266
+msgid "Game Boy ROM"
+msgstr "ROM Game Boy"
+
+#: data/freedesktop.org.xml.in:2277
+msgid "Game Boy Color ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2288
+msgid "Game Boy Advance ROM"
+msgstr "ROM Game Boy Advance"
+
+#: data/freedesktop.org.xml.in:2294
+msgid "Virtual Boy ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2299
+msgid "GDBM database"
+msgstr "Cơ sở dữ liệu GDBM"
+
+#. Translate this to Mega Drive if the console was known as such in your
+#. locale
+#. Should be Mega Drive in all but en_US, Mexico and Canada:
+#. https://en.wikipedia.org/wiki/Sega_Genesis#History
+#: data/freedesktop.org.xml.in:2311
+msgid "Genesis ROM"
+msgstr "ROM Genesis"
+
+#. Translate this to Super 32X, Mega Drive 32X or Mega 32X if the system was
+#. known as such in your locale
+#. Should be Super 32X in Japan, Mega Drive 32X in PAL region and Mega 32X in
+#. Brazil: https://en.wikipedia.org/wiki/32X
+#: data/freedesktop.org.xml.in:2327
+msgid "Genesis 32X ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2336
+msgid "translated messages (machine-readable)"
+msgstr "thông điệp đã dịch (máy đọc được)"
+
+#: data/freedesktop.org.xml.in:2345
+msgid "GTK+ Builder interface document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2354
+msgid "Glade project"
+msgstr "Dự án Glade"
+
+#: data/freedesktop.org.xml.in:2363
+msgid "GnuCash financial data"
+msgstr "Dữ liệu tài chính GnuCash"
+
+#: data/freedesktop.org.xml.in:2370
+msgid "Gnumeric spreadsheet"
+msgstr "Bảng tính Gnumeric."
+
+#: data/freedesktop.org.xml.in:2379
+msgid "Gnuplot document"
+msgstr "Tài liệu Gnuplot"
+
+#: data/freedesktop.org.xml.in:2387
+msgid "Graphite scientific graph"
+msgstr "Biểu đồ khoa học Graphite"
+
+#: data/freedesktop.org.xml.in:2392
+msgid "GTKtalog catalog"
+msgstr "Phân loại GTKtalog"
+
+#: data/freedesktop.org.xml.in:2399
+msgid "TeX DVI document (gzip-compressed)"
+msgstr "Tài liệu DVI TeX (đã nén gzip)"
+
+#: data/freedesktop.org.xml.in:2405
+msgid "Gzip archive"
+msgstr "Kho nén gzip"
+
+#: data/freedesktop.org.xml.in:2414
+msgid "PDF document (gzip-compressed)"
+msgstr "Tài liệu PDF (đã nén gzip)"
+
+#: data/freedesktop.org.xml.in:2420
+msgid "PostScript document (gzip-compressed)"
+msgstr "Tài liệu PostScript (đã nén gzip)"
+
+#: data/freedesktop.org.xml.in:2426
+msgid "HDF document"
+msgstr "Tài liệu HDF"
+
+#: data/freedesktop.org.xml.in:2441
+msgid "IFF file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2449
+msgid "iPod firmware"
+msgstr "phần vững iPod"
+
+#: data/freedesktop.org.xml.in:2455
+msgid "Java archive"
+msgstr "Kho nén Java"
+
+#: data/freedesktop.org.xml.in:2463
+msgid "Java class"
+msgstr "Hạng Java"
+
+#: data/freedesktop.org.xml.in:2475
+msgid "Groovy source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2484
+msgid "Gradle scripts"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2489
+msgid "JNLP file"
+msgstr "Tập tin JNLP"
+
+#: data/freedesktop.org.xml.in:2500
+msgid "Java keystore"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2509
+msgid "Java JCE keystore"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2518
+msgid "Pack200 Java archive"
+msgstr "Kho nén Java Pack200"
+
+#: data/freedesktop.org.xml.in:2526
+msgid "JavaScript program"
+msgstr "Chương trình JavaScript"
+
+#: data/freedesktop.org.xml.in:2548
+msgid "JSON document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2556
+msgid "JRD document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2564
+msgid "JSON patch"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2572
+msgid "JSON-LD document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2580
+msgid "Jupyter notebook document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2591
+msgid "CoffeeScript document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2597
+msgid "JBuilder project"
+msgstr "Dự án JBuilder"
+
+#: data/freedesktop.org.xml.in:2603
+msgid "Karbon14 drawing"
+msgstr "Bản vẽ Karbon14"
+
+#: data/freedesktop.org.xml.in:2620
+msgid "KChart chart"
+msgstr "Sơ đồ KChart"
+
+#: data/freedesktop.org.xml.in:2637
+msgid "Kexi settings"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2641
+msgid "Kexi shortcut"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2645 data/freedesktop.org.xml.in:2650
+msgid "Kexi database file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2657
+msgid "KFormula formula"
+msgstr "Công thức KFormula"
+
+#: data/freedesktop.org.xml.in:2674
+msgid "KIllustrator drawing"
+msgstr "Bản vẽ KIllustrator"
+
+#: data/freedesktop.org.xml.in:2686
+msgid "Kivio flowchart"
+msgstr "Lược đồ Kivio"
+
+#: data/freedesktop.org.xml.in:2703
+msgid "Kontour drawing"
+msgstr "Bản vẽ Kontour"
+
+#: data/freedesktop.org.xml.in:2720
+msgid "KPovModeler scene"
+msgstr "Cảnh KPovModeler"
+
+#: data/freedesktop.org.xml.in:2725
+msgid "KPresenter presentation"
+msgstr "Trình diễn KPresenter"
+
+#: data/freedesktop.org.xml.in:2743
+msgid "Krita document"
+msgstr "Tài liệu Krita"
+
+#: data/freedesktop.org.xml.in:2760
+msgid "KSpread spreadsheet"
+msgstr "Bảng tính KSpread"
+
+#: data/freedesktop.org.xml.in:2777
+msgid "KSpread spreadsheet (encrypted)"
+msgstr "Bảng tính KSpread (đã mật mã)"
+
+#: data/freedesktop.org.xml.in:2784
+msgid "KSysV init package"
+msgstr "Gói sở khởi KSysV"
+
+#: data/freedesktop.org.xml.in:2793
+msgid "Kugar document"
+msgstr "Tài liệu Kugar"
+
+#: data/freedesktop.org.xml.in:2798
+msgid "KWord document"
+msgstr "Tài liệu KWord"
+
+#: data/freedesktop.org.xml.in:2816
+msgid "KWord document (encrypted)"
+msgstr "Tài liệu KWord (đã mật mã)"
+
+#: data/freedesktop.org.xml.in:2823
+msgid "LHA archive"
+msgstr "Kho nén LHA"
+
+#: data/freedesktop.org.xml.in:2844
+msgid "LHZ archive"
+msgstr "Kho nén LHZ (LHA đã nén)"
+
+#: data/freedesktop.org.xml.in:2849
+msgid "message catalog"
+msgstr "phân loại thông điệp"
+
+#: data/freedesktop.org.xml.in:2859
+msgid "LyX document"
+msgstr "Tài liệu LyX"
+
+#: data/freedesktop.org.xml.in:2869
+msgid "LZ4 archive"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2878
+msgid "Tar archive (LZ4-compressed)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2884
+msgid "Lzip archive"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2892
+msgid "Tar archive (lzip-compressed)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2898
+msgid "PDF document (lzip-compressed)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2904
+msgid "LZMA archive"
+msgstr "Kho nén LZMA"
+
+#: data/freedesktop.org.xml.in:2911
+msgid "Tar archive (LZMA-compressed)"
+msgstr "Kho nén tar (đã nén LZMA)"
+
+#: data/freedesktop.org.xml.in:2918
+msgid "LZO archive"
+msgstr "Kho nén LZO"
+
+#: data/freedesktop.org.xml.in:2928
+msgid "Qpress archive"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2936
+msgid "XAR archive"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2948
+msgid "Zlib archive"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2953
+msgid "MagicPoint presentation"
+msgstr "Trình diễn MagicPoint"
+
+#: data/freedesktop.org.xml.in:2959
+msgid "Macintosh MacBinary file"
+msgstr "Tập tin nhị phân MacBinary của Macintosh"
+
+#: data/freedesktop.org.xml.in:2966
+msgid "Matroska stream"
+msgstr "Luồng Matroska"
+
+#: data/freedesktop.org.xml.in:2980
+msgid "Matroska video"
+msgstr "Ảnh động Matroska"
+
+#: data/freedesktop.org.xml.in:2985
+msgid "Matroska 3D video"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:2990
+msgid "Matroska audio"
+msgstr "Âm thanh Matroska"
+
+#: data/freedesktop.org.xml.in:2995
+msgid "WebM video"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3009
+msgid "WebM audio"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3013
+msgid "MHTML web archive"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3021
+msgid "MXF video"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3031
+msgid "OCL file"
+msgstr "Tập tin OCL"
+
+#: data/freedesktop.org.xml.in:3038
+msgid "COBOL source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3046
+msgid "Mobipocket e-book"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3060
+msgid "Adobe FrameMaker MIF document"
+msgstr "Tài liệu Adobe FrameMaker MIF"
+
+#: data/freedesktop.org.xml.in:3064
+msgid "Mozilla bookmarks"
+msgstr "Liên kết đã lưu Mozilla"
+
+#: data/freedesktop.org.xml.in:3073
+msgid "DOS/Windows executable"
+msgstr "Tập tin có thực hiện được DOS/Windows"
+
+#: data/freedesktop.org.xml.in:3081
+msgid "Internet shortcut"
+msgstr "Lối tắt Internet"
+
+#: data/freedesktop.org.xml.in:3091
+msgid "WRI document"
+msgstr "Tài liệu WRI"
+
+#: data/freedesktop.org.xml.in:3096
+msgid "MSX ROM"
+msgstr "ROM MSX"
+
+#: data/freedesktop.org.xml.in:3101
+msgid "M4 macro"
+msgstr "Vĩ lệnh M4"
+
+#: data/freedesktop.org.xml.in:3107
+msgid "Nintendo64 ROM"
+msgstr "ROM Nintendo64"
+
+#: data/freedesktop.org.xml.in:3122
+msgid "Nautilus link"
+msgstr "Liên kết Nautilus"
+
+#: data/freedesktop.org.xml.in:3130
+msgid "Neo-Geo Pocket ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3141
+msgid "Neo-Geo Pocket Color ROM"
+msgstr ""
+
+#. Translate this to Famicom if the console was known as such in your locale
+#: data/freedesktop.org.xml.in:3153
+msgid "NES ROM"
+msgstr "ROM NES"
+
+#: data/freedesktop.org.xml.in:3161
+msgid "Unidata NetCDF document"
+msgstr "Tài liệu NetCDF Unidata"
+
+#: data/freedesktop.org.xml.in:3169
+msgid "NewzBin usenet index"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3177
+msgid "object code"
+msgstr "mã đối tượng"
+
+#: data/freedesktop.org.xml.in:3194
+msgid "Annodex exchange format"
+msgstr "Định dạng trao đổi Annodex"
+
+#: data/freedesktop.org.xml.in:3207
+msgid "Annodex video"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3220
+msgid "Annodex audio"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3233
+msgid "Ogg multimedia file"
+msgstr "Tập tin đa phương tiện Ogg"
+
+#: data/freedesktop.org.xml.in:3242
+msgid "Ogg audio"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3253
+msgid "Ogg video"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3263
+msgid "Ogg Vorbis audio"
+msgstr "Âm thanh Vorbis Ogg"
+
+#: data/freedesktop.org.xml.in:3276
+msgid "Ogg FLAC audio"
+msgstr "Âm thanh FLAC Ogg"
+
+#: data/freedesktop.org.xml.in:3291
+msgid "Opus audio"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3301
+msgid "Ogg Speex audio"
+msgstr "Âm thanh Speex Ogg"
+
+#: data/freedesktop.org.xml.in:3313
+msgid "Speex audio"
+msgstr "Âm thanh Speex"
+
+#: data/freedesktop.org.xml.in:3320
+msgid "Ogg Theora video"
+msgstr "Ảnh động Theora Ogg"
+
+#: data/freedesktop.org.xml.in:3331
+msgid "OGM video"
+msgstr "Ảnh động OGM"
+
+#: data/freedesktop.org.xml.in:3344
+msgid "OLE2 compound document storage"
+msgstr "Kho lưu tài liệu ghép OLE2"
+
+#: data/freedesktop.org.xml.in:3352
+msgid "Microsoft Publisher document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3357
+msgid "Windows Installer package"
+msgstr "Gói cài đặt Windows"
+
+#: data/freedesktop.org.xml.in:3362
+msgid "GNU Oleo spreadsheet"
+msgstr "Bảng tính Oleo của GNU"
+
+#: data/freedesktop.org.xml.in:3370
+msgid "PAK archive"
+msgstr "Kho nén PAK"
+
+#: data/freedesktop.org.xml.in:3378
+msgid "Palm OS database"
+msgstr "Cơ sở dữ liệu PalmOS"
+
+#: data/freedesktop.org.xml.in:3386
+msgid "Parchive archive"
+msgstr "Kho nén Parchive"
+
+#: data/freedesktop.org.xml.in:3397
+msgid "PEF executable"
+msgstr "Tập tin thực hiện được PEF"
+
+#: data/freedesktop.org.xml.in:3404
+msgid "Perl script"
+msgstr "Văn lệnh Perl"
+
+#: data/freedesktop.org.xml.in:3433
+msgid "PHP script"
+msgstr "Văn lệnh PHP"
+
+#: data/freedesktop.org.xml.in:3446
+msgid "PKCS#7 certificate bundle"
+msgstr "Bó chứng nhận PKCS#7"
+
+#: data/freedesktop.org.xml.in:3453
+msgid "PKCS#12 certificate bundle"
+msgstr "Bó chứng nhận PKCS#12"
+
+#: data/freedesktop.org.xml.in:3461
+msgid "PlanPerfect spreadsheet"
+msgstr "Bảng tính PlanPerfect"
+
+#: data/freedesktop.org.xml.in:3466
+msgid "Pocket Word document"
+msgstr "Tài liệu Pocket Word"
+
+#: data/freedesktop.org.xml.in:3474
+msgid "profiler results"
+msgstr "kết quả nét hiện trạng"
+
+#: data/freedesktop.org.xml.in:3480
+msgid "Pathetic Writer document"
+msgstr "Tài liệu Pathetic Writer"
+
+#: data/freedesktop.org.xml.in:3485
+msgid "Python bytecode"
+msgstr "Mã byte Python"
+
+#: data/freedesktop.org.xml.in:3493
+msgid "QtiPlot document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3503
+msgid "Quattro Pro spreadsheet"
+msgstr "Bảng tính Quattro Pro"
+
+#: data/freedesktop.org.xml.in:3510
+msgid "QuickTime playlist"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3525
+msgid "Quicken document"
+msgstr "Tài liệu Quicken"
+
+#: data/freedesktop.org.xml.in:3530
+msgid "RAR archive"
+msgstr "Kho nén RAR"
+
+#: data/freedesktop.org.xml.in:3542
+msgid "DAR archive"
+msgstr "Kho nén DAR"
+
+#: data/freedesktop.org.xml.in:3550
+msgid "Alzip archive"
+msgstr "Kho nén Alzip"
+
+#: data/freedesktop.org.xml.in:3558
+msgid "rejected patch"
+msgstr "đắp vá bị từ chối"
+
+#: data/freedesktop.org.xml.in:3565
+msgid "RPM package"
+msgstr "Gói RPM"
+
+#: data/freedesktop.org.xml.in:3574
+msgid "Source RPM package"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3581
+msgid "Ruby script"
+msgstr "Văn lệnh Ruby"
+
+#: data/freedesktop.org.xml.in:3592
+msgid "Markaby script"
+msgstr "Văn lệnh Markaby"
+
+#: data/freedesktop.org.xml.in:3598
+msgid "Rust source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3603
+msgid "SC/Xspread spreadsheet"
+msgstr "Bảng tính SC/Xspread"
+
+#: data/freedesktop.org.xml.in:3610
+msgid "shell archive"
+msgstr "kho trình bao"
+
+#: data/freedesktop.org.xml.in:3615
+msgid "libtool shared library"
+msgstr "thư viện dùng chung libtool"
+
+#: data/freedesktop.org.xml.in:3621
+msgid "shared library"
+msgstr "thư viện dùng chung"
+
+#: data/freedesktop.org.xml.in:3630
+msgid "shell script"
+msgstr "văn lệnh trình bao"
+
+#: data/freedesktop.org.xml.in:3651
+msgid "Shockwave Flash file"
+msgstr "Tập tin Flash Shockwave"
+
+#. translators: "Shorten" is the name of an audio codec
+#: data/freedesktop.org.xml.in:3664
+msgid "Shorten audio"
+msgstr "Âm thanh Shorten"
+
+#: data/freedesktop.org.xml.in:3673
+msgid "Siag spreadsheet"
+msgstr "Bảng tính Slag"
+
+#: data/freedesktop.org.xml.in:3678
+msgid "Skencil document"
+msgstr "Tài liệu Skencil"
+
+#: data/freedesktop.org.xml.in:3686
+msgid "Stampede package"
+msgstr "Gói Stampede"
+
+#: data/freedesktop.org.xml.in:3690
+msgid "SG-1000 ROM"
+msgstr ""
+
+#. Translate this to "Master System/Mark III" if the console was known as such
+#. in your locale (probably only in Japan)
+#: data/freedesktop.org.xml.in:3696
+msgid "Master System ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3708
+msgid "Game Gear ROM"
+msgstr ""
+
+#. Translate this as Super Famicom (in Far East Asia) or Super Nintendo (in
+#. Europe) if the console was known as such in your locale
+#: data/freedesktop.org.xml.in:3722
+msgid "Super NES ROM"
+msgstr "ROM Super Nintendo"
+
+#: data/freedesktop.org.xml.in:3729
+msgid "StuffIt archive"
+msgstr "Kho nén Stuffit"
+
+#: data/freedesktop.org.xml.in:3740
+msgid "SubRip subtitles"
+msgstr "Phụ đề SubRip"
+
+#: data/freedesktop.org.xml.in:3752
+msgid "WebVTT subtitles"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3763
+msgid "SAMI subtitles"
+msgstr "Phụ đề SAMI"
+
+#: data/freedesktop.org.xml.in:3775
+msgid "MicroDVD subtitles"
+msgstr "Phụ đề MicroDVD"
+
+#: data/freedesktop.org.xml.in:3785
+msgid "MPSub subtitles"
+msgstr "Phụ đề MPSub"
+
+#: data/freedesktop.org.xml.in:3795
+msgid "SSA subtitles"
+msgstr "Phụ đề SSA"
+
+#: data/freedesktop.org.xml.in:3807
+msgid "SubViewer subtitles"
+msgstr "Phụ đề SubViewer"
+
+#: data/freedesktop.org.xml.in:3815
+msgid "iMelody ringtone"
+msgstr "tiếng réo iMelody"
+
+#: data/freedesktop.org.xml.in:3825
+msgid "SMAF audio"
+msgstr "Âm thanh SMAF"
+
+#: data/freedesktop.org.xml.in:3837
+msgid "MRML playlist"
+msgstr "Danh mục nhạc MRML"
+
+#: data/freedesktop.org.xml.in:3847
+msgid "XMF audio"
+msgstr "Âm thanh XMF"
+
+#: data/freedesktop.org.xml.in:3859
+msgid "SV4 CPIO archive"
+msgstr "Kho nén CPIO SV4"
+
+#: data/freedesktop.org.xml.in:3864
+msgid "SV4 CPIO archive (with CRC)"
+msgstr "Kho nén CPIO SV4 (với CRC)"
+
+#: data/freedesktop.org.xml.in:3869
+msgid "Tar archive"
+msgstr "Kho nén tar"
+
+#: data/freedesktop.org.xml.in:3881
+msgid "Tar archive (compressed)"
+msgstr "Kho nén tar (đã nén)"
+
+#: data/freedesktop.org.xml.in:3888
+msgid "generic font file"
+msgstr "tập tin phông giống loài"
+
+#: data/freedesktop.org.xml.in:3893
+msgid "packed font file"
+msgstr "tập tin phông chữ đã đóng gói"
+
+#: data/freedesktop.org.xml.in:3898
+msgid "TGIF document"
+msgstr "Tài liệu TGIF"
+
+#: data/freedesktop.org.xml.in:3906
+msgid "theme"
+msgstr "sắc thái"
+
+#: data/freedesktop.org.xml.in:3912
+msgid "ToutDoux document"
+msgstr "Tài liệu ToutDoux"
+
+#: data/freedesktop.org.xml.in:3916
+msgid "backup file"
+msgstr "tập tin sao lưu"
+
+#: data/freedesktop.org.xml.in:3924
+msgid "Troff document"
+msgstr "Tài liệu Troff"
+
+#: data/freedesktop.org.xml.in:3939
+msgid "Manpage manual document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3945
+msgid "manual page (compressed)"
+msgstr "trang hướng dẫn (đã nén)"
+
+#: data/freedesktop.org.xml.in:3949
+msgid "Tar archive (LZO-compressed)"
+msgstr "Kho nén tar (đã nén LZO)"
+
+#: data/freedesktop.org.xml.in:3956
+msgid "XZ archive"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3964
+msgid "Tar archive (XZ-compressed)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3971
+msgid "Zstandard archive"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3979
+msgid "Tar archive (Zstandard-compressed)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3986
+msgid "PDF document (XZ-compressed)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:3992
+msgid "Ustar archive"
+msgstr "Kho nén ustar"
+
+#: data/freedesktop.org.xml.in:3997
+msgid "WAIS source code"
+msgstr "Mã nguồn WAIS"
+
+#: data/freedesktop.org.xml.in:4003
+msgid "WordPerfect/Drawperfect image"
+msgstr "Ảnh WordPerfect/Drawperfect"
+
+#: data/freedesktop.org.xml.in:4008
+msgid "Bandai WonderSwan ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4013
+msgid "Bandai WonderSwan Color ROM"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4018
+msgid "DER/PEM/Netscape-encoded X.509 certificate"
+msgstr "Chứng nhận X.509 mã hoá bằng Netscape/PEM/DER"
+
+#: data/freedesktop.org.xml.in:4026
+msgid "empty document"
+msgstr "tài liệu rỗng"
+
+#: data/freedesktop.org.xml.in:4029
+msgid "Zoo archive"
+msgstr "Kho nén zoo"
+
+#: data/freedesktop.org.xml.in:4037
+msgid "XHTML page"
+msgstr "Trang XHTML"
+
+#: data/freedesktop.org.xml.in:4055
+msgid "Zip archive"
+msgstr "Kho nén zip"
+
+#: data/freedesktop.org.xml.in:4065
+msgid "WIM disk image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4075
+msgid "Dolby Digital audio"
+msgstr "Âm thanh Dolby Digital"
+
+#: data/freedesktop.org.xml.in:4082
+msgid "DTS audio"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4093
+msgid "DTSHD audio"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4102
+msgid "AMR audio"
+msgstr "Âm thanh AMR"
+
+#: data/freedesktop.org.xml.in:4113
+msgid "AMR-WB audio"
+msgstr "Âm thanh AMR-WB"
+
+#: data/freedesktop.org.xml.in:4124
+msgid "ULAW (Sun) audio"
+msgstr "Âm thanh ULAW (Sun)"
+
+#: data/freedesktop.org.xml.in:4132
+msgid "Commodore 64 audio"
+msgstr "Âm thanh Commodore 64"
+
+#: data/freedesktop.org.xml.in:4140
+msgid "PCM audio"
+msgstr "Âm thanh PCM"
+
+#: data/freedesktop.org.xml.in:4158
+msgid "AIFC audio"
+msgstr "Âm thanh AIFC"
+
+#: data/freedesktop.org.xml.in:4170
+msgid "AIFF/Amiga/Mac audio"
+msgstr "Âm thanh AIFF/Amiga/Mac"
+
+#: data/freedesktop.org.xml.in:4182
+msgid "Monkey's audio"
+msgstr "Âm thanh cua Monkey"
+
+#: data/freedesktop.org.xml.in:4189
+msgid "Audible.Com audio"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4198
+msgid "Audible Enhanced audio"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4205
+msgid "Impulse Tracker audio"
+msgstr "Âm thanh Impulse Tracker"
+
+#: data/freedesktop.org.xml.in:4212
+msgid "FLAC audio"
+msgstr "Âm thanh FLAC"
+
+#: data/freedesktop.org.xml.in:4220
+msgid "WavPack audio"
+msgstr "Âm thanh WavPack"
+
+#: data/freedesktop.org.xml.in:4228
+msgid "WavPack audio correction file"
+msgstr "Tập tin sửa chữa âm thanh WavPack"
+
+#: data/freedesktop.org.xml.in:4235
+msgid "MIDI audio"
+msgstr "Âm thanh MIDI"
+
+#: data/freedesktop.org.xml.in:4245
+msgid "compressed Tracker audio"
+msgstr "âm thanh Tracker đã nén"
+
+#: data/freedesktop.org.xml.in:4252
+msgid "AAC audio"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4265
+msgid "USAC audio"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4272
+msgid "MPEG-4 audio"
+msgstr "Âm thanh MPEG-4"
+
+#: data/freedesktop.org.xml.in:4282
+msgid "MPEG-4 ringtone"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4287
+msgid "MPEG-4 video"
+msgstr "Ảnh động MPEG-4"
+
+#: data/freedesktop.org.xml.in:4304
+msgid "MPEG-4 audio book"
+msgstr "Sách âm thanh MPEG-4"
+
+#: data/freedesktop.org.xml.in:4313
+msgid "3GPP multimedia file"
+msgstr "Tập tin đa phương tiện 3GPP"
+
+#: data/freedesktop.org.xml.in:4336
+msgid "3GPP2 multimedia file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4348
+msgid "Amiga SoundTracker audio"
+msgstr "Âm thanh Amiga SoundTracker"
+
+#: data/freedesktop.org.xml.in:4392
+msgid "MP2 audio"
+msgstr "Âm thanh MP2"
+
+#: data/freedesktop.org.xml.in:4397
+msgid "MP3 audio"
+msgstr "Âm thanh MP3"
+
+#: data/freedesktop.org.xml.in:4410
+msgid "MP3 audio (streamed)"
+msgstr "Âm thanh MP3 (chạy luồng)"
+
+#: data/freedesktop.org.xml.in:4425
+msgid "HTTP Live Streaming playlist"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4437
+msgid "Microsoft ASX playlist"
+msgstr "Danh mục nhạc Microsoft ASX"
+
+#: data/freedesktop.org.xml.in:4454
+msgid "PSF audio"
+msgstr "Âm thanh PSF"
+
+#: data/freedesktop.org.xml.in:4463
+msgid "MiniPSF audio"
+msgstr "Âm thanh MiniPSF"
+
+#: data/freedesktop.org.xml.in:4470
+msgid "PSFlib audio library"
+msgstr "Thư viện âm thanh PSFlib"
+
+#: data/freedesktop.org.xml.in:4477
+msgid "Windows Media audio"
+msgstr "Âm thanh Windows Media"
+
+#: data/freedesktop.org.xml.in:4483
+msgid "Musepack audio"
+msgstr "Âm thanh Musepack"
+
+#: data/freedesktop.org.xml.in:4493
+msgid "RealAudio document"
+msgstr "Tài liệu âm thanh RealAudio"
+
+#: data/freedesktop.org.xml.in:4500
+msgid "RealMedia playlist"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4504
+msgid "RealVideo document"
+msgstr "Tài liệu ảnh động RealVideo"
+
+#: data/freedesktop.org.xml.in:4510
+msgid "RealMedia document"
+msgstr "Tài liệu RealMedia"
+
+#: data/freedesktop.org.xml.in:4524
+msgid "RealPix document"
+msgstr "Tài liệu ảnh RealPix"
+
+#: data/freedesktop.org.xml.in:4528
+msgid "RealText document"
+msgstr "Tài liệu văn bản RealText"
+
+#: data/freedesktop.org.xml.in:4532
+msgid "RIFF audio"
+msgstr "Âm thanh RIFF"
+
+#: data/freedesktop.org.xml.in:4535
+msgid "RIFF container"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4542
+msgid "Scream Tracker 3 audio"
+msgstr "Âm thanh Scream Tracker 3"
+
+#: data/freedesktop.org.xml.in:4549
+msgid "MP3 ShoutCast playlist"
+msgstr "Danh mục nhạc MP3 ShoutCast"
+
+#: data/freedesktop.org.xml.in:4560
+msgid "Scream Tracker audio"
+msgstr "Âm thanh Scream Tracker"
+
+#: data/freedesktop.org.xml.in:4569
+msgid "VOC audio"
+msgstr "Âm thanh VOC"
+
+#: data/freedesktop.org.xml.in:4573
+msgid "WAV audio"
+msgstr "Âm thanh WAV"
+
+#: data/freedesktop.org.xml.in:4583
+msgid "Scream Tracker instrument"
+msgstr "Nhạc khí Scream Tracker"
+
+#: data/freedesktop.org.xml.in:4590
+msgid "FastTracker II audio"
+msgstr "Âm thanh FastTracker II"
+
+#: data/freedesktop.org.xml.in:4597
+msgid "TrueAudio audio"
+msgstr "Âm thanh TrueAudio"
+
+#: data/freedesktop.org.xml.in:4605
+msgid "Windows BMP image"
+msgstr "Ảnh BMP Windows"
+
+#: data/freedesktop.org.xml.in:4620
+msgid "WBMP image"
+msgstr "Ảnh WBMP"
+
+#: data/freedesktop.org.xml.in:4626
+msgid "CGM image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4632
+msgid "CCITT G3 fax image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4637
+msgid "GIF image"
+msgstr "Ảnh GIF"
+
+#: data/freedesktop.org.xml.in:4644
+msgid "HEIF image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4654
+msgid "IEF image"
+msgstr "Ảnh IEF"
+
+#: data/freedesktop.org.xml.in:4658
+msgid "JPEG image"
+msgstr "Ảnh JPEG"
+
+#: data/freedesktop.org.xml.in:4669
+msgid "MJPEG video stream"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4677
+msgid "JPEG-2000 codestream"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4686
+msgid "JPEG-2000 JP2 image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4699
+msgid "JPEG-2000 JPX image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4709
+msgid "JPEG-2000 JPM image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4719
+msgid "JPEG-2000 MJ2 video"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4729
+msgid "OpenRaster image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4741
+msgid "DirectDraw surface"
+msgstr "Mặt DirectDraw"
+
+#: data/freedesktop.org.xml.in:4748
+msgid "X11 cursor"
+msgstr "Con chạy X11"
+
+#: data/freedesktop.org.xml.in:4754
+msgid "EXR image"
+msgstr "Ảnh EXR"
+
+#: data/freedesktop.org.xml.in:4761
+msgid "Macintosh Quickdraw/PICT drawing"
+msgstr "Bản vẽ Quickdraw/PICT của Macintosh"
+
+#: data/freedesktop.org.xml.in:4786
+msgid "UFRaw ID image"
+msgstr "Ảnh ID UFRaw"
+
+#: data/freedesktop.org.xml.in:4794
+msgid "digital raw image"
+msgstr "ảnh thô số"
+
+#: data/freedesktop.org.xml.in:4797
+msgid "Adobe DNG negative"
+msgstr "Âm bản Adobe DNG"
+
+#: data/freedesktop.org.xml.in:4807
+msgid "Canon CRW raw image"
+msgstr "Ảnh thô Canon CRW"
+
+#: data/freedesktop.org.xml.in:4818
+msgid "Canon CR2 raw image"
+msgstr "Ảnh thô Canon CR2"
+
+#: data/freedesktop.org.xml.in:4826
+msgid "Fuji RAF raw image"
+msgstr "Ảnh thô Fuji RAF"
+
+#: data/freedesktop.org.xml.in:4836
+msgid "Kodak DCR raw image"
+msgstr "Ảnh thô Kodak DCR"
+
+#: data/freedesktop.org.xml.in:4844
+msgid "Kodak K25 raw image"
+msgstr "Ảnh thô Kodak K25"
+
+#: data/freedesktop.org.xml.in:4852
+msgid "Kodak KDC raw image"
+msgstr "Ảnh thô Kodak KDC"
+
+#: data/freedesktop.org.xml.in:4863
+msgid "Minolta MRW raw image"
+msgstr "Ảnh thô Minolta MRW"
+
+#: data/freedesktop.org.xml.in:4873
+msgid "Nikon NEF raw image"
+msgstr "Ảnh thô Nikon NEF"
+
+#: data/freedesktop.org.xml.in:4881
+msgid "Olympus ORF raw image"
+msgstr "Ảnh thô Olympus ORF"
+
+#: data/freedesktop.org.xml.in:4896 data/freedesktop.org.xml.in:4906
+msgid "Panasonic raw image"
+msgstr "Ảnh thô Panasonic"
+
+#: data/freedesktop.org.xml.in:4916
+msgid "Pentax PEF raw image"
+msgstr "Ảnh thô Pentax PEF"
+
+#: data/freedesktop.org.xml.in:4924
+msgid "Sigma X3F raw image"
+msgstr "Ảnh thô Sigma X3F"
+
+#: data/freedesktop.org.xml.in:4938
+msgid "Sony SRF raw image"
+msgstr "Ảnh thô Sony SRF"
+
+#: data/freedesktop.org.xml.in:4946
+msgid "Sony SR2 raw image"
+msgstr "Ảnh thô Sony SR2"
+
+#: data/freedesktop.org.xml.in:4954
+msgid "Sony ARW raw image"
+msgstr "Ảnh thô Sony ARW"
+
+#: data/freedesktop.org.xml.in:4962
+msgid "PNG image"
+msgstr "Ảnh PNG"
+
+#: data/freedesktop.org.xml.in:4969
+msgid "RLE bitmap image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:4975
+msgid "SVG image"
+msgstr "Ảnh SVG"
+
+#: data/freedesktop.org.xml.in:4993
+msgid "compressed SVG image"
+msgstr "ảnh SVG đã nén"
+
+#: data/freedesktop.org.xml.in:5000
+msgid "TIFF image"
+msgstr "Ảnh TIFF"
+
+#: data/freedesktop.org.xml.in:5011
+msgid "Multi-page TIFF image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5017
+msgid "AutoCAD image"
+msgstr "Ảnh AutoCAD"
+
+#: data/freedesktop.org.xml.in:5021
+msgid "DXF vector image"
+msgstr "Ảnh véc-tơ DXF"
+
+#: data/freedesktop.org.xml.in:5029
+msgid "MDI image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5038
+msgid "WebP image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5047
+msgid "3D Studio image"
+msgstr "Ảnh xuởng vẽ 3D"
+
+#: data/freedesktop.org.xml.in:5054
+msgid "Applix Graphics image"
+msgstr "Ảnh Applix Graphics"
+
+#: data/freedesktop.org.xml.in:5063
+msgid "EPS image (bzip-compressed)"
+msgstr "Ảnh EPS (đã nén bzip)"
+
+#: data/freedesktop.org.xml.in:5070
+msgid "CMU raster image"
+msgstr "Ảnh mành CMU"
+
+#: data/freedesktop.org.xml.in:5074
+msgid "compressed GIMP image"
+msgstr "ảnh GIMP đã nén"
+
+#: data/freedesktop.org.xml.in:5079
+msgid "DICOM image"
+msgstr "Ảnh DICOM"
+
+#: data/freedesktop.org.xml.in:5090
+msgid "DocBook document"
+msgstr "Tài liệu DocBook"
+
+#: data/freedesktop.org.xml.in:5105
+msgid "DIB image"
+msgstr "Ảnh DIB"
+
+#: data/freedesktop.org.xml.in:5113
+msgid "DjVu image"
+msgstr "Ảnh DjVu"
+
+#: data/freedesktop.org.xml.in:5128
+msgid "DjVu document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5143
+msgid "DPX image"
+msgstr "Ảnh DPX"
+
+#: data/freedesktop.org.xml.in:5151
+msgid "EPS image"
+msgstr "Ảnh EPS"
+
+#: data/freedesktop.org.xml.in:5169
+msgid "FITS document"
+msgstr "Tài liệu FITS"
+
+#: data/freedesktop.org.xml.in:5179
+msgid "FPX image"
+msgstr "Ảnh FPX"
+
+#: data/freedesktop.org.xml.in:5187
+msgid "EPS image (gzip-compressed)"
+msgstr "Ảnh EPS (đã nén gzip)"
+
+#: data/freedesktop.org.xml.in:5194
+msgid "Windows icon"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5209
+msgid "MacOS X icon"
+msgstr "Biểu tượng MacOS X"
+
+#: data/freedesktop.org.xml.in:5216
+msgid "ILBM image"
+msgstr "Ảnh ILBM"
+
+#: data/freedesktop.org.xml.in:5230
+msgid "JNG image"
+msgstr "Ảnh JNG"
+
+#: data/freedesktop.org.xml.in:5236
+msgid "LightWave object"
+msgstr "Đối tượng LightWave"
+
+#: data/freedesktop.org.xml.in:5241
+msgid "LightWave scene"
+msgstr "Cảnh LightWave"
+
+#: data/freedesktop.org.xml.in:5245
+msgid "MacPaint Bitmap image"
+msgstr "Ảnh mảng MacPaint"
+
+#: data/freedesktop.org.xml.in:5249
+msgid "Office drawing"
+msgstr "Bản vẽ Office"
+
+#: data/freedesktop.org.xml.in:5253
+msgid "NIFF image"
+msgstr "Ảnh NIFF"
+
+#: data/freedesktop.org.xml.in:5259
+msgid "PCX image"
+msgstr "Ảnh PCX"
+
+#: data/freedesktop.org.xml.in:5274
+msgid "PCD image"
+msgstr "Ảnh PCD"
+
+#: data/freedesktop.org.xml.in:5280
+msgid "PNM image"
+msgstr "Ảnh PNM"
+
+#: data/freedesktop.org.xml.in:5284
+msgid "PBM image"
+msgstr "Ảnh PBM"
+
+#: data/freedesktop.org.xml.in:5305
+msgid "PGM image"
+msgstr "Ảnh PGM"
+
+#: data/freedesktop.org.xml.in:5326
+msgid "PPM image"
+msgstr "Ảnh PPM"
+
+#: data/freedesktop.org.xml.in:5347
+msgid "Photoshop image"
+msgstr "Ảnh Photoshop"
+
+#: data/freedesktop.org.xml.in:5360
+msgid "RGB image"
+msgstr "Ảnh kiểu RGB"
+
+#: data/freedesktop.org.xml.in:5364
+msgid "SGI image"
+msgstr "Ảnh SGI"
+
+#: data/freedesktop.org.xml.in:5368
+msgid "Sun raster image"
+msgstr "Ảnh mành Sun"
+
+#: data/freedesktop.org.xml.in:5375
+msgid "TGA image"
+msgstr "Ảnh TGA"
+
+#: data/freedesktop.org.xml.in:5401
+msgid "Windows cursor"
+msgstr "Con chạy Windows"
+
+#: data/freedesktop.org.xml.in:5410
+msgid "Windows animated cursor"
+msgstr "Con chạy hoạt họa Windows"
+
+#: data/freedesktop.org.xml.in:5419
+msgid "EMF image"
+msgstr "Ảnh EMF"
+
+#: data/freedesktop.org.xml.in:5437
+msgid "WMF image"
+msgstr "Ảnh WMF"
+
+#: data/freedesktop.org.xml.in:5461
+msgid "XBM image"
+msgstr "Ảnh XBM"
+
+#: data/freedesktop.org.xml.in:5467
+msgid "GIMP image"
+msgstr "Ảnh GIMP"
+
+#: data/freedesktop.org.xml.in:5475
+msgid "GIMP brush"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5482
+msgid "GIMP brush pipe"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5486
+msgid "GIMP pattern"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5493
+msgid "XFig image"
+msgstr "Ảnh XFig"
+
+#: data/freedesktop.org.xml.in:5500
+msgid "XPM image"
+msgstr "Ảnh XPM"
+
+#: data/freedesktop.org.xml.in:5510
+msgid "X window image"
+msgstr "Ảnh cửa sổ X"
+
+#: data/freedesktop.org.xml.in:5514
+msgid "block device"
+msgstr "thiết bị khối"
+
+#: data/freedesktop.org.xml.in:5517
+msgid "character device"
+msgstr "thiết bị ký tự"
+
+#: data/freedesktop.org.xml.in:5520
+msgid "folder"
+msgstr "thư mục"
+
+#: data/freedesktop.org.xml.in:5525
+msgid "pipe"
+msgstr "ống dẫn"
+
+#: data/freedesktop.org.xml.in:5528
+msgid "mount point"
+msgstr "điểm lắp"
+
+#: data/freedesktop.org.xml.in:5532
+msgid "socket"
+msgstr "ổ cắm"
+
+#: data/freedesktop.org.xml.in:5535
+msgid "symbolic link"
+msgstr "liên kết tượng trưng"
+
+#: data/freedesktop.org.xml.in:5538
+msgid "mail delivery report"
+msgstr "thông báo phát thư"
+
+#: data/freedesktop.org.xml.in:5543
+msgid "mail disposition report"
+msgstr "thông báo chuyển nhượng thư"
+
+#: data/freedesktop.org.xml.in:5548
+msgid "reference to remote file"
+msgstr "tham chiếu đến tập tin ở xa"
+
+#: data/freedesktop.org.xml.in:5552
+msgid "Usenet news message"
+msgstr "Thông điệp tin tức USENET"
+
+#: data/freedesktop.org.xml.in:5562
+msgid "partial email message"
+msgstr "thư điện tử riêng phần"
+
+#: data/freedesktop.org.xml.in:5567
+msgid "email message"
+msgstr "thư điện tử"
+
+#: data/freedesktop.org.xml.in:5585
+msgid "GNU mail message"
+msgstr "Thư điện tử của GNU"
+
+#: data/freedesktop.org.xml.in:5590
+msgid "IGES document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5603
+msgid "VRML document"
+msgstr "Tài liệu VRML"
+
+#: data/freedesktop.org.xml.in:5616
+msgid "message in several formats"
+msgstr "thông điệp có vài định dạng"
+
+#: data/freedesktop.org.xml.in:5619
+msgid "Macintosh AppleDouble-encoded file"
+msgstr "Tập tin đã mã hoá Apple-Double của Macintosh"
+
+#: data/freedesktop.org.xml.in:5622
+msgid "message digest"
+msgstr "bản tóm tắt thông điệp"
+
+#: data/freedesktop.org.xml.in:5625
+msgid "encrypted message"
+msgstr "thông điệp đã mật mã"
+
+#: data/freedesktop.org.xml.in:5628
+msgid "compound documents"
+msgstr "tài liệu ghép"
+
+#: data/freedesktop.org.xml.in:5631
+msgid "compound document"
+msgstr "tài liệu ghép"
+
+#: data/freedesktop.org.xml.in:5634
+msgid "mail system report"
+msgstr "thông báo hệ thống thư"
+
+#: data/freedesktop.org.xml.in:5637
+msgid "signed message"
+msgstr "thông điệp đã ký"
+
+#: data/freedesktop.org.xml.in:5640
+msgid "stream of data (server push)"
+msgstr "luồng dữ liệu (trình phục vụ đẩy)"
+
+#: data/freedesktop.org.xml.in:5643
+msgid "VCS/ICS calendar"
+msgstr "Lịch VCS/ICS"
+
+#: data/freedesktop.org.xml.in:5657
+msgid "CSS stylesheet"
+msgstr "Tờ kiểu dáng CSS"
+
+#: data/freedesktop.org.xml.in:5664
+msgid "electronic business card"
+msgstr "danh thiếp điện tử"
+
+#: data/freedesktop.org.xml.in:5678
+msgid "Turtle document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5683
+msgid "txt2tags document"
+msgstr "tài liệu txt2tags"
+
+#: data/freedesktop.org.xml.in:5692
+msgid "Verilog source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5697
+msgid "SystemVerilog header"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5702
+msgid "SystemVerilog source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5707
+msgid "VHDL source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5715
+msgid "enriched text document"
+msgstr "tài liệu văn bản có kiểu dáng"
+
+#: data/freedesktop.org.xml.in:5719
+msgid "help page"
+msgstr "trang trợ giúp"
+
+#: data/freedesktop.org.xml.in:5723
+msgid "plain text document"
+msgstr "tài liệu nhập thô"
+
+#: data/freedesktop.org.xml.in:5733
+msgid "RDF file"
+msgstr "Tập tin RDF"
+
+#: data/freedesktop.org.xml.in:5744
+msgid "reStructuredText document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5749
+msgid "OWL XML file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5760
+msgid "email headers"
+msgstr "dòng đầu thư điện tử"
+
+#: data/freedesktop.org.xml.in:5764
+msgid "rich text document"
+msgstr "tài liệu văn bản có kiểu dáng (RTF)"
+
+#: data/freedesktop.org.xml.in:5769
+msgid "RSS summary"
+msgstr "Bản tóm tắt RSS"
+
+#: data/freedesktop.org.xml.in:5782
+msgid "Atom syndication feed"
+msgstr "Nguồn tin tức Atom"
+
+#: data/freedesktop.org.xml.in:5792
+msgid "OPML syndication feed"
+msgstr "Nguồn tin tức OPML"
+
+#: data/freedesktop.org.xml.in:5802
+msgid "SGML document"
+msgstr "Tài liệu SGML"
+
+#: data/freedesktop.org.xml.in:5810
+msgid "spreadsheet interchange document"
+msgstr "tài liệu hoán đổi bảng tính"
+
+#: data/freedesktop.org.xml.in:5819
+msgid "TSV document"
+msgstr "Tài liệu TSV"
+
+#: data/freedesktop.org.xml.in:5826
+msgid "Graphviz DOT graph"
+msgstr "Biểu đồ DOT Graphviz"
+
+#: data/freedesktop.org.xml.in:5838
+msgid "JAD document"
+msgstr "Tài liệu JAD"
+
+#: data/freedesktop.org.xml.in:5847
+msgid "WML document"
+msgstr "Tài liệu WML"
+
+#: data/freedesktop.org.xml.in:5854
+msgid "WMLScript program"
+msgstr "Chương trình WMLScript"
+
+#: data/freedesktop.org.xml.in:5858
+msgid "WarpScript source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5863
+msgid "ACE archive"
+msgstr "Kho nén ACE"
+
+#: data/freedesktop.org.xml.in:5871
+msgid "Ada source code"
+msgstr "Mã nguồn Ada"
+
+#: data/freedesktop.org.xml.in:5877
+msgid "author list"
+msgstr "danh sách tác giả"
+
+#: data/freedesktop.org.xml.in:5882
+msgid "BibTeX document"
+msgstr "Tài liệu BibTeX"
+
+#: data/freedesktop.org.xml.in:5890
+msgid "C++ header"
+msgstr "Phần đầu mã nguồn C++"
+
+#: data/freedesktop.org.xml.in:5899
+msgid "C++ source code"
+msgstr "Mã nguồn C++"
+
+#: data/freedesktop.org.xml.in:5908
+msgid "ChangeLog document"
+msgstr "Tài liệu ChangeLog (ghi lưu thay đổi)"
+
+#: data/freedesktop.org.xml.in:5913
+msgid "C header"
+msgstr "Phần đầu mã nguồn C"
+
+#: data/freedesktop.org.xml.in:5918
+msgid "CMake source code"
+msgstr "Mã nguồn CMake"
+
+#: data/freedesktop.org.xml.in:5924
+msgid "Common Lisp source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5932
+msgid "CSV document"
+msgstr "Tài liệu CSV"
+
+#: data/freedesktop.org.xml.in:5941
+msgid "CSV Schema document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5948
+msgid "license terms"
+msgstr "điều kiện giấy phép"
+
+#: data/freedesktop.org.xml.in:5953
+msgid "author credits"
+msgstr "công trạng tác giả"
+
+#: data/freedesktop.org.xml.in:5958
+msgid "C source code"
+msgstr "Mã nguồn C"
+
+#: data/freedesktop.org.xml.in:5969
+msgid "C# source code"
+msgstr "Mã nguồn C#"
+
+#: data/freedesktop.org.xml.in:5974
+msgid "Vala source code"
+msgstr "Mã nguồn Vala"
+
+#: data/freedesktop.org.xml.in:5980
+msgid "OOC source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:5987
+msgid "DCL script"
+msgstr "Văn lệnh DCL"
+
+#: data/freedesktop.org.xml.in:5994
+msgid "DSSSL document"
+msgstr "Tài liệu DSSSL"
+
+#: data/freedesktop.org.xml.in:6001
+msgid "D source code"
+msgstr "Mã nguồn D"
+
+#: data/freedesktop.org.xml.in:6007
+msgid "DTD file"
+msgstr "Tập tin DTD"
+
+#: data/freedesktop.org.xml.in:6016
+msgid "Eiffel source code"
+msgstr "Mã nguồn Eiffel"
+
+#: data/freedesktop.org.xml.in:6022
+msgid "Emacs Lisp source code"
+msgstr "Mã nguồn Lisp Emacs"
+
+#: data/freedesktop.org.xml.in:6031
+msgid "Erlang source code"
+msgstr "Mã nguồn Erlang"
+
+#: data/freedesktop.org.xml.in:6036
+msgid "Fortran source code"
+msgstr "Mã nguồn Fortran"
+
+#: data/freedesktop.org.xml.in:6044
+msgid "Genie source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6050
+msgid "translation file"
+msgstr "tập tin dịch"
+
+#: data/freedesktop.org.xml.in:6057
+msgid "translation template"
+msgstr "mẫu dịch"
+
+#: data/freedesktop.org.xml.in:6066
+msgid "Gherkin document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6071
+msgid "HTML document"
+msgstr "Tài liệu HTML"
+
+#: data/freedesktop.org.xml.in:6100
+msgid "Web application cache file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6113
+msgid "Google Video Pointer shortcut"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6122
+msgid "Haskell source code"
+msgstr "Mã nguồn Haskell"
+
+#: data/freedesktop.org.xml.in:6127
+msgid "IDL document"
+msgstr "Tài liệu IDL"
+
+#: data/freedesktop.org.xml.in:6134
+msgid "installation instructions"
+msgstr "hướng dẫn cài đặt"
+
+#: data/freedesktop.org.xml.in:6139
+msgid "Java source code"
+msgstr "Mã nguồn Java"
+
+#: data/freedesktop.org.xml.in:6144
+msgid "LDIF address book"
+msgstr "Sổ địa chỉ LDIF"
+
+#: data/freedesktop.org.xml.in:6155
+msgid "Lilypond music sheet"
+msgstr "Bản nhạc Lilypond"
+
+#: data/freedesktop.org.xml.in:6160
+msgid "LHS source code"
+msgstr "Mã nguồn LHS"
+
+#: data/freedesktop.org.xml.in:6167
+msgid "application log"
+msgstr "bản ghi ứng dụng"
+
+#: data/freedesktop.org.xml.in:6172
+msgid "Makefile build file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6185
+msgid "Markdown document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6193
+msgid "Qt MOC file"
+msgstr "Tập tin MOC của Qt"
+
+#: data/freedesktop.org.xml.in:6200
+msgid "Windows Registry extract"
+msgstr "Bản trích Registry Windows"
+
+#: data/freedesktop.org.xml.in:6210
+msgid "MOF file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6217
+msgid "Mup musical composition document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6226
+msgid "Objective-C source code"
+msgstr "Mã nguồn Objective-C"
+
+#: data/freedesktop.org.xml.in:6234
+msgid "OCaml source code"
+msgstr "Mã nguồn OCaml"
+
+#: data/freedesktop.org.xml.in:6239
+msgid "OpenCL source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6246
+msgid "MATLAB file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6261
+msgid "Meson source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6267
+msgid "Modelica model"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6287
+msgid "Pascal source code"
+msgstr "Mã nguồn Pascal"
+
+#: data/freedesktop.org.xml.in:6293
+msgid "differences between files"
+msgstr "khác biệt giữa các tập tin"
+
+#: data/freedesktop.org.xml.in:6312
+msgid "Go source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6317
+msgid "SCons configuration file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6324
+msgid "Python 3 script"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6343
+msgid "Python script"
+msgstr "Văn lệnh Python"
+
+#: data/freedesktop.org.xml.in:6363
+msgid "SageMath script"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6368
+msgid "Lua script"
+msgstr "Văn lệnh Lua"
+
+#: data/freedesktop.org.xml.in:6380
+msgid "README document"
+msgstr "Tài liệu Đọc Đi (README)"
+
+#: data/freedesktop.org.xml.in:6385
+msgid "NFO document"
+msgstr "Tài liệu NFO"
+
+#: data/freedesktop.org.xml.in:6390
+msgid "RPM spec file"
+msgstr "Tập tin đặc tả RPM"
+
+#: data/freedesktop.org.xml.in:6401
+msgid "Sass CSS pre-processor file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6409
+msgid "Scala source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6414
+msgid "Scheme source code"
+msgstr "Mã nguồn Scheme"
+
+#: data/freedesktop.org.xml.in:6420
+msgid "SCSS pre-processor file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6428
+msgid "Setext document"
+msgstr "Tài liệu Setext"
+
+#: data/freedesktop.org.xml.in:6433
+msgid "SQL code"
+msgstr "Mã SQL"
+
+#: data/freedesktop.org.xml.in:6439
+msgid "Tcl script"
+msgstr "Văn lệnh Tcl"
+
+#: data/freedesktop.org.xml.in:6446
+msgid "TeX document"
+msgstr "Tài liệu TeX"
+
+#: data/freedesktop.org.xml.in:6464
+msgid "TeXInfo document"
+msgstr "Tài liệu TeXInfo"
+
+#: data/freedesktop.org.xml.in:6470
+msgid "Troff ME input document"
+msgstr "Tài liệu nhập ME Troff"
+
+#: data/freedesktop.org.xml.in:6475
+msgid "Troff MM input document"
+msgstr "Tài liệu nhập MM Troff"
+
+#: data/freedesktop.org.xml.in:6480
+msgid "Troff MS input document"
+msgstr "Tài liệu nhập MS Troff"
+
+#: data/freedesktop.org.xml.in:6485
+msgid "Twig template"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6491
+msgid "X-Motif UIL table"
+msgstr "Bảng UIL X-Motif"
+
+#: data/freedesktop.org.xml.in:6496
+msgid "resource location"
+msgstr "địa điểm tài nguyên"
+
+#: data/freedesktop.org.xml.in:6501
+msgid "uuencoded file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6510
+msgid "VBScript program"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6517
+msgid "XMI file"
+msgstr "Tập tin XMI"
+
+#: data/freedesktop.org.xml.in:6526
+msgid "XSL FO file"
+msgstr "Tập tin FO của XSL (XFO)"
+
+#: data/freedesktop.org.xml.in:6535
+msgid "iptables configuration file"
+msgstr "tập tin cấu hình iptables"
+
+#: data/freedesktop.org.xml.in:6560
+msgid "D-Bus service file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6569
+msgid "systemd unit file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6613
+msgid "XSLT stylesheet"
+msgstr "Tờ kiểu dáng XSLT"
+
+#: data/freedesktop.org.xml.in:6626
+msgid "Maven description file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6633
+msgid "XMCD CD database"
+msgstr "Cơ sở dữ liệu CD XMCD"
+
+#: data/freedesktop.org.xml.in:6640
+msgid "XML document"
+msgstr "Tài liệu XML"
+
+#: data/freedesktop.org.xml.in:6655
+msgid "XML entities document"
+msgstr "Tài liệu thực thể XML"
+
+#: data/freedesktop.org.xml.in:6664
+msgid "DV video"
+msgstr "Ảnh động DV"
+
+#: data/freedesktop.org.xml.in:6673
+msgid "ISI video"
+msgstr "Ảnh động ISI"
+
+#: data/freedesktop.org.xml.in:6676
+msgid "MPEG-2 transport stream"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6711
+msgid "MPEG video"
+msgstr "Ảnh động MPEG"
+
+#: data/freedesktop.org.xml.in:6731
+msgid "MPEG video (streamed)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6742
+msgid "QuickTime video"
+msgstr "Ảnh động QuickTime"
+
+#: data/freedesktop.org.xml.in:6755
+msgid "QuickTime image"
+msgstr "Ảnh QuickTime"
+
+#: data/freedesktop.org.xml.in:6763
+msgid "Khronos texture image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6774
+msgid "ASTC texture"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6783
+msgid "Vivo video"
+msgstr "Ảnh động Vivo"
+
+#: data/freedesktop.org.xml.in:6789
+msgid "Wavelet video"
+msgstr "Ảnh động Wavelet"
+
+#: data/freedesktop.org.xml.in:6792
+msgid "ANIM animation"
+msgstr "Hoạt ảnh ANIM"
+
+#: data/freedesktop.org.xml.in:6796
+msgid "FLIC animation"
+msgstr "Hoạt ảnh FLIC"
+
+#: data/freedesktop.org.xml.in:6807
+msgid "Haansoft Hangul document"
+msgstr "Tài liệu Hangul Haansoft"
+
+#: data/freedesktop.org.xml.in:6816
+msgid "Haansoft Hangul document template"
+msgstr "Mẫu tài liệu Hangul Haansoft"
+
+#: data/freedesktop.org.xml.in:6822
+msgid "MNG animation"
+msgstr "Hoạt ảnh MNG"
+
+#: data/freedesktop.org.xml.in:6831
+msgid "ASF video"
+msgstr "Ảnh động ASF"
+
+#: data/freedesktop.org.xml.in:6844
+msgid "Windows Media Station file"
+msgstr "Tập tin Windows Media Station"
+
+#: data/freedesktop.org.xml.in:6853
+msgid "Windows Media video"
+msgstr "Ảnh động Windows Media"
+
+#: data/freedesktop.org.xml.in:6858
+msgid "AVI video"
+msgstr "Ảnh động AVI"
+
+#: data/freedesktop.org.xml.in:6879
+msgid "NullSoft video"
+msgstr "Ảnh động NullSoft"
+
+#: data/freedesktop.org.xml.in:6886
+msgid "SDP multicast stream file"
+msgstr "Tập tin luồng truyền một-nhiều SDP"
+
+#: data/freedesktop.org.xml.in:6901
+msgid "SGI video"
+msgstr "Ảnh động SGI"
+
+#: data/freedesktop.org.xml.in:6908
+msgid "eMusic download package"
+msgstr "gói nhạc tải xuống eMusic"
+
+#: data/freedesktop.org.xml.in:6916
+msgid "KML geographic data"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6924
+msgid "KML geographic compressed data"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6931
+msgid "GeoJSON geospatial data"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6938
+msgid "GPX geographic data"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6950
+msgid "Citrix ICA settings file"
+msgstr "Tập tin thiết lập ICA Citrix"
+
+#: data/freedesktop.org.xml.in:6958
+msgid "XUL interface document"
+msgstr "Tài liệu giao diện XUL"
+
+#: data/freedesktop.org.xml.in:6967
+msgid "XPInstall installer module"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6972
+msgid "Word 2007 document"
+msgstr "Tài liệu Word 2007"
+
+#: data/freedesktop.org.xml.in:6978
+msgid "Word 2007 document template"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6984
+msgid "PowerPoint 2007 presentation"
+msgstr "Trình diễn PowerPoint 2007"
+
+#: data/freedesktop.org.xml.in:6990
+msgid "PowerPoint 2007 slide"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:6996
+msgid "PowerPoint 2007 show"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7002
+msgid "PowerPoint 2007 presentation template"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7008
+msgid "Excel 2007 spreadsheet"
+msgstr "Bảng tính Excel 2007"
+
+#: data/freedesktop.org.xml.in:7014
+msgid "Excel 2007 spreadsheet template"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7020
+msgid "T602 document"
+msgstr "Tài liệu T602"
+
+#: data/freedesktop.org.xml.in:7030
+msgid "Cisco VPN settings"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7040
+msgid "ICC profile"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7048
+msgid "IT 8.7 color calibration file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7057
+msgid "CCMX color correction file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7066
+msgid "WinHelp help file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7074
+msgid "binary differences between files"
+msgstr ""
+
+#. http://en.wikipedia.org/wiki/Design_rule_for_Camera_File_system
+#: data/freedesktop.org.xml.in:7085
+msgid "digital photos"
+msgstr "ảnh chụp số"
+
+#. TRANSLATORS: This is a brand-name, not a generic term. Please see
+#. http://en.wikipedia.org/wiki/Video_CD
+#. http://www.herongyang.com/CD-DVD/VCD-Movie-File-Directory-Structure.html
+#: data/freedesktop.org.xml.in:7095
+msgid "Video CD"
+msgstr "Đĩa CD ảnh động"
+
+#. TRANSLATORS: This is a brand-name, not a generic term. Please see
+#. http://en.wikipedia.org/wiki/Super_Video_CD
+#. http://everything2.com/index.pl?node_id=1009222
+#: data/freedesktop.org.xml.in:7105
+msgid "Super Video CD"
+msgstr "Đĩa CD siêu ảnh động"
+
+#. http://en.wikipedia.org/wiki/DVD-Video
+#: data/freedesktop.org.xml.in:7113
+msgid "video DVD"
+msgstr "đĩa DVD ảnh động"
+
+#. http://en.wikipedia.org/wiki/Red_Book_(audio_CD_standard)
+#: data/freedesktop.org.xml.in:7124
+msgid "audio CD"
+msgstr "đĩa CD âm thanh"
+
+#. http://en.wikipedia.org/wiki/Compact_Disc
+#: data/freedesktop.org.xml.in:7129
+msgid "blank CD disc"
+msgstr "đĩa CD trống"
+
+#. http://en.wikipedia.org/wiki/DVD
+#: data/freedesktop.org.xml.in:7134
+msgid "blank DVD disc"
+msgstr "đĩa DVD trống"
+
+#. http://en.wikipedia.org/wiki/Blu-ray_Disc
+#: data/freedesktop.org.xml.in:7139
+msgid "blank Blu-ray disc"
+msgstr "đĩa Blu-ray trống"
+
+#. http://en.wikipedia.org/wiki/HD_DVD
+#: data/freedesktop.org.xml.in:7144
+msgid "blank HD DVD disc"
+msgstr "đĩa DVD HD trống"
+
+#. http://en.wikipedia.org/wiki/DVD-Audio
+#: data/freedesktop.org.xml.in:7149
+msgid "audio DVD"
+msgstr "đĩa DVD âm thanh"
+
+#. http://en.wikipedia.org/wiki/Blu-ray_Disc
+#. http://www.blu-raydisc.com/Section-13470/Section-13890/Index.html
+#: data/freedesktop.org.xml.in:7159
+msgid "Blu-ray video disc"
+msgstr "Đĩa ảnh động Blu-ray"
+
+#. http://en.wikipedia.org/wiki/HD_DVD
+#. http://www.dvdafteredit.com/wiki/The_HVDVD_TS_Folder
+#: data/freedesktop.org.xml.in:7169
+msgid "HD DVD video disc"
+msgstr "Đĩa ảnh động DVD HD"
+
+#. see fd.o hal spec
+#: data/freedesktop.org.xml.in:7179
+msgid "e-book reader"
+msgstr ""
+
+#. TRANSLATORS: This is a brand-name, not a generic term. Please see
+#. http://en.wikipedia.org/wiki/Picture_CD
+#. http://www.re.org/kristin/picturecd.html
+#: data/freedesktop.org.xml.in:7190
+msgid "Picture CD"
+msgstr "Đĩa CD ảnh"
+
+#. see fd.o hal spec
+#: data/freedesktop.org.xml.in:7198
+msgid "portable audio player"
+msgstr "bộ phát nhạc di động"
+
+#. https://github.com/ostreedev/ostree/blob/master/man/ostree-create-usb.xml
+#: data/freedesktop.org.xml.in:7203
+msgid "OSTree software updates"
+msgstr ""
+
+#. http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
+#. http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3
+#: data/freedesktop.org.xml.in:7214
+msgid "software"
+msgstr "phần mềm"
+
+#. http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
+#. http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3
+#: data/freedesktop.org.xml.in:7220
+msgid "UNIX software"
+msgstr ""
+
+#. http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
+#. http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3
+#: data/freedesktop.org.xml.in:7232
+msgid "Windows software"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7241
+msgid "TriG RDF document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7250
+msgid "Apple Keynote 5 presentation"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7263
+msgid "Adobe PageMaker document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7273
+msgid "Doom WAD file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7285
+msgid "Amiga disk image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7293
+msgid "Flatpak application bundle"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7305
+msgid "Flatpak repository description"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7315
+msgid "Flatpak repository reference"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7325
+msgid "Squashfs filesystem image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7352
+msgid "Snap package"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7359
+msgid "STL 3D model"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7372
+msgid "G-code file"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7379
+msgid "Nintendo FDS disk image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7389
+msgid "QEMU QCOW disk image"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7402
+msgid "AppleWorks document"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7408
+msgid "BPS patch"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7418
+msgid "IPS patch"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7428
+msgid "Pyspread spreadsheet"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7436
+msgid "Pyspread spreadsheet (bzip-compressed)"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7443
+msgid "Kotlin source code"
+msgstr ""
+
+#: data/freedesktop.org.xml.in:7449
+msgid "AV1 Image File Format (AVIF)"
+msgstr ""

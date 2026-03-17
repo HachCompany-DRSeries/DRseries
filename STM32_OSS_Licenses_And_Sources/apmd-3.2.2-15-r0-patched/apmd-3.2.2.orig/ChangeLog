@@ -1,0 +1,567 @@
+2004-01-04  Thomas Hood  <jdthood@yahoo.co.uk>
+
+	* Release 3.2.1
+	  - Update this ChangeLog
+	  - Update VERSION in Makefile
+	* Integrate README.transfer into ChangeLog
+	* Integrate obsolete README into ChangeLog
+	* Rename ANNOUNCE to README, update and add license refs
+	* Delete TODO
+	* Create AUTHORS
+	* Rename COPYING.LIB to apmlib.COPYING
+	* Fix typo in apmlib.COPYING
+	* Update COPYING
+	* Rename BUGS.apmsleep to apmsleep.README
+	* manpages:
+	  - Updated
+	  - They no longer need patches for Debian
+	  - Dashes are escaped with backslashes
+	  - Refer to "line" power as instead of "AC" power
+	  - French apmsleep man page is apmsleep.fr.1
+	* Move stephen_disenable_patch into abilitize/
+	* Copy on_ac_power from Debian version
+	* Evacuate apmd_proxy since everything in there was obsolete
+	* Update LSM
+
+2003-01-16  Chris Hanson  <cph@zurich.ai.mit.edu>
+
+	* Release 3.2.0: further cleanups by Thomas Hood after several
+	  versions of the 3.1.0 Debian packages.
+
+2002-12-08  Thomas Hood  <jdthood@yahoo.co.uk>
+
+	* Release 3.1.0
+	  Some of the changes:
+	* Clean up handling of suspend and standby rejection.
+	  (It was proposed long ago that the Linux apm driver allow
+	  userspace to reject suspend & standby requests by issuing an
+	  ioctl(APM_IOC_REJECT).  This has not yet been implemented.
+	  Nevertheless, most of the supporting code has now been added
+	  to apmlib and apmd.)
+	  apm_reject() is defined as -EINVAL in apm.h; however a stub
+	  function of the same name is still compiled for inclusion in
+	  libapm
+	* Try to use the term "line" rather than "AC", since the external
+	  power source isn't always AC.
+	* apm.h
+		* Define apm_reject() as a constant (-EINVAL) so that
+		  programs that use this header will have the call
+		  optimized away for now
+	* apmlib.c
+		* Clean up
+		* apm_suspend() passes EBUSY error code from apm driver
+		* apm_reject() returns -EINVAL for now, but the code
+		  should now be ready for implementation (in the apm
+		  driver) of userspace rejection of suspend and standby
+		  requests.
+		* Remove unneeded apm_last_error() function.  Errors
+		  are returned by ioctl() in errno and can be returned
+		  from functions in apmlib such as apm_suspend() and
+		  apm_reject().
+	* apmd.c
+		* Clean up extensively
+		* Improve battery status printing
+		* Improve verbosity handling
+		* Add -T option to terminate proxies that fail to 
+		  complete within a reasonable time
+		* Add -i option to deal with bogus LOW BATTERY events
+		  on some machines
+		* Handle -EBUSY error code (which signals rejection
+		  of suspend request) from apm_suspend()
+		* Fix up use of apm_reject().  apmd.c should now be
+		  ready for implementation of userspace rejection of
+		  suspend and standby requests.
+		* Log event before running proxy
+		* Call proxy with "change power" when battery starts
+		  or stops charging
+		* Move change log material at the top of the file
+		  to this ChangeLog
+	* apmd.8
+		* Largely rewritten
+	* apm.c
+		* Fix bug: didn't update on switch to battery power
+		* Clean up output
+	* xapm.c
+		* 'P' => 'L' in display   (for "line" power)
+	* Makefile
+		* Add some targets
+	* on_ac_power
+		* Largely rewritten
+
+2001-09-13  Avery Pennarun  <apenwarr@insight>
+
+	* debian/00hwclock, debian/20hdparm, debian/apmd_proxy, debian/apmd_proxy.conf, debian/changelog, debian/conffiles, debian/config, debian/control, debian/copyright, debian/dirs, debian/postinst, debian/rules, debian/templates:
+	A bunch of Debian-related fixes (debconf and apmd_proxy.conf) from Chris
+	Hanson <cph@zurich.ai.mit.edu>.
+
+2001-05-11  Avery Pennarun  <apenwarr@insight>
+
+	* debian/apmd_proxy, debian/changelog, debian/control, apmd.8, apmsleep.1:
+
+	Several debian-related fixes.
+
+	* debian/control, apm.c, apmlib.c, apmsleep.c, stephen-disenable-patch, tailf.1:
+
+	Various changes, particularly to make it build on newer libc versions.
+
+2000-06-14  Avery Pennarun  <apenwarr@insight>
+
+	* apm.c:
+	Patch from Dominik Rothert <dr@domix.de> for "apm --monitor" to show a
+	continually-updated apm status on a terminal or in a window.
+
+2000-05-18  Avery Pennarun  <apenwarr@insight>
+
+	* debian/changelog, debian/dirs, debian/rules, Makefile:
+
+	Changes for Debian package 3.0final-2.
+
+2000-02-07  Avery Pennarun  <apenwarr@insight>
+
+	* Makefile, apmsleep.1, apmsleep.c:
+
+	New apmsleep -precise flag from Peter Englmaier.
+
+2000-01-07  Avery Pennarun  <apenwarr@insight>
+
+	* BUGS.apmsleep, apmsleep.1, apmsleep.c:
+	apmsleep from Peter Englmaier <ppe@mpe.mpg.de>
+
+	* debian/changelog, debian/postinst, debian/postrm, debian/preinst, debian/prerm, debian/rules, debian/xaw, Makefile:
+
+	apmd 3.0final release.
+
+1999-12-07  Avery Pennarun  <apenwarr@insight>
+
+	* apmd.c, apmd_proxy:
+	Craig Markwardt's patch: estimate battery life from a major checkpoint
+	instead of a minor one; reset on_ac_power upon resuming from a suspend.
+
+	* debian/00hwclock, debian/control, apmd.8:
+
+	Some debian patches from long ago...
+
+1999-10-18  Avery Pennarun  <apenwarr@insight>
+
+	* apm.c:
+
+	Fix to the 'apm' command: -m should _always_ display the minutes remaining,
+	not sometimes the seconds.  Thanks to Chris Lawrence <lawrencc@debian.org>
+	for pointing this out.
+
+1999-08-09  Avery Pennarun  <apenwarr@insight>
+
+	* debian/00hwclock, debian/changelog, debian/rules, apmd.c, apmlib.c:
+
+	Some debian-related fixes.
+
+1999-08-03  Avery Pennarun  <apenwarr@insight>
+
+	* debian/changelog, debian/rules, Makefile: *** empty log message ***
+
+1999-08-02  Avery Pennarun  <apenwarr@insight>
+
+	* xbattery/.cvsignore, xbattery/Imakefile:
+
+	xbattery .cvsignore file and Makefile fix.
+
+	* xbattery/BatteryGauge.c, xbattery/BatteryGauge.h, xbattery/BatteryGaugeP.h, xbattery/Imakefile, xbattery/README, xbattery/xbattery.c, xbattery/xbattery.man, .cvsignore, BUGS.apmsleep, Makefile, apmsleep.1, apmsleep.c:
+
+	Integrated apmsleep, and added xbattery (but without Makefile support).
+
+	* debian/00hwclock:
+
+	New Debian systems set UTC instead of GMT in /etc/default/rcS (yay for
+	gratuitous changes).  We'll use them both in the debian 00hwclock script.
+
+1999-07-28  Avery Pennarun  <apenwarr@insight>
+
+	* debian/00hwclock:
+
+	Fix for 00hwclock to make it work in bare-bones POSIX shells.  From Obi
+	<graziano@ucsd.edu>
+
+1999-07-05  Avery Pennarun  <apenwarr@insight>
+
+	* apmlib.c: Got rid of a compile warning.
+
+	* apm.h, apmd.c, apmd_proxy, apmlib.c:
+
+	Patch from Craig Markwardt:
+
+	apmd_proxy: Added more PCMCIA handling, debugging examples, ability to
+	disable sound, X-Windows, etc.  Some configuration options are now up front.
+	Most power profiling is disabled by default, to not abuse incompatible APM
+	BIOSes.
+
+	Makefile: Install apmd_proxy with -Vt option, numbers the backup files.
+
+	apm.h, apmlib.c: added functions apm_reject, apm_last_error, apm_error_name.
+	Set APM_REJECT_ENABLED automatically based on kernel IOCTL value.
+
+	apmd.c (apmd_log): correct semantics for syslog().
+
+	apmd.c (apmd_power_reset, apmd_check_power): correct semantics for apmd_log
+	(no multiply-protected "%" signs).
+
+	apmd.c (apmd_check_power): moved synthetic_low_battery; made simple logging
+	event a minor_checkpoint again, as per definition.
+
+	* Makefile, apmd.c, apmd_proxy:
+
+	Changed version to beta9 so I (hopefully) don't get confused.
+
+1999-06-16  Avery Pennarun  <apenwarr@insight>
+
+	* Makefile, apmd.c:
+
+	Fixes for a VERY stupid Makefile bug, and some sprintf-percent-symbol fixes
+	from Craig Markwardt <craigm@pcasun3.gsfc.nasa.gov>.
+
+	* debian/changelog: *** empty log message ***
+
+	* Makefile, apmd.8, apmd.c, apmd_proxy, apmlib.c:
+
+	Lots of updates and bugfixes from David Brownell <db@post.harvard.edu>.  He
+	also wins the grand prize for getting the man page up to date, although
+	there is no prize:
+
+	* Reduced spurious and repeated syslog messages, as well as the number of
+	  times the proxy gets called during charging/discharging.  Minor cleanup and
+	  commenting.  Documentation updated.  Power status reporting now goes by 
+	  line status only.  -- David Brownell, db@post.harvard.edu, 14 June 1999
+	  
+1999-06-09  Avery Pennarun  <apenwarr@insight>
+
+	* debian/apmd_proxy:
+
+	Fix for a REALLY dumb bug in debian/apmd_proxy (oops) from
+	<davec@asylum.apocalypse.org>.
+
+1999-06-07  Avery Pennarun  <apenwarr@insight>
+
+	* Makefile, apmd.c:
+
+	Default location for apmd to look for apmd_proxy is now the same as the
+	directory where it is installed.  (Neat, huh?)
+
+	* debian/rules:
+
+	Debian package now actually installs the man pages again!
+
+1999-06-05  Avery Pennarun  <apenwarr@insight>
+
+	* LSM:
+
+	Hmm, LSM entry was rather out-of-date.
+
+	* debian/00hwclock, debian/apmd.init, debian/apmd_proxy, debian/changelog, debian/conffiles, debian/control, debian/dirs, debian/rules:
+
+	Make a Debian-specific apmd_proxy program (maybe I should just make that
+	everyone's default?) and included a Debian-specific 00hwclock script that
+	will be run to set the clock at the right times.
+
+	Updated all the other Debian stuff so that it works.
+
+	* Makefile, apmd.c, apmd_proxy, apmlib.c, on_ac_power:
+
+	Removed some pauses, and wrote my own on_ac_power script.
+
+	* apm.c, apm.h, apmd.c, apmd_proxy, apmlib.c, tailf.c, xapm.c:
+
+	Ran the whole thing through 'indent' to widen the tabs.
+
+	* Makefile, apm.c, apmd.c, apmlib.c, tailf.c, xapm.c:
+
+	Merged back the post-3.06beta6 changes (well, the ones that Craig didn't
+	obsolete.)
+
+	* Makefile, apmd.c, apmd_proxy, apmlib.c:
+
+	Added massive changes to clean up the code and implement a "central
+	dispatcher" -- many thanks to Craig Markwardt
+	<craigm@lheamail.gsfc.nasa.gov>:
+
+	* Changes to support centralized dispatch routines, generalized logging,
+	  general code cleanup, add support for apm_reject and APM_CAPABILITY_CHANGE.
+
+	In doing this, I lost all the other changes people sent in since beta6...
+	now I need to re-integrate them, where applicable.
+
+1999-05-09  Avery Pennarun  <apenwarr@insight>
+
+	* apmd.c:
+
+	Patch from Seth Golub <seth@thehouse.org> to fix the broken implementation
+	of on-battery and on-ac-power events.  Oops.
+
+1999-04-07  Avery Pennarun  <apenwarr@insight>
+
+	* debian/rules: *** empty log message ***
+
+	* Makefile, apm.1, apm.c, apm.h, apmlib.c, kernel-2.0.36.patch:
+
+	Added a patch to support "ignore suspend events" from Jon A. Christopher
+	<jon@quorum.tamu.edu>.  (Requires you to apply a patch to your kernel; a
+	patch for kernel 2.0.36 is included.)
+
+	Changed Makefile to grab include files from various kernel source
+	directories before resorting to /usr/include/linux.
+
+1999-04-05  Avery Pennarun  <apenwarr@insight>
+
+	* debian/changelog: *** empty log message ***
+
+	* debian/changelog:
+
+	Finalizing changes for 3.0beta6.
+
+	* xapm.c:
+
+	Included a patch for the IBM Thinkpad 770X from Bill Mair
+	<bill.mair@bm-soft.com>.  The letters P or B in the display represent AC
+	power and battery power, respectively.
+
+1999-03-02  Avery Pennarun  <apenwarr@insight>
+
+	* Makefile, apmd.c:
+
+	Patch to add now-on-battery and now-on-wallpower scripts, from J.D. Smith
+	<jdsmith@astrosun.tn.cornell.edu>.  This will probably change to a more
+	flexible scheme in the future, but this is an awfully popular feature so
+	I'll include it now:
+
+	* Add support to apmd for ac_offline, ac_online commands to
+	  execute when the power status changes.
+	  This is useful to set hard drive spindown rates and other
+	  configureable power saving options when the ac cord is 
+	  inserted or removed.  
+	  New options:                              long form:
+		-a ac_online_cmd                         ac_online
+		-b ac_offline_cmd                        ac_offline
+
+	* apmd.c:
+
+	Added -q "quiet mode" patch from Robert de Bath <robert.debath@colt.de>.
+	When this option is given, apmd doesn't syslog so many different events.
+
+	* debian/changelog: *** empty log message ***
+
+1999-01-24  Avery Pennarun  <apenwarr@insight>
+
+	* apmd.c:
+
+	Must use fork() instead of vfork() -- there's actually a difference between
+	them in 2.2.0 kernels!
+
+1998-11-08  Avery Pennarun  <apenwarr@insight>
+
+	* debian/changelog, Makefile:
+
+	Changed version number to 3.0beta4.
+
+	* debian/apmd.init, debian/changelog, apm.1, apmd.8, apmd.c, tailf.1, xapm.1:
+
+	Changes for Debian's apmd 3.0beta3-3.
+
+1998-09-17  Avery Pennarun  <apenwarr@insight>
+
+	* debian/dirs, debian/changelog, debian/apmd.init, TODO:
+
+	Checked in 3.0beta3-2 changes a bit late.
+
+1998-09-12  Avery Pennarun  <apenwarr@insight>
+
+	* debian/control, debian/changelog, apmd.c, Makefile:
+
+	apmd 3.0beta3
+
+	* apmlib.c, apmd.c:
+
+	Thinkpad + features patch from Pavel Machek
+	<pavel@atrey.karlin.mff.cuni.cz>.
+
+1998-09-11  Avery Pennarun  <apenwarr@insight>
+
+	* debian/.cvsignore, debian/changelog, Makefile, LSM, ANNOUNCE, .cvsignore:
+
+	Released apmd 3.0beta2.
+
+	* apmd.c:
+
+	post_resume_cmd doesn't run, and we don't reset the clock when coming back
+	from "standby" mode.  Also fixed some error message output.
+
+1998-09-06  Avery Pennarun  <apenwarr@insight>
+
+	* debian/rules, debian/dirs, debian/changelog, debian/apmd.init, apmd.c, Makefile, .cvsignore:
+
+	Fixed implementation of '-s' option (now I know why this was called "PRE"
+	3.0 when I got it).  Fixed up Debian package scripts a bit more.
+
+	Releasing this version as 3.0beta1.
+
+	* debian/dirs, debian/changelog, debian/apmd.init:
+
+	Changes to support /etc/apm-suspend.d and /etc/apm-resume.d under Debian.
+
+	* apmd.c, apmd.8, Makefile:
+
+	Added --utc (-u) option, to specify that the BIOS clock is set to UTC.  We
+	also choose automatically between the /sbin/clock and /sbin/hwclock
+	programs.
+
+	* debian/apmd.init, debian/changelog, debian/conffiles, debian/control,
+	  debian/copyright, debian/dirs, debian/postinst, debian/postrm,
+	  debian/preinst, debian/prerm, debian/rules, apm.c:
+
+	Integrated Debian patch from apmd-2.4-12 package, and updated a few
+	Debian-related things.
+
+	* apmd-2.4.Notes, README.transfer, apmd-2.4-to-pre-3.0-diffs, COPYING,
+	  COPYING.LIB, LSM, .cvsignore, ANNOUNCE:
+
+	Rearranged a few files to take over ownership of the package and prepare for
+	release of 3.0beta1.
+
+1998-07-26  faith  <faith@insight>
+
+	Date: Sun, 26 Jul 1998 09:04:53 -0400
+	Message-Id: <199807261304.JAA02109@mancer.cs.unc.edu>
+	From: Rik Faith <faith@cs.unc.edu>
+	To: Avery Pennarun <apenwarr@worldvisions.ca>
+	Cc: Rik Faith <faith@cs.unc.edu>
+	Subject: New maintainer for Linux apmd package
+	
+	-----BEGIN PGP SIGNED MESSAGE-----
+	
+	
+	Avery Pennarun, currently the Debian apmd maintainer, has graciously agreed
+	to take over general maintenance of the Linux apmd package.  Since the
+	release of apmd-2.4, I have been extremely busy and have not been able to
+	work on apmd as much as I would have liked.  Further, I do not expect to be
+	able to pick up maintenance of apmd in the foreseeable future, so it is
+	best for the Linux community that I officially transfer control of the
+	package to Avery.
+	
+	
+	-----BEGIN PGP SIGNATURE-----
+	Version: 2.6.2
+	Comment: Processed by Mailcrypt 3.4, an Emacs/PGP interface
+	
+	iQCVAwUBNbsl5wkpZvlFoM4xAQHNlgQAqORshKK5xWu4XLCdnAZOrr2c6ldS6MHv
+	ZLJKuS+G1X1nrQFSTZeaLuRYh5hu6mMzVpwlN9dgZkzlj3KgDwK60fOXthdSOgWG
+	wiHhRncydGEu+abZlnR4YPPIgRnEG7taSj35DanKV/IEVlNzGZlfRoPGWiJ560Br
+	gTfuNrcEIxc=
+	=pVNX
+	-----END PGP SIGNATURE-----
+
+1998-07-26  faith  <faith@insight>
+
+	* apmd.c, apmlib.c, apm.c, apmd-2.4-to-pre-3.0-diffs, apmd.8, Makefile:
+	Some patches from email applied in December 1997
+
+	* Patches to support pre_suspend, post_resume and low_battery commands
+	  -- 1996-12-24  Bjoern Kriews <bkr@cut.de>
+
+1996-05-04  faith  <faith@insight>
+
+	* ANNOUNCE: Update required kernel version number
+	Public release of apmd 2.4
+
+1996-04-21  faith  <faith@insight>
+
+	NOTE:
+	
+	Sun Apr 21 16:25:43 1996
+	
+	This is a completely re-written apmd for Linux.  It will work with 1.3.58
+	kernels, which have a new format for /proc/apm, and with older kernels.  I
+	have severely limited time to work on APM -- please do *NOT* send me mail
+	about how to use these utilities with older kernels.  If you want to use
+	these utilities with a production kernel, please wait until 2.0.x comes out
+	-- since we are in a code freeze, it is only a waste of time to
+	use these utilities or the APM patches with 1.2.x.
+	
+	If you have bug reports, please include patches which fix them -- chances
+	are that I will not be able to produce your specific bug on my system.
+	
+	apm is a stand-alone utility which prints the /proc/apm information in a
+	nice format.
+	
+	xapmd is a little X utility that provides a bar graph of the battery
+	status.
+
+1996-04-21  faith  <faith@insight>
+
+	* xapm.1, xapm.c, apmd-2.4.Notes, apmd.8, apmd.c, apmd-2.2.Notes, README, apm.1, ANNOUNCE, LSM:
+	Pre-2.4 updates.
+
+	* apm.c: Only report battery status for 1.1 BIOSs
+
+	* apm.c, Makefile, README, apm.1, ANNOUNCE:
+	Patches from Stephen Rothwell to support --suspend and --standby
+
+1996-04-05  faith  <faith@insight>
+
+	* apmd-2.2.Notes, apmd-2.1.Notes: BOGUS 2.0 Notes file
+
+	* apmd.c, apmlib.c, Makefile, apm.h, ANNOUNCE, LSM:
+	Add support for /dev/apm_bios at (10,134)
+
+1996-01-14  faith  <faith@insight>
+
+	* apm.c: Fixed typo
+
+	* apmlib.c, apm.h, LSM, README, apm.c, ANNOUNCE:
+	Added backward compatibility support for pre-1.3.58 kernels
+
+1996-01-13  faith  <faith@insight>
+
+	* Makefile: Fixed ChangeLog support
+
+	* apmd-2.1.Notes: BOGUS 2.0 Notes file
+
+	* ANNOUNCE, README: Added documentation
+
+	* Makefile: Fixed flag usage
+
+	* apmlib.c: Cleaned up fread()
+
+	* xapm.c: Added coloring to ScrollBar border; increased update time
+
+	* apmd.8, apmd.c:
+	Added -wall option; used apm_time_nosec; consolidate data columns
+
+	* apm.c: Removed -s and -S options
+
+1996-01-12  faith  <faith@insight>
+
+	* Makefile, LSM: Minor fixes
+
+	* apm.h, apmlib.c: Added apm_time_nosec use
+
+	* xapm.1, xapm.c: Changed color to blue; added apm_time_nosec use
+
+	* apmd.c: Fixed logging bug
+
+	* apm.1, apm.c: Added -m option
+
+	* Makefile: Added ChangeLog support
+
+	* Makefile: Fixed flags
+
+	* xapm.c, xapm.1: Added -percent
+	Added flashing
+
+1996-01-11  faith  <faith@insight>
+
+	* xapm.c, tailf.1, tailf.c, xapm.1, apmlib.c, apmlib.h, apm.h, apmd.8, apmd.c, apm.1, apm.c, Makefile, LSM:
+	New functionality and bug fixes.
+	Preparing for release 2.1 (the first official release).
+
+1996-01-09  faith  <faith@insight>
+
+	* ANNOUNCE, LSM, Makefile, README, apm.c, apmd.c, apmlib.c, apmlib.h:
+	New file.
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/landg/!svn/ver/328/trunk/cr4v2-bsp/local_src/gpio-utils
+END
+gpio-trigger.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/landg/!svn/ver/327/trunk/cr4v2-bsp/local_src/gpio-utils/gpio-trigger.c
+END
+gpio-utils-lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/landg/!svn/ver/327/trunk/cr4v2-bsp/local_src/gpio-utils/gpio-utils-lib.c
+END
+gpio-utils-lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/landg/!svn/ver/327/trunk/cr4v2-bsp/local_src/gpio-utils/gpio-utils-lib.h
+END
+gpio-overcurrent.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/landg/!svn/ver/328/trunk/cr4v2-bsp/local_src/gpio-utils/gpio-overcurrent.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/landg/!svn/ver/327/trunk/cr4v2-bsp/local_src/gpio-utils/Makefile
+END

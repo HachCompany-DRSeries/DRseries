@@ -1,0 +1,21 @@
+Nathan Sidwell <nathan@acm.org>
+March 13 1999
+
+This little application and widget show the battery status of your laptop.
+It'll start flashing, when you're low on power. To build it, do the following,
+   xmkmf
+   make
+   make install
+   make install.man
+
+Then all you need to do is configure your window manager to start it.
+I have the following in my .fvwm2rc file,
+	*FvwmButtons(1x1, Swallow(UseOld) "XBattery" \
+	'Exec xbattery -bg grey -xrm "xbattery*popup*background:white" &')
+which adds it to the button box.
+
+As the widget and application are separate, you can put the widget directly
+into another application, if you want to. All the files are available under
+the terms of the GNU General Public License version 2 or later.
+See the file COPYING-2.0 for the terms and conditions. If you do use this in
+an application or library, drop me an email, so I am aware of it.

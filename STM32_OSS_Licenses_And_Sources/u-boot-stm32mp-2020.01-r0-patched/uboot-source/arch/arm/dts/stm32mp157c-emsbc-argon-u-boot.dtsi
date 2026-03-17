@@ -1,0 +1,36 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR BSD-3-Clause)
+/*
+ * Copyright (C) emtrion GmbH 2021 - All Rights Reserved
+ */
+
+#include <dt-bindings/clock/stm32mp1-clksrc.h>
+#include "stm32mp15-u-boot.dtsi"
+#include "stm32mp15-ddr3-1x4Gb-1066-binG.dtsi"
+
+/ {
+	aliases {
+		i2c0 = &i2c1;
+		i2c3 = &i2c4;
+		i2c4 = &i2c5;
+		mmc0 = &sdmmc2;
+		spi0 = &qspi;
+	};
+	config {
+		u-boot,boot-led = "heartbeat";
+		u-boot,error-led = "error";
+		st,adc_usb_pd = <&adc1 18>, <&adc1 19>;
+		st,stm32prog-gpios = <&gpioa 12 GPIO_ACTIVE_LOW>;
+	};
+	clocks {
+		clk_lse: clk-lse {
+			st,drive = <LSEDRV_MEDIUM_HIGH>;
+		};
+	};
+};
+
+&uart4_pins_a {
+	pins2 {
+		/* pull-up on rx to avoid floating level */
+		bias-pull-up;
+	};
+};
